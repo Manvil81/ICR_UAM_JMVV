@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  11 DEC 2025 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  11 DEC 2025 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1038,11 +1038,10 @@ LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
 LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
 
-) (Anexos/Anexo1.aux
 
 LaTeX Warning: Label `cap:Conclusiones' multiply defined.
 
-)
+) (Anexos/Anexo1.aux)
 
 LaTeX Warning: Label `cap:Anexo1' multiply defined.
 
@@ -1862,15 +1861,25 @@ Underfull \hbox (badness 3375) in paragraph at lines 8--9
  dis-tri-bu-cio-nes pro-ba-das se ajust[]o
  []
 
-)
 
-[35]
-\openout2 = `Anexos/Anexo1.aux'.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 16.
 
- (Anexos/Anexo1.tex
 
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 16.
+
+Missing character: There is no ° in font zptmcm7t!
+
+Underfull \hbox (badness 1558) in paragraph at lines 16--17
+[]\OT1/ptm/m/n/10.95 Los c[]alcu-los de in-fe-ren-cia pro-ba-bil[]^^Psti-ca me-
+dian-te teor[]^^Pa de va-lo-res ex-tre-mos pro-por-cio-na-ron
+ []
+
+
+
+[35])
+
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1878,16 +1887,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36
+[36]
+\openout2 = `Anexos/Anexo1.aux'.
+
+ (Anexos/Anexo1.tex
+Ap\'{e}ndice A.
+)
+
+[37
 
 
 
 
 ]
-Ap\'{e}ndice A.
-)
-
-[37]
 
 LaTeX Info: Redefining \. on input line 305.
 LaTeX Info: Redefining \% on input line 305.
@@ -1943,13 +1955,13 @@ Package rerunfilecheck Info: File `ICR.out' has not changed.
 (rerunfilecheck)             Checksum: 9B6FA96ABFA4C5D8AD9543CD792A6FE1;11181.
  ) 
 Here is how much of TeX's memory you used:
- 29935 strings out of 468133
- 568755 string characters out of 5440786
+ 29934 strings out of 468133
+ 568745 string characters out of 5440786
  1036039 words of memory out of 5000000
- 57692 multiletter control sequences out of 15000+600000
+ 57691 multiletter control sequences out of 15000+600000
  692557 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,13n,119p,1881b,1357s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,13n,119p,2341b,1357s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type
@@ -1959,7 +1971,7 @@ b><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/t
 imes/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (61 pages, 417346 bytes).
+Output written on ICR.pdf (61 pages, 421336 bytes).
 PDF statistics:
  696 PDF objects out of 1000 (max. 8388607)
  180 named destinations out of 1000 (max. 500000)
