@@ -23,6 +23,31 @@ Barrientos, L., Fernandez, J. \harvardand\ Rivero, F.  \harvardyearleft
   mexicana del pacífico, {\em Boletín de los Sistemas Nacionales Estadístico
   y de Información Geográfica} {\bf 3}(1):~p3.
 
+\harvarditem{Bommier}{2023}{bommier2023peak}
+Bommier, E.  \harvardyearleft 2023\harvardyearright .
+\newblock Peak-over-threshold versus annual maxima: Which approach is better
+  for extreme value analysis?, {\em Water Resources Research} {\bf
+  59}(4):~e2022WR033666.
+
+\harvarditem{Coles}{2001}{coles2001introduction}
+Coles, S.  \harvardyearleft 2001\harvardyearright .
+\newblock {\em An Introduction to Statistical Modeling of Extreme Values},
+  Springer Series in Statistics, Springer, London.
+
+\harvarditem[Coles et~al.]{Coles, Bawa, Trenner \harvardand\
+  Dorazio}{2021}{coles2021extreme}
+Coles, S., Bawa, J., Trenner, L. \harvardand\ Dorazio, P.  \harvardyearleft
+  2021\harvardyearright .
+\newblock Extreme value theory - 20 years on, {\em Annual Review of Statistics
+  and Its Application} {\bf 8}:~423--444.
+
+\harvarditem[Convertito et~al.]{Convertito, Catalli \harvardand\
+  Emolo}{2020}{convertito2020combining}
+Convertito, V., Catalli, F. \harvardand\ Emolo, A.  \harvardyearleft
+  2020\harvardyearright .
+\newblock Combining stress transfer and source clustering to forecast
+  seismicity, {\em Scientific Reports} {\bf 10}(1):~14453.
+
 \harvarditem[Convertito et~al.]{Convertito, Ebrahimian, Amoroso, Jalayer,
   De~Matteis \harvardand\ Capuano}{2021}{convertito2021time}
 Convertito, V., Ebrahimian, H., Amoroso, O., Jalayer, F., De~Matteis, R.
@@ -57,6 +82,20 @@ Matsumoto, Y., Yaoyama, T., Lee, S., Hida, T. \harvardand\ Itoi, T.
   ground motion time histories using generative adversarial networks, {\em
   Japan Architectural Review} {\bf 6}(1):~e12392.
 
+\harvarditem[Mignan et~al.]{Mignan, Danciu \harvardand\
+  Giardini}{2021}{mignan2021best}
+Mignan, A., Danciu, L. \harvardand\ Giardini, D.  \harvardyearleft
+  2021\harvardyearright .
+\newblock Best practices in physics-based fault rupture forecasting for seismic
+  hazard assessment of nuclear installations: issues and challenges towards
+  full integration, {\em Pure and Applied Geophysics} {\bf 178}(8):~2845--2871.
+
+\harvarditem{Papalexiou \harvardand\ Koutsoyiannis}{2020}{papalexiou2020random}
+Papalexiou, S.~M. \harvardand\ Koutsoyiannis, D.  \harvardyearleft
+  2020\harvardyearright .
+\newblock Random number generators for extreme values: A comparison study, {\em
+  Journal of Hydrology} {\bf 590}:~125445.
+
 \harvarditem[Phung et~al.]{Phung, Loh, Chao, Chiou \harvardand\
   Huang}{2020}{phung2020ground}
 Phung, V.~B., Loh, C.~H., Chao, S.~H., Chiou, B.~S. \harvardand\ Huang, B.~S.
@@ -64,10 +103,22 @@ Phung, V.~B., Loh, C.~H., Chao, S.~H., Chiou, B.~S. \harvardand\ Huang, B.~S.
 \newblock Ground motion prediction equation for crustal earthquakes in taiwan,
   {\em Earthquake Spectra} {\bf 36}(4):~2129--2164.
 
+\harvarditem[Ramírez-Gaytán et~al.]{Ramírez-Gaytán, Aguirre-González
+  \harvardand\ Núñez-Cornú}{2021}{ramirezgaytan2021earthquake}
+Ramírez-Gaytán, A., Aguirre-González, J. \harvardand\ Núñez-Cornú, F.~J.
+  \harvardyearleft 2021\harvardyearright .
+\newblock Earthquake source parameters of the michoacán seismic gap, {\em
+  Geofísica Internacional} {\bf 60}(3):~205--220.
+
 \harvarditem{Richter}{1935}{richter1935instrumental}
 Richter, C.~F.  \harvardyearleft 1935\harvardyearright .
 \newblock An instrumental earthquake magnitude scale, {\em Bulletin of the
   Seismological Society of America} {\bf 25}(1):~1--32.
+
+\harvarditem{Rootzén \harvardand\ Zholud}{2021}{rootzen2021efficient}
+Rootzén, H. \harvardand\ Zholud, D.  \harvardyearleft 2021\harvardyearright .
+\newblock Efficient estimation of the number of false positives in
+  high-throughput screening, {\em Biometrika} {\bf 108}(1):~1--17.
 
 \harvarditem[Sawires et~al.]{Sawires, Peláez \harvardand\
   Santoyo}{2023}{sawires2023probabilistic}
@@ -75,6 +126,12 @@ Sawires, R., Peláez, J.~A. \harvardand\ Santoyo, M.~A.  \harvardyearleft
   2023\harvardyearright .
 \newblock Probabilistic seismic hazard assessment for western mexico, {\em
   Engineering Geology} {\bf 313}:~106959.
+
+\harvarditem{Serinaldi \harvardand\ Kilsby}{2021}{serinaldi2021understanding}
+Serinaldi, F. \harvardand\ Kilsby, C.~G.  \harvardyearleft
+  2021\harvardyearright .
+\newblock Understanding persistence to avoid underestimation of collective
+  flood risk, {\em Water} {\bf 13}(19):~2638.
 
 \harvarditem[Shobanke et~al.]{Shobanke, Olayemi \harvardand\
   Olajide}{2024}{shobanke2024comparative}
@@ -97,6 +154,23 @@ Singh, S.~K., Arroyo, D., Srinivas, D. \harvardand\ Suresh, G.
 \newblock Ground motion prediction equation for earthquakes along the western
   himalayan arc, {\em Current Science} {\bf 120}(6).
 
+\harvarditem[Singh et~al.]{Singh, Reinoso, Arroyo, Ordaz, Cruz-Atienza,
+  Pérez-Campos, Iglesias \harvardand\
+  Hjörleifsdóttir}{2020}{singh2020deadly}
+Singh, S.~K., Reinoso, E., Arroyo, D., Ordaz, M., Cruz-Atienza, V.,
+  Pérez-Campos, X., Iglesias, A. \harvardand\ Hjörleifsdóttir, V.
+  \harvardyearleft 2020\harvardyearright .
+\newblock Deadly intraslab mexico earthquake of 19 september 2017 (mw 7.1):
+  Ground motion and damage pattern in mexico city, {\em Seismological Research
+  Letters} {\bf 91}(4):~2145--2155.
+
+\harvarditem{Sánchez-Silva \harvardand\ Riaño}{2020}{sanchezsilva2020real}
+Sánchez-Silva, M. \harvardand\ Riaño, G.  \harvardyearleft
+  2020\harvardyearright .
+\newblock Real-time updating of the seismic risk of interdependent
+  infrastructure systems using bayesian networks, {\em Reliability Engineering
+  \& System Safety} {\bf 201}:~106986.
+
 \harvarditem[Tareen et~al.]{Tareen, Nadeem, Kearfott, Abbas, Khawaja
   \harvardand\ Rafique}{2019}{tareen2019descriptive}
 Tareen, A. D.~K., Nadeem, M. S.~A., Kearfott, K.~J., Abbas, K., Khawaja, M.~A.
@@ -112,5 +186,21 @@ Velasco~Herrera, V.~M., Rossello, E.~A., Orgeira, M.~J., Arioni, L., Soon, W.,
 \newblock Long-term forecasting of strong earthquakes in north america, south
   america, japan, southern china and northern india with machine learning, {\em
   Frontiers in Earth Science} {\bf 10}:~905792.
+
+\harvarditem{Yaghmaei-Sabegh \harvardand\
+  Neekmanesh}{2022}{yaghmaeisakbegh2022regional}
+Yaghmaei-Sabegh, S. \harvardand\ Neekmanesh, S.  \harvardyearleft
+  2022\harvardyearright .
+\newblock Regional probability distribution of ground motion parameters using
+  machine learning and bayesian approaches, {\em Bulletin of Earthquake
+  Engineering} {\bf 20}(11):~5673--5703.
+
+\harvarditem[Zúñiga et~al.]{Zúñiga, Suárez, Figueroa-Soto \harvardand\
+  Mendoza}{2022}{zuniga2022first}
+Zúñiga, F.~R., Suárez, G., Figueroa-Soto, A. \harvardand\ Mendoza, A.
+  \harvardyearleft 2022\harvardyearright .
+\newblock A first-order seismotectonic regionalization of mexico for seismic
+  hazard and risk estimation, {\em Journal of Seismology} {\bf
+  26}(5):~1295--1322.
 
 \end{thebibliography}

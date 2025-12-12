@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  6 NOV 2025 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  11 DEC 2025 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1002,7 +1002,14 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
  (Resumen/Resumen.aux) (Agradecimientos/Dedicatoria.aux)
 (Agradecimientos/Agradecimientos.aux) (Glosario/Glosario.aux)
 (Introduccion/Introduccion.aux) (MarcoTeorico/MarcoTeorico.aux)
-(EstadoDelArte/EstadoDelArte.aux) (Metodologia/Metodologia.aux
+(EstadoDelArte/EstadoDelArte.aux
+
+LaTeX Warning: Label `cap:EstadoDelArte' multiply defined.
+
+
+LaTeX Warning: Label `cap:EstadoDelArte' multiply defined.
+
+) (Metodologia/Metodologia.aux
 
 LaTeX Warning: Label `cap:EstadoDelArte' multiply defined.
 
@@ -1117,7 +1124,7 @@ or `spanish'. on input line 172.
 \openout2 = `Portada/Portada.aux'.
 
 (Portada/Portada.tex
-<Imagenes/uam.png, id=99, 202.8378pt x 147.4308pt>
+<Imagenes/uam.png, id=107, 202.8378pt x 147.4308pt>
 File: Imagenes/uam.png Graphic file (type png)
 <use Imagenes/uam.png>
 Package pdftex.def Info: Imagenes/uam.png  used on input line 74.
@@ -1388,7 +1395,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
  (MarcoTeorico/MarcoTeorico.tex
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 1019) in paragraph at lines 55--56
+Underfull \hbox (badness 1019) in paragraph at lines 72--73
 []|\OT1/ptm/m/n/10.95 ``Theoretical metho-do-lo-gi-cal as-pects about earth-qua
 -ke pre-dic-tion'' ([]Galb[]an-Rodriguez[]
  []
@@ -1400,8 +1407,8 @@ Underfull \hbox (badness 1019) in paragraph at lines 55--56
 
 ]
 
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1409,10 +1416,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6])
+[6]
+Underfull \hbox (badness 1014) in paragraph at lines 115--116
+[]\OT1/ptm/m/n/10.95 En el art[]^^Pcu-lo de Bom-mier (2023) se rea-li-za un an[
+]ali-sis com-pa-ra-ti-vo en-tre dos me-to-do-log[]^^Pas
+ []
 
-LaTeX Info: Redefining \. on input line 280.
-LaTeX Info: Redefining \% on input line 280.
+
+
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1421,6 +1434,58 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+
+
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+Underfull \hbox (badness 2753) in paragraph at lines 139--140
+[]\OT1/ptm/m/n/10.95 Ram[]^^Prez-Gayt[]an, Aguirre-Gonz[]alez y N[]u[]nez-Corn[
+]u (2021) rea-li-zan un an[]ali-sis pro-ba-bil[]^^Psti-co
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Underfull \hbox (badness 1067) in paragraph at lines 157--158
+\OT1/ptm/m/n/10.95 Na-cio-nal de la UNAM, dis-cu-ten por qu[]e el even-to fue c
+on-si-de-ra-do ``ines-pe-ra-do'' seg[]un mo-de-los
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10])
 
 LaTeX Info: Redefining \. on input line 280.
 LaTeX Info: Redefining \% on input line 280.
@@ -1431,45 +1496,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
+[11]
 \openout2 = `EstadoDelArte/EstadoDelArte.aux'.
 
  (EstadoDelArte/EstadoDelArte.tex
-Cap\'{\i }tulo 3.
-)
-
-[9
-
-
-
-
-]
-\openout2 = `Metodologia/Metodologia.aux'.
-
- (Metodologia/Metodologia.tex
-
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10
-
-
-
-
-]
-Cap\'{\i }tulo 4.
-)
-
-[11]
-\openout2 = `AnalisisResultados/AnalisisResultados.aux'.
-
- (AnalisisResultados/AnalisisResultados.tex
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1486,10 +1516,115 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
+Cap\'{\i }tulo 3.
+
+
+[13]
+Underfull \hbox (badness 1609) in paragraph at lines 17--18
+[]\OT1/ptm/m/n/10.95 Estas t[]ecni-cas ge-ne-ral-men-te se ci-men-tan en an[]al
+i-sis ma-tem[]ati-cos, pro-ba-bi-lis-tas y es-tad[]^^Psti-cos
+ []
+
+
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+Underfull \hbox (badness 1019) in paragraph at lines 37--38
+\OT1/ptm/m/n/10.95 ex-tre-mos y an[]ali-sis de bre-chas s[]^^Psmi-cas a di-fe-r
+en-tes re-gio-nes del pa[]^^Ps. Ram[]^^Prez-Gayt[]an, Aguirre-
+ []
+
+)
+
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+\openout2 = `Metodologia/Metodologia.aux'.
+
+ (Metodologia/Metodologia.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18
+
+
+
+
+]
+Cap\'{\i }tulo 4.
+)
+
+[19]
+\openout2 = `AnalisisResultados/AnalisisResultados.aux'.
+
+ (AnalisisResultados/AnalisisResultados.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20
+
+
+
+
+]
 Cap\'{\i }tulo 5.
 )
 
-[13]
+[21]
 \openout2 = `Conclusiones/Conclusiones.aux'.
 
  (Conclusiones/Conclusiones.tex
@@ -1503,19 +1638,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14
+[22
 
 
 
 
 ]
 Cap\'{\i }tulo 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 
 Underfull \hbox (badness 3375) in paragraph at lines 8--9
 []\OT1/ptm/m/n/10.95 Un ha-llaz-go muy re-le-van-te fue que nin-gu-na de las 20
@@ -1524,7 +1653,7 @@ Underfull \hbox (badness 3375) in paragraph at lines 8--9
 
 )
 
-[15]
+[23]
 \openout2 = `Anexos/Anexo1.aux'.
 
  (Anexos/Anexo1.tex
@@ -1538,7 +1667,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16
+[24
 
 
 
@@ -1547,7 +1676,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Ap\'{e}ndice A.
 )
 
-[17]
+[25]
 
 LaTeX Info: Redefining \. on input line 305.
 LaTeX Info: Redefining \% on input line 305.
@@ -1558,23 +1687,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18
+[26
 
 
 
 ] (ICR.bbl
-Underfull \hbox (badness 1038) in paragraph at lines 53--59
+Underfull \hbox (badness 1038) in paragraph at lines 78--84
 \OT1/ptm/m/n/10.95 ge-ne-ra-ti-ve mo-de-ling of earth-qua-ke ground mo-tion ti-
 me his-to-ries using ge-ne-ra-ti-ve ad-ver-sa-rial
  []
 
 
 
-[19
+[27
 
-])
+]
 
-[20] (ICR.aux (Portada/Portada.aux)
+[28])
+
+[29] (ICR.aux (Portada/Portada.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  (Resumen/Resumen.aux)
@@ -1592,25 +1723,26 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ICR.out' has not changed.
-(rerunfilecheck)             Checksum: C8FAF0FF90085D9687041C02EA055F3A;3209.
+(rerunfilecheck)             Checksum: 50B4C0771EDD90F4E83C63C2FDCCBD09;3629.
  ) 
 Here is how much of TeX's memory you used:
- 29666 strings out of 468133
- 563904 string characters out of 5440786
- 1022230 words of memory out of 5000000
- 57540 multiletter control sequences out of 15000+600000
- 684082 words of font info for 148 fonts, out of 8000000 for 9000
+ 29739 strings out of 468133
+ 565071 string characters out of 5440786
+ 1035388 words of memory out of 5000000
+ 57598 multiletter control sequences out of 15000+600000
+ 687260 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,12n,119p,1329b,1384s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,12n,119p,1881b,1384s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
-eX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw
-/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/
-Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (40 pages, 256388 bytes).
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
+1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.
+pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/
+MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ICR.pdf (49 pages, 313945 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
