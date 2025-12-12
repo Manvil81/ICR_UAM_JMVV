@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  12 DEC 2025 00:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  12 DEC 2025 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1034,10 +1034,77 @@ LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
 LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
-) (AnalisisResultados/AnalisisResultados.aux) (Conclusiones/Conclusiones.aux
+) (AnalisisResultados/AnalisisResultados.aux
 
 LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
 
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+) (Conclusiones/Conclusiones.aux
 
 LaTeX Warning: Label `cap:Conclusiones' multiply defined.
 
@@ -1140,7 +1207,7 @@ or `spanish'. on input line 172.
 \openout2 = `Portada/Portada.aux'.
 
 (Portada/Portada.tex
-<Imagenes/uam.png, id=215, 202.8378pt x 147.4308pt>
+<Imagenes/uam.png, id=359, 202.8378pt x 147.4308pt>
 File: Imagenes/uam.png Graphic file (type png)
 <use Imagenes/uam.png>
 Package pdftex.def Info: Imagenes/uam.png  used on input line 74.
@@ -1289,29 +1356,38 @@ LaTeX Info: Redefining \% on input line 1.
 
 [11
 
-])
+]
+
+[12])
 \tf@toc=\write8
 \openout8 = `ICR.toc'.
 
 
 
-[12] (ICR.lot
+[13]
+
+[14
+
+] (ICR.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
+
+Underfull \hbox (badness 1895) in paragraph at lines 28--28
+ [][] [][]\OT1/ptm/m/n/12 Resultados de las prue-bas de hip[]ote-sis pa-ra pro-
+por-cio-nes di-fe-ren-tes pa-ra 
+ []
+
+
+
+[15
+
+])
 \tf@lot=\write9
 \openout9 = `ICR.lot'.
 
 
 
-[13
-
-
-]
-
-[14
-
-] (ICR.lof
+[16] (ICR.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1320,27 +1396,28 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-[15
+[17
+
 
 ]
 \openout2 = `Glosario/Glosario.aux'.
 
  (Glosario/Glosario.tex
 
-[16
+[18
 
 
 ]
 
-[17
+[19
 
 ]
 
-[18])
+[20])
 
-[19]
+[21]
 
-[20
+[22
 
 
 
@@ -1615,7 +1692,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 4.
-<./Imagenes/diagrama_metodologia.png, id=462, 346.896pt x 248.72925pt>
+<./Imagenes/diagrama_metodologia.png, id=759, 346.896pt x 248.72925pt>
 File: ./Imagenes/diagrama_metodologia.png Graphic file (type png)
 <use ./Imagenes/diagrama_metodologia.png>
 Package pdftex.def Info: ./Imagenes/diagrama_metodologia.png  used on input lin
@@ -1820,7 +1897,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (AnalisisResultados/AnalisisResultados.tex
 Cap\'{\i }tulo 5.
-)
+
+Overfull \hbox (209.15749pt too wide) in paragraph at lines 21--40
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [33
 
@@ -1828,12 +1913,28 @@ Cap\'{\i }tulo 5.
 
 
 ]
-\openout2 = `Conclusiones/Conclusiones.aux'.
 
- (Conclusiones/Conclusiones.tex
+LaTeX Warning: File `histogramas_densidad_totales.png' not found on input line 
+52.
 
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+
+! Package pdftex.def Error: File `histogramas_densidad_totales.png' not found: 
+using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...xtwidth]{histogramas_densidad_totales.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1842,11 +1943,3068 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.56 
+     ]
 
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
+[35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.64 \item M
+            ichoacán: presenta la mayor densidad de sismos en la escala de ...
 ]
+
+LaTeX Warning: File `histogramas_densidad_maximas.png' not found on input line 
+77.
+
+
+! Package pdftex.def Error: File `histogramas_densidad_maximas.png' not found: 
+using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ...xtwidth]{histogramas_densidad_maximas.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.88 
+     ]
+
+LaTeX Warning: File `frecuencias_mes_totales.png' not found on input line 102.
+
+
+! Package pdftex.def Error: File `frecuencias_mes_totales.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...=\textwidth]{frecuencias_mes_totales.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.114 \item M
+             ichoacán: presenta que el mes con más sismos es Enero, mientr...
+]
+Underfull \hbox (badness 1173) in paragraph at lines 123--123
+[]\OT1/ptm/b/n/14.4 Histogramas de fre-cuen-cias re-la-ti-vas por mes pa-ra mag
+-ni-tu-des
+ []
+
+
+LaTeX Warning: File `frecuencias_mes_maximas.png' not found on input line 127.
+
+
+! Package pdftex.def Error: File `frecuencias_mes_maximas.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...=\textwidth]{frecuencias_mes_maximas.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.136 
+      ]
+
+LaTeX Warning: File `histogramas_magnitud.png' not found on input line 152.
+
+
+! Package pdftex.def Error: File `histogramas_magnitud.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 ...dth=\textwidth]{histogramas_magnitud.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
+
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.165 
+      ]
+
+LaTeX Warning: File `magnitudes_tiempo.png' not found on input line 177.
+
+
+! Package pdftex.def Error: File `magnitudes_tiempo.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...[width=\textwidth]{magnitudes_tiempo.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
+
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.183 \section
+              {Intervalos de confianza y tamaño mínimo de la muestra}]
+
+LaTeX Warning: File `ic_media_totales.png' not found on input line 213.
+
+
+! Package pdftex.def Error: File `ic_media_totales.png' not found: using draft 
+setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...idth=0.8\textwidth]{ic_media_totales.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.217 
+      ]
+
+LaTeX Warning: File `ic_media_maximas.png' not found on input line 242.
+
+
+! Package pdftex.def Error: File `ic_media_maximas.png' not found: using draft 
+setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 ...idth=0.8\textwidth]{ic_media_maximas.png}
+                                                  
+? 
+
+
+LaTeX Info: Redefining \. on input line 246.
+LaTeX Info: Redefining \% on input line 246.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.246 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.246 
+      ]
+
+LaTeX Warning: File `ic_varianza_totales.png' not found on input line 273.
+
+
+! Package pdftex.def Error: File `ic_varianza_totales.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 ...h=0.8\textwidth]{ic_varianza_totales.png}
+                                                  
+? 
+
+
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.276 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.4}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.276 \end{figure}
+                  ]
+
+LaTeX Warning: File `ic_varianza_maximas.png' not found on input line 302.
+
+
+! Package pdftex.def Error: File `ic_varianza_maximas.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 ...h=0.8\textwidth]{ic_varianza_maximas.png}
+                                                  
+? 
+
+
+LaTeX Info: Redefining \. on input line 305.
+LaTeX Info: Redefining \% on input line 305.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.305 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.5}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.305 \end{figure}
+                  ]
+Overfull \hbox (184.57225pt too wide) in paragraph at lines 314--327
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 328.
+LaTeX Info: Redefining \% on input line 328.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.328 
+      ]
+
+LaTeX Warning: File `ic_proporcion_totales.png' not found on input line 333.
+
+
+! Package pdftex.def Error: File `ic_proporcion_totales.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 ...0.8\textwidth]{ic_proporcion_totales.png}
+                                                  
+? 
+
+
+LaTeX Info: Redefining \. on input line 339.
+LaTeX Info: Redefining \% on input line 339.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.6}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.339 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.339 
+      ]
+Overfull \hbox (223.16411pt too wide) in paragraph at lines 343--356
+ [][] 
+ []
+
+
+LaTeX Warning: File `ic_proporcion_maximas.png' not found on input line 362.
+
+
+! Package pdftex.def Error: File `ic_proporcion_maximas.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362 ...0.8\textwidth]{ic_proporcion_maximas.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 366.
+LaTeX Info: Redefining \% on input line 366.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.7}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.366 \subsection
+                 {Resultados de las pruebas de proporciones mayores a 6.5°}]
+Overfull \hbox (68.332pt too wide) in paragraph at lines 376--398
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 399.
+LaTeX Info: Redefining \% on input line 399.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.399 
+      ]
+Overfull \hbox (68.332pt too wide) in paragraph at lines 406--428
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 454.
+LaTeX Info: Redefining \% on input line 454.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.8}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.454 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.9}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.454 
+      ]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 470.
+
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.474 ε
+         = 0.01 & 14780 & 18746 & 24700 & 12068 & 14475 & 14933 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.475 ε
+         = 0.02 & 3695 & 4687 & 6275 & 3017 & 3619 & 3739 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.476 ε
+         = 0.03 & 1643 & 2083 & 2789 & 1341 & 1609 & 1662 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 ε
+         = 0.04 & 924 & 1172 & 1569 & 755 & 905 & 935 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.478 ε
+         = 0.05 & 592 & 750 & 1004 & 483 & 579 & 599 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ε
+         = 0.06 & 411 & 521 & 698 & 336 & 403 & 416 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.480 ε
+         = 0.07 & 302 & 383 & 513 & 247 & 296 & 306 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.481 ε
+         = 0.08 & 231 & 293 & 393 & 189 & 227 & 234 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.482 ε
+         = 0.09 & 183 & 232 & 310 & 149 & 179 & 185 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 ε
+         = 0.1 & 148 & 188 & 251 & 121 & 145 & 150 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.484 ε
+         = 0.11 & 123 & 155 & 208 & 100 & 120 & 124 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.485 ε
+         = 0.12 & 103 & 131 & 175 & 84 & 101 & 104 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 ε
+         = 0.13 & 88 & 111 & 149 & 72 & 86 & 89 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 ε
+         = 0.14 & 76 & 96 & 129 & 62 & 74 & 77 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.488 ε
+         = 0.15 & 66 & 84 & 112 & 54 & 65 & 67 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489 ε
+         = 0.16 & 58 & 74 & 99 & 48 & 57 & 59 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.490 ε
+         = 0.17 & 52 & 65 & 87 & 42 & 51 & 52 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.491 ε
+         = 0.18 & 46 & 58 & 78 & 38 & 45 & 47 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.492 ε
+         = 0.19 & 41 & 52 & 70 & 34 & 41 & 42 \\
+? 
+
+
+LaTeX Info: Redefining \. on input line 501.
+LaTeX Info: Redefining \% on input line 501.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.501 \item O
+             axaca (n=335) puede estimar la media con un error máximo de ±...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.10}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.501 \item O
+             axaca (n=335) puede estimar la media con un error máximo de ±...
+]
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 ε
+         = 0.09 & 206 & 210 & 423 & 203 & 164 & 125 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.525 ε
+         = 0.1 & 248 & 252 & 342 & 218 & 133 & 101 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.526 ε
+         = 0.11 & 205 & 208 & 283 & 180 & 110 & 84 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.527 ε
+         = 0.12 & 172 & 175 & 238 & 151 & 92 & 70 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.528 ε
+         = 0.13 & 147 & 149 & 203 & 129 & 79 & 60 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.529 ε
+         = 0.14 & 127 & 129 & 175 & 111 & 68 & 52 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.530 ε
+         = 0.15 & 110 & 112 & 152 & 97 & 59 & 45 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.531 ε
+         = 0.16 & 97 & 99 & 134 & 85 & 52 & 40 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 ε
+         = 0.17 & 86 & 87 & 119 & 76 & 46 & 35 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.533 ε
+         = 0.18 & 77 & 78 & 106 & 68 & 41 & 32 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ε
+         = 0.19 & 69 & 70 & 95 & 61 & 37 & 28 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.535 ε
+         = 0.2 & 62 & 63 & 86 & 55 & 34 & 26 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.536 ε
+         = 0.21 & 57 & 57 & 78 & 50 & 31 & 23 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 ε
+         = 0.22 & 52 & 52 & 71 & 45 & 28 & 21 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.538 ε
+         = 0.23 & 47 & 48 & 65 & 42 & 26 & 20 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.539 ε
+         = 0.24 & 43 & 44 & 60 & 38 & 23 & 18 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.540 ε
+         = 0.25 & 40 & 41 & 55 & 35 & 22 & 17 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.541 ε
+         = 0.26 & 37 & 38 & 51 & 33 & 20 & 15 \\
+? 
+
+! LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.542 ε
+         = 0.27 & 34 & 35 & 47 & 30 & 18 & 14 \\
+? 
+
+
+LaTeX Info: Redefining \. on input line 569.
+LaTeX Info: Redefining \% on input line 569.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.11}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.569 
+      ]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.591 ...extbf{P valor} & \textbf{Significativo} &
+                                                   \textbf{Interpretación} \\
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.593 ...4 & 1.2656 & 255 & 334 & 0.044753 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.594 ...57 & 1.6645 & 89 & 334 & 0.001408 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.595 ...9 & 1.2207 & 334 & 628 & 0.034698 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.596 ...51 & 1.0182 & 334 & 544 & 0.461615 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.597 ...7 & 1.0177 & 1854 & 334 & 0.048669 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.598 ...357 & 1.3152 & 89 & 255 & 0.041567 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.599 ...9 & 1.5449 & 255 & 628 & 0.000000 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.600 ...1 & 1.2889 & 255 & 544 & 0.016100 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.601 ... & 1.2453 & 255 & 1854 & 0.016607 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.602 ...29 & 2.0318 & 89 & 628 & 0.000001 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.603 ...51 & 1.6947 & 89 & 544 & 0.000450 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.604 ...7 & 1.6353 & 89 & 1854 & 0.000490 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.605 ...1 & 1.1988 & 628 & 544 & 0.028196 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.606 ... & 1.2424 & 1854 & 628 & 0.001148 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.607 ...7 & 1.0362 & 1854 & 544 & 0.015888 & No &
+                                                   No hay diferencia signifi...
+
+? 
+
+Overfull \hbox (141.06961pt too wide) in paragraph at lines 589--611
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 627.
+LaTeX Info: Redefining \% on input line 627.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.12}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.627 \item V
+             arianza Oaxaca $\neq$ Guerrero $\neq$ Michoacán $\neq$ Chiapas]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.642 ...extbf{P valor} & \textbf{Significativo} &
+                                                   \textbf{Interpretación} \\
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.644 ...6309 & 1.0188 & 63 & 69 & 0.542741 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.645 ...8468 & 1.3676 & 49 & 63 & 0.143601 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.646 ...5466 & 1.1327 & 63 & 72 & 0.296363 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.647 ...3352 & 1.8476 & 63 & 86 & 0.00251 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.648 ...559 & 2.4196 & 63 & 109 & 0.00001 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.649 ...8468 & 1.3425 & 49 & 69 & 0.093385 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.650 ...5466 & 1.1541 & 69 & 72 & 0.254727 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.651 ...352 & 1.8823 & 69 & 86 & 0.001035 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.652 ...559 & 2.4651 & 69 & 109 & 0.00024 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.653 ...5466 & 1.5491 & 49 & 72 & 0.039322 & No &
+                                                   No hay diferencia signifi...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.654 ...3352 & 2.5261 & 49 & 86 & 0.00017 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.655 ...559 & 3.3092 & 49 & 109 & 0.00000 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.656 ...3352 & 1.6310 & 72 & 86 & 0.02999 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.657 ...559 & 2.1361 & 72 & 109 & 0.00352 & Sí &
+                                                   Varianzas significativame...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.658 ...559 & 1.3097 & 86 & 109 & 0.167447 & No &
+                                                   No hay diferencia signifi...
+
+? 
+
+Overfull \hbox (141.06961pt too wide) in paragraph at lines 640--662
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 690.
+LaTeX Info: Redefining \% on input line 690.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.13}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 \begin{align*}
+                    ]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.704 ...extbf{P valor} & \textbf{Significativo} &
+                                                   \textbf{Tipo Prueba} & \t...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.706 ...284 & -2.3326 & 513.53 & 0.020035 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.707 ...1649 & -1.5259 & 113.28 & 0.130055 & No &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.708 ....0500 & 1.2257 & 923.69 & 0.220533 & No &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.709 ...0.1226 & -2.8741 & 878 & 0.004184 & Sí &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.710 ...448 & -1.2118 & 2188.00 & 0.225713 & No &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.711 ...-0.0366 & -0.3462 & 344 & 0.660125 & No &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.712 ...1784 & 3.6519 & 355.00 & 0.000335 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.713 ...& 0.0057 & 0.1104 & 799 & 0.912151 & No &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.714 ...0.0836 & 1.8247 & 314.47 & 0.06938 & No &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.715 ... 0.2149 & 2.4477 & 109 & 0.015954 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.716 ....0423 & 0.4604 & 597.02 & 0.645794 & No &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.717 ...0.1201 & 1.4089 & 94.53 & 0.162217 & No &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.718 ...26 & -5.0134 & 1171.83 & 0.000001 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.719 ...48 & -3.5651 & 1784.63 & 0.000378 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.720 ...778 & 2.5727 & 2398.00 & 0.010151 & Sí &
+                                                   Varianzas iguales (Pooled...
+
+? 
+
+Overfull \hbox (112.0179pt too wide) in paragraph at lines 702--724
+ [][] 
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.756 ...extbf{P valor} & \textbf{Significativo} &
+                                                   \textbf{Tipo Prueba} & \t...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.758 ...0667 & -0.4071 & 132.00 & 0.684574 & No &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.759 ...3339 & 2.0869 & 112.00 & 0.039036 & Sí &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.760 ...2206 & -1.2997 & 135.00 & 0.195895 & No &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.761 ...954 & -2.5395 & 115.94 & 0.012491 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.762 ...7854 & -7.1692 & 93.81 & 0.000000 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.763 ...4006 & 2.5486 & 118.00 & 0.012101 & Sí &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.764 ...1539 & -0.9398 & 141.00 & 0.349111 & No &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.765 ...287 & -2.0161 & 122.82 & 0.045879 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.766 ...187 & -6.7491 & 104.61 & 0.000000 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.767 ...545 & -3.6950 & 121.00 & 0.000331 & Sí &
+                                                   Varianzas iguales (Pooled...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.768 ...292 & -4.3640 & 107.03 & 0.000042 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.769 ...1193 & -8.0648 & 62.85 & 0.000000 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.770 ...0748 & -0.7022 & 125.38 & 0.483781 & No &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.771 ...648 & -5.7011 & 116.27 & 0.000000 & Sí &
+                                                   Varianzas diferentes (Wel...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.772 ...901 & -6.3329 & 195.00 & 0.000000 & Sí &
+                                                   Varianzas iguales (Pooled...
+
+? 
+
+Overfull \hbox (109.01799pt too wide) in paragraph at lines 754--776
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 777.
+LaTeX Info: Redefining \% on input line 777.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.14}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.777 
+      ]
+Overfull \hbox (55.34885pt too wide) in paragraph at lines 815--837
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 838.
+LaTeX Info: Redefining \% on input line 838.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.15}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.838 
+      ]
+Overfull \hbox (75.51453pt too wide) in paragraph at lines 868--890
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 899.
+LaTeX Info: Redefining \% on input line 899.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.16}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.899 \item P
+             roporción Guerrero = Michoacán = Chiapas = Resto Nacionales
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.17}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.899 \item P
+             roporción Guerrero = Michoacán = Chiapas = Resto Nacionales]
+Overfull \hbox (53.02087pt too wide) in paragraph at lines 930--952
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 971.
+LaTeX Info: Redefining \% on input line 971.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.18}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.971 \item P
+             roporción Guerrero $\neq$ Chiapas $\neq$ Sismos Nacionales]
+Overfull \hbox (75.51453pt too wide) in paragraph at lines 983--1005
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 1127.
+LaTeX Info: Redefining \% on input line 1127.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.19}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1127 \end{verbatim}
+                     ]
+Overfull \hbox (62.44827pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Oaxaca vs Guerrero: t=-2.333, p=0.
+0201 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (96.9404pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Oaxaca vs Resto Nacionales: t=-2.8
+74, p=0.0042 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
+
+
+Overfull \hbox (62.44827pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Guerrero vs Chiapas: t=3.652, p=0.
+0003 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (68.19696pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Michoac^^San vs Chiapas: t=2.472, 
+p=0.0151 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (114.18646pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Chiapas vs Resto Nacionales: t=-5.
+013, p=0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (79.69434pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Chiapas vs Nacionales: t=-3.565, p
+=0.0004 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (114.18646pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Resto Nacionales vs Nacionales: t=
+2.573, p=0.0102 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
+
+
+Overfull \hbox (50.9509pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Oaxaca vs Michoac^^San: t=2.087, p
+=0.0392 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
+
+
+Overfull \hbox (108.43777pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Oaxaca vs Resto Nacionales: t=-2.5
+39, p=0.0125 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (73.94565pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Oaxaca vs Nacionales: t=-7.169, p=
+0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (62.44827pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Guerrero vs Michoac^^San: t=2.549,
+ p=0.0121 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 1127.
+LaTeX Info: Redefining \% on input line 1127.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[64]
+Overfull \hbox (119.93515pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Guerrero vs Resto Nacionales: t=-2
+.016, p=0.0460 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (85.44302pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Guerrero vs Nacionales: t=-6.749, 
+p=0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (62.44827pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Michoac^^San vs Chiapas: t=-3.695,
+ p=0.0003 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
+
+
+Overfull \hbox (125.68384pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Michoac^^San vs Resto Nacionales: 
+t=-4.364, p=0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (91.19171pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Michoac^^San vs Nacionales: t=-8.0
+65, p=0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (79.69434pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Chiapas vs Nacionales: t=-5.701, p
+=0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (119.93515pt too wide) in paragraph at lines 1127--1127
+[] \TS1/cmtt/m/n/10.95 � \OT1/cmtt/m/n/10.95 Resto Nacionales vs Nacionales: t=
+-6.333, p=0.0000 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1127.
+LaTeX Info: Redefining \% on input line 1127.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[65]
+
+! LaTeX Error: Unicode character α (U+03B1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1127 \end{verbatim}
+                     
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1156 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
+                                                   \textbf{AD Max (P)} & \te...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1158 ...00e-05 & 0.0573 & 0.91E+00 & 0.216E+02 &
+                                                   1.24E+02e-04 & 0.0586E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1159 ...00e-01 & 0.0583 & 1.19E+00 & 0.287E+00 &
+                                                   4.47E+01e-01 & 0.1053E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1160 ...65E+00 & 0.1394 & 1.52E+01 & 0.570E+00 &
+                                                   0.13E+00 & 0.1394E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1161 ...22E+00 & 0.1394 & 1.52E+01 & 0.515E+00 &
+                                                   0.15E+00 & 0.1394E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1162 ...29E+00 & 0.0796 & 4.83E+01 & 0.337E+00 &
+                                                   0.45E+00 & 0.0981E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1163 ...31E+01 & 0.1588 & 1.17E+01 & 0.721E+00 &
+                                                   0.04E+00 & 0.1588E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1164 ...09E+00 & 0.1446 & 1.20E+01 & 0.552E+00 &
+                                                   0.14E+00 & 0.1446E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1165 ...33E+00 & 0.1388 & 1.55E+01 & 0.560E+00 &
+                                                   0.13E+00 & 0.1388E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1166 ...2E+00 & 0.09593 & 5.01E+01 & 0.424E+00 &
+                                                   0.26E+00 & 0.09593E+02 & ...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1167 ...04E+00 & 0.2333 & 7.63E+01 & 0.353E+00 &
+                                                   0.41E+00 & 0.0904E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1168 ...06E+00 & 0.1388 & 1.55E+01 & 0.463E+00 &
+                                                   0.22E+00 & 0.1388E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1169 ...41E+00 & 0.0484 & 1.00E+00 & 0.243E+00 &
+                                                   0.73E+00 & 0.0484E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1170 ...44E+00 & 0.1446 & 1.20E+01 & 1.053E+00 &
+                                                   0.02E+00 & 0.1446E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1171 ...56E+00 & 0.1446 & 1.20E+01 & 0.845E+00 &
+                                                   0.03E+00 & 0.1446E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1172 ...53E+00 & 0.1354 & 1.89E+01 & 0.717E+00 &
+                                                   0.05E+00 & 0.1354E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1173 ...49E+01 & 0.1354 & 1.89E+01 & 0.717E+00 &
+                                                   0.05E+00 & 0.1354E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1174 ...21E+00 & 0.1353 & 1.90E+01 & 0.556E+00 &
+                                                   0.14E+00 & 0.1353E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1175 ...03E+00 & 0.2347 & 7.46E+01 & 0.344E+00 &
+                                                   0.43E+00 & 0.09004E+02 & ...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1176 ...42E+00 & 0.2161 & 1.37E+00 & 0.354E+00 &
+                                                   0.41E+00 & 0.1257E+02 & 7...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1177 ...39E+01 & 0.2287 & 9.80E+01 & 0.369E+00 &
+                                                   0.38E+00 & 0.08819E+02 & ...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1178 ....38E+00e-119 & 0.09017 & nf & 1.00E+00 &
+                                                   0.16E+01 & 0.1162E+02 & 2...
+
+? 
+
+Overfull \hbox (37.54733pt too wide) in paragraph at lines 1154--1182
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1183.
+LaTeX Info: Redefining \% on input line 1183.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[66]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1192 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
+                                                   \textbf{AD Max (P)} & \te...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1194 ...1e-02 & 0.1144 & 2.23E+01 & 0.1312E+02 &
+                                                   4.31E+02e-01 & 0.1144E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1195 ...39E+00 & 0.1851 & 1.90E+00 & 0.304E+02 &
+                                                   0.16E+01 & 0.1878E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1196 ...51E+00 & 0.3044 & 1.34E+01 & 0.354E+02 &
+                                                   0.13E+01 & 0.1482E+02 & 7...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1197 ...12E+01 & 0.1471 & 3.27E+01 & 0.353E+02 &
+                                                   0.13E+01 & 0.1434E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1198 ...27E+01 & 0.0896 & 7.77E+01 & 0.311E+02 &
+                                                   0.18E+01 & 0.1119E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1199 ...19E+01 & 0.2089 & 6.87E+01 & 0.502E+02 &
+                                                   0.06E+01 & 0.1863E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1200 ...77E+01 & 0.1396 & 1.94E+01 & 0.344E+02 &
+                                                   0.13E+01 & 0.1455E+02 & 6...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1201 ...77E+01 & 0.1396 & 1.94E+01 & 0.344E+02 &
+                                                   0.13E+01 & 0.1455E+02 & 6...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1202 ...77E+01 & 0.1266 & 4.23E+01 & 0.422E+02 &
+                                                   0.27E+01 & 0.1266E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1203 ...00E+01 & 0.2856 & 1.52E+00 & 0.296E+02 &
+                                                   0.18E+01 & 0.2856E+02 & 5...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1204 ....66E+00 & nf & 2.34E+02e-36 & 0.54E+00 &
+                                                   0.14E+01 & 0.1851E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1205 ....41E+01 & nf & 2.34E+02e-36 & 0.54E+00 &
+                                                   0.14E+01 & 0.1851E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1206 ...29E+01 & 0.1571 & 1.02E+01 & 0.399E+02 &
+                                                   0.32E+01 & 0.1571E+02 & 5...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1207 ...41E+00 & 0.1271 & 6.71E+01 & 0.571E+02 &
+                                                   0.11E+01 & 0.1434E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1208 ...42E+01 & 0.1519 & 1.31E+01 & 0.571E+02 &
+                                                   0.11E+01 & 0.1519E+02 & 6...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1209 ...55E+01 & 0.1434 & 1.76E+01 & 0.541E+02 &
+                                                   0.14E+01 & 0.1434E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1210 ...0e-100 & 0.2403 & 8.29E+01 & 0.437E+02 &
+                                                   0.24E+01 & 0.1247E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1211 ...77E+01 & 0.1271 & 6.71E+01 & 0.321E+02 &
+                                                   0.16E+01 & 0.1271E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1212 ...01 & 0.1954E+02 & 1.12E+00 & 0.457E+02 &
+                                                   0.21E+01 & 0.1742E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1213 ...+01e-189 & 0.08667 & nf & 6.42E+00e-01 &
+                                                   0.12E+01 & 0.1152E+02 & 1...
+
+? 
+
+Overfull \hbox (41.4294pt too wide) in paragraph at lines 1190--1217
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1218.
+LaTeX Info: Redefining \% on input line 1218.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[67
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.20}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1218 
+       ]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1227 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
+                                                   \textbf{AD Max (P)} & \te...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1229 ...01e-01 & 0.1716 & 2.33E+01 & 0.243E+01 &
+                                                   0.22E+01 & 0.1716E+02 & 8...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1230 ...40E+01 & 0.1519 & 2.33E+01 & 0.254E+01 &
+                                                   0.22E+01 & 0.1519E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1231 ...69E+01 & 0.1519 & 2.33E+01 & 0.254E+01 &
+                                                   0.22E+01 & 0.1519E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1232 ...54E+01 & 0.1476 & 3.09E+01 & 0.315E+01 &
+                                                   0.23E+01 & 0.1476E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1233 ...21E+01 & 0.0852 & 8.64E+01 & 0.243E+01 &
+                                                   0.23E+01 & 0.1351E+02 & 5...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1234 ...14E+01 & 0.1638 & 4.29E+01 & 0.153E+01 &
+                                                   0.30E+01 & 0.1524E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1235 ...21E+01 & 0.1512 & 1.53E+01 & 0.243E+01 &
+                                                   0.23E+01 & 0.1512E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1236 ...21E+01 & 0.1380 & 4.90E+01 & 0.243E+01 &
+                                                   0.23E+01 & 0.1359E+02 & 5...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1237 ...60E+01 & 0.1524 & 1.50E+01 & 0.274E+01 &
+                                                   0.19E+01 & 0.1524E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1238 ...00e-02 & 0.1638 & 4.29E+01 & 0.193E+01 &
+                                                   0.27E+01 & 0.1638E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1239 ...01e-02 & 0.1380 & 4.90E+01 & 0.351E+01 &
+                                                   0.12E+01 & 0.1380E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1240 ...E+00e-03 & 0.06 & 1.00E+00 & 0.314E+01 &
+                                                   0.14E+01 & 0.06E+02 & 1.0...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1241 ...05E+00 & 0.1469 & 3.15E+01 & 0.274E+01 &
+                                                   0.19E+01 & 0.1469E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1242 ...54E+01 & 0.1546 & 1.40E+01 & 0.370E+01 &
+                                                   0.10E+01 & 0.1546E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1243 ...64E+01 & 0.1546 & 1.40E+01 & 0.408E+01 &
+                                                   0.07E+01 & 0.1546E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1244 ...01e-02 & 0.1481 & 3.05E+01 & 0.358E+01 &
+                                                   0.11E+01 & 0.1481E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1245 ...01e-01 & 0.1414 & 4.31E+01 & 0.301E+01 &
+                                                   0.16E+01 & 0.1374E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1246 ...77E+01 & 0.1374 & 5.08E+01 & 0.422E+01 &
+                                                   0.27E+01 & 0.1374E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1247 ...14E+01 & 0.2446 & 3.50E+01 & 0.233E+01 &
+                                                   0.63E+01 & 0.1830E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1248 ...8.72E+01e-05 & 0.08959 & nf & 0.18E+01 &
+                                                   0.48E+01 & 0.1385E+02 & 4...
+
+? 
+
+Overfull \hbox (37.54733pt too wide) in paragraph at lines 1225--1252
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1253.
+LaTeX Info: Redefining \% on input line 1253.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[68
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.21}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1253 \subsection
+                  {Chiapas}]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1261 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
+                                                   \textbf{AD Max (P)} & \te...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1263 ...01 & 0.0713 & 4.14E+02e-01 & 0.313E+02 &
+                                                   4.47E+01e-01 & 0.1058E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1264 ...01e-01 & 0.1080 & 0.09E+01 & 0.287E+00 &
+                                                   4.47E+01e-01 & 0.1080E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1265 ...01e-01 & 0.1136 & 5.63E+01 & 0.415E+00 &
+                                                   1.17E+01e-01 & 0.1136E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1266 ...01 & 0.0712 & 4.15E+02e-01 & 0.313E+02 &
+                                                   4.47E+01e-01 & 0.1058E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1267 ...01e-01 & 0.0848 & 1.40E+01 & 0.413E+00 &
+                                                   1.19E+01e-01 & 0.0954E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1268 ...86E+01 & 0.1359 & 2.59E+01 & 0.554E+00 &
+                                                   5.01E+01e-02 & 0.1359E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1269 ...01e-01 & 0.1166 & 4.31E+01 & 0.468E+00 &
+                                                   8.58E+01e-02 & 0.1166E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1270 ...17E+01 & 0.1166 & 4.31E+01 & 0.468E+00 &
+                                                   8.58E+01e-02 & 0.1166E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1271 ...60E+01 & 0.0976 & 1.32E+01 & 0.442E+00 &
+                                                   1.04E+01e-01 & 0.0976E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1272 ...1e-01 & 0.05993 & 9.32E+01 & 0.419E+00 &
+                                                   1.16E+01e-01 & 0.05993E+0...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1273 ...01e-01 & 0.1080 & 9.09E+01 & 0.426E+00 &
+                                                   1.11E+01e-01 & 0.1080E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1274 ....51E+00 & 1.00E+00 & 7.65E+00e-02 & nf &
+                                                   7.43E+01e-01 & 0.05276E+0...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1275 ...01e-01 & 0.1080 & 9.09E+01 & 0.426E+00 &
+                                                   1.11E+01e-01 & 0.1080E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1276 ...33E+01 & 0.1051 & 1.03E+01 & 0.481E+00 &
+                                                   7.56E+01e-02 & 0.1051E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1277 ...E+00 & 1.09E+01 & 1.12E+01 & 0.481E+00 &
+                                                   7.56E+01e-02 & 0.1051E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1278 ...01e-03 & 0.1054 & 1.01E+01 & 0.466E+00 &
+                                                   8.76E+01e-02 & 0.1054E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1279 ...01e-01 & 0.1359 & 2.59E+01 & 0.554E+00 &
+                                                   5.01E+01e-02 & 0.1359E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1280 ...01e-01 & 0.1845 & 1.39E+01 & 0.464E+00 &
+                                                   8.92E+01e-02 & 0.1845E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1281 ...E+00 & 1.08E+01 & 1.18E+01 & 0.536E+00 &
+                                                   5.60E+01e-02 & 0.1223E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1282 ...1.71E+01e-162 & 0.0766 & nf & 0.42E+00 &
+                                                   0.11E+01 & 0.1101E+02 & 2...
+
+? 
+
+Overfull \hbox (41.4294pt too wide) in paragraph at lines 1259--1286
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1287.
+LaTeX Info: Redefining \% on input line 1287.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[69
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.22}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1287 
+       ]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1296 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
+                                                   \textbf{AD Max (P)} & \te...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1298 ...02 & 0.1011 & 1.62E+01e-02 & 0.296E+02 &
+                                                   0.20E+01 & 0.1011E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1299 ...00 & 0.2477 & 5.00E+01e-01 & 0.650E+02 &
+                                                   0.01E+01 & 0.1205E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1300 ...00 & 0.3443 & 1.00E+01e-01 & 0.872E+02 &
+                                                   0.00E+01 & 0.1298E+02 & 5...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1301 ...01 & 0.1906 & 3.19E+01e-02 & 0.661E+02 &
+                                                   0.01E+01 & 0.1906E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1302 ...90E+00 & 0.0899 & 1.17E+01 & 0.363E+02 &
+                                                   0.13E+01 & 0.1002E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1303 ...01 & 0.2340 & 6.77E+01e-01 & 0.906E+02 &
+                                                   0.00E+01 & 0.1845E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1304 ...00 & 0.1345 & 1.82E+01e-01 & 0.727E+02 &
+                                                   0.01E+01 & 0.1345E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1305 ...00 & 0.1379 & 1.52E+01e-01 & 0.681E+02 &
+                                                   0.01E+01 & 0.1379E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1306 ...1e-01 & 0.08694 & 1.25E+01 & 0.445E+02 &
+                                                   0.10E+01 & 0.0869E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1307 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
+                                                   0.01E+01 & 0.1566E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1308 ...00 & 0.1153 & 5.55E+02e-02 & 0.571E+02 &
+                                                   0.04E+01 & 0.1153E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1309 ...E+00 & 0.04E+00 & 1.00E+00 & 0.252E+02 &
+                                                   0.51E+01 & 0.04E+02 & 1.0...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1310 ...00 & 0.1153 & 5.55E+02e-02 & 0.571E+02 &
+                                                   0.04E+01 & 0.1153E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1311 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
+                                                   0.01E+01 & 0.1566E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1312 ... & 0.16E+00 & 8.79E+01e-02 & 0.678E+02 &
+                                                   0.01E+01 & 0.1566E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1313 ...12 & 0.1269 & 2.64E+01e-01 & 0.617E+02 &
+                                                   0.02E+01 & 0.1269E+02 & 6...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1314 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
+                                                   0.01E+01 & 0.1566E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1315 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
+                                                   0.01E+01 & 0.1566E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1316 ....67E+01e-106 & 1.00E+01 & 1.06E+01e-01 &
+                                                   0.847E+02 & 0.00E+01 & 0....
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1317 ....27E+01e-106 & 0.08666 & nf & 0.45E+00 &
+                                                   0.10E+01 & 0.1021E+02 & 1...
+
+? 
+
+Overfull \hbox (49.75758pt too wide) in paragraph at lines 1294--1321
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1322.
+LaTeX Info: Redefining \% on input line 1322.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[70
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.23}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1322 
+       ]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1331 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
+                                                   \textbf{AD Max (P)} & \te...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1333 ...1e-100 & 0.0578 & 6.07E+01 & 0.186E+02 &
+                                                   4.82E+01e-01 & 0.0576E+02...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1334 ...00E+00 & 0.1022 & 1.17E+01 & 0.304E+02 &
+                                                   0.69E+01 & 0.0862E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1335 ...01e-146 & 0.1744 & 0.00E+01 & 1.49E+00 &
+                                                   0.14E+01 & 0.1744E+02 & 1...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1336 ...00 & 0.1390 & 4.72E+01e-02 & 0.996E+02 &
+                                                   0.19E+01 & 0.1390E+02 & 7...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1337 ...01e-01 & 0.0704 & 8.45E+01 & 0.275E+02 &
+                                                   0.25E+01 & 0.0730E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1338 ...+01e-02 & 0.2101 & 0.00E+01 & 1.49E+00 &
+                                                   0.14E+01 & 0.2101E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1339 ...02 & 0.1390 & 4.72E+01e-02 & 0.996E+02 &
+                                                   0.19E+01 & 0.1390E+02 & 7...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1340 ...00e-88 & 0.2099 & 0.00E+01 & 0.850E+02 &
+                                                   0.05E+01 & 0.0751E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1341 ...01e-01 & 0.0624 & 8.50E+01 & 0.311E+02 &
+                                                   0.17E+01 & 0.0647E+02 & 5...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1342 ...00E+00 & 0.0936 & 1.55E+01 & 0.363E+02 &
+                                                   0.12E+01 & 0.0936E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1343 ...00E+00 & 0.0862 & 2.23E+01 & 0.304E+02 &
+                                                   0.19E+01 & 0.0862E+02 & 3...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1344 ...E+00 & 0.02E+00 & 1.00E+00 & 0.145E+02 &
+                                                   0.55E+01 & 0.02E+02 & 1.0...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1345 ...42 & 0.1474 & 2.79E+01e-02 & 0.946E+02 &
+                                                   0.21E+01 & 0.1474E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1346 ...02 & 0.1474 & 2.79E+01e-02 & 0.946E+02 &
+                                                   0.21E+01 & 0.1474E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1347 ...02 & 0.1474 & 2.79E+01e-02 & 0.946E+02 &
+                                                   0.21E+01 & 0.1474E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1348 ...02 & 0.1243 & 1.54E+01e-01 & 0.847E+02 &
+                                                   0.04E+01 & 0.1243E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1349 ...01e-02 & 0.0773 & 4.38E+01 & 0.324E+02 &
+                                                   0.16E+01 & 0.0773E+02 & 4...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1350 ...00e-96 & 0.0924 & 1.62E+01 & 0.357E+02 &
+                                                   0.12E+01 & 0.0924E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1351 ...+00e-96 & 0.6924 & 1.62E+01 & 6.35E+00 &
+                                                   0.24E+01 & 0.0924E+02 & 2...
+
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1352 ...0 & 0.00E+00 & 0.06765 & nf & 0.27E+00 &
+                                                   0.25E+01 & 0.07559E+02 & ...
+
+? 
+
+Overfull \hbox (41.4294pt too wide) in paragraph at lines 1329--1356
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1357.
+LaTeX Info: Redefining \% on input line 1357.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[71
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.24}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1357 
+       ]
+Underfull \hbox (badness 3503) in paragraph at lines 1358--1358
+[]\OT1/ptm/b/n/17.28 Resultados de las prue-bas de bon-dad de ajus-te y
+ []
+
+
+LaTeX Warning: File `curva_gumbel_oaxaca.png' not found on input line 1370.
+
+
+! Package pdftex.def Error: File `curva_gumbel_oaxaca.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1370 ...=0.8\textwidth]{curva_gumbel_oaxaca.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1374.
+LaTeX Info: Redefining \% on input line 1374.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[72
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.25}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1374 
+       ]
+
+LaTeX Warning: File `curva_weibull_guerrero.png' not found on input line 1381.
+
+
+! Package pdftex.def Error: File `curva_weibull_guerrero.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1381 ...8\textwidth]{curva_weibull_guerrero.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1385.
+LaTeX Info: Redefining \% on input line 1385.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.09387pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.09387pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
+
+[73
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1385 
+       ]
+
+LaTeX Warning: File `curva_gev_michoacan.png' not found on input line 1392.
+
+
+! Package pdftex.def Error: File `curva_gev_michoacan.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1392 ...=0.8\textwidth]{curva_gev_michoacan.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1396.
+LaTeX Info: Redefining \% on input line 1396.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[74
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1396 
+       ]
+
+LaTeX Warning: File `curva_weibull_chiapas.png' not found on input line 1403.
+
+
+! Package pdftex.def Error: File `curva_weibull_chiapas.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1403 ....8\textwidth]{curva_weibull_chiapas.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1407.
+LaTeX Info: Redefining \% on input line 1407.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.09387pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.09387pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
+
+[75
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1407 
+       ]
+
+LaTeX Warning: File `curva_logistica_resto.png' not found on input line 1414.
+
+
+! Package pdftex.def Error: File `curva_logistica_resto.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1414 ....8\textwidth]{curva_logistica_resto.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1418.
+LaTeX Info: Redefining \% on input line 1418.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[76
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1418 
+       ]
+
+LaTeX Warning: File `curva_normal_nacional.png' not found on input line 1425.
+
+
+! Package pdftex.def Error: File `curva_normal_nacional.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1425 ....8\textwidth]{curva_normal_nacional.png}
+                                                  
+? 
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 289.
+LaTeX Info: Redefining \% on input line 289.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.09387pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.09387pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
+
+[77
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.289 ...de{AnalisisResultados/AnalisisResultados}
+                                                  ]
+
+LaTeX Info: Redefining \. on input line 289.
+LaTeX Info: Redefining \% on input line 289.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[78
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.289 ...de{AnalisisResultados/AnalisisResultados}
+                                                  ]
+\openout2 = `Conclusiones/Conclusiones.aux'.
+
+
+(Conclusiones/Conclusiones.tex
 Cap\'{\i }tulo 6.
 
 Underfull \hbox (badness 3375) in paragraph at lines 8--9
@@ -1869,7 +5027,12 @@ dian-te teor[]^^Pa de va-lo-res ex-tre-mos pro-por-cio-na-ron
 
 
 
-[35])
+[79
+
+
+
+
+])
 
 LaTeX Info: Redefining \. on input line 292.
 LaTeX Info: Redefining \% on input line 292.
@@ -1880,14 +5043,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[80]
 \openout2 = `Anexos/Anexo1.aux'.
 
  (Anexos/Anexo1.tex
 Ap\'{e}ndice A.
 )
 
-[37
+[81
 
 
 
@@ -1903,7 +5066,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38
+[82
 
 
 
@@ -1915,7 +5078,7 @@ de nor-ma-li-dad, Rpubs.com.  Dis-po-ni-ble en:
 
 
 
-[39
+[83
 
 ]
 Underfull \hbox (badness 1038) in paragraph at lines 94--100
@@ -1925,9 +5088,9 @@ me his-to-ries using ge-ne-ra-ti-ve ad-ver-sa-rial
 
 
 
-[40])
+[84])
 
-[41] (ICR.aux (Portada/Portada.aux)
+[85] (ICR.aux (Portada/Portada.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  (Resumen/Resumen.aux)
@@ -1945,27 +5108,30 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ICR.out' has not changed.
-(rerunfilecheck)             Checksum: 9B6FA96ABFA4C5D8AD9543CD792A6FE1;11181.
+(rerunfilecheck)             Checksum: F465DDD668CD5F9CDA1A710AD2BE79A5;20694.
  ) 
 Here is how much of TeX's memory you used:
- 29911 strings out of 468133
- 568053 string characters out of 5440786
- 1036037 words of memory out of 5000000
- 57669 multiletter control sequences out of 15000+600000
- 692388 words of font info for 166 fonts, out of 8000000 for 9000
+ 30688 strings out of 468133
+ 590501 string characters out of 5440786
+ 1063698 words of memory out of 5000000
+ 58315 multiletter control sequences out of 15000+600000
+ 697559 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,13n,119p,2341b,1357s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvet
-ic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts
-/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr
-8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (61 pages, 534667 bytes).
+ 118i,13n,119p,2341b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\villa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
+1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/
+Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/f
+onts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/u
+tmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ICR.pdf (107 pages, 709373 bytes).
 PDF statistics:
- 692 PDF objects out of 1000 (max. 8388607)
- 180 named destinations out of 1000 (max. 500000)
- 435 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1215 PDF objects out of 1440 (max. 8388607)
+ 306 named destinations out of 1000 (max. 500000)
+ 723 words of extra memory for PDF output out of 10000 (max. 10000000)
 

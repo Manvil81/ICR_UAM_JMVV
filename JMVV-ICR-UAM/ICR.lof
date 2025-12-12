@@ -7,5 +7,24 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1}{\ignorespaces Diagrama de flujo de la aplicación de la metodología propuesta.}}{20}{figure.4.1}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Histogramas de densidad de sismos totales para las 6 regiones.}}{35}{figure.5.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Histogramas de densidad de magnitudes máximas para las 6 regiones.}}{37}{figure.5.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Histogramas de Frecuencias Relativas por Mes para sismos totales para las 6 regiones.}}{39}{figure.5.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Histogramas de Frecuencias Relativas por Mes para magnitudes máximas para las 6 regiones.}}{41}{figure.5.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Histogramas de sismos por magnitud para las 6 regiones.}}{43}{figure.5.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Gráficos de magnitud sísmica máxima, promedio y mínima para las 6 regiones.}}{45}{figure.5.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces IC para la media para sismos totales para las 6 regiones.}}{47}{figure.5.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces IC para la media para magnitudes máximas para las 6 regiones.}}{48}{figure.5.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces IC para la varianza para sismos totales para las 6 regiones.}}{49}{figure.5.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces IC para la varianza para magnitudes máximas para las 6 regiones.}}{50}{figure.5.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.}}{51}{figure.5.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.}}{53}{figure.5.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Ranking de regiones con mayor cantidad de sismos mayores al umbral crítico para sismos totales y magnitudes máximas.}}{55}{figure.5.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Histograma de densidad de sismos de magnitudes máximas en Oaxaca con una curva Gumbel.}}{73}{figure.5.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Histograma de densidad de sismos de magnitudes máximas en Guerrero con una curva Weibul.}}{74}{figure.5.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Histograma de densidad de sismos de magnitudes máximas en Michoacán con una curva GEV.}}{75}{figure.5.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Histograma de densidad de sismos de magnitudes máximas en Chiapas con una curva Weibul.}}{76}{figure.5.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Histograma de densidad de sismos de magnitudes máximas en Resto Nacionales con una curva Logística.}}{77}{figure.5.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Histograma de densidad de sismos de magnitudes máximas en Sismos Nacionales con una curva Normal.}}{78}{figure.5.19}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
