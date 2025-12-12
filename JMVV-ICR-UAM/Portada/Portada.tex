@@ -1,0 +1,117 @@
+%% Información de la tesis
+%% Título de la tesis
+\newcommand{\titulo}[1]{\def\eltitulo{#1}}
+%% Título otorgado
+\newcommand{\carrera}[1]{\def\lacarrera{#1}}
+%% Nombre del alumno
+\newcommand{\nombre}[1]{\def\elnombre{#1}}
+%% Director de tesis
+\newcommand{\director}[1]{\def\eldirector{#1}}
+%% Año
+\newcommand{\fecha}[1]{\def\lafecha{#1}}
+
+%% Escribir el título, nombres de los autores, título otorgado, director y años
+%% El Título se puede escribir en varios renglones
+
+%% Escribir el título (es posible en varios renglones)
+\titulo{Inferencia estadística basada en el análisis del comportamiento histórico de los sismos en varias regiones de la
+costa del Pacífico de México}
+%% Nombre
+\nombre{Ing. José Manuel Villa Vargas}
+%% Actuario, Biólogo, Ciencias de la Computación, Físico o Matemático
+\carrera{\scshape{Maestro en Ciencias de la Computación}}
+%% Director
+\director{Dr.~José Antonio Climent Hernández}
+\fecha{\today}
+
+%% Información para los votos aprobatorios
+%% Número de cuenta (matrícula)
+\newcommand{\alumnocta}[1]{\def\elalumnocta{#1}}
+%% nombre del Jefe de la División de Estudios Profesionales
+\newcommand{\jefeDEP}[1]{\def\eljefeDEP{#1}}
+%% Carrera
+\newcommand{\nomcarrera}[1]{\def\elnomcarrera{#1}}
+\newcommand{\sinoda}[1]{\def\elsinoda{#1}}           %SINODAL A
+\newcommand{\sinodb}[1]{\def\elsinodb{#1}}           %SINODAL B
+\newcommand{\suplea}[1]{\def\elsuplea{#1}}           %SUPLENTE A
+\newcommand{\supleb}[1]{\def\elsupleb{#1}}           %SUPLENTE B
+\newcommand{\suplec}[1]{\def\elsuplec{#1}}           %SUPLENTE C
+\newcommand{\jefeCD}[1]{\def\eljefeCD{#1}}           %COORDINADOR CARRERA
+\newcommand{\tituloh}[1]{\def\eltituloh{#1}}         %TÍTULO TESIS VOTOS
+\newcommand{\consejo}[1]{\def\elCD{#1}}              %DEPARTAMENTO
+\newcommand{\coordinador}[1]{\def\elcoordinador{#1}} %NOMBRE DEL COORDINADOR
+
+%ESCRIBIR: NÚMERO DE CUENTA, JEFE DEP, TÍTULO TESIS, DEPARTAMENTO, CARRERA, 
+%NOMBRE DEL COORDINADOR, SINODAL A, SINODAL B, SUPLENTE A, SUPLENTE B. 
+\alumnocta{B101128}
+\jefeDEP{Ingeniería}
+%El TÍTULO SE DEBE ESCRIBIR EN UN RENGLÓN
+\tituloh{Taller de probabilidad y estadística}
+%Actuaría, Biología, Ciencias de la Comoutación, Física o Matemáticas
+\nomcarrera{Doctorado en Ciencias Económico--Financieras}
+\coordinador{Dr.~Gerardo Ángeles Castro}
+\sinoda{Dr.~Francisco López Herrera}
+\sinodb{Dr.~Omar Neme Castillo}
+\suplea{Dr.~Ambrosio Ortiz Ramírez}
+\supleb{Dr.~Salvador Cruz Aké}
+\suplec{Dr.~Humberto Ríos Bolivar}
+
+%ESCRIBIR: DEPARTAMENTO (Biología, Física o Matemáticas). 
+\consejo{Sección de Estudios de Posgrado e Investigación}
+%NO SE DEBE MODIFICAR
+\jefeCD{Coordinador de \emph{\elnomcarrera}}
+
+%% Página de la portada
+\thispagestyle{empty}
+\pagenumbering{Roman}
+%% Escudos y líneas verticales
+%% Recore a la izquierda
+\hskip -5mm
+%% 21.8 máximo
+\begin{minipage}[c][21.8cm][s]{3cm} 
+\begin{center}\vskip -1mm %Se cambio para ajustar la linea vertical con los logos, original: \begin{center}\vskip 9mm
+%% Escudo superior
+\includegraphics[height=1.5cm]{Imagenes/uam.png} \\[10pt]
+\hskip 2pt
+%% líneas verticales
+\vrule width 2pt height 16.0cm \hskip 1mm
+\vrule width 1pt height 16.0cm \\[10pt]
+%% Escudo superior
+\includegraphics[height=1.5cm]{Imagenes/uam.png}
+\end{center}
+\end{minipage}
+%% Institución y líneas horizontales
+\begin{minipage}[c][20.8cm][s]{13.0cm}
+\begin{center}
+{\fontsize{18pt}{21.6pt}\scshape Universidad Autónoma Metropolitana}
+\vskip 2mm
+%% Líneas horizontales
+\hrule height 2pt \vspace{1mm}
+\hrule height 1pt \vspace{3mm}
+{\large\scshape Unidad Azcapotzalco} \\[3pt]
+{\large\scshape División de Ciencias Básicas e Ingeniería} \\[3pt]
+{\large\scshape Departamento de Sistemas} \\[3pt]
+%%{\large\scshape Maestría en Ciencias de la Computación} \\
+%% Crupo temático de Docencia
+%{\Large\scshape Grupo Temático de Análisis de Decisiones} \\
+\vspace{3.0cm}{\Large\scshape \eltitulo} \\\vspace{2.0cm}
+%% Título
+%{\Large\scshape Convocatoria~ \upshape CO.A.CBI.e.001.17} \\\vspace{2.5cm}
+%% Convocatoria
+%\makebox[9cm][s]{\large\scshape TRABAJO QUE PARA SUSTENTAR} \\[2pt]
+%{\large\scshape ESTADÍSTICA APLICADA A AL ADMINISTRACIÓN} \\[5pt]
+%\lacarrera\\[24pt]
+%{\large\scshape PARA LA LICENCIATURA EN ADMINISTRACIÓN} \\[5pt]
+{\normalsize\scshape Idónea Comunicación de Resultados}\\
+{\normalsize\scshape que Presenta el:}\\[5pt] % Original antes cambio: {\normalsize\scshape que Presenta:}\\[1.0cm]
+{\large\scshape\elnombre} \\[1.0cm] %Se cambio para separa grado del nombre, original: {\large\scshape\elnombre} \\
+%{\large\href{mailto:jach@aczc.uam.mx}{jach@aczc.uam.mx}} \\ 
+{\normalsize\scshape para obtener el grado de:}\\
+{\large\scshape\lacarrera} \\[1.0cm]
+{\small\scshape Director de Tesis:\\\eldirector} \\              %DIRECTOR DE TESIS
+%\includegraphics[height=1.9cm,keepaspectratio]{DrVenegas} \\
+%{\footnotesize\scshape Vo. Bo. \eldirector{} (\lafecha)} \\
+\vspace{2.8cm}\normalsize\scshape Ciudad de México \hfil \today
+%La versión 0.1 del 19 de septiembre de 2024.
+\end{center}
+\end{minipage}

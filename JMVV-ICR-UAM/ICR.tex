@@ -1,0 +1,316 @@
+%% Documento: Lenguaje, tamaño de la tipografías, tamaño de l papel {libro}
+\documentclass[spanish,12pt,letterpaper,final,twoside]{book}
+
+%% Habilita la separación silábica en español
+\usepackage[spanish,mexico]{babel}
+
+%% Soporte para símbolos de interrogación
+\usepackage[utf8]{inputenc}
+
+%% Es recomendado sobre pslatex
+\usepackage{mathptmx}
+
+%%Estilo presentación de los capítulos
+\usepackage[Lenny]{fncychap}
+
+%% Hiperreferencias
+%%\usepackage[colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=blue,backref=page]{hyperref}
+\usepackage[hidelinks]{hyperref} %% no colorea ni usa recuadros en hiperreferencias, poner antes de paquete{Harvard} para que funcione!!!
+\hypersetup{pdftitle=ICR Sismos,pdfauthor=Ing. José Manuel Villa Vargas}
+
+%% Para que funcione [H] para las tablas
+\usepackage{float}
+
+%% Citas estilo harvard
+\usepackage{harvard}
+
+%% Para cambiar las cabeceras de las páginas
+\usepackage{fancyhdr}
+
+%% Componer fórmulas complejas
+\usepackage{amsmath}
+
+%% Color
+\usepackage[dvipsnames]{xcolor}
+
+%% Espacios entre ítems de los entornos para listar
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=-0.3mm}
+
+%% Incluir un índice alfabético (analítico)
+\usepackage{makeidx}
+
+%% Muestra las referencias de los índices en las páginas
+\usepackage{showidx}
+
+%% Para crear el índice alfabético (analítico)
+\makeindex
+
+%% Incluir apéndices
+\usepackage{appendix}
+
+%% Colorear tablas, LaTeX carga los paquetes array y color
+\usepackage{colortbl}
+
+%% Crear tablas con renglones múltiples
+\usepackage{multirow}
+
+%% Para cancelar expresiones
+\usepackage{cancel}
+\renewcommand{\CancelColor}{\red}
+
+%% Crear gráficos con el paquete PStricks
+\usepackage{pst-all}
+
+%% Funciones EXP GAUSS SIN COS TAN GAMMA
+\usepackage{pst-math}
+
+%% Para usar el entorno diagram para crear diagramas conmutativos
+\usepackage{pb-diagram}
+
+%% División de polinomios
+\usepackage{polynom}
+
+%% Para insertar gráficas
+\usepackage{graphicx}
+
+%% Para incluir una diagonal en las columnas de las tablas
+\usepackage{makecell}
+
+%% Paquete geometry proporciona una interfaz para dimensionar la página
+\usepackage[margin=26mm,footskip=13mm]{geometry}
+
+%% Cambia los espacios de las definiciones (DIRECTORIO)
+\usepackage{amsthm}
+
+%% Soporte para la forma de la tipografía matemática
+\usepackage[mathscr]{euscript}
+
+%% Soporte para símbolos AmS y la forma de la tipografía mathbb
+\usepackage{amssymb}
+
+%% Para hacer cajas con sombra
+\usepackage{fancybox}
+
+%% Para dividir tablas muy largas en dos partes
+\usepackage{longtable}
+
+%% Define columnas con p{}
+\usepackage{array}
+
+%% Permite usar colores en filas de tablas
+\usepackage[table]{xcolor}
+
+%% Si quisiera poner sangría en el primer párrafo después de los títulos de secciones, descomentar
+%\usepackage{indentfirst}
+
+%% Configuración de colores "UAM" para tablas - de la ICR de Gabriel H. A.
+\definecolor{UAMPurple}{RGB}{102, 0, 102}
+\definecolor{HeaderBlue}{RGB}{70, 130, 180}
+\definecolor{ProfessionalGray}{RGB}{245, 245, 245}
+\definecolor{LightBlue}{RGB}{230, 240, 250}
+\definecolor{LightGreen}{RGB}{240, 250, 240}
+\definecolor{LightCoral}{RGB}{250, 240, 240}
+\definecolor{LightGold}{RGB}{252, 250, 240}
+\definecolor{LightPink}{RGB}{250, 245, 248}
+\definecolor{LightGray}{RGB}{245, 245, 245}
+\definecolor{LightYellow}{RGB}{255, 255, 224}
+\definecolor{LightOrange}{RGB}{255, 200, 150}
+
+%% Operadores matemáticos sin subíndice
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\cov}{cov}
+\DeclareMathOperator{\cor}{cor}
+\DeclareMathOperator{\sop}{soporte}
+\DeclareMathOperator{\dif}{d}
+\DeclareMathOperator{\ee}{E}
+\DeclareMathOperator{\vv}{Var}
+\DeclareMathOperator{\mcm}{mcm}
+
+%% Operadores matemáticos con subíndice
+\DeclareMathOperator*{\conv}{\ast}
+\DeclareMathOperator*{\maxi}{maximizar}
+\DeclareMathOperator*{\mini}{minimizar}
+\DeclareMathOperator*{\ran}{ran}
+
+%% Espacio después del título de las tablas y figuras
+\setlength{\belowcaptionskip}{10pt}
+\setlength{\abovecaptionskip}{10pt}
+
+%% Declarar el directorio de imágenes
+\graphicspath{ {./Imagenes/} }
+
+%% Modificar el nombre de las tablas
+\renewcommand{\tablename}{Tabla}
+
+%% Usar punto decimal
+\decimalpoint
+
+%% Comandos creados
+\newcommand{\DS}{Departamento de Sistemas}
+\newcommand{\DCBI}{División de Ciencias Básicas e Ingeniería}
+\newcommand{\UAM}{Universidad Autónoma Metropolitana}
+
+%% Funciones propias
+%% Texto con color
+\newcommand{\TCC}[2][red]{\textcolor{#1}{#2}}
+
+%% Derivada parcial
+\newcommand{\parcial}[3][]{\ensuremath{\dfrac{\partial^{#1}\,#2}{\partial#3^{#1}}}}
+
+%% Variable aleatoria en el tiempo
+\newcommand{\vt}[2][x]{#1_{#2}}
+
+%% Probabilidad de transicion
+\newcommand{\ptr}[4][p]{#1_{#2,#3}\left(#4_{#2},#4_{#3}\right)}
+\newcommand{\pt}[3][p]{#1_#2\left(#3_{0},#3_{#2}\right)}
+
+%% Funcion de R en R
+\newcommand{\f}[2][f]{#1\left(#2\right)}
+
+\begin{document}
+
+%% Tipografía mathcal{Q} en MC
+\newfont{\mathQ}{cmsy10 at 11pt}
+\newfont{\mathQQ}{cmsy10 at 8pt}
+\newfont{\mathQq}{cmsy10 at 6pt}
+
+%% Configuración del paquete harvard (para que diga "y" en lugar de "and")
+\renewcommand{\harvardand}{y}
+\bibliographystyle{dcu} %% Utiliza el estilo de Hardvar clásico
+\citationmode{full} %% Para que se muestre el autor y el año en cada citación de la ICR
+
+%% Modificar el título de las gráficas (figuras)
+\renewcommand{\figurename}{Figura}
+\renewcommand{\listfigurename}{Índice de figuras}
+
+%% Modificar el título de las tablas
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{Índice de tablas}
+
+%% Modificar el título de la Bibliografía (Referencias)
+\renewcommand{\bibname}{Bibliografía} %% Original: \renewcommand{\bibname}{Referencias}
+
+%% Modificar el título del índice alfabético (analítico)
+\renewcommand{\indexname}{Índice analítico}
+
+%%Modificar la numeración de los niveles en el entorno enumerate
+\renewcommand{\labelenumiv}{\roman{enumiv}.}
+
+%% Modificar los símbolos de los niveles en el entorno itemize
+\renewcommand{\labelitemi}{$\bullet$}		
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\star$}
+
+%% INICIO DEL DOCUMENTO
+
+%% Secciones preliminares
+\frontmatter
+
+%% Sin encabezados y pies de página
+\pagestyle{empty}
+\pagenumbering{Roman}
+
+%% Portada
+\include{Portada/Portada}
+
+%% Resumen
+\include{Resumen/Resumen}
+
+%% Agradecimientos y dedicatoria
+\include{Agradecimientos/Dedicatoria}
+\include{Agradecimientos/Agradecimientos}
+
+%% Índice general
+\cleardoublepage
+\phantomsection
+\tableofcontents
+\addcontentsline{toc}{chapter}{\protect{Índice general}}
+
+%% Índice de tablas
+\cleardoublepage
+\phantomsection
+\listoftables
+\addcontentsline{toc}{chapter}{\protect{Índice de tablas}}
+
+%% Índice de figuras
+\cleardoublepage
+\phantomsection  
+\listoffigures
+\addcontentsline{toc}{chapter}{\protect{Índice de figuras}}
+
+%% Glosarios y Acrónimos
+\include{Glosario/Glosario}
+
+%% Contenido principal del documento
+\mainmatter
+
+%% Numeración simple de tablas y figuras
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\thefigure}{\arabic{figure}}
+
+%% Configuración del estilo de página
+\pagestyle{fancy}
+
+%% Configuración de cabeceras y pies de página
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+\fancyhf{}
+%% Número de página centrado en el pie de página par e impar
+\fancyfoot[CE,CO]{\thepage}
+%% Encabezado de las páginas derechas impares
+\fancyhead[RO]{\rightmark}
+%% Encabezado de las páginas izquierdas pares
+\fancyhead[LE]{\thechapter.\ \leftmark}
+%% Ancho de la línea del encabezado
+\renewcommand{\headrulewidth}{0.1pt}
+%% Ancho de la línea del pie de página
+\renewcommand{\footrulewidth}{0.0pt}
+
+\fancypagestyle{empty}{%
+\fancyhead{}}
+
+%% Capítulos ICR
+
+%% Introducción
+\include{Introduccion/Introduccion}
+
+%% Marco Teórico
+\include{MarcoTeorico/MarcoTeorico}
+
+%% Estado del Arte
+\include{EstadoDelArte/EstadoDelArte}
+
+%% Metodología
+\include{Metodologia/Metodologia}
+
+%% Análisis de Resultados
+\include{AnalisisResultados/AnalisisResultados}
+
+%% Conclusiones
+\include{Conclusiones/Conclusiones}
+
+%% APÉNDICES
+\appendix
+%% Estilo de página para apéndices
+\pagestyle{fancy}
+\fancyhead[RO]{\rightmark}
+\fancyhead[LE]{\thechapter.\ \leftmark}
+
+\include{Anexos/Anexo1}
+%\include{Anexos/Anexo2}
+
+%% BIBLIOGRAFÍA
+\backmatter
+
+%% Sin encabezados y pies de página para bibliografía
+\pagestyle{empty}
+\bibliography{Referencias/Referencias}
+\addcontentsline{toc}{chapter}{\protect{Bibliografía}} %% Original --- \addcontentsline{toc}{chapter}{\protect{Referencias}}
+
+%% Para índice analítico si es necesario
+%\printindex
+%\addcontentsline{toc}{chapter}{\protect{Índice analítico}}
+
+\end{document}

@@ -1,0 +1,85 @@
+\chapter{Introducción}
+
+\noindent
+A través de la historia, la humanidad ha sufrido de catástrofes naturales que impactan directamente la vida del ser humano. Las catástrofes naturales son de varios tipos como inundaciones, huracanes, deslaves de tierra, erupciones volcánicas, sequías, incendios, sismos o terremotos y tsunamis, entre varios otros.
+
+La inferencia de la ocurrencia de alguno de estos eventos catastróficos es de utilidad para la humanidad. Y dadas las consecuencias que estos eventos tienen sobre la forma de vida de la gente y como alteran su realidad de un momento a otro, es importante el estudio y la comprensión del comportamiento de los eventos a lo largo de un periodo de tiempo, buscando la forma de inferir y prepararse para cuando estos ocurran.
+
+Dentro de los tipos de catástrofes mencionadas en el párrafo anterior, los sismos o terremotos son uno de los que mayor impacto tienen para la vida humana y para la infraestructura urbana, rural y natural, porque estos además del daño que causan por el evento en sí, tienen la particularidad de que provocan otros eventos de catástrofes naturales como incendios, deslaves, tsunamis o marejadas y daños colaterales en las infraestructuras urbanas como son derrumbes y daños estructurales en edificaciones, cortes al suministro eléctrico, fallas en los sistemas de telecomunicaciones, daños en la red de carreteras, trenes, aeronaves, suministro de agua, alimentos, medicinas y finalmente, presentando un fuerte declive en la economía de los lugares afectados.
+
+Una de las zonas sísmicas más activas en el mundo es la costa del Pacífico de México (que se encuentra en el cinturón de fuego del pacífico) en la cual se presentan frecuentemente sismos de magnitud significativa que impactan a las zonas de ocurrencia y centros urbanos en un radio de 0 a 500 kilómetros de distancia del epicentro de los sismos.
+
+Actualmente son desarrollados y producidos diferentes métodos para inferir la probabilidad de ocurrencia de un sismo en una zona específica. Estas técnicas varían en metodología como en las formas de estudiar e inferir la ocurrencia de un sismo de magnitud significativa para la vida humana.
+
+El presente trabajo utiliza como referencia los datos otorgados por el Servicio Sismológico Nacional de México (SSNMX) con el propósito de realizar un análisis probabilista para la ocurrencia de un sismo de magnitud significativo (mayor a 5° Richter) en los estados de mayor actividad sísmica en la costa del pacífico de la República Mexicana, con fundamento en la muestra de datos del SSNMX que data del 1 de enero del año 1900 hasta julio de 2025. La metodología aplicada comprende estadística descriptiva, intervalos de confianza, estimación de tamaño mínimo de muestra, pruebas de hipótesis, así como pruebas de bondad de ajuste para diferentes distribuciones, que justifiquen los resultados.
+
+\section{Planteamiento del problema}
+
+\noindent
+La predicción de ocurrencia de un sismo de magnitud considerable es hasta la fecha imprecisa y difícil de determinar mediante algún cálculo o estudio que es realizado previamente. Como se ha mencionado anteriormente, en la actualidad se están utilizando diferentes técnicas basadas en distintos planteamientos, que apuntan hacia el mismo objetivo: estimar con un nivel de significación mínimo la próxima ocurrencia de un sismo en una zona de estudio delimitada.
+
+Además de la dificultad encontrada per se de predecir un sismo significativo, están las siguientes problemáticas que conlleva el obtener un resultado más certero, como lo son: falta de datos históricos por tecnologías anticuadas o por no tener una escala estándar antes de 1935 \cite{richter1935instrumental}, también porque hay sismos de magnitud baja que no son medidos (menores a 3°, o que se confundan con réplicas), por confusión con otros eventos naturales (como los tremores volcánicos, las explosiones o los impactos terrestres), porque la medición no refleje la magnitud real del sismo (por mediciones no exactas, o por falla en la calibración de los equipos) y por sus patrones no periódicos de ocurrencia (que un sismo no muestra patrones de repetición de evento exacta ni periódica, son aleatorios).
+
+\section{Justificación}
+
+\noindent
+La inferencia de sismos es de vital importancia para desarrollar políticas de prevención de desastres derivados de la actividad sísmica de magnitud considerable. Aunque actualmente sigue siendo muy complejo el poder estimar la fecha de ocurrencia de un sismo fuerte en una región determinada, se trabaja continuamente en múltiples aproximaciones para poder realizar con un alto grado de certeza la estimación de ocurrencia de un sismo significativo futuro.
+
+La mayoría de las técnicas que se emplean actualmente tienen que ver con uso y aplicación de inteligencia artificial y redes neuronales alimentadas por datos históricos y ecuaciones de movimiento sísmico.
+
+Es aquí donde se considera importante la existencia de un proyecto como el presente el cual propone un enfoque basado en análisis probabilista. La metodología implementada sigue pasos sistemáticos y repetibles que permiten entender mejor el fenómeno sísmico en los estados estudiados. Esta metodología integra la obtención de estadísticos descriptivos para cada estado, la determinación de intervalos de confianza para la media, desviación y proporción de sismos mayores a un umbral crítico, la estimación del tamaño mínimo de la muestra, la realización de pruebas de hipótesis para media, varianza y proporción de sismos y de pruebas de bondad de ajuste para varias distribuciones. Todo esto con el fin de poder inferir con un nivel de certeza próximos eventos sísmicos en los estados analizados.
+
+También, este proyecto es relevante pues se enfoca en los estados de mayor actividad y riesgo sísmico de México, diferenciando este trabajo de otros que se enfocan en otras regiones del planeta o no son minuciosos en sus estudios de la actividad sísmica en México.
+
+\section{Objetivos}
+
+\subsection{Objetivo general}
+
+\noindent
+Se pretende obtener resultados fiables mediante la aplicación de cálculos de inferencia probabilista para la ocurrencia de un sismo de magnitud significativa con un nivel de confianza en la costa del Pacífico mexicano.
+
+\subsection{Objetivos específicos}
+
+\begin{enumerate}
+    \item Identificar una correlación significativa en los datos históricos de los sismos en la costa del Pacífico mexicano mediante el análisis de los datos disponibles de los mismos.
+    
+    \item Aplicar el cálculo de probabilidad, los estadísticos descriptivos, pruebas de hipótesis, pruebas de bondad de ajuste a los datos históricos de  los sismos para obtener una estimación del intervalo de confianza del siguiente evento sísmico.
+    
+    \item Programar en la herramienta R y RStudio los algoritmos de estimación de estadísticos descriptivos, de intervalos de confianza, de tamaño mínimo de la muestra, de pruebas de hipótesis y de pruebas de bondad de ajuste, así como generar gráficos y tablas representativos de estos.
+\end{enumerate}
+
+\section{Principales contribuciones}
+
+\noindent
+Las principales contribuciones de este trabajo de investigación se listan a continuación:
+
+\begin{enumerate}
+    \item \textbf{Análisis estadístico por región:} Se realiza un análisis completo y exhaustivo de la actividad sísmica en seis regiones de México, diferenciándose de otros estudios y logrando identificar que cada estado de la costa del Pacífico presenta un comportamiento sísmico único con distribuciones probabilísticas específicas (Gumbel para Oaxaca, Weibull para Guerrero y Chiapas, distribución generalizada de valores extremos para Michoacán).
+    
+    \item \textbf{Metodología replicable:} Se desarrolla e implementa una metodología sistemática y reproducible que integra múltiples técnicas estadísticas (estadísticos descriptivos, intervalos de confianza, pruebas de hipótesis y pruebas de bondad de ajuste para 20 distribuciones), estableciendo una metodología robusta enfocada al análisis sísmico y que puede aplicarse a otras regiones sísmicamente activas.
+    
+    \item \textbf{Identificación de patrones temporales significativos:} Se determina la existencia de patrones mensuales de actividad sísmica diferenciados por región, identificando septiembre como el mes de mayor actividad sísmica nacional, hallazgo relevante en el ámbito del fenómeno sísmico en México.
+    
+    \item \textbf{Validación de umbrales críticos:} Se establece mediante pruebas estadísticas rigurosas que la proporción de sismos mayores a 6.5° varía significativamente entre regiones, lo cual proporciona una base sólida para la diferenciación del riesgo sísmico regional identificando las regiones con mayor propensión a sufrir de sismos fuertes.
+    
+    \item \textbf{Código computacional en R:} Se desarrolla e implementa un conjunto completo de algoritmos en R y RStudio para el procesamiento automatizado de datos sísmicos, disponible para su uso y adaptación, facilitando la replicación, escalabilidad y adaptabilidad del mismo a cualquier tipo de análisis sísmico con fundamentos estadísticos.
+\end{enumerate}
+
+\section{Organización del documento}
+
+\noindent
+El presente documento se estructura en seis capítulos que desarrollan de manera sistemática y progresiva la investigación realizada sobre la inferencia probabilística de eventos sísmicos en la costa del Pacífico mexicano.
+
+El \textbf{Capítulo 1} presenta la introducción general al problema de investigación, estableciendo el contexto de la actividad sísmica en México y su impacto en la población e infraestructura. Se define el planteamiento del problema, la justificación del estudio, los objetivos generales y específicos, las principales contribuciones y la presente organización del documento.
+
+El \textbf{Capítulo 2} desarrolla el marco teórico fundamental, presentando una revisión exhaustiva de 16 artículos científicos seleccionados que abordan metodologías de predicción sísmica, técnicas estadísticas y de inteligencia artificial aplicadas a la sismología. Se realiza una síntesis crítica de los enfoques existentes, desde modelos probabilísticos clásicos hasta técnicas de aprendizaje profundo, estableciendo el fundamento teórico para la metodología propuesta.
+
+El \textbf{Capítulo 3} expone el estado del arte en predicción sísmica, analizando detalladamente los trabajos más relevantes en el campo. Se examinan las técnicas implementadas globalmente, desde modelos log-lineales y distribuciones gamma hasta redes neuronales convolucionales, identificando las fortalezas y limitaciones de cada enfoque. Se destaca la aplicación de estas metodologías en diferentes regiones sísmicas del mundo y su relevancia para el contexto mexicano.
+
+El \textbf{Capítulo 4} describe la metodología de investigación implementada, detallando las 10 fases del proceso analítico: desde la recopilación y filtrado de datos del Servicio Sismológico Nacional, hasta la aplicación de pruebas de bondad de ajuste y cálculos de probabilidad. Se presentan las formulaciones matemáticas de los estadísticos descriptivos, intervalos de confianza, pruebas de hipótesis y criterios de selección de modelos utilizados.
+
+El \textbf{Capítulo 5} presenta el análisis exhaustivo de los resultados obtenidos. Se muestran los estadísticos descriptivos calculados para las seis regiones estudiadas, las representaciones gráficas del comportamiento sísmico histórico, los intervalos de confianza estimados, los resultados de las pruebas de hipótesis realizadas y la identificación de las distribuciones probabilísticas que mejor ajustan los datos de cada región. Se incluyen 26 tablas y 17 figuras que sintetizan los hallazgos principales.
+
+El \textbf{Capítulo 6} expone las conclusiones del trabajo, sintetizando los logros alcanzados respecto a los objetivos planteados, las limitaciones identificadas durante la investigación y las líneas de trabajo futuro propuestas para extender y mejorar la metodología desarrollada.
+
+Finalmente, se incluye un apéndice con información complementaria de los artículos revisados, la síntesis del código utilizado y la bibliografía completa con las referencias utilizadas en el desarrollo de la investigación.
