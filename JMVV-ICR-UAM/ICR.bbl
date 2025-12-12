@@ -29,6 +29,11 @@ Bommier, E.  \harvardyearleft 2023\harvardyearright .
   for extreme value analysis?, {\em Water Resources Research} {\bf
   59}(4):~e2022WR033666.
 
+\harvarditem{Climent~Hernández}{2022}{climenthernandez2022probabilidad}
+Climent~Hernández, J.~A.  \harvardyearleft 2022\harvardyearright .
+\newblock {\em Probabilidad y Estadística para Ingeniería Financiera},
+  Universidad Autónoma Metropolitana.
+
 \harvarditem{Coles}{2001}{coles2001introduction}
 Coles, S.  \harvardyearleft 2001\harvardyearright .
 \newblock {\em An Introduction to Statistical Modeling of Extreme Values},
@@ -56,11 +61,22 @@ Convertito, V., Ebrahimian, H., Amoroso, O., Jalayer, F., De~Matteis, R.
   case of st gallen (switzerland), geothermal field, {\em Energies} {\bf
   14}(10):~2747.
 
+\harvarditem{{Diana Villasana Ocampo}}{2024}{rpubs2024pruebas}
+{Diana Villasana Ocampo}  \harvardyearleft 2024\harvardyearright .
+\newblock Rpubs - pruebas de normalidad, Rpubs.com.
+\newblock Disponible en: https://rpubs.com/dvillasanao/Pruebas\_de\_Normalidad.
+
 \harvarditem{Ferrás}{2005}{ferraes2005probabilistic}
 Ferrás, S.~G.  \harvardyearleft 2005\harvardyearright .
 \newblock A probabilistic prediction of the next strong earthquake in the
   acapulco-san marcos segment, mexico, {\em Geofísica Internacional} {\bf
   44}(4):~347--353.
+
+\harvarditem{Fisher}{1922}{fisher1922mathematical}
+Fisher, R.~A.  \harvardyearleft 1922\harvardyearright .
+\newblock On the mathematical foundations of theoretical statistics, {\em
+  Philosophical Transactions of the Royal Society of London, Series A} {\bf
+  222}:~309--368.
 
 \harvarditem{Galbán-Rodriguez}{2021}{galbanrodriguez2021theoretical}
 Galbán-Rodriguez, L.  \harvardyearleft 2021\harvardyearright .
@@ -89,6 +105,13 @@ Mignan, A., Danciu, L. \harvardand\ Giardini, D.  \harvardyearleft
 \newblock Best practices in physics-based fault rupture forecasting for seismic
   hazard assessment of nuclear installations: issues and challenges towards
   full integration, {\em Pure and Applied Geophysics} {\bf 178}(8):~2845--2871.
+
+\harvarditem{{México. Universidad Nacional Autónoma de México, I. d. G.,
+  Servicio Sismológico Nacional}}{2025}{mexico2024catalogo}
+{México. Universidad Nacional Autónoma de México, I. d. G., Servicio
+  Sismológico Nacional}  \harvardyearleft 2025\harvardyearright .
+\newblock Catálogo de sismos.
+\newline\harvardurl{http://www2.ssn.unam.mx:8080/catalogo/}
 
 \harvarditem{Papalexiou \harvardand\ Koutsoyiannis}{2020}{papalexiou2020random}
 Papalexiou, S.~M. \harvardand\ Koutsoyiannis, D.  \harvardyearleft
@@ -163,6 +186,11 @@ Singh, S.~K., Reinoso, E., Arroyo, D., Ordaz, M., Cruz-Atienza, V.,
 \newblock Deadly intraslab mexico earthquake of 19 september 2017 (mw 7.1):
   Ground motion and damage pattern in mexico city, {\em Seismological Research
   Letters} {\bf 91}(4):~2145--2155.
+
+\harvarditem{Student}{1908}{student1908probable}
+Student  \harvardyearleft 1908\harvardyearright .
+\newblock The probable error of a mean, {\em Biometrika} {\bf 6}(1):~1--25.
+\newblock Gosset, William Sealy.
 
 \harvarditem{Sánchez-Silva \harvardand\ Riaño}{2020}{sanchezsilva2020real}
 Sánchez-Silva, M. \harvardand\ Riaño, G.  \harvardyearleft

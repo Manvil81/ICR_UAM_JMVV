@@ -21,7 +21,41 @@
 \contentsline {section}{\numberline {3.1}Revisión del estado del arte}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Análisis del estado del arte}{16}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Metodología }{19}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Análisis de Resultados }{21}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusiones }{23}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Anexo 1 }{25}{appendix.Alph1}%
-\contentsline {chapter}{{Bibliografía}}{29}{appendix*.15}%
+\contentsline {section}{\numberline {4.1}Metodología de investigación}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Fases de desarrollo del proyecto}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Media aritmética}{21}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Mediana}{22}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Moda}{22}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Varianza muestral}{22}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Desviación estándar}{22}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Coeficiente de asimetría}{23}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Coeficiente de curtosis}{23}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Intervalo de confianza para la media}{24}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Intervalo de confianza para la varianza}{24}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.10}Intervalo de confianza para la proporción}{24}{subsection.4.2.10}%
+\contentsline {subsection}{\numberline {4.2.11}Prueba de hipótesis para el cociente de varianzas (prueba F)}{25}{subsection.4.2.11}%
+\contentsline {subsection}{\numberline {4.2.12}Prueba de hipótesis para diferencia de medias con varianzas iguales (pooled)}{25}{subsection.4.2.12}%
+\contentsline {subsection}{\numberline {4.2.13}Prueba de hipótesis para diferencia de medias con varianzas diferentes (Welch)}{26}{subsection.4.2.13}%
+\contentsline {subsection}{\numberline {4.2.14}Prueba de hipótesis para la diferencia de proporciones con proporciones agrupadas o iguales (pooled)}{26}{subsection.4.2.14}%
+\contentsline {subsection}{\numberline {4.2.15}Prueba de hipótesis para la diferencia de proporciones sin agrupamiento o diferentes}{26}{subsection.4.2.15}%
+\contentsline {subsection}{\numberline {4.2.16}Prueba de bondad de ajuste Kolmogorov-Smirnov}{27}{subsection.4.2.16}%
+\contentsline {subsection}{\numberline {4.2.17}Prueba de bondad de ajuste Anderson-Darling}{27}{subsection.4.2.17}%
+\contentsline {subsection}{\numberline {4.2.18}Prueba de bondad de ajuste Lilliefors}{28}{subsection.4.2.18}%
+\contentsline {subsection}{\numberline {4.2.19}Criterio de Información Bayesiano}{28}{subsection.4.2.19}%
+\contentsline {subsection}{\numberline {4.2.20}Teoría de valores extremos y distribuciones empleadas}{28}{subsection.4.2.20}%
+\contentsline {subsubsection}{Distribución de Gumbel}{29}{section*.15}%
+\contentsline {subsubsection}{Distribución de Weibull}{29}{section*.16}%
+\contentsline {subsubsection}{Distribución generalizada de valores extremos}{29}{section*.17}%
+\contentsline {subsubsection}{Estimación de parámetros}{30}{section*.18}%
+\contentsline {subsection}{\numberline {4.2.21}Periodos de retorno}{30}{subsection.4.2.21}%
+\contentsline {subsubsection}{Niveles de retorno}{30}{section*.19}%
+\contentsline {subsection}{\numberline {4.2.22}Probabilidades de excedencia}{31}{subsection.4.2.22}%
+\contentsline {subsection}{\numberline {4.2.23}Intervalos de confianza mediante bootstrap paramétrico}{31}{subsection.4.2.23}%
+\contentsline {subsection}{\numberline {4.2.24}Análisis temporal y tiempo desde el último evento}{31}{subsection.4.2.24}%
+\contentsline {subsubsection}{Índice de proximidad temporal}{32}{section*.20}%
+\contentsline {subsubsection}{Coeficiente de variación del tiempo de recurrencia}{32}{section*.21}%
+\contentsline {subsection}{\numberline {4.2.25}Índice de peligrosidad sísmica regional}{32}{subsection.4.2.25}%
+\contentsline {chapter}{\numberline {5}Análisis de Resultados }{33}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusiones }{35}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Anexo 1 }{37}{appendix.Alph1}%
+\contentsline {chapter}{{Bibliografía}}{41}{appendix*.22}%

@@ -1,4 +1,584 @@
 \chapter{Metodología \label{cap:Metodologia}}
 
+\section{Metodología de investigación}
 
-// Este capítulo puede titularse Método o Metodología. Este capítulo debe parecerse a una receta. El lector debe conocer lo que hiciste y cómo lo hiciste. Después de leer esta sección el lector debe poder responder de manera positiva a la pregunta: ¿Es posible reproducir esta investigación? Puede incluir las siguientes secciones: Participantes, hardware y software utilizado, procedimiento, diseño.
+\noindent
+En este capítulo se presenta la metodología propuesta para realizar el análisis y las evaluaciones de la actividad sísmica en estados de la costa del Pacífico mexicano (Chiapas, Guerrero, Michoacán y Oaxaca), en el resto del país (actividad sísmica en México sin considerar los 4 estados mencionados) y de todos los sismos nacionales (actividad sísmica de los 32 estados de México), con el fin de lograr la estimación probabilista de ocurrencia de sismos.
+
+La Figura \ref{fig:diagrama_metodologia} muestra el diagrama de flujo de la metodología implementada para el presente proyecto.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{diagrama_metodologia.png}
+\caption{Diagrama de flujo de la aplicación de la metodología propuesta.}
+\label{fig:diagrama_metodologia}
+\end{figure}
+
+\section{Fases de desarrollo del proyecto}
+
+\noindent
+Para implementar la metodología propuesta en este capítulo, se dividieron los trabajos de este proyecto en 10 fases, las cuales son presentadas a continuación.
+
+\textbf{Fase 1 – Recopilación de datos sísmicos históricos.} Se recopilan los datos históricos de los sismos registrados en la República Mexicana en el periodo 1900 – 2025, desde el portal web del Servicio Sismológico Nacional \cite{mexico2024catalogo}. Este catálogo proporciona información detallada de cada evento sísmico, las cuales son: fecha, hora, magnitud (en grados Richter), latitud, longitud, profundidad, referencia de localización, fecha (UTC), hora (UTC) y estatus (revisado/no revisado).
+
+\textbf{Fase 2 - Filtrado y preparación de los datos.} En esta fase se aplican los siguientes criterios de filtrado y limpieza a los datos sísmicos:
+
+\begin{itemize}
+    \item \textbf{Filtrado por magnitud.} Se eliminan sismos con magnitud menor a 5.0°, esto para que el análisis se enfoque en eventos de magnitud moderada a fuerte, que suelen ser sismos perceptibles para la mayoría de la población y que pueden significar un peligro para las personas, la infraestructura y las construcciones.
+    \item \textbf{Selección de parámetros.} Se conservan únicamente las variables relevantes para el proyecto que son fecha, hora, magnitud y referencia de localización. Se eliminan las variables que no son relevantes para este proyecto.
+    \item \textbf{Limpieza de los datos.} Se eliminan registros con valores vacíos, nulos o no disponibles para garantizar la consistencia e integridad de los datos.
+    \item \textbf{División por región.} Se generan archivos individuales con la actividad sísmica para cada una de las 6 regiones estudiadas en este proyecto: Chiapas, Guerrero, Michoacán, Oaxaca, resto nacionales y sismos nacionales.
+\end{itemize}
+
+\textbf{Fase 3 – Generación de conjunto de datos.} Se generan dos grupos de datasets (cada grupo con datasets individuales para cada región):
+
+\begin{itemize}
+    \item \textbf{Sismos Totales.} Información de todos los sismos registrados con magnitud $\geq$ 5°, para cada una de las regiones de estudio, que permita analizar la frecuencia y distribución de los eventos sísmicos ocurridos en cada región.
+    \item \textbf{Magnitudes Máximas Anuales.} Información del sismo de mayor magnitud registrado cada año (y de magnitud mínima de 5°), para cada una de las regiones, que permita aplicar la teoría de valores extremos a este dataset.
+\end{itemize}
+
+\textbf{Fase 4 – Cálculo de estadísticos descriptivos.} Se calculan estadísticos descriptivos de los sismos para cada región y para cada grupo (sismos totales y magnitudes máximas anuales). A continuación, se presentan los estadísticos descriptivos calculados:
+
+\subsection{Media aritmética}
+
+\noindent
+La media aritmética $\bar{x}$ representa el valor promedio de la magnitud de los sismos analizados y se calcula como \cite{climenthernandez2022probabilidad}:
+
+\begin{equation}
+\bar{x} = \frac{1}{n} \sum_{k=1}^{n} x_k
+\end{equation}
+
+\noindent
+donde $\bar{x}$ es la media aritmética, $n$ el tamaño de la muestra (número total de sismos) y $x_k$ es la magnitud del k-ésimo sismo. Conocer el valor de la media sirve para indicar la magnitud promedio que hubo de los sismos para alguna de las regiones durante el periodo de estudio.
+
+\subsection{Mediana}
+
+\noindent
+La mediana $\tilde{x}$ es el valor central de los datos ordenados (de menor a mayor) y cuyo valor es menos sensible ante valores extremos (sismos muy fuertes) que el de la media aritmética, se calcula como \cite{climenthernandez2022probabilidad}:
+
+\begin{equation}
+\tilde{x} = \begin{cases}
+x_{\left(\frac{n+1}{2}\right)} & \text{si } n \text{ es impar} \\
+\frac{1}{2}\left(x_{\left(\frac{n}{2}\right)} + x_{\left(\frac{n}{2}+1\right)}\right) & \text{si } n \text{ es par}
+\end{cases}
+\end{equation}
+
+\noindent
+donde $\tilde{x}$ es la mediana, $n$ es el tamaño de la muestra (número total de sismos) y $x_{(\cdot)}$ es el valor ordenado de manera ascendente de la magnitud de los sismos. Obtener la mediana nos permite conocer el valor que divide a la distribución de los datos sísmicos en dos partes iguales.
+
+\subsection{Moda}
+
+\noindent
+La moda $\hat{x}$ es el valor de magnitud sísmica que aparece más veces dentro del conjunto de datos sísmicos y se encuentra como \cite{climenthernandez2022probabilidad}:
+
+\begin{equation}
+\hat{x} = \{x_k \in X \mid f_k = \max_{x_j \in X}(f_j)\}
+\end{equation}
+
+\noindent
+donde $\hat{x}$ es la moda, $f_k$ es la frecuencia de ocurrencia del valor sísmico $x_k$ y $X$ se refiere al conjunto de datos con todas las magnitudes sísmicas. Conocer este valor permite saber cuál es la magnitud sísmica que se repite más veces en cada región de estudio.
+
+\subsection{Varianza muestral}
+
+\noindent
+La varianza muestral $s_x^2$ cuantifica la dispersión de los datos sísmicos respecto al valor de la media aritmética y se encuentra como \cite{climenthernandez2022probabilidad}:
+
+\begin{equation}
+s_x^2 = \frac{1}{n-1} \sum_{k=1}^{n} (x_k - \bar{x})^2
+\end{equation}
+
+\noindent
+donde $s_x^2$ es la varianza, $n$ es el tamaño de la muestra (número total de sismos), $x_k$ es el valor de la magnitud del k-ésimo sismo y $\bar{x}$ es la media aritmética. Conocer este valor permite saber si en una región hay gran variación en el valor de magnitud de los sismos registrados (valor alto de varianza) o si en cambio, hay poca variación en la magnitud de los sismos registrados en la región (valor bajo de varianza).
+
+\subsection{Desviación estándar}
+
+\noindent
+La desviación estándar $s_x$ se encuentra al aplicar raíz cuadrada al valor de la varianza, tal y como sigue \cite{climenthernandez2022probabilidad}:
+
+\begin{equation}
+s_x = \sqrt{s_x^2}
+\end{equation}
+
+\noindent
+donde $s_x$ es la desviación estándar y $s_x^2$ la varianza. Dado que las unidades de la varianza son cuadráticas, no se pueden comparar directamente con los valores de las muestras de las magnitudes sísmicas, mientras que la desviación estándar facilita los análisis de relación de la dispersión con los valores de los datos sísmicos.
+
+\subsection{Coeficiente de asimetría}
+
+\noindent
+El coeficiente de asimetría $g_1$ mide el grado de simetría de la distribución de los datos sísmicos respecto a la media de estos, se calcula como \cite{fisher1922mathematical}:
+
+\begin{equation}
+g_1 = \frac{1}{ns_x^3} \sum_{k=1}^{n} (x_k - \bar{x})^3
+\end{equation}
+
+\noindent
+donde $g_1$ es el coeficiente de asimetría, $n$ es el tamaño de la muestra (número total de sismos), $s_x$ es la desviación estándar, $x_k$ es la magnitud del k-ésimo sismo y $\bar{x}$ la media. Los posibles resultados de $g_1$ mostrarían que si es igual a 0 ($g_1 = 0$) la distribución de los datos sísmicos es simétrica (sin sesgo), si es mayor a 0 ($g_1 > 0$) que presenta asimetría positiva o sesgo a la derecha (cola derecha más larga, que indica que hay más sismos de baja magnitud con eventos ocasionales fuertes) y si es menor a 0 ($g_1 < 0$) que presenta asimetría negativa o sesgo a la izquierda (cola izquierda más larga, que indica concentración de sismos hacia las magnitudes altas).
+
+\subsection{Coeficiente de curtosis}
+
+\noindent
+El coeficiente de curtosis $g_2$ mide el grado de apuntamiento (qué tan plana o picuda) o curtosis de la distribución de los datos sísmicos respecto de una distribución normal (gaussiana) y se calcula como \cite{fisher1922mathematical}:
+
+\begin{equation}
+g_2 = \frac{1}{ns_x^4} \sum_{k=1}^{n} (x_k - \bar{x})^4
+\end{equation}
+
+\noindent
+donde $g_2$ es el coeficiente de curtosis, $n$ es el tamaño de la muestra (número total de sismos), $x_k$ es la magnitud del k-ésimo sismo y $\bar{x}$ la media. Los posibles resultados de $g_2$ muestran que si es igual a 0 ($g_2 = 0$) la distribución de los datos sísmicos es mesocúrtica (similar a la normal), si es mayor a 0 ($g_2 > 0$) que presenta distribución leptocúrtica o más picuda que la normal (que indica que hay una mayor concentración de magnitudes sísmicas cercanas a la media con colas más pesadas) y si es menor a 0 ($g_2 < 0$) que presenta distribución platicúrtica o más aplanada que la normal (que indica que los valores de magnitudes sísmicas están dispersos de una manera uniforme).
+
+\textbf{Fase 5 – Representación gráfica del comportamiento sísmico.} Se generan gráficos del comportamiento histórico de los sismos en las regiones analizadas para los dos datasets (sismos totales y magnitudes máximas anuales) en el periodo de 1900 a julio de 2025. Las visualizaciones incluyen:
+
+\begin{itemize}
+    \item \textbf{Histogramas de densidad de los sismos.} Gráficos que muestran la distribución de las magnitudes sísmicas, permitiendo identificar la forma de la distribución de los datos de magnitudes sísmicas.
+    \item \textbf{Histogramas de frecuencias relativas por mes.} Sirven para identificar patrones de estacionalidad en la ocurrencia de sismos.
+    \item \textbf{Histogramas de sismos por magnitud.} Permiten cuantificar el número de eventos en cada rango de magnitud.
+    \item \textbf{Gráfico de magnitud máxima, promedio y mínima.} Estos gráficos permiten ver la evolución temporal de las magnitudes mínima, promedio y máxima a lo largo del tiempo, permitiendo identificar tendencias y cambios en el comportamiento sísmico.
+\end{itemize}
+
+\textbf{Fase 6 – Estimación de intervalos de confianza.} Se estiman los intervalos de confianza para la media ($\mu$), varianza ($\sigma^2$) y proporción ($\pi$), con un nivel de confianza al 95\%. Estos intervalos de confianza permiten obtener rangos dentro de los cuales se espera que estén los valores poblacionales con un 95\% de probabilidad \cite{climenthernandez2022probabilidad}. Los intervalos estimados son:
+
+\subsection{Intervalo de confianza para la media}
+
+\noindent
+Cuando la varianza poblacional es desconocida y se estima a partir de la muestra, se utiliza la distribución t de Student \cite{student1908probable}:
+
+\begin{equation}
+IC(\mu) = \mu \in \left(\bar{x} - \frac{s_x t_{1-\frac{\alpha}{2}}(n-1)}{\sqrt{n}}, \bar{x} + \frac{s_x t_{1-\frac{\alpha}{2}}(n-1)}{\sqrt{n}}\right)
+\end{equation}
+
+\noindent
+donde $\mu$ es la media, $\bar{x}$ es la media muestral, $s_x$ es la desviación estándar, $t_{1-\frac{\alpha}{2}}(n-1)$ es el valor crítico de la distribución $t$ con $n-1$ grados de libertad, $\alpha = 0.05$ para un nivel de confianza del 95\% y $n$ el tamaño de la muestra. Obtener este intervalo de confianza permite estimar con un 95\% de nivel de confianza el rango en el que se encuentra la magnitud promedio verdadera de los sismos para cada región.
+
+\subsection{Intervalo de confianza para la varianza}
+
+\noindent
+Se utiliza la distribución chi-cuadrada ($\chi^2$) para estimar el intervalo de confianza de la varianza poblacional \cite{climenthernandez2022probabilidad}:
+
+\begin{equation}
+IC(\sigma^2) = \sigma^2 \in \left(\frac{(n-1)s_x^2}{\chi^2_{1-\frac{\alpha}{2}}(n-1)}, \frac{(n-1)s_x^2}{\chi^2_{\frac{\alpha}{2}}(n-1)}\right)
+\end{equation}
+
+\noindent
+donde $\sigma^2$ es la varianza, $\chi^2_{1-\frac{\alpha}{2}}$ y $\chi^2_{\frac{\alpha}{2}}$ son los valores críticos de la distribución chi-cuadrado con $n-1$ grados de libertad para los percentiles $1-\frac{\alpha}{2}$ y $\frac{\alpha}{2}$, respectivamente. Este intervalo permite cuantificar la incertidumbre en la estimación de la variabilidad de las magnitudes sísmicas en cada región de estudio.
+
+\subsection{Intervalo de confianza para la proporción}
+
+\noindent
+Se utiliza la aproximación normal para estimar el intervalo de confianza de una proporción poblacional:
+
+\begin{equation}
+IC(\pi) = \pi \in \left(p - z_{1-\frac{\alpha}{2}}\sqrt{\frac{p(1-p)}{n}}, p + z_{1-\frac{\alpha}{2}}\sqrt{\frac{p(1-p)}{n}}\right)
+\end{equation}
+
+\noindent
+donde $\pi$ es la proporción, $p$ es la proporción muestral, $z_{1-\frac{\alpha}{2}}$ es el valor crítico de la distribución estándar. Este intervalo es útil para estimar la proporción de sismos que exceden un umbral crítico de magnitud definida en 6.5°, la cual permite realizar evaluaciones más certeras del riesgo sísmico.
+
+\textbf{Fase 7 – Estimación del tamaño mínimo de la muestra.} Se determina el tamaño mínimo de la muestra para la media ($\mu$), con un error máximo tolerado $\varepsilon$ y un nivel de confianza del 95\%:
+
+\begin{equation}
+n \geq \left\lceil\left(\frac{s_X t_{1-\frac{\alpha}{2}}(n-1)}{\varepsilon}\right)^2\right\rceil
+\end{equation}
+
+\noindent
+donde $n$ es el tamaño de la muestra (número total de sismos), $s_X$ es la desviación estándar, $t_{1-\frac{\alpha}{2}}(n-1)$ es el valor crítico de la distribución $t$ de Student, $\varepsilon$ es el error máximo tolerado, $\lceil \cdot \rceil$ indica que es una función techo (se redondea hacia arriba al entero más cercano). Este cálculo permite determinar si el tamaño de muestra es suficiente para alcanzar una precisión deseada en la estimación de los parámetros.
+
+\textbf{Fase 8 – Prueba de hipótesis.} Se aplican pruebas de hipótesis para comparar estadísticamente las características sísmicas entre las diferentes regiones. Estas pruebas permiten tomar decisiones basadas en evidencia estadística sobre si existen diferencias significativas entre poblaciones \cite{shreffler2025hypothesis}.
+
+En todas las pruebas se utiliza un nivel de significancia de $\alpha = 0.05$, lo que implica una probabilidad del 5\% de rechazar incorrectamente la hipótesis nula (error tipo I).
+
+\subsection{Prueba de hipótesis para el cociente de varianzas (prueba F)}
+
+\noindent
+La prueba de hipótesis para el cociente de varianzas permite determinar si dos poblaciones tienen la misma varianza. Se utiliza antes de realizar pruebas de comparación de medias para decidir si se pueden asumir varianzas iguales.
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0: & \quad \sigma_1^2 = \sigma_2^2 \\
+H_1: & \quad \sigma_1^2 \neq \sigma_2^2
+\end{align*}
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+F = \frac{s_1^2}{s_2^2} \sim F(n_1-1, n_2-1)
+\end{equation}
+
+\noindent
+donde $s_1^2$ y $s_2^2$ son las varianzas muestrales de las dos poblaciones y la distribución F tiene $n-1$ grados de libertad. Se rechaza $H_0$ si $F > F_{1-\frac{\alpha}{2}}(n_1-1, n_2-1)$ o si $F < F_{\frac{\alpha}{2}}(n_1-1, n_2-1)$, donde estos valores son los percentiles críticos de la distribución F. Este cálculo permite determinar si la variabilidad sísmica difiere entre las distintas regiones de estudio.
+
+\subsection{Prueba de hipótesis para diferencia de medias con varianzas iguales (pooled)}
+
+\noindent
+Cuando la prueba F indica que las varianzas son iguales, se utiliza la prueba t para la diferencia de medias con varianzas iguales (pooled):
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0: & \quad \bar{x}_1 = \bar{x}_2 \\
+H_1: & \quad \bar{x}_1 \neq \bar{x}_2
+\end{align*}
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\left(\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2}\right)\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}} \sim t(n_1+n_2-2)
+\end{equation}
+
+\noindent
+donde en el denominador se encuentra la varianza agrupada (pooled), que combina la información de ambas muestras para obtener una mejor estimación de la varianza común. Se rechaza $H_0$ si $|t| > t_{1-\frac{\alpha}{2}}(n_1+n_2-2)$. Este cálculo permite determinar si la magnitud promedio de sismos difiere significativamente entre dos regiones.
+
+\subsection{Prueba de hipótesis para diferencia de medias con varianzas diferentes (Welch)}
+
+\noindent
+Cuando las varianzas son significativamente diferentes, se utiliza la prueba de hipótesis para la diferencia de medias con varianzas diferentes de Welch:
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0: & \quad \bar{x}_1 = \bar{x}_2 \\
+H_1: & \quad \bar{x}_1 \neq \bar{x}_2
+\end{align*}
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} \sim t(\nu)
+\end{equation}
+
+\textbf{Grados de libertad:}
+\begin{equation}
+\nu = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{\left(\frac{s_1^2}{n_1}\right)^2}{n_1-1} + \frac{\left(\frac{s_2^2}{n_2}\right)^2}{n_2-1}}
+\end{equation}
+
+\noindent
+donde esta prueba es más robusta que la prueba t estándar cuando las varianzas poblacionales son diferentes.
+
+\subsection{Prueba de hipótesis para la diferencia de proporciones con proporciones agrupadas o iguales (pooled)}
+
+\noindent
+Esta prueba se utiliza para comparar la proporción de sismos que exceden un umbral crítico entre dos regiones:
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0: & \quad p_1 = p_2 \\
+H_1: & \quad p_1 \neq p_2
+\end{align*}
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+z = \frac{p_1 - p_2}{\sqrt{p(1-p)\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}} \sim z
+\end{equation}
+
+\textbf{Proporción agrupada:}
+\begin{equation}
+p = \frac{x_1 + x_2}{n_1 + n_2}
+\end{equation}
+
+\noindent
+siendo $x_1$ y $x_2$ el número de éxitos en cada muestra. Se rechaza $H_0$ si $|z| > z_{1-\frac{\alpha}{2}} = 1.96$ para $\alpha = 0.05$.
+
+\subsection{Prueba de hipótesis para la diferencia de proporciones sin agrupamiento o diferentes}
+
+\noindent
+Cuando no se asumen proporciones iguales bajo la hipótesis nula, se utiliza:
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0: & \quad p_1 = p_2 \\
+H_1: & \quad p_1 \neq p_2
+\end{align*}
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+z = \frac{p_1 - p_2}{\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}} \sim z
+\end{equation}
+
+\noindent
+donde en esta prueba no se asume que las proporciones son iguales bajo $H_0$, lo que la hace más conservadora y apropiada cuando las proporciones muestrales son muy diferentes.
+
+\textbf{Fase 9 – Validación estadística del modelo probabilístico.} Implementación de pruebas de bondad de ajuste a distintas distribuciones para determinar qué distribución probabilística se ajusta mejor a los datos de magnitudes sísmicas. También, aplicación de Criterio de Información Bayesiano (BIC) para la selección de modelos.
+
+\subsection{Prueba de bondad de ajuste Kolmogorov-Smirnov}
+
+\noindent
+La prueba de Kolmogorov-Smirnov evalúa si una muestra proviene de una distribución teórica específica comparando la función de distribución empírica con la teórica:
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0 &= X \sim F(x; \theta) \\
+H_1 &= X \not\sim F(x; \theta)
+\end{align*}
+
+\noindent
+donde $F(x; \theta)$ es la distribución teórica propuesta con parámetros $\theta$.
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+D = \max_x |F_n(x) - F(x)|
+\end{equation}
+
+\noindent
+donde $F_n(x)$ es la función de distribución empírica, $F(x)$ es la función de distribución teórica. El estadístico $D$ mide la máxima discrepancia vertical entre las funciones de distribución. Se rechaza $H_0$ si el valor $p < \alpha$.
+
+\subsection{Prueba de bondad de ajuste Anderson-Darling}
+
+\noindent
+La prueba de Anderson-Darling es más sensible a discrepancias en las colas de la distribución que la prueba de Kolmogorov-Smirnov:
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0 &= X \sim F(x; \theta) \\
+H_1 &= X \not\sim F(x; \theta)
+\end{align*}
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+A^2 = -n - \frac{1}{n}\sum_{i=1}^{n}\left[(2i-1)\left(\ln F(x_i) + \ln(1-F(x_{n+1-i}))\right)\right]
+\end{equation}
+
+\noindent
+donde los datos $x_1, x_2, \ldots, x_n$ están ordenados de menor a mayor. La ponderación $(2i-1)$ da mayor peso a las observaciones en las colas, haciendo la prueba más sensible a desviaciones en valores extremos, lo cual es muy importante para el análisis de sismos fuertes. Se rechaza $H_0$ si $A^2 > A^2_{\text{crítico}}(\alpha)$, donde el valor crítico depende de la distribución teórica específica.
+
+\subsection{Prueba de bondad de ajuste Lilliefors}
+
+\noindent
+La prueba de bondad de ajuste de Lilliefors es una modificación de la prueba de Kolmogorov-Smirnov para el caso en que los parámetros de la distribución se estiman a partir de los datos:
+
+\textbf{Hipótesis:}
+\begin{align*}
+H_0 &= X \sim F(x; \theta) \\
+H_1 &= X \not\sim F(x; \theta)
+\end{align*}
+
+\textbf{Estadístico de prueba:}
+\begin{equation}
+D = \max_x |F_n(x) - F(x; \hat{\mu}, \hat{\sigma})|
+\end{equation}
+
+\noindent
+donde $\hat{\mu}$ y $\hat{\sigma}$ son estimadores de los parámetros calculados a partir de la muestra. Cuando los parámetros se estiman de los datos, la distribución del estadístico $D$ difiere de la distribución de Kolmogorov-Smirnov estándar, requiriendo valores críticos específicos de Lilliefors. Esta prueba es útil para probar normalidad cuando la media y desviación estándar se estiman de los datos \cite{rpubs2024pruebas}.
+
+\subsection{Criterio de Información Bayesiano}
+
+\noindent
+El Criterio de Información Bayesiano (BIC) permite comparar múltiples modelos y seleccionar el que mejor equilibra bondad de ajuste y parsimonia:
+
+\begin{equation}
+\text{BIC} = -2 \cdot \ln(\hat{L}) + k \cdot \ln(n)
+\end{equation}
+
+\noindent
+donde $\hat{L}$ es la verosimilitud máxima del modelo, $k$ es el número de parámetros del modelo, $n$ es el tamaño de la muestra. Se prefiere el modelo con menor BIC. BIC penaliza más fuertemente la complejidad del modelo, favoreciendo modelos más simples cuando el tamaño de muestra es grande.
+
+\textbf{Fase 10 – Cálculo de probabilidades de ocurrencia de sismos.} En esta fase se realiza la inferencia probabilista que rige a este proyecto, se hace el cálculo de los periodos de retorno, probabilidades de excedencia e intervalos de confianza.
+
+\subsection{Teoría de valores extremos y distribuciones empleadas}
+
+\noindent
+La teoría de valores extremos \cite{coles2001introduction} proporciona el marco teórico para modelar eventos raros de gran magnitud. Según el teorema de Fisher-Tippett, las distribuciones asintóticas de máximos (o mínimos) convergen a una de tres familias de distribuciones:
+
+\begin{itemize}
+    \item \textbf{Gumbel (Tipo I):} Para distribuciones con cola exponencial
+    \item \textbf{Fréchet (Tipo II):} Para distribuciones con cola pesada
+    \item \textbf{Weibull (Tipo III):} Para distribuciones con cola limitada
+\end{itemize}
+
+\noindent
+Estas tres familias se unifican en la distribución generalizada de valores extremos (GEV).
+
+\subsubsection{Distribución de Gumbel}
+
+\noindent
+La distribución de Gumbel se utiliza cuando los datos extremos provienen de una distribución con decaimiento exponencial en la cola.
+
+\textbf{Función de densidad:}
+\begin{equation}
+f(x; \mu, \sigma) = \frac{1}{\sigma}\exp\left(-\frac{x-\mu}{\sigma}\right)\exp\left(-\exp\left(-\frac{x-\mu}{\sigma}\right)\right)
+\end{equation}
+
+\textbf{Función de distribución acumulada:}
+\begin{equation}
+F(x; \mu, \sigma) = \exp\left(-\exp\left(-\frac{x-\mu}{\sigma}\right)\right)
+\end{equation}
+
+\noindent
+donde $\mu$ es el parámetro de localización, $\sigma > 0$ es el parámetro de escala, $x \in (-\infty, +\infty)$. Esta distribución se utiliza para el estado de Oaxaca, donde los datos extremos muestran comportamiento de tipo Gumbel según los resultados obtenidos por las pruebas de bondad de ajuste.
+
+\subsubsection{Distribución de Weibull}
+
+\noindent
+La distribución de Weibull se emplea cuando existe un límite superior para los valores extremos:
+
+\textbf{Función de densidad:}
+\begin{equation}
+f(x; k, \lambda) = \frac{k}{\lambda}\left(\frac{x}{\lambda}\right)^{k-1}\exp\left(-\left(\frac{x}{\lambda}\right)^k\right)
+\end{equation}
+
+\textbf{Función de distribución acumulada:}
+\begin{equation}
+F(x; k, \lambda) = 1 - \exp\left(-\left(\frac{x}{\lambda}\right)^k\right)
+\end{equation}
+
+\noindent
+donde $k > 0$ es el parámetro de forma, $\lambda > 0$ es el parámetro de escala y $x \geq 0$. Los resultados indican que si $k < 1$ hay tasa de falla decreciente, si $k = 1$ la tasa de falla es constante (equivale a distribución exponencial) y si $k > 1$ la tasa de falla es creciente. Esta distribución se utiliza para los estados de Guerrero y Chiapas, donde los datos muestran mejor ajuste a la distribución Weibull.
+
+\subsubsection{Distribución generalizada de valores extremos}
+
+\noindent
+La distribución GEV unifica las tres familias de valores extremos mediante un parámetro de forma:
+
+\textbf{Función de distribución acumulada:}
+\begin{equation}
+F(x; \mu, \sigma, \xi) = \begin{cases}
+\exp\left\{-\left[1 + \xi\left(\frac{x-\mu}{\sigma}\right)\right]^{-1/\xi}\right\} & \text{si } \xi \neq 0 \\
+\exp\left\{-\exp\left[-\frac{x-\mu}{\sigma}\right]\right\} & \text{si } \xi = 0
+\end{cases}
+\end{equation}
+
+\noindent
+donde $\mu$ es el parámetro de localización, $\sigma > 0$ es el parámetro de escala y $\xi$ es el parámetro de forma que determina el tipo de distribución, que puede ser si $\xi = 0$ Gumbel, $\xi > 0$ Fréchet (cola pesada) y si $\xi < 0$ Weibull (cola acortada). Esta distribución se utiliza para el estado de Michoacán donde la distribución GEV proporciona el mejor ajuste según las pruebas de bondad realizadas.
+
+\subsubsection{Estimación de parámetros}
+
+\noindent
+Los parámetros de las distribuciones se estiman mediante el método de máxima verosimilitud \cite{fisher1922mathematical}, que consiste en encontrar los valores de los parámetros que maximizan la función de verosimilitud:
+
+\begin{equation}
+L(\theta; x_1, \ldots, x_n) = \prod_{i=1}^{n} f(x_i; \theta)
+\end{equation}
+
+\noindent
+En la práctica, se maximiza la log-verosimilitud:
+
+\begin{equation}
+\ell(\theta) = \sum_{i=1}^{n} \ln f(x_i; \theta)
+\end{equation}
+
+\subsection{Periodos de retorno}
+
+\noindent
+El periodo de retorno $T$ es el tiempo esperado entre eventos que exceden una magnitud específica $x$ \cite{coles2001introduction}:
+
+\begin{equation}
+T(x) = \frac{1}{1 - F(x)}
+\end{equation}
+
+\noindent
+donde $F(x)$ es la función de distribución acumulada de la magnitud máxima anual. Aquí, por ejemplo, un periodo de retorno $T = 50$ años para una magnitud $M = 7.0°$ significaría que en promedio se esperaría un sismo de magnitud $\geq 7.0°$ una vez cada 50 años.
+
+Cabe aclarar para lo establecido en el párrafo anterior que el periodo de retorno es un promedio de largo plazo, no significa que después de un evento de periodo de 50 años el siguiente evento ocurriría después de otros 50 años. La ocurrencia sísmica tiene naturaleza estocástica.
+
+\subsubsection{Niveles de retorno}
+
+\noindent
+El nivel de retorno $x_T$ es la magnitud asociada a un periodo de retorno $T$ específico. Se obtiene invirtiendo la relación:
+
+\begin{equation}
+x_T = F^{-1}\left(1 - \frac{1}{T}\right)
+\end{equation}
+
+\textbf{Cálculo según cada distribución:}
+
+\textbf{Gumbel:}
+\begin{equation}
+x_T = \mu - \sigma\ln\left(-\ln\left(1 - \frac{1}{T}\right)\right)
+\end{equation}
+
+\textbf{Weibull:}
+\begin{equation}
+x_T = \lambda\left(-\ln\left(1 - \frac{1}{T}\right)\right)^{1/k}
+\end{equation}
+
+\textbf{GEV:}
+\begin{equation}
+x_T = \begin{cases}
+\mu + \frac{\sigma}{\xi}\left[\left(-\ln\left(1-\frac{1}{T}\right)\right)^{-\xi} - 1\right] & \text{si } \xi \neq 0 \\
+\mu - \sigma\ln\left[-\ln\left(1-\frac{1}{T}\right)\right] & \text{si } \xi = 0
+\end{cases}
+\end{equation}
+
+\noindent
+Obtener el cálculo de los niveles de retorno para $T \in \{10, 20, 50, 100\}$ años, proporcionando estimaciones de las magnitudes esperadas en diferentes horizontes temporales.
+
+\subsection{Probabilidades de excedencia}
+
+\noindent
+La probabilidad de que al menos un evento de magnitud $\geq M$ ocurra en los próximos $\Delta t$ años se calcula como \cite{serinaldi2021understanding}:
+
+\begin{equation}
+P(\text{excedencia en } \Delta t \text{ años}) = 1 - [F(M)]^{\Delta t}
+\end{equation}
+
+\noindent
+donde $F(M)$ es la probabilidad de que la magnitud máxima anual no exceda $M$ en un año, $[F(M)]^{\Delta t}$ es la probabilidad de no exceder $M$ en $\Delta t$ años consecutivos (suponiendo independencia entre años) y $1 - [F(M)]^{\Delta t}$ es la probabilidad de exceder $M$ al menos una vez en $\Delta t$ años.
+
+Si el periodo de retorno de un evento es $T$, entonces la probabilidad de excedencia en $n$ años es aproximadamente:
+
+\begin{equation}
+P \approx 1 - \exp\left(-\frac{n}{T}\right)
+\end{equation}
+
+\noindent
+donde esta aproximación será válida cuando $n/T$ es pequeño.
+
+\subsection{Intervalos de confianza mediante bootstrap paramétrico}
+
+\noindent
+Dado que las estimaciones puntuales de periodos de retorno y probabilidades tienen incertidumbre asociada, se utiliza bootstrap paramétrico para cuantificar esta incertidumbre mediante intervalos de confianza \cite{papalexiou2020random,rootzen2021efficient}:
+
+\textbf{Algoritmo de bootstrap paramétrico:}
+
+\begin{enumerate}
+    \item \textbf{Ajustar el modelo:} se estiman los parámetros $\hat{\theta}$ de la distribución (Gumbel, Weibull o GEV) a partir de los datos originales de magnitudes máximas anuales.
+    \item \textbf{Generar muestras bootstrap (repetir $B = 10{,}000$ veces):}
+    \begin{itemize}
+        \item Generar una muestra sintética de tamaño $n$ de la distribución ajustada $F(x; \hat{\theta})$
+        \item Estimar los parámetros $\hat{\theta}_b^*$ de esta muestra bootstrap
+        \item Calcular los niveles de retorno $x_T^{*b}$ para los periodos deseados ($T=10, 20, 50, 100$ años)
+    \end{itemize}
+    \item \textbf{Construir intervalos de confianza,} para cada periodo de retorno $T$, calcular:
+    \begin{itemize}
+        \item Límite inferior: percentil 2.5\% de $\{x_T^{*1}, x_T^{*2}, \ldots, x_T^{*B}\}$
+        \item Estimación central: mediana de $\{x_T^{*1}, x_T^{*2}, \ldots, x_T^{*B}\}$
+        \item Límite superior: percentil 97.5\% de $\{x_T^{*1}, x_T^{*2}, \ldots, x_T^{*B}\}$
+    \end{itemize}
+\end{enumerate}
+
+\noindent
+donde existe un 95\% de probabilidad de que el verdadero nivel de retorno esté contenido en el intervalo calculado.
+
+\subsection{Análisis temporal y tiempo desde el último evento}
+
+\noindent
+Para evaluar la proximidad a un posible evento futuro, se analiza el tiempo transcurrido desde el último sismo fuerte en cada región \cite{ramirezgaytan2021earthquake,sanchezsilva2020real}:
+
+\subsubsection{Índice de proximidad temporal}
+
+\noindent
+Se define el índice de proximidad temporal como:
+
+\begin{equation}
+\text{IPT} = \frac{t_{\text{transcurrido}}}{t_{\text{medio}}}
+\end{equation}
+
+\noindent
+donde $t_{\text{transcurrido}}$ es el tiempo (en años) desde el último sismo fuerte en la región y $t_{\text{medio}}$ es el tiempo medio de recurrencia calculado como la media de los intervalos entre eventos históricos. El resultado indicaría que si $\text{IPT} < 0.5$ es una fase temprana del ciclo sísmico, si está en el intervalo $0.5 \leq \text{IPT} < 0.8$ indica que se está en una fase intermedia del ciclo sísmico, si $\text{IPT} \geq 0.8$ hay proximidad al tiempo medio y si $\text{IPT} > 1.0$ se excede el tiempo medio del ciclo sísmico lo cual indicaría que la zona se encuentra en riesgo sísmico constante.
+
+\subsubsection{Coeficiente de variación del tiempo de recurrencia}
+
+\noindent
+El coeficiente de variación (CV) cuantifica la regularidad de la recurrencia sísmica \cite{serinaldi2021understanding}:
+
+\begin{equation}
+\text{CV} = \frac{\sigma_{\text{recurrencia}}}{\mu_{\text{recurrencia}}}
+\end{equation}
+
+\noindent
+donde $\sigma_{\text{recurrencia}}$ es la desviación estándar de los intervalos entre eventos y $\mu_{\text{recurrencia}}$ es la media de los intervalos entre eventos. El resultado indicaría que si $\text{CV} < 0.5$ existe una recurrencia sísmica bastante regular, si $0.5 \leq \text{CV} < 1.0$ existe una recurrencia moderadamente variable y si $\text{CV} \geq 1.0$ la recurrencia es altamente variable (es cercana a un proceso de Poisson). Estos resultados indicarían que si CV es bajo un modelo de renovación (que considera el tiempo transcurrido) es más apropiado que un modelo de Poisson (que asume eventos independientes).
+
+\subsection{Índice de peligrosidad sísmica regional}
+
+\noindent
+Se construye un índice compuesto que integra múltiples factores para comparar el nivel de peligrosidad entre regiones \cite{convertito2020combining,zuniga2022first}:
+
+\begin{equation}
+\text{IPS} = w_1 \cdot \frac{x_{50}}{x_{50,\max}} + w_2 \cdot \frac{P_{M\geq 7,10\text{años}}}{P_{\max}} + w_3 \cdot \text{IPT} + w_4 \cdot \frac{\mu}{\mu_{\max}}
+\end{equation}
+
+\noindent
+donde $x_{50}$ es el nivel de retorno a 50 años, $P_{M\geq 7,10\text{años}}$ es la probabilidad de exceder $M=7.0$ en 10 años, IPT es el índice de proximidad temporal, $\mu$ es la magnitud promedio histórica, los términos se normalizan dividiendo por el máximo observado entre todas las regiones, $w_1, w_2, w_3, w_4$ son pesos que suman 1 (por defecto 0.3, 0.3, 0.2, 0.2). El resultado indicaría que si el índice se encuentra entre $0.0 \leq \text{IPS} < 0.3$ hay peligrosidad baja, si está entre $0.3 \leq \text{IPS} < 0.6$ la peligrosidad sísmica es media, si está entre $0.6 \leq \text{IPS} < 0.8$ hay peligrosidad alta y si está entre $0.8 \leq \text{IPS} \leq 1.0$ la peligrosidad es muy alta. Este índice permite realizar comparaciones entre regiones considerando múltiples dimensiones del riesgo sísmico.
