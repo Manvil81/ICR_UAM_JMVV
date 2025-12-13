@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  12 DEC 2025 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  12 DEC 2025 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1913,21 +1913,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+<./Imagenes/histogramas_densidad_totales.png, id=874, 1757.3655pt x 1303.269pt>
 
-LaTeX Warning: File `histogramas_densidad_totales.png' not found on input line 
-52.
-
-
-! Package pdftex.def Error: File `histogramas_densidad_totales.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...xtwidth]{histogramas_densidad_totales.png}
-                                                  
-? 
+File: ./Imagenes/histogramas_densidad_totales.png Graphic file (type png)
+<use ./Imagenes/histogramas_densidad_totales.png>
+Package pdftex.def Info: ./Imagenes/histogramas_densidad_totales.png  used on i
+nput line 52.
+(pdftex.def)             Requested size: 466.34068pt x 345.84192pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1950,8 +1942,8 @@ as been already used, duplicate ignored
 l.56 
      ]
 
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1964,9 +1956,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.64 \item M
-            ichoacán: presenta la mayor densidad de sismos en la escala de ...
-]
+l.69 
+      <./Imagenes/histogramas_densidad_totales.png>]
 
 LaTeX Warning: File `histogramas_densidad_maximas.png' not found on input line 
 77.
@@ -5111,10 +5102,10 @@ Package rerunfilecheck Info: File `ICR.out' has not changed.
 (rerunfilecheck)             Checksum: F465DDD668CD5F9CDA1A710AD2BE79A5;20694.
  ) 
 Here is how much of TeX's memory you used:
- 30688 strings out of 468133
- 590501 string characters out of 5440786
- 1064700 words of memory out of 5000000
- 58315 multiletter control sequences out of 15000+600000
+ 30667 strings out of 468133
+ 589662 string characters out of 5440786
+ 1063700 words of memory out of 5000000
+ 58294 multiletter control sequences out of 15000+600000
  697559 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,13n,119p,2341b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5129,9 +5120,9 @@ Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/f
 onts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/u
 tmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program
  Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (107 pages, 895805 bytes).
+Output written on ICR.pdf (107 pages, 1147176 bytes).
 PDF statistics:
- 1216 PDF objects out of 1440 (max. 8388607)
+ 1218 PDF objects out of 1440 (max. 8388607)
  306 named destinations out of 1000 (max. 500000)
- 723 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 728 words of extra memory for PDF output out of 10000 (max. 10000000)
 
