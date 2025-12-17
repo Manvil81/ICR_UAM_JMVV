@@ -250,6 +250,12 @@
 \renewcommand{\thetable}{\arabic{table}}
 \renewcommand{\thefigure}{\arabic{figure}}
 
+%% Esta parte evita que se reinicien los contadores de Tabla y Figura en cada capítulo
+\makeatletter
+\@removefromreset{table}{chapter}
+\@removefromreset{figure}{chapter}
+\makeatother
+
 %% Configuración del estilo de página
 \pagestyle{fancy}
 
