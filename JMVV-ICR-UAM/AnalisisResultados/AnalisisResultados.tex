@@ -15,29 +15,35 @@ El análisis de los archivos individuales de sismos y todos los cálculos relaci
 
 Para esta parte se ejecutaron todos los cálculos descritos en la Fase 4 de la metodología realizando la implementación en RStudio, se obtuvo la tabla 2 con los resultados del análisis para las 6 regiones y para los 2 datasets (totales y magnitudes máximas).
 
-\begin{table}[H]
+\footnotesize
 \centering
-\caption{Estadísticos descriptivos consolidados.}
-\begin{tabular}{lcccccccccc}
+
+\begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2cm}|* {9}{>{\centering\arraybackslash}X|} >{\centering\arraybackslash}p{1cm}|}
+\caption{Estadísticos descriptivos consolidados.} \label{tab:estadisticos_consolidados} \\
 \hline
-& \textbf{Mínimo} & \textbf{Máximo} & \textbf{Media} & \textbf{Mediana} & \textbf{Moda} & \textbf{Desviación} & \textbf{Varianza} & \textbf{Asimetría} & \textbf{Curtosis} & \textbf{Sismos\_totales} \\
+\rowcolor{gray!60}
+\textbf{Región} & \textbf{Min} & \textbf{Max} & \textbf{Media} & \textbf{Mediana} & \textbf{Moda} & \textbf{Desv.} & \textbf{Var.} & \textbf{Asim.} & \textbf{Curt.} & \textbf{Totales} \\
 \hline
-Oaxaca & 5.0 & 7.8 & 5.445 & 5.20 & 5.0 & 0.618 & 0.382 & 1.935 & 6.092 & 335 \\
-Oax Max & 5.0 & 7.8 & 6.222 & 6.00 & 6.9 & 0.787 & 0.619 & 0.230 & 1.811 & 64 \\
-Guerrero & 5.0 & 7.8 & 5.573 & 5.30 & 5.0 & 0.695 & 0.483 & 1.390 & 3.854 & 256 \\
-Gro Max & 5.0 & 7.8 & 6.289 & 6.50 & 6.6 & 0.794 & 0.631 & 0.028 & 1.773 & 70 \\
-Michoacán & 5.0 & 8.1 & 5.610 & 5.30 & 5.0 & 0.797 & 0.636 & 1.479 & 4.024 & 90 \\
-Mich Max & 5.0 & 8.1 & 5.888 & 5.45 & 5.0 & 0.920 & 0.847 & 0.860 & 2.363 & 50 \\
-Chiapas & 5.0 & 8.2 & 5.395 & 5.20 & 5.0 & 0.559 & 0.313 & 2.114 & 7.373 & 629 \\
-Chia Max & 5.1 & 8.2 & 6.442 & 6.50 & 5.6 & 0.739 & 0.547 & 0.005 & 2.221 & 73 \\
-Resto Nacionales & 5.0 & 8.2 & 5.568 & 5.30 & 5.0 & 0.612 & 0.375 & 1.401 & 4.376 & 545 \\
-Resto Max & 5.3 & 8.2 & 6.517 & 6.50 & 6.5 & 0.579 & 0.335 & 0.023 & 3.176 & 87 \\
-Nacional & 5.0 & 8.2 & 5.490 & 5.20 & 5.0 & 0.623 & 0.389 & 1.715 & 5.340 & 1855 \\
-SN Max & 5.6 & 8.2 & 7.007 & 7.00 & 7.0 & 0.506 & 0.256 & -0.050 & 2.946 & 110 \\
-\hline
-\end{tabular}
-\label{tab:estadisticos_descriptivos}
-\end{table}
+
+\rowcolor{gray!20}
+Oaxaca & 5.0 & 7.8 & 5.445 & 5.20 & 5.0 & 0.618 & 0.382 & 1.935 & 6.092 & 335 \\ \hline
+Oax Max & 5.0 & 7.8 & 6.222 & 6.00 & 6.9 & 0.787 & 0.619 & 0.230 & 1.811 & 64 \\ \hline
+\rowcolor{gray!20}
+Guerrero & 5.0 & 7.8 & 5.573 & 5.30 & 5.0 & 0.695 & 0.483 & 1.390 & 3.854 & 256 \\ \hline
+Gro Max & 5.0 & 7.8 & 6.289 & 6.50 & 6.6 & 0.794 & 0.631 & 0.028 & 1.773 & 70 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 5.0 & 8.1 & 5.610 & 5.30 & 5.0 & 0.797 & 0.636 & 1.479 & 4.024 & 90 \\ \hline
+Mich Max & 5.0 & 8.1 & 5.888 & 5.45 & 5.0 & 0.920 & 0.847 & 0.860 & 2.363 & 50 \\ \hline
+\rowcolor{gray!20}
+Chiapas & 5.0 & 8.2 & 5.395 & 5.20 & 5.0 & 0.559 & 0.313 & 2.114 & 7.373 & 629 \\ \hline
+Chis Max & 5.1 & 8.2 & 6.442 & 6.50 & 5.6 & 0.739 & 0.547 & 0.005 & 2.221 & 73 \\ \hline
+\rowcolor{gray!20}
+Resto Nac. & 5.0 & 8.2 & 5.568 & 5.30 & 5.0 & 0.612 & 0.375 & 1.401 & 4.376 & 545 \\ \hline
+Resto Max & 5.3 & 8.2 & 6.517 & 6.50 & 6.5 & 0.579 & 0.335 & 0.033 & 3.176 & 87 \\ \hline
+\rowcolor{gray!20}
+Nacional & 5.0 & 8.2 & 5.490 & 5.20 & 5.0 & 0.623 & 0.389 & 1.715 & 5.340 & 1855 \\ \hline
+SN Max & 5.6 & 8.2 & 7.007 & 7.00 & 7.0 & 0.506 & 0.256 & -0.050 & 2.946 & 110 \\ \hline
+\end{tabularx}
 
 De la tabla anterior se puede visualizar que el comportamiento de los sismos para una misma región iguales o mayores a 5° cambia significativamente cuando se analizan todos los sismos a cuando se hace un análisis de sismos de magnitud máxima anual. En todas las regiones se aprecia un aumento de la media cuando se manejan los datos máximos, así como de la mediana. Para la moda hay estados como Michoacán que no presentan diferencias entre su moda para sismos totales y su moda para magnitudes máximas. Para la varianza y desviación estándar también se aprecia un aumento en los valores cuando se trata de magnitudes máximas, salvo para las regiones de Resto Nacionales y Sismos Nacionales, donde se aprecia una menor varianza. Para la asimetría se encuentra que todas las regiones muestran asimetría positiva, mostrando que en todas las regiones se presentan eventos sísmicos de moderados a fuertes, destacándose Chiapas para los sismos totales con una cola muy marcada hacia la derecha. La asimetría para las magnitudes máximas presenta resultados más pequeños indicando menor sesgo positivo, salvo por sismos nacionales que presenta un sesgo negativo indicando mayor cantidad de valores bajos respecto de la media. La curtosis indica para los sismos totales que hay una mayor concentración de valores entorno a la media ósea que son leptocúrticas. Para los valores máximos los resultados indican que Oaxaca, Guerrero y Michoacán presentan distribuciones platicúrticas, mientras que Chiapas, Resto Nacional y Sismos Nacionales presentan distribuciones muy cercanas a una normal.
 
@@ -188,22 +194,25 @@ La estimación de Intervalos de Confianza (IC) constituye una herramienta fundam
 
 Se presenta la tabla 3 con los IC para la media para sismos totales para las 6 regiones de estudio.
 
-\begin{table}[H]
+\small
+\begin{table}[h!]
 \centering
-\caption{IC para la media para sismos totales para las 6 regiones.}
-\begin{tabular}{lccc}
-\hline
-\textbf{Estado} & \textbf{Media\_Tot} & \textbf{LI\_95\_Tot} & \textbf{LS\_95\_Tot} \\
-\hline
-1 Oaxaca & 5.445075 & 5.378654 & 5.511495 \\
-2 Guerrero & 5.573437 & 5.487865 & 5.659010 \\
-3 Michoacán & 5.610000 & 5.443002 & 5.776998 \\
-4 Chiapas & 5.395072 & 5.351273 & 5.438870 \\
-5 Resto Nacionales & 5.567706 & 5.516171 & 5.619242 \\
-6 Nacionales & 5.489865 & 5.461474 & 5.518256 \\
-\hline
-\end{tabular}
+\caption{IC para la media para sismos totales para las 6 regiones.} 
 \label{tab:ic_media_totales}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Media\_Tot} & \textbf{LI\_95.\_Tot} & \textbf{LS\_95.\_Tot} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 5.445075 & 5.378654 & 5.511495 \\ \hline
+Guerrero & 5.573437 & 5.487865 & 5.659010 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 5.610000 & 5.443002 & 5.776998 \\ \hline
+Chiapas & 5.395072 & 5.351273 & 5.438870 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 5.567706 & 5.516171 & 5.619242 \\ \hline
+Nacionales & 5.489865 & 5.461474 & 5.518256 \\ \hline
+\end{tabular}
 \end{table}
 
 Ahora se presenta la figura 7 con los gráficos de los IC para la media para sismos totales para las 6 regiones de estudio.
@@ -217,22 +226,25 @@ Ahora se presenta la figura 7 con los gráficos de los IC para la media para sis
 
 A continuación, se presenta la tabla 4 con los IC para la media para magnitudes máximas para las 6 regiones de estudio.
 
-\begin{table}[H]
+\small
+\begin{table}[h!]
 \centering
-\caption{IC para la media para magnitudes máximas para las 6 regiones.}
-\begin{tabular}{lccc}
-\hline
-\textbf{Estado} & \textbf{Media\_Max} & \textbf{LI\_95\_Max} & \textbf{LS\_95\_Max} \\
-\hline
-1 Oaxaca & 6.221875 & 6.025316 & 6.418434 \\
-2 Guerrero & 6.288571 & 6.099182 & 6.477961 \\
-3 Michoacán & 5.888000 & 5.626478 & 6.149522 \\
-4 Chiapas & 6.442466 & 6.269962 & 6.614970 \\
-5 Resto Nacionales & 6.517241 & 6.393854 & 6.640629 \\
-6 Nacionales & 7.007273 & 6.911676 & 7.102870 \\
-\hline
-\end{tabular}
+\caption{IC para la media para magnitudes máximas para las 6 regiones.} 
 \label{tab:ic_media_maximas}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Media\_Max} & \textbf{LI\_95.\_Max} & \textbf{LS\_95.\_Max} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 6.221875 & 6.025316 & 6.418434 \\ \hline
+Guerrero & 6.288571 & 6.099182 & 6.477961 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 5.888000 & 5.626478 & 6.149522 \\ \hline
+Chiapas & 6.442466 & 6.269962 & 6.614970 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 6.517241 & 6.393854 & 6.640629 \\ \hline
+Nacionales & 7.007273 & 6.911676 & 7.102870 \\ \hline
+\end{tabular}
 \end{table}
 
 Ahora se presenta la figura 8 con los gráficos de los IC para la media para magnitudes máximas para las 6 regiones de estudio.
@@ -248,22 +260,25 @@ Ahora se presenta la figura 8 con los gráficos de los IC para la media para mag
 
 Se presenta la tabla 5 con los IC para la varianza para sismos totales para las 6 regiones de estudio.
 
-\begin{table}[H]
+\small
+\begin{table}[h!]
 \centering
-\caption{IC para la varianza para sismos totales para las 6 regiones.}
-\begin{tabular}{lccc}
-\hline
-\textbf{Estado} & \textbf{Varianza\_Tot} & \textbf{LI\_95\_Var\_Tot} & \textbf{LS\_95\_Var\_Tot} \\
-\hline
-1 Oaxaca & 0.3819442 & 0.3300430 & 0.4471985 \\
-2 Guerrero & 0.4833701 & 0.4093295 & 0.5796038 \\
-3 Michoacán & 0.6357416 & 0.4836434 & 0.8732530 \\
-4 Chiapas & 0.3128897 & 0.2809734 & 0.3506005 \\
-5 Resto Nacionales & 0.3751317 & 0.3342576 & 0.4240313 \\
-6 Nacionales & 0.3887214 & 0.3648633 & 0.4150106 \\
-\hline
-\end{tabular}
+\caption{Tabla 5. IC para la varianza para sismos totales para las 6 regiones.} 
 \label{tab:ic_varianza_totales}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Varianza\_Tot} & \textbf{LI\_95.\_Var\_Tot} & \textbf{LS\_95.\_Var\_Tot} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.3819442 & 0.3300430 & 0.4471985 \\ \hline
+Guerrero & 0.4833701 & 0.4093295 & 0.5796038 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.6357416 & 0.4836434 & 0.8732530 \\ \hline
+Chiapas & 0.3128897 & 0.2809734 & 0.3506005 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 0.3751317 & 0.3342576 & 0.4240313 \\ \hline
+Nacionales & 0.3887214 & 0.3648633 & 0.4150106 \\ \hline
+\end{tabular}
 \end{table}
 
 Ahora se presenta la figura 9 con los gráficos de los IC para la varianza para sismos totales para las 6 regiones de estudio.
@@ -277,22 +292,25 @@ Ahora se presenta la figura 9 con los gráficos de los IC para la varianza para 
 
 Se presenta la tabla 6 con los IC para la varianza para magnitudes máximas para las 6 regiones de estudio.
 
-\begin{table}[H]
+\small
+\begin{table}[h!]
 \centering
-\caption{IC para la varianza para magnitudes máximas para las 6 regiones.}
-\begin{tabular}{lccc}
-\hline
-\textbf{Estado} & \textbf{Varianza\_Max} & \textbf{LI\_95\_Var\_Max} & \textbf{LS\_95\_Var\_Max} \\
-\hline
-1 Oaxaca & 0.6191964 & 0.4492636 & 0.9082451 \\
-2 Guerrero & 0.6308820 & 0.4638024 & 0.9083280 \\
-3 Michoacán & 0.8467918 & 0.5908769 & 1.3149393 \\
-4 Chiapas & 0.5466438 & 0.4042848 & 0.7804875 \\
-5 Resto Nacionales & 0.3351644 & 0.2538596 & 0.4631230 \\
-6 Nacionales & 0.2559099 & 0.1995522 & 0.3401743 \\
-\hline
-\end{tabular}
+\caption{IC para la varianza para magnitudes máximas para las 6 regiones.} 
 \label{tab:ic_varianza_maximas}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Varianza\_Max} & \textbf{LI\_95.\_Var\_Max} & \textbf{LS\_95.\_Var\_Max} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.6191964 & 0.4492636 & 0.9082451 \\ \hline
+Guerrero & 0.6308820 & 0.4638024 & 0.9083280 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.8467918 & 0.5908769 & 1.3149393 \\ \hline
+Chiapas & 0.5466438 & 0.4042848 & 0.7804875 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 0.3351644 & 0.2538596 & 0.4631230 \\ \hline
+Nacionales & 0.2559099 & 0.1995522 & 0.3401743 \\ \hline
+\end{tabular}
 \end{table}
 
 Ahora se presenta la figura 10 con los gráficos de los IC para la varianza para sismos totales para las 6 regiones de estudio.
@@ -308,23 +326,23 @@ Ahora se presenta la figura 10 con los gráficos de los IC para la varianza para
 
 Para la estimación de los IC de proporción, se maneja un umbral crítico de 6.5° y se analizará que proporción de sismos superan ese umbral. Se presenta la tabla 7 con los IC para proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones de estudio.
 
-\begin{table}[H]
+\small
 \centering
-\caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.}
-\begin{tabular}{lcccccc}
+\begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+\caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.} \label{tab:ic_proporcion_totales} \\
 \hline
-\textbf{Estado} & \textbf{Proporcion\_Tot} & \textbf{Porcentaje\_Tot} & \textbf{LI\_95\_Prop\_Tot} & \textbf{LS\_95\_Prop\_Tot} & \textbf{LI\_95\_Porc\_Tot} & \textbf{LS\_95\_Porc\_Tot} \\
-\hline
-1 Oaxaca & 0.0896 & 8.96 & 0.0590 & 0.1202 & 5.90 & 12.02 \\
-2 Guerrero & 0.1445 & 14.45 & 0.1014 & 0.1876 & 10.14 & 18.76 \\
-3 Michoacán & 0.1667 & 16.67 & 0.0897 & 0.2437 & 8.97 & 24.37 \\
-4 Chiapas & 0.0700 & 7.00 & 0.0501 & 0.0899 & 5.01 & 8.99 \\
-5 Resto Nacionales & 0.1009 & 10.09 & 0.0756 & 0.1262 & 7.56 & 12.62 \\
-6 Nacional & 0.0976 & 9.76 & 0.0841 & 0.1111 & 8.41 & 11.11 \\
-\hline
-\end{tabular}
-\label{tab:ic_proporcion_totales}
-\end{table}
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Proporción} & \textbf{Porcentaje} & \textbf{L.I. Prop.} & \textbf{L.S. Prop.} & \textbf{L.I. \%} & \textbf{L.S. \%} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.0896 & 8.96 & 0.0590 & 0.1202 & 5.90 & 12.02 \\ \hline
+Guerrero & 0.1445 & 14.45 & 0.1014 & 0.1876 & 10.14 & 18.76 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.1667 & 16.67 & 0.0897 & 0.2437 & 8.97 & 24.37 \\ \hline
+Chiapas & 0.0700 & 7.00 & 0.0501 & 0.0899 & 5.01 & 8.99 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 0.1009 & 10.09 & 0.0756 & 0.1262 & 7.56 & 12.62 \\ \hline
+Nacional & 0.0976 & 9.76 & 0.0841 & 0.1111 & 8.41 & 11.11 \\ \hline
+\end{tabularx}
 
 Ahora se presenta la figura 11 con los gráficos de los IC para la proporción de sismos mayores al umbral crítico (6.5°) para sismos totales para las 6 regiones de estudio.
 
@@ -337,23 +355,23 @@ Ahora se presenta la figura 11 con los gráficos de los IC para la proporción d
 
 Se presenta la tabla 8 con los IC para proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones de estudio.
 
-\begin{table}[H]
+\small
 \centering
-\caption{IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.}
-\begin{tabular}{lcccccc}
+\begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+\caption{IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.} \label{tab:ic_proporcion_maximas} \\
 \hline
-\textbf{Estado} & \textbf{Proporcion\_Max} & \textbf{Porcentaje\_Max} & \textbf{LI\_95\_Prop\_Max} & \textbf{LS\_95\_Prop\_Max} & \textbf{LI\_95\_Porc\_Max} & \textbf{LS\_95\_Porc\_Max} \\
-\hline
-1 Oaxaca & 0.3750 & 37.50 & 0.2564 & 0.4936 & 25.64 & 49.36 \\
-2 Guerrero & 0.4429 & 44.29 & 0.3265 & 0.5593 & 32.65 & 55.93 \\
-3 Michoacán & 0.2800 & 28.00 & 0.1555 & 0.4045 & 15.55 & 40.45 \\
-4 Chiapas & 0.4932 & 49.32 & 0.3785 & 0.6079 & 37.85 & 60.79 \\
-5 Resto Nacionales & 0.4828 & 48.28 & 0.3778 & 0.5878 & 37.78 & 58.78 \\
-6 Nacional & 0.8182 & 81.82 & 0.7461 & 0.8903 & 74.61 & 89.03 \\
-\hline
-\end{tabular}
-\label{tab:ic_proporcion_maximas}
-\end{table}
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Proporción} & \textbf{Porcentaje} & \textbf{L.I. Prop.} & \textbf{L.S. Prop.} & \textbf{L.I. \%} & \textbf{L.S. \%} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.3750 & 37.50 & 0.2564 & 0.4936 & 25.64 & 49.36 \\ \hline
+Guerrero & 0.4429 & 44.29 & 0.3265 & 0.5593 & 32.65 & 55.93 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.2800 & 28.00 & 0.1555 & 0.4045 & 15.55 & 40.45 \\ \hline
+Chiapas & 0.4932 & 49.32 & 0.3785 & 0.6079 & 37.85 & 60.79 \\ \hline
+\rowcolor{gray!20}
+Resto Nac. & 0.4828 & 48.28 & 0.3778 & 0.5878 & 37.78 & 58.78 \\ \hline
+Nacional & 0.8182 & 81.82 & 0.7461 & 0.8903 & 74.61 & 89.03 \\ \hline
+\end{tabularx}
 
 Ahora se presenta la figura 12 con los gráficos de los IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones de estudio.
 
@@ -369,63 +387,71 @@ Una vez obtenidos los IC para las proporciones de sismos mayores al umbral crít
 
 En la tabla 9 se muestran los resultados de las comparaciones entre regiones de proporción de sismos mayores al umbral crítico para todos los sismos.
 
-\begin{table}[H]
-\centering
 \small
-\caption{Comparación entre todas las regiones de la proporción de sismos mayor al umbral crítico para sismos totales.}
-\begin{tabular}{lcccccccc}
+\centering
+\begin{tabularx}{15.9cm}{|c|c|* {5}{>{\centering\arraybackslash}X|}c|}
+\caption{Comparación entre todas las regiones de la proporción de sismos mayor al umbral crítico para sismos totales.} \label{tab:comparacion_proporciones_totales} \\
 \hline
-& \textbf{Estado\_1} & \textbf{Estado\_2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Diferencia} & \textbf{Z estadístico} & \textbf{P valor} & \textbf{Significativo} \\
-\hline
-1 & Oaxaca & Guerrero & 0.0896 & 0.1445 & -0.0549 & -2.037 & 0.0417 & Sí \\
-2 & Oaxaca & Michoacán & 0.0896 & 0.1667 & -0.0771 & -1.824 & 0.0682 & No \\
-3 & Oaxaca & Chiapas & 0.0896 & 0.0700 & 0.0196 & 1.052 & 0.2927 & No \\
-4 & Oaxaca & Resto Nacionales & 0.0896 & 0.1009 & -0.0113 & -0.558 & 0.5768 & No \\
-5 & Oaxaca & Nacional & 0.0896 & 0.0976 & -0.0080 & -0.469 & 0.6391 & No \\
-6 & Guerrero & Michoacán & 0.1445 & 0.1667 & -0.0222 & -0.493 & 0.6219 & No \\
-7 & Guerrero & Chiapas & 0.1445 & 0.0700 & 0.0745 & 3.077 & 0.0021 & Sí \\
-8 & Guerrero & Resto Nacionales & 0.1445 & 0.1009 & 0.0436 & 1.711 & 0.0871 & No \\
-9 & Guerrero & Nacional & 0.1445 & 0.0976 & 0.0469 & 2.036 & 0.0417 & Sí \\
-10 & Michoacán & Chiapas & 0.1667 & 0.0700 & 0.0967 & 2.383 & 0.0172 & Sí \\
-11 & Michoacán & Resto Nacionales & 0.1667 & 0.1009 & 0.0658 & 1.591 & 0.1116 & No \\
-12 & Michoacán & Nacional & 0.1667 & 0.0976 & 0.0691 & 1.732 & 0.0832 & No \\
-13 & Chiapas & Resto Nacionales & 0.0700 & 0.1009 & -0.0309 & -1.881 & 0.0600 & No \\
-14 & Chiapas & Nacional & 0.0700 & 0.0976 & -0.0276 & -2.246 & 0.0247 & Sí \\
-15 & Resto Nacionales & Nacional & 0.1009 & 0.0976 & 0.0033 & 0.226 & 0.8215 & No \\
-\hline
-\end{tabular}
-\label{tab:comparacion_proporciones_totales}
-\end{table}
+\rowcolor{gray!60}
+\textbf{Estado\_1} & \textbf{Estado\_2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Diferencia} & \textbf{Z\_estadístico} & \textbf{P\_valor} & \textbf{Sig.} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.0896 & 0.1445 & -0.0549 & -2.037 & 0.0417 & Sí \\ \hline
+Oaxaca & Michoacán & 0.0896 & 0.1667 & -0.0771 & -1.824 & 0.0682 & No \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.0896 & 0.0700 & 0.0196 & 1.052 & 0.2927 & No \\ \hline
+Oaxaca & Resto Nac. & 0.0896 & 0.1009 & -0.0113 & -0.558 & 0.5768 & No \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacional & 0.0896 & 0.0976 & -0.0080 & -0.469 & 0.6391 & No \\ \hline
+Guerrero & Michoacán & 0.1445 & 0.1667 & -0.0222 & -0.493 & 0.6219 & No \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.1445 & 0.0700 & 0.0745 & 3.077 & 0.0021 & Sí \\ \hline
+Guerrero & Resto Nac. & 0.1445 & 0.1009 & 0.0436 & 1.711 & 0.0871 & No \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacional & 0.1445 & 0.0976 & 0.0469 & 2.036 & 0.0417 & Sí \\ \hline
+Michoacán & Chiapas & 0.1667 & 0.0700 & 0.0967 & 2.383 & 0.0172 & Sí \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nac. & 0.1667 & 0.1009 & 0.0658 & 1.591 & 0.1116 & No \\ \hline
+Michoacán & Nacional & 0.1667 & 0.0976 & 0.0691 & 1.732 & 0.0832 & No \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nac. & 0.0700 & 0.1009 & -0.0309 & -1.881 & 0.0600 & No \\ \hline
+Chiapas & Nacional & 0.0700 & 0.0976 & -0.0276 & -2.246 & 0.0247 & Sí \\ \hline
+\rowcolor{gray!20}
+Resto Nac. & Nacional & 0.1009 & 0.0976 & 0.0033 & 0.226 & 0.8215 & No \\ \hline
+\end{tabularx}
 
 En la tabla 10 se muestran los resultados de las comparaciones entre regiones de proporción de sismos mayores al umbral crítico para magnitudes máximas.
 
-\begin{table}[H]
-\centering
 \small
-\caption{Comparación entre todas las regiones de la proporción de sismos mayor al umbral crítico para magnitudes máximas.}
-\begin{tabular}{lcccccccc}
+\centering
+\begin{tabularx}{15.9cm}{|c|c|* {5}{>{\centering\arraybackslash}X|}c|}
+\caption{Comparación entre todas las regiones de la proporción de sismos mayor al umbral crítico para magnitudes máximas.} \label{tab:comparacion_proporciones_maximas} \\
 \hline
-& \textbf{Estado\_1} & \textbf{Estado\_2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Diferencia} & \textbf{Z estadístico} & \textbf{P valor} & \textbf{Significativo} \\
-\hline
-1 & Oaxaca & Guerrero & 0.3750 & 0.4429 & -0.0679 & -0.801 & 0.4232 & No \\
-2 & Oaxaca & Michoacán & 0.3750 & 0.2800 & 0.0950 & 1.083 & 0.2788 & No \\
-3 & Oaxaca & Chiapas & 0.3750 & 0.4932 & -0.1182 & -1.404 & 0.1603 & No \\
-4 & Oaxaca & Resto Nacionales & 0.3750 & 0.4828 & -0.1078 & -1.334 & 0.1823 & No \\
-5 & Oaxaca & Nacional & 0.3750 & 0.8182 & -0.4432 & -6.259 & 0.0000 & Sí \\
-6 & Guerrero & Michoacán & 0.4429 & 0.2800 & 0.1629 & 1.874 & 0.0609 & No \\
-7 & Guerrero & Chiapas & 0.4429 & 0.4932 & -0.0503 & -0.603 & 0.5462 & No \\
-8 & Guerrero & Resto Nacionales & 0.4429 & 0.4828 & -0.0399 & -0.499 & 0.6178 & No \\
-9 & Guerrero & Nacional & 0.4429 & 0.8182 & -0.3753 & -5.374 & 0.0000 & Sí \\
-10 & Michoacán & Chiapas & 0.2800 & 0.4932 & -0.2132 & -2.469 & 0.0135 & Sí \\
-11 & Michoacán & Resto Nacionales & 0.2800 & 0.4828 & -0.2028 & -2.441 & 0.0146 & Sí \\
-12 & Michoacán & Nacional & 0.2800 & 0.8182 & -0.5382 & -7.335 & 0.0000 & Sí \\
-13 & Chiapas & Resto Nacionales & 0.4932 & 0.4828 & 0.0104 & 0.131 & 0.8957 & No \\
-14 & Chiapas & Nacional & 0.4932 & 0.8182 & -0.3250 & -4.703 & 0.0000 & Sí \\
-15 & Resto Nacionales & Nacional & 0.4828 & 0.8182 & -0.3354 & -5.162 & 0.0000 & Sí \\
-\hline
-\end{tabular}
-\label{tab:comparacion_proporciones_maximas}
-\end{table}
+\rowcolor{gray!60}
+\textbf{Estado\_1} & \textbf{Estado\_2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Diferencia} & \textbf{Z\_est.} & \textbf{P\_valor} & \textbf{Significativo} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.3750 & 0.4429 & -0.0679 & -0.801 & 0.4232 & No \\ \hline
+Oaxaca & Michoacán & 0.3750 & 0.2800 & 0.0950 & 1.083 & 0.2788 & No \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.3750 & 0.4932 & -0.1182 & -1.404 & 0.1603 & No \\ \hline
+Oaxaca & Resto Nac. & 0.3750 & 0.4828 & -0.1078 & -1.334 & 0.1823 & No \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacional & 0.3750 & 0.8182 & -0.4432 & -6.259 & 0.0000 & Sí \\ \hline
+Guerrero & Michoacán & 0.4429 & 0.2800 & 0.1629 & 1.874 & 0.0609 & No \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.4429 & 0.4932 & -0.0503 & -0.603 & 0.5462 & No \\ \hline
+Guerrero & Resto Nac. & 0.4429 & 0.4828 & -0.0399 & -0.499 & 0.6178 & No \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacional & 0.4429 & 0.8182 & -0.3753 & -5.374 & 0.0000 & Sí \\ \hline
+Michoacán & Chiapas & 0.2800 & 0.4932 & -0.2132 & -2.469 & 0.0135 & Sí \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nac. & 0.2800 & 0.4828 & -0.2028 & -2.441 & 0.0146 & Sí \\ \hline
+Michoacán & Nacional & 0.2800 & 0.8182 & -0.5382 & -7.335 & 0.0000 & Sí \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nac. & 0.4932 & 0.4828 & 0.0104 & 0.131 & 0.8957 & No \\ \hline
+Chiapas & Nacional & 0.4932 & 0.8182 & -0.3250 & -4.703 & 0.0000 & Sí \\ \hline
+\rowcolor{gray!20}
+Resto Nac. & Nacional & 0.4828 & 0.8182 & -0.3354 & -5.162 & 0.0000 & Sí \\ \hline
+\end{tabularx}
 
 Ahora la figura 12 presenta dos listas decrecientes con el ranking de estados con mayor proporción de sismos mayores al umbral, tanto para sismos totales y magnitudes máximas:
 
@@ -463,37 +489,43 @@ El tamaño mínimo de la muestra indica el número menor de observaciones necesa
 
 La tabla 11 muestra el tamaño mínimo de la muestra para las 6 regiones para sismos totales.
 
-\begin{table}[H]
+\small
 \centering
-\tiny
-\caption{Tamaño mínimo de la muestra para las 6 regiones para sismos totales.}
-\begin{tabular}{lcccccc}
+\begin{tabularx}{15.9cm}{|c|* {6}{>{\centering\arraybackslash}X|}}
+\caption{Tamaño mínimo de la muestra para las 6 regiones para sismos totales.} \label{tab:tamano_muestra_totales} \\
 \hline
-& \textbf{Oaxaca (n=335)} & \textbf{Guerrero (n=256)} & \textbf{Michoacán (n=90)} & \textbf{Chiapas (n=629)} & \textbf{Resto Nacionales (n=545)} & \textbf{SN (n=1855)} \\
-\hline
-ε = 0.01 & 14780 & 18746 & 24700 & 12068 & 14475 & 14933 \\
-ε = 0.02 & 3695 & 4687 & 6275 & 3017 & 3619 & 3739 \\
-ε = 0.03 & 1643 & 2083 & 2789 & 1341 & 1609 & 1662 \\
-ε = 0.04 & 924 & 1172 & 1569 & 755 & 905 & 935 \\
-ε = 0.05 & 592 & 750 & 1004 & 483 & 579 & 599 \\
-ε = 0.06 & 411 & 521 & 698 & 336 & 403 & 416 \\
-ε = 0.07 & 302 & 383 & 513 & 247 & 296 & 306 \\
-ε = 0.08 & 231 & 293 & 393 & 189 & 227 & 234 \\
-ε = 0.09 & 183 & 232 & 310 & 149 & 179 & 185 \\
-ε = 0.1 & 148 & 188 & 251 & 121 & 145 & 150 \\
-ε = 0.11 & 123 & 155 & 208 & 100 & 120 & 124 \\
-ε = 0.12 & 103 & 131 & 175 & 84 & 101 & 104 \\
-ε = 0.13 & 88 & 111 & 149 & 72 & 86 & 89 \\
-ε = 0.14 & 76 & 96 & 129 & 62 & 74 & 77 \\
-ε = 0.15 & 66 & 84 & 112 & 54 & 65 & 67 \\
-ε = 0.16 & 58 & 74 & 99 & 48 & 57 & 59 \\
-ε = 0.17 & 52 & 65 & 87 & 42 & 51 & 52 \\
-ε = 0.18 & 46 & 58 & 78 & 38 & 45 & 47 \\
-ε = 0.19 & 41 & 52 & 70 & 34 & 41 & 42 \\
-\hline
-\end{tabular}
-\label{tab:tamano_muestra_totales}
-\end{table}
+\rowcolor{gray!60}
+\textbf{$\epsilon$} & \textbf{Oaxaca} & \textbf{Guerrero} & \textbf{Michoacán} & \textbf{Chiapas} & \textbf{Resto Nac.} & \textbf{Sismos Nac.} \\ \hline
+\rowcolor{gray!20}
+\textbf{0.01} & 14780 & 18746 & 25100 & 12066 & 14475 & 14953 \\ \hline
+\textbf{0.02} & 3695 & 4687 & 6275 & 3017 & 3619 & 3739 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.03} & 1643 & 2083 & 2789 & 1341 & 1609 & 1662 \\ \hline
+\textbf{0.04} & 924 & 1172 & 1569 & 755 & 905 & 935 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.05} & 592 & 750 & 1004 & 483 & 579 & 599 \\ \hline
+\textbf{0.06} & 411 & 521 & 698 & 336 & 403 & 416 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.07} & 302 & 383 & 513 & 247 & 296 & 306 \\ \hline
+\textbf{0.08} & 231 & 293 & 393 & 189 & 227 & 234 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.09} & 183 & 232 & 310 & 149 & 179 & 185 \\ \hline
+\textbf{0.1} & 148 & 188 & 251 & 121 & 145 & 150 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.11} & 123 & 155 & 208 & 100 & 120 & 124 \\ \hline
+\textbf{0.12} & 103 & 131 & 175 & 84 & 101 & 104 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.13} & 88 & 111 & 149 & 72 & 86 & 89 \\ \hline
+\textbf{0.14} & 76 & 96 & 129 & 62 & 74 & 77 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.15} & 66 & 84 & 112 & 54 & 65 & 67 \\ \hline
+\textbf{0.16} & 58 & 74 & 99 & 48 & 57 & 59 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.17} & 52 & 65 & 87 & 42 & 51 & 52 \\ \hline
+\textbf{0.18} & 46 & 58 & 78 & 38 & 45 & 47 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.19} & 41 & 52 & 70 & 34 & 41 & 42 \\ \hline
+\end{tabularx}
 
 El análisis realizado nos indica los siguientes resultados para sismos totales:
 
@@ -513,37 +545,43 @@ El análisis realizado nos indica los siguientes resultados para sismos totales:
 
 La tabla 12 muestra el tamaño mínimo de la muestra para las 6 regiones para magnitudes máximas.
 
-\begin{table}[H]
+\small
 \centering
-\tiny
-\caption{Tamaño mínimo de la muestra para las 6 regiones para magnitudes máximas.}
-\begin{tabular}{lcccccc}
+\begin{tabularx}{15.9cm}{|c|* {6}{>{\centering\arraybackslash}X|}}
+\caption{Tamaño mínimo de la muestra para las 6 regiones para magnitudes máximas.} \label{tab:tamano_muestra_maximas} \\
 \hline
-& \textbf{Oaxaca (n=64)} & \textbf{Guerrero (n=70)} & \textbf{Michoacán (n=50)} & \textbf{Chiapas (n=73)} & \textbf{Resto Nacionales (n=87)} & \textbf{SN (n=110)} \\
-\hline
-ε = 0.09 & 206 & 210 & 423 & 203 & 164 & 125 \\
-ε = 0.1 & 248 & 252 & 342 & 218 & 133 & 101 \\
-ε = 0.11 & 205 & 208 & 283 & 180 & 110 & 84 \\
-ε = 0.12 & 172 & 175 & 238 & 151 & 92 & 70 \\
-ε = 0.13 & 147 & 149 & 203 & 129 & 79 & 60 \\
-ε = 0.14 & 127 & 129 & 175 & 111 & 68 & 52 \\
-ε = 0.15 & 110 & 112 & 152 & 97 & 59 & 45 \\
-ε = 0.16 & 97 & 99 & 134 & 85 & 52 & 40 \\
-ε = 0.17 & 86 & 87 & 119 & 76 & 46 & 35 \\
-ε = 0.18 & 77 & 78 & 106 & 68 & 41 & 32 \\
-ε = 0.19 & 69 & 70 & 95 & 61 & 37 & 28 \\
-ε = 0.2 & 62 & 63 & 86 & 55 & 34 & 26 \\
-ε = 0.21 & 57 & 57 & 78 & 50 & 31 & 23 \\
-ε = 0.22 & 52 & 52 & 71 & 45 & 28 & 21 \\
-ε = 0.23 & 47 & 48 & 65 & 42 & 26 & 20 \\
-ε = 0.24 & 43 & 44 & 60 & 38 & 23 & 18 \\
-ε = 0.25 & 40 & 41 & 55 & 35 & 22 & 17 \\
-ε = 0.26 & 37 & 38 & 51 & 33 & 20 & 15 \\
-ε = 0.27 & 34 & 35 & 47 & 30 & 18 & 14 \\
-\hline
-\end{tabular}
-\label{tab:tamano_muestra_maximas}
-\end{table}
+\rowcolor{gray!60}
+\textbf{$\epsilon$} & \textbf{Oaxaca} & \textbf{Guerrero} & \textbf{Michoacán} & \textbf{Chiapas} & \textbf{Resto Nac.} & \textbf{Sismos Nac.} \\ \hline
+\rowcolor{gray!20}
+\textbf{0.09} & 306 & 310 & 423 & 269 & 164 & 125 \\ \hline
+\textbf{0.1} & 248 & 252 & 342 & 218 & 133 & 101 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.11} & 205 & 208 & 283 & 180 & 110 & 84 \\ \hline
+\textbf{0.12} & 172 & 175 & 238 & 151 & 92 & 70 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.13} & 147 & 149 & 203 & 129 & 79 & 60 \\ \hline
+\textbf{0.14} & 127 & 129 & 175 & 111 & 68 & 52 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.15} & 110 & 112 & 152 & 97 & 59 & 45 \\ \hline
+\textbf{0.16} & 97 & 99 & 134 & 85 & 52 & 40 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.17} & 86 & 87 & 119 & 76 & 46 & 35 \\ \hline
+\textbf{0.18} & 77 & 78 & 106 & 68 & 41 & 32 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.19} & 69 & 70 & 95 & 61 & 37 & 28 \\ \hline
+\textbf{0.2} & 62 & 63 & 86 & 55 & 34 & 26 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.21} & 57 & 57 & 78 & 50 & 31 & 23 \\ \hline
+\textbf{0.22} & 52 & 52 & 71 & 45 & 28 & 21 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.23} & 47 & 48 & 65 & 42 & 26 & 20 \\ \hline
+\textbf{0.24} & 43 & 44 & 60 & 38 & 23 & 18 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.25} & 40 & 41 & 55 & 35 & 22 & 17 \\ \hline
+\textbf{0.26} & 37 & 38 & 51 & 33 & 20 & 15 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.27} & 34 & 35 & 47 & 30 & 19 & 14 \\ \hline
+\end{tabularx}
 
 El análisis realizado nos indica los siguientes resultados para magnitudes máximas:
 
@@ -582,33 +620,37 @@ Se proponen las siguientes hipótesis:
 
 La tabla 13 muestra los resultados de las pruebas de hipótesis realizadas para sismos totales.
 
-\begin{table}[H]
+\scriptsize
 \centering
-\tiny
-\caption{Resultados de las pruebas de hipótesis para cociente de varianzas para sismos totales.}
-\begin{tabular}{lccccccccl}
+\begin{tabularx}{15.9cm}{|c|c|c|c|c|c|c|c|c|>{\RaggedRight\arraybackslash}X|}
+\caption{Resultados de las pruebas de hipótesis para cociente de varianzas para sismos totales.} \label{tab:hipotesis_varianzas_totales} \\
 \hline
-& \textbf{Estado\_1} & \textbf{Estado\_2} & \textbf{Varianza\_1} & \textbf{Varianza\_2} & \textbf{F.estadístico} & \textbf{GL\_numerador} & \textbf{GL\_denominador} & \textbf{P valor} & \textbf{Significativo} & \textbf{Interpretación} \\
-\hline
-1 & Oaxaca & Guerrero & 0.3819 & 0.4834 & 1.2656 & 255 & 334 & 0.044753 & Sí & Varianzas significativamente diferentes - Guerrero tiene mayor varianza \\
-2 & Oaxaca & Michoacán & 0.3819 & 0.6357 & 1.6645 & 89 & 334 & 0.001408 & Sí & Varianzas significativamente diferentes - Michoacán tiene mayor varianza \\
-3 & Oaxaca & Chiapas & 0.3819 & 0.3129 & 1.2207 & 334 & 628 & 0.034698 & Sí & Varianzas significativamente diferentes - Oaxaca tiene mayor varianza \\
-4 & Oaxaca & Resto Nacionales & 0.3819 & 0.3751 & 1.0182 & 334 & 544 & 0.461615 & No & No hay diferencia significativa entre varianzas \\
-5 & Oaxaca & Nacionales & 0.3819 & 0.3887 & 1.0177 & 1854 & 334 & 0.048669 & No & No hay diferencia significativa entre varianzas \\
-6 & Guerrero & Michoacán & 0.4834 & 0.6357 & 1.3152 & 89 & 255 & 0.041567 & No & No hay diferencia significativa entre varianzas \\
-7 & Guerrero & Chiapas & 0.4834 & 0.3129 & 1.5449 & 255 & 628 & 0.000000 & Sí & Varianzas significativamente diferentes - Guerrero tiene mayor varianza \\
-8 & Guerrero & Resto Nacionales & 0.4834 & 0.3751 & 1.2889 & 255 & 544 & 0.016100 & Sí & Varianzas significativamente diferentes - Guerrero tiene mayor varianza \\
-9 & Guerrero & Nacionales & 0.4834 & 0.3887 & 1.2453 & 255 & 1854 & 0.016607 & Sí & Varianzas significativamente diferentes - Guerrero tiene mayor varianza \\
-10 & Michoacán & Chiapas & 0.6357 & 0.3129 & 2.0318 & 89 & 628 & 0.000001 & Sí & Varianzas significativamente diferentes - Michoacán tiene mayor varianza \\
-11 & Michoacán & Resto Nacionales & 0.6357 & 0.3751 & 1.6947 & 89 & 544 & 0.000450 & Sí & Varianzas significativamente diferentes - Michoacán tiene mayor varianza \\
-12 & Michoacán & Nacionales & 0.6357 & 0.3887 & 1.6353 & 89 & 1854 & 0.000490 & Sí & Varianzas significativamente diferentes - Michoacán tiene mayor varianza \\
-13 & Chiapas & Resto Nacionales & 0.3129 & 0.3751 & 1.1988 & 628 & 544 & 0.028196 & Sí & Varianzas significativamente diferentes - Nacionales tiene mayor varianza \\
-14 & Chiapas & Nacionales & 0.3129 & 0.3887 & 1.2424 & 1854 & 628 & 0.001148 & Sí & Varianzas significativamente diferentes - Nacionales tiene mayor varianza \\
-15 & Resto Nacionales & Nacionales & 0.3751 & 0.3887 & 1.0362 & 1854 & 544 & 0.015888 & No & No hay diferencia significativa entre varianzas \\
-\hline
-\end{tabular}
-\label{tab:prueba_f_totales}
-\end{table}
+\rowcolor{gray!60}
+\textbf{Edo. 1} & \textbf{Edo. 2} & \textbf{Var. 1} & \textbf{Var. 2} & \textbf{F\_est.} & \textbf{GL\_num} & \textbf{GL\_den} & \textbf{P\_val} & \textbf{Significativo} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oax & Gro & 0.3819 & 0.4834 & 1.2656 & 255 & 334 & 0.0439 & Sí & Varianzas dif. - Gro mayor varianza \\ \hline
+Oax & Mich & 0.3819 & 0.6357 & 1.6645 & 89 & 334 & 0.0014 & Sí & Varianzas dif. - Mich mayor varianza \\ \hline
+\rowcolor{gray!20}
+Oax & Chis & 0.3819 & 0.3129 & 1.2207 & 334 & 628 & 0.0348 & Sí & Varianzas dif. - Oax mayor varianza \\ \hline
+Oax & RN & 0.3819 & 0.3751 & 1.0182 & 334 & 544 & 0.8485 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oax & Nac & 0.3819 & 0.3887 & 1.0177 & 1854 & 334 & 0.8498 & No & Sin diferencia significativa \\ \hline
+Gro & Mich & 0.4834 & 0.6357 & 1.3152 & 89 & 255 & 0.1025 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Gro & Chis & 0.4834 & 0.3129 & 1.5449 & 255 & 628 & 0.0000 & Sí & Varianzas dif. - Gro mayor varianza \\ \hline
+Gro & RN & 0.4834 & 0.3751 & 1.2885 & 255 & 544 & 0.0160 & Sí & Varianzas dif. - Gro mayor varianza \\ \hline
+\rowcolor{gray!20}
+Gro & Nac & 0.4834 & 0.3887 & 1.2435 & 255 & 1854 & 0.0166 & Sí & Varianzas dif. - Gro mayor varianza \\ \hline
+Mich & Chis & 0.6357 & 0.3129 & 2.0318 & 89 & 628 & 0.0000 & Sí & Varianzas dif. - Mich mayor varianza \\ \hline
+\rowcolor{gray!20}
+Mich & RN & 0.6357 & 0.3751 & 1.6947 & 89 & 544 & 0.0004 & Sí & Varianzas dif. - Mich mayor varianza \\ \hline
+Mich & Nac & 0.6357 & 0.3887 & 1.6355 & 89 & 1854 & 0.0004 & Sí & Varianzas dif. - Mich mayor varianza \\ \hline
+\rowcolor{gray!20}
+Chis & RN & 0.3129 & 0.3751 & 1.1989 & 544 & 628 & 0.0281 & Sí & Varianzas dif. - RN mayor varianza \\ \hline
+Chis & Nac & 0.3129 & 0.3887 & 1.2424 & 1854 & 628 & 0.0011 & Sí & Varianzas dif. - Nac mayor varianza \\ \hline
+\rowcolor{gray!20}
+RN & Nac & 0.3751 & 0.3887 & 1.0362 & 1854 & 544 & 0.6158 & No & Sin diferencia significativa \\ \hline
+\end{tabularx}
 
 Los resultados obtenidos indican lo siguiente:
 
