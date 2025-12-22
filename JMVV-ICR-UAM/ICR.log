@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  20 DEC 2025 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  22 DEC 2025 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,6 +1148,12 @@ LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
 LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
+
+LaTeX Warning: Label `cap:Metodologia' multiply defined.
+
+
+LaTeX Warning: Label `cap:Metodologia' multiply defined.
+
 ) (Conclusiones/Conclusiones.aux
 
 LaTeX Warning: Label `cap:Metodologia' multiply defined.
@@ -1741,7 +1747,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 4.
-<./Imagenes/diagrama_metodologia.png, id=759, 802.49812pt x 575.14874pt>
+<./Imagenes/diagrama_metodologia.png, id=781, 802.49812pt x 575.14874pt>
 File: ./Imagenes/diagrama_metodologia.png Graphic file (type png)
 <use ./Imagenes/diagrama_metodologia.png>
 Package pdftex.def Info: ./Imagenes/diagrama_metodologia.png  used on input lin
@@ -1940,7 +1946,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
  (AnalisisResultados/AnalisisResultados.tex
 Cap\'{\i }tulo 5.
 
-Overfull \hbox (1.73692pt too wide) in paragraph at lines 46--46
+Overfull \hbox (1.73692pt too wide) in paragraph at lines 44--44
  []|\OT1/ptm/b/n/10 Totales| 
  []
 
@@ -1950,20 +1956,20 @@ Overfull \hbox (1.73692pt too wide) in paragraph at lines 46--46
 
 
 ]
-<./Imagenes/histogramas_densidad_totales.png, id=874, 1757.3655pt x 1303.269pt>
+<./Imagenes/histogramas_densidad_totales.png, id=896, 1757.3655pt x 1303.269pt>
 
 File: ./Imagenes/histogramas_densidad_totales.png Graphic file (type png)
 <use ./Imagenes/histogramas_densidad_totales.png>
 Package pdftex.def Info: ./Imagenes/histogramas_densidad_totales.png  used on i
-nput line 58.
+nput line 56.
 (pdftex.def)             Requested size: 466.34068pt x 345.84192pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1973,8 +1979,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [34]
 
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1985,7 +1991,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [35 <./Imagenes/histogramas_densidad_totales.png>]
 
 LaTeX Warning: File `histogramas_densidad_maximas.png' not found on input line 
-83.
+81.
 
 
 ! Package pdftex.def Error: File `histogramas_densidad_maximas.png' not found: 
@@ -1995,13 +2001,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...xtwidth]{histogramas_densidad_maximas.png}
+l.81 ...xtwidth]{histogramas_densidad_maximas.png}
                                                   
 ? 
 
 
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2011,7 +2017,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36]
 
-LaTeX Warning: File `frecuencias_mes_totales.png' not found on input line 108.
+LaTeX Warning: File `frecuencias_mes_totales.png' not found on input line 106.
 
 
 ! Package pdftex.def Error: File `frecuencias_mes_totales.png' not found: using
@@ -2021,7 +2027,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 ...=\textwidth]{frecuencias_mes_totales.png}
+l.106 ...=\textwidth]{frecuencias_mes_totales.png}
                                                   
 ? 
 
@@ -2029,8 +2035,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2040,8 +2046,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37]
 
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
+LaTeX Info: Redefining \. on input line 120.
+LaTeX Info: Redefining \% on input line 120.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2051,7 +2057,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38]
 
-LaTeX Warning: File `frecuencias_mes_maximas.png' not found on input line 133.
+LaTeX Warning: File `frecuencias_mes_maximas.png' not found on input line 131.
 
 
 ! Package pdftex.def Error: File `frecuencias_mes_maximas.png' not found: using
@@ -2061,7 +2067,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ...=\textwidth]{frecuencias_mes_maximas.png}
+l.131 ...=\textwidth]{frecuencias_mes_maximas.png}
                                                   
 ? 
 
@@ -2069,8 +2075,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 137.
-LaTeX Info: Redefining \% on input line 137.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2080,8 +2086,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [39]
 
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
+LaTeX Info: Redefining \. on input line 143.
+LaTeX Info: Redefining \% on input line 143.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2091,7 +2097,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [40]
 
-LaTeX Warning: File `histogramas_magnitud.png' not found on input line 158.
+LaTeX Warning: File `histogramas_magnitud.png' not found on input line 156.
 
 
 ! Package pdftex.def Error: File `histogramas_magnitud.png' not found: using dr
@@ -2101,7 +2107,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 ...dth=\textwidth]{histogramas_magnitud.png}
+l.156 ...dth=\textwidth]{histogramas_magnitud.png}
                                                   
 ? 
 
@@ -2109,8 +2115,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 162.
-LaTeX Info: Redefining \% on input line 162.
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2120,8 +2126,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41]
 
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2131,7 +2137,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 
-LaTeX Warning: File `magnitudes_tiempo.png' not found on input line 183.
+LaTeX Warning: File `magnitudes_tiempo.png' not found on input line 181.
 
 
 ! Package pdftex.def Error: File `magnitudes_tiempo.png' not found: using draft
@@ -2141,13 +2147,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 ...[width=\textwidth]{magnitudes_tiempo.png}
+l.181 ...[width=\textwidth]{magnitudes_tiempo.png}
                                                   
 ? 
 
 
-LaTeX Info: Redefining \. on input line 189.
-LaTeX Info: Redefining \% on input line 189.
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2157,7 +2163,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [43]
 
-LaTeX Warning: File `ic_media_totales.png' not found on input line 222.
+LaTeX Warning: File `ic_media_totales.png' not found on input line 221.
 
 
 ! Package pdftex.def Error: File `ic_media_totales.png' not found: using draft 
@@ -2167,7 +2173,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.222 ...idth=0.8\textwidth]{ic_media_totales.png}
+l.221 ...idth=0.8\textwidth]{ic_media_totales.png}
                                                   
 ? 
 
@@ -2175,8 +2181,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 226.
-LaTeX Info: Redefining \% on input line 226.
+LaTeX Info: Redefining \. on input line 225.
+LaTeX Info: Redefining \% on input line 225.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2212,7 +2218,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [45]
 
-LaTeX Warning: File `ic_varianza_totales.png' not found on input line 288.
+LaTeX Warning: File `ic_varianza_totales.png' not found on input line 289.
 
 
 ! Package pdftex.def Error: File `ic_varianza_totales.png' not found: using dra
@@ -2222,13 +2228,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288 ...h=0.8\textwidth]{ic_varianza_totales.png}
+l.289 ...h=0.8\textwidth]{ic_varianza_totales.png}
                                                   
 ? 
 
 
-LaTeX Info: Redefining \. on input line 291.
-LaTeX Info: Redefining \% on input line 291.
+LaTeX Info: Redefining \. on input line 293.
+LaTeX Info: Redefining \% on input line 293.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2238,7 +2244,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [46]
 
-LaTeX Warning: File `ic_varianza_maximas.png' not found on input line 320.
+LaTeX Warning: File `ic_varianza_maximas.png' not found on input line 322.
 
 
 ! Package pdftex.def Error: File `ic_varianza_maximas.png' not found: using dra
@@ -2248,13 +2254,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.320 ...h=0.8\textwidth]{ic_varianza_maximas.png}
+l.322 ...h=0.8\textwidth]{ic_varianza_maximas.png}
                                                   
 ? 
 
 
-LaTeX Info: Redefining \. on input line 324.
-LaTeX Info: Redefining \% on input line 324.
+LaTeX Info: Redefining \. on input line 326.
+LaTeX Info: Redefining \% on input line 326.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2263,8 +2269,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [47]
-LaTeX Info: Redefining \. on input line 345.
-LaTeX Info: Redefining \% on input line 345.
+LaTeX Info: Redefining \. on input line 348.
+LaTeX Info: Redefining \% on input line 348.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2275,7 +2281,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [48]
 
-LaTeX Warning: File `ic_proporcion_totales.png' not found on input line 351.
+LaTeX Warning: File `ic_proporcion_totales.png' not found on input line 354.
 
 
 ! Package pdftex.def Error: File `ic_proporcion_totales.png' not found: using d
@@ -2285,11 +2291,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.351 ...0.8\textwidth]{ic_proporcion_totales.png}
+l.354 ...0.8\textwidth]{ic_proporcion_totales.png}
                                                   
 ? 
-LaTeX Info: Redefining \. on input line 374.
-LaTeX Info: Redefining \% on input line 374.
+LaTeX Info: Redefining \. on input line 378.
+LaTeX Info: Redefining \% on input line 378.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2299,7 +2305,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [49]
 
-LaTeX Warning: File `ic_proporcion_maximas.png' not found on input line 380.
+LaTeX Warning: File `ic_proporcion_maximas.png' not found on input line 384.
 
 
 ! Package pdftex.def Error: File `ic_proporcion_maximas.png' not found: using d
@@ -2309,13 +2315,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 ...0.8\textwidth]{ic_proporcion_maximas.png}
+l.384 ...0.8\textwidth]{ic_proporcion_maximas.png}
                                                   
 ? 
 
 
-LaTeX Info: Redefining \. on input line 389.
-LaTeX Info: Redefining \% on input line 389.
+LaTeX Info: Redefining \. on input line 425.
+LaTeX Info: Redefining \% on input line 425.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2324,9 +2330,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 479.
-LaTeX Info: Redefining \% on input line 479.
+
+
+LaTeX Info: Redefining \. on input line 486.
+LaTeX Info: Redefining \% on input line 486.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2335,8 +2344,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [51]
-LaTeX Info: Redefining \. on input line 528.
-LaTeX Info: Redefining \% on input line 528.
+LaTeX Info: Redefining \. on input line 535.
+LaTeX Info: Redefining \% on input line 535.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2346,9 +2355,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [52]
-LaTeX Info: Redefining \. on input line 584.
-LaTeX Info: Redefining \% on input line 584.
 
+LaTeX Info: Redefining \. on input line 603.
+LaTeX Info: Redefining \% on input line 603.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2357,202 +2366,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [53]
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
-! Undefined control sequence.
-<argument> \RaggedRight 
-                        \arraybackslash \ignorespaces 
-l.653 \end{tabularx}
-                    
-? 
+Overfull \hbox (15.70663pt too wide) in alignment at lines 661--661
+ [] [] [] [] [] [] [] [] [] [] 
+ []
 
 
-LaTeX Info: Redefining \. on input line 653.
-LaTeX Info: Redefining \% on input line 653.
+
+LaTeX Info: Redefining \. on input line 670.
+LaTeX Info: Redefining \% on input line 670.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2561,129 +2382,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [54]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.684 ...extbf{P valor} & \textbf{Significativo} &
-                                                   \textbf{Interpretaci√≥n} \\
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.686 ...6309 & 1.0188 & 63 & 69 & 0.542741 & No &
-                                                   No hay diferencia signifi...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.687 ...8468 & 1.3676 & 49 & 63 & 0.143601 & No &
-                                                   No hay diferencia signifi...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.688 ...5466 & 1.1327 & 63 & 72 & 0.296363 & No &
-                                                   No hay diferencia signifi...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.689 ...3352 & 1.8476 & 63 & 86 & 0.00251 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.690 ...559 & 2.4196 & 63 & 109 & 0.00001 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.691 ...8468 & 1.3425 & 49 & 69 & 0.093385 & No &
-                                                   No hay diferencia signifi...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.692 ...5466 & 1.1541 & 69 & 72 & 0.254727 & No &
-                                                   No hay diferencia signifi...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.693 ...352 & 1.8823 & 69 & 86 & 0.001035 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.694 ...559 & 2.4651 & 69 & 109 & 0.00024 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.695 ...5466 & 1.5491 & 49 & 72 & 0.039322 & No &
-                                                   No hay diferencia signifi...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.696 ...3352 & 2.5261 & 49 & 86 & 0.00017 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.697 ...559 & 3.3092 & 49 & 109 & 0.00000 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.698 ...3352 & 1.6310 & 72 & 86 & 0.02999 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.699 ...559 & 2.1361 & 72 & 109 & 0.00352 & S√≠ &
-                                                   Varianzas significativame...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.700 ...559 & 1.3097 & 86 & 109 & 0.167447 & No &
-                                                   No hay diferencia signifi...
-
-? 
-
-Overfull \hbox (141.06961pt too wide) in paragraph at lines 682--704
- [][] 
+Overfull \hbox (15.70663pt too wide) in alignment at lines 716--716
+ [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Info: Redefining \. on input line 705.
-LaTeX Info: Redefining \% on input line 705.
+LaTeX Info: Redefining \. on input line 748.
+LaTeX Info: Redefining \% on input line 748.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2692,127 +2398,304 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [55]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.746 ...extbf{P valor} & \textbf{Significativo} &
-                                                   \textbf{Tipo Prueba} & \t...
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Media Gro. $\OML/ztmcm/m/it/8 >$
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.748 ...284 & -2.3326 & 513.53 & 0.020035 & S√≠ &
-                                                   Varianzas diferentes (Wel...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.749 ...1649 & -1.5259 & 113.28 & 0.130055 & No &
-                                                   Varianzas diferentes (Wel...
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.750 ....0500 & 1.2257 & 923.69 & 0.220533 & No &
-                                                   Varianzas diferentes (Wel...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.751 ...0.1226 & -2.8741 & 878 & 0.004184 & S√≠ &
-                                                   Varianzas iguales (Pooled...
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.752 ...448 & -1.2118 & 2188.00 & 0.225713 & No &
-                                                   Varianzas iguales (Pooled...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.753 ...-0.0366 & -0.3462 & 344 & 0.660125 & No &
-                                                   Varianzas iguales (Pooled...
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.754 ...1784 & 3.6519 & 355.00 & 0.000335 & S√≠ &
-                                                   Varianzas diferentes (Wel...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.755 ...& 0.0057 & 0.1104 & 799 & 0.912151 & No &
-                                                   Varianzas diferentes (Wel...
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Resto
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.756 ...0.0836 & 1.8247 & 314.47 & 0.06938 & No &
-                                                   Varianzas diferentes (Wel...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.757 ... 0.2149 & 2.4477 & 109 & 0.015954 & S√≠ &
-                                                   Varianzas diferentes (Wel...
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.758 ....0423 & 0.4604 & 597.02 & 0.645794 & No &
-                                                   Varianzas diferentes (Wel...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.759 ...0.1201 & 1.4089 & 94.53 & 0.162217 & No &
-                                                   Varianzas diferentes (Wel...
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.760 ...26 & -5.0134 & 1171.83 & 0.000001 & S√≠ &
-                                                   Varianzas diferentes (Wel...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.761 ...48 & -3.5651 & 1784.63 & 0.000378 & S√≠ &
-                                                   Varianzas diferentes (Wel...
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.762 ...778 & 2.5727 & 2398.00 & 0.010151 & S√≠ &
-                                                   Varianzas iguales (Pooled...
 
-? 
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
 
-Overfull \hbox (112.0179pt too wide) in paragraph at lines 744--766
- [][] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Media Gro. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Media Mich. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[]|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Oax. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Gro. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Chis. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Michoac[]an| 
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Resto
+ []
+
+
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--838
+[]|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
 
 
-LaTeX Info: Redefining \. on input line 767.
-LaTeX Info: Redefining \% on input line 767.
+LaTeX Info: Redefining \. on input line 838.
+LaTeX Info: Redefining \% on input line 838.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2821,130 +2704,124 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [56]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.798 ...extbf{P valor} & \textbf{Significativo} &
-                                                   \textbf{Tipo Prueba} & \t...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.800 ...0667 & -0.4071 & 132.00 & 0.684574 & No &
-                                                   Varianzas iguales (Pooled...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.801 ...3339 & 2.0869 & 112.00 & 0.039036 & S√≠ &
-                                                   Varianzas iguales (Pooled...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.802 ...2206 & -1.2997 & 135.00 & 0.195895 & No &
-                                                   Varianzas iguales (Pooled...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.803 ...954 & -2.5395 & 115.94 & 0.012491 & S√≠ &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.804 ...7854 & -7.1692 & 93.81 & 0.000000 & S√≠ &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.805 ...4006 & 2.5486 & 118.00 & 0.012101 & S√≠ &
-                                                   Varianzas iguales (Pooled...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.806 ...1539 & -0.9398 & 141.00 & 0.349111 & No &
-                                                   Varianzas iguales (Pooled...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.807 ...287 & -2.0161 & 122.82 & 0.045879 & S√≠ &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.808 ...187 & -6.7491 & 104.61 & 0.000000 & S√≠ &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.809 ...545 & -3.6950 & 121.00 & 0.000331 & S√≠ &
-                                                   Varianzas iguales (Pooled...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.810 ...292 & -4.3640 & 107.03 & 0.000042 & S√≠ &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.811 ...1193 & -8.0648 & 62.85 & 0.000000 & S√≠ &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.812 ...0748 & -0.7022 & 125.38 & 0.483781 & No &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.813 ...648 & -5.7011 & 116.27 & 0.000000 & S√≠ &
-                                                   Varianzas diferentes (Wel...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.814 ...901 & -6.3329 & 195.00 & 0.000000 & S√≠ &
-                                                   Varianzas iguales (Pooled...
-
-? 
-
-Overfull \hbox (109.01799pt too wide) in paragraph at lines 796--818
- [][] 
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \vbox (badness 3907) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 903--903
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
 
 
 
-LaTeX Info: Redefining \. on input line 819.
-LaTeX Info: Redefining \% on input line 819.
+LaTeX Info: Redefining \. on input line 903.
+LaTeX Info: Redefining \% on input line 903.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2953,14 +2830,159 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [57]
-Overfull \hbox (55.34885pt too wide) in paragraph at lines 857--879
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Proporci[]on Chis. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Proporci[]on R.N. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
 
-LaTeX Info: Redefining \. on input line 880.
-LaTeX Info: Redefining \% on input line 880.
+LaTeX Info: Redefining \. on input line 960.
+LaTeX Info: Redefining \% on input line 960.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2969,14 +2991,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58]
-Overfull \hbox (75.51453pt too wide) in paragraph at lines 910--932
- [][] 
- []
 
-
-
-LaTeX Info: Redefining \. on input line 951.
-LaTeX Info: Redefining \% on input line 951.
+LaTeX Info: Redefining \. on input line 988.
+LaTeX Info: Redefining \% on input line 988.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2985,19 +3002,154 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [59]
-Overfull \hbox (53.02087pt too wide) in paragraph at lines 972--994
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Proporci[]on Gro. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (75.51453pt too wide) in paragraph at lines 1025--1047
- [][] 
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Proporci[]on Gro. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1048.
-LaTeX Info: Redefining \% on input line 1048.
+LaTeX Info: Redefining \. on input line 1045.
+LaTeX Info: Redefining \% on input line 1045.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3006,9 +3158,154 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [60]
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
 
-LaTeX Info: Redefining \. on input line 1169.
-LaTeX Info: Redefining \% on input line 1169.
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Proporci[]on Chis. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Michoac[]an| 
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Resto
+ []
+
+
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Nacionales| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 1101.
+LaTeX Info: Redefining \% on input line 1101.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3017,12 +3314,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (16.65387pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Oaxaca vs Guerrero: t=-2.333, p=0.0201 -
+ MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (48.1536pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Oaxaca vs Resto Nacionales: t=-2.874, p=
+0.0042 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
+
+
+Overfull \hbox (16.65387pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Guerrero vs Chiapas: t=3.652, p=0.0003 -
+ MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (21.90382pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Michoac^^San vs Chiapas: t=2.472, p=0.01
+51 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (63.90346pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Chiapas vs Resto Nacionales: t=-5.013, p
+=0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (32.40373pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Chiapas vs Nacionales: t=-3.565, p=0.000
+4 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
+
+
+Overfull \hbox (63.90346pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Resto Nacionales vs Nacionales: t=2.573,
+ p=0.0102 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
 
 
 
-LaTeX Info: Redefining \. on input line 1169.
-LaTeX Info: Redefining \% on input line 1169.
+LaTeX Info: Redefining \. on input line 1207.
+LaTeX Info: Redefining \% on input line 1207.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3031,174 +3367,69 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [62]
+Overfull \hbox (6.15396pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Oaxaca vs Michoac^^San: t=2.087, p=0.039
+2 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
 
-! LaTeX Error: Unicode character Œ± (U+03B1)
-               not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1169 \end{verbatim}
-                     
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1198 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
-                                                   \textbf{AD Max (P)} & \te...
+Overfull \hbox (58.6535pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Oaxaca vs Resto Nacionales: t=-2.539, p=
+0.0125 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1200 ...00e-05 & 0.0573 & 0.91E+00 & 0.216E+02 &
-                                                   1.24E+02e-04 & 0.0586E+02...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1201 ...00e-01 & 0.0583 & 1.19E+00 & 0.287E+00 &
-                                                   4.47E+01e-01 & 0.1053E+02...
+Overfull \hbox (27.15378pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Oaxaca vs Nacionales: t=-7.169, p=0.0000
+ - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1202 ...65E+00 & 0.1394 & 1.52E+01 & 0.570E+00 &
-                                                   0.13E+00 & 0.1394E+02 & 3...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1203 ...22E+00 & 0.1394 & 1.52E+01 & 0.515E+00 &
-                                                   0.15E+00 & 0.1394E+02 & 3...
+Overfull \hbox (16.65387pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Guerrero vs Michoac^^San: t=2.549, p=0.0
+121 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1204 ...29E+00 & 0.0796 & 4.83E+01 & 0.337E+00 &
-                                                   0.45E+00 & 0.0981E+02 & 1...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1205 ...31E+01 & 0.1588 & 1.17E+01 & 0.721E+00 &
-                                                   0.04E+00 & 0.1588E+02 & 1...
+Overfull \hbox (69.15341pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Guerrero vs Resto Nacionales: t=-2.016, 
+p=0.0460 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1206 ...09E+00 & 0.1446 & 1.20E+01 & 0.552E+00 &
-                                                   0.14E+00 & 0.1446E+02 & 3...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1207 ...33E+00 & 0.1388 & 1.55E+01 & 0.560E+00 &
-                                                   0.13E+00 & 0.1388E+02 & 3...
+Overfull \hbox (37.65369pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Guerrero vs Nacionales: t=-6.749, p=0.00
+00 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1208 ...2E+00 & 0.09593 & 5.01E+01 & 0.424E+00 &
-                                                   0.26E+00 & 0.09593E+02 & ...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1209 ...04E+00 & 0.2333 & 7.63E+01 & 0.353E+00 &
-                                                   0.41E+00 & 0.0904E+02 & 1...
+Overfull \hbox (16.65387pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Michoac^^San vs Chiapas: t=-3.695, p=0.0
+003 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1210 ...06E+00 & 0.1388 & 1.55E+01 & 0.463E+00 &
-                                                   0.22E+00 & 0.1388E+02 & 3...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1211 ...41E+00 & 0.0484 & 1.00E+00 & 0.243E+00 &
-                                                   0.73E+00 & 0.0484E+02 & 1...
+Overfull \hbox (74.40337pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Michoac^^San vs Resto Nacionales: t=-4.3
+64, p=0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1212 ...44E+00 & 0.1446 & 1.20E+01 & 1.053E+00 &
-                                                   0.02E+00 & 0.1446E+02 & 3...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1213 ...56E+00 & 0.1446 & 1.20E+01 & 0.845E+00 &
-                                                   0.03E+00 & 0.1446E+02 & 3...
+Overfull \hbox (42.90364pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Michoac^^San vs Nacionales: t=-8.065, p=
+0.0000 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1214 ...53E+00 & 0.1354 & 1.89E+01 & 0.717E+00 &
-                                                   0.05E+00 & 0.1354E+02 & 4...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1215 ...49E+01 & 0.1354 & 1.89E+01 & 0.717E+00 &
-                                                   0.05E+00 & 0.1354E+02 & 4...
+Overfull \hbox (32.40373pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Chiapas vs Nacionales: t=-5.701, p=0.000
+0 - MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
+ []
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1216 ...21E+00 & 0.1353 & 1.90E+01 & 0.556E+00 &
-                                                   0.14E+00 & 0.1353E+02 & 4...
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1217 ...03E+00 & 0.2347 & 7.46E+01 & 0.344E+00 &
-                                                   0.43E+00 & 0.09004E+02 & ...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1218 ...42E+00 & 0.2161 & 1.37E+00 & 0.354E+00 &
-                                                   0.41E+00 & 0.1257E+02 & 7...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1219 ...39E+01 & 0.2287 & 9.80E+01 & 0.369E+00 &
-                                                   0.38E+00 & 0.08819E+02 & ...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1220 ....38E+00e-119 & 0.09017 & nf & 1.00E+00 &
-                                                   0.16E+01 & 0.1162E+02 & 2...
-
-? 
-
-Overfull \hbox (37.54733pt too wide) in paragraph at lines 1196--1224
- [][] 
+Overfull \hbox (69.15341pt too wide) in paragraph at lines 1207--1207
+[] \TS1/cmtt/m/n/10 à \OT1/cmtt/m/n/10 Resto Nacionales vs Nacionales: t=-6.333
+, p=0.0000 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
  []
 
 
@@ -3206,8 +3437,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 1225.
-LaTeX Info: Redefining \% on input line 1225.
+LaTeX Info: Redefining \. on input line 1207.
+LaTeX Info: Redefining \% on input line 1207.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3216,165 +3447,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [63]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1234 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
-                                                   \textbf{AD Max (P)} & \te...
 
+! LaTeX Error: Unicode character Œ± (U+03B1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1207 \end{verbatim}
+                     
 ? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1236 ...1e-02 & 0.1144 & 2.23E+01 & 0.1312E+02 &
-                                                   4.31E+02e-01 & 0.1144E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1237 ...39E+00 & 0.1851 & 1.90E+00 & 0.304E+02 &
-                                                   0.16E+01 & 0.1878E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1238 ...51E+00 & 0.3044 & 1.34E+01 & 0.354E+02 &
-                                                   0.13E+01 & 0.1482E+02 & 7...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1239 ...12E+01 & 0.1471 & 3.27E+01 & 0.353E+02 &
-                                                   0.13E+01 & 0.1434E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1240 ...27E+01 & 0.0896 & 7.77E+01 & 0.311E+02 &
-                                                   0.18E+01 & 0.1119E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1241 ...19E+01 & 0.2089 & 6.87E+01 & 0.502E+02 &
-                                                   0.06E+01 & 0.1863E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1242 ...77E+01 & 0.1396 & 1.94E+01 & 0.344E+02 &
-                                                   0.13E+01 & 0.1455E+02 & 6...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1243 ...77E+01 & 0.1396 & 1.94E+01 & 0.344E+02 &
-                                                   0.13E+01 & 0.1455E+02 & 6...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1244 ...77E+01 & 0.1266 & 4.23E+01 & 0.422E+02 &
-                                                   0.27E+01 & 0.1266E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1245 ...00E+01 & 0.2856 & 1.52E+00 & 0.296E+02 &
-                                                   0.18E+01 & 0.2856E+02 & 5...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1246 ....66E+00 & nf & 2.34E+02e-36 & 0.54E+00 &
-                                                   0.14E+01 & 0.1851E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1247 ....41E+01 & nf & 2.34E+02e-36 & 0.54E+00 &
-                                                   0.14E+01 & 0.1851E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1248 ...29E+01 & 0.1571 & 1.02E+01 & 0.399E+02 &
-                                                   0.32E+01 & 0.1571E+02 & 5...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1249 ...41E+00 & 0.1271 & 6.71E+01 & 0.571E+02 &
-                                                   0.11E+01 & 0.1434E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1250 ...42E+01 & 0.1519 & 1.31E+01 & 0.571E+02 &
-                                                   0.11E+01 & 0.1519E+02 & 6...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1251 ...55E+01 & 0.1434 & 1.76E+01 & 0.541E+02 &
-                                                   0.14E+01 & 0.1434E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1252 ...0e-100 & 0.2403 & 8.29E+01 & 0.437E+02 &
-                                                   0.24E+01 & 0.1247E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1253 ...77E+01 & 0.1271 & 6.71E+01 & 0.321E+02 &
-                                                   0.16E+01 & 0.1271E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1254 ...01 & 0.1954E+02 & 1.12E+00 & 0.457E+02 &
-                                                   0.21E+01 & 0.1742E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1255 ...+01e-189 & 0.08667 & nf & 6.42E+00e-01 &
-                                                   0.12E+01 & 0.1152E+02 & 1...
-
-? 
-
-Overfull \hbox (41.4294pt too wide) in paragraph at lines 1232--1259
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1260.
-LaTeX Info: Redefining \% on input line 1260.
+LaTeX Info: Redefining \. on input line 1268.
+LaTeX Info: Redefining \% on input line 1268.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3383,165 +3468,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [64]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1269 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
-                                                   \textbf{AD Max (P)} & \te...
+LaTeX Info: Redefining \. on input line 1350.
+LaTeX Info: Redefining \% on input line 1350.
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1271 ...01e-01 & 0.1716 & 2.33E+01 & 0.243E+01 &
-                                                   0.22E+01 & 0.1716E+02 & 8...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1272 ...40E+01 & 0.1519 & 2.33E+01 & 0.254E+01 &
-                                                   0.22E+01 & 0.1519E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1273 ...69E+01 & 0.1519 & 2.33E+01 & 0.254E+01 &
-                                                   0.22E+01 & 0.1519E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1274 ...54E+01 & 0.1476 & 3.09E+01 & 0.315E+01 &
-                                                   0.23E+01 & 0.1476E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1275 ...21E+01 & 0.0852 & 8.64E+01 & 0.243E+01 &
-                                                   0.23E+01 & 0.1351E+02 & 5...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1276 ...14E+01 & 0.1638 & 4.29E+01 & 0.153E+01 &
-                                                   0.30E+01 & 0.1524E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1277 ...21E+01 & 0.1512 & 1.53E+01 & 0.243E+01 &
-                                                   0.23E+01 & 0.1512E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1278 ...21E+01 & 0.1380 & 4.90E+01 & 0.243E+01 &
-                                                   0.23E+01 & 0.1359E+02 & 5...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1279 ...60E+01 & 0.1524 & 1.50E+01 & 0.274E+01 &
-                                                   0.19E+01 & 0.1524E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1280 ...00e-02 & 0.1638 & 4.29E+01 & 0.193E+01 &
-                                                   0.27E+01 & 0.1638E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1281 ...01e-02 & 0.1380 & 4.90E+01 & 0.351E+01 &
-                                                   0.12E+01 & 0.1380E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1282 ...E+00e-03 & 0.06 & 1.00E+00 & 0.314E+01 &
-                                                   0.14E+01 & 0.06E+02 & 1.0...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1283 ...05E+00 & 0.1469 & 3.15E+01 & 0.274E+01 &
-                                                   0.19E+01 & 0.1469E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1284 ...54E+01 & 0.1546 & 1.40E+01 & 0.370E+01 &
-                                                   0.10E+01 & 0.1546E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1285 ...64E+01 & 0.1546 & 1.40E+01 & 0.408E+01 &
-                                                   0.07E+01 & 0.1546E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1286 ...01e-02 & 0.1481 & 3.05E+01 & 0.358E+01 &
-                                                   0.11E+01 & 0.1481E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1287 ...01e-01 & 0.1414 & 4.31E+01 & 0.301E+01 &
-                                                   0.16E+01 & 0.1374E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1288 ...77E+01 & 0.1374 & 5.08E+01 & 0.422E+01 &
-                                                   0.27E+01 & 0.1374E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1289 ...14E+01 & 0.2446 & 3.50E+01 & 0.233E+01 &
-                                                   0.63E+01 & 0.1830E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1290 ...8.72E+01e-05 & 0.08959 & nf & 0.18E+01 &
-                                                   0.48E+01 & 0.1385E+02 & 4...
-
-? 
-
-Overfull \hbox (37.54733pt too wide) in paragraph at lines 1267--1294
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1295.
-LaTeX Info: Redefining \% on input line 1295.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3550,165 +3479,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [65]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1303 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
-                                                   \textbf{AD Max (P)} & \te...
+LaTeX Info: Redefining \. on input line 1390.
+LaTeX Info: Redefining \% on input line 1390.
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1305 ...01 & 0.0713 & 4.14E+02e-01 & 0.313E+02 &
-                                                   4.47E+01e-01 & 0.1058E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1306 ...01e-01 & 0.1080 & 0.09E+01 & 0.287E+00 &
-                                                   4.47E+01e-01 & 0.1080E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1307 ...01e-01 & 0.1136 & 5.63E+01 & 0.415E+00 &
-                                                   1.17E+01e-01 & 0.1136E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1308 ...01 & 0.0712 & 4.15E+02e-01 & 0.313E+02 &
-                                                   4.47E+01e-01 & 0.1058E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1309 ...01e-01 & 0.0848 & 1.40E+01 & 0.413E+00 &
-                                                   1.19E+01e-01 & 0.0954E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1310 ...86E+01 & 0.1359 & 2.59E+01 & 0.554E+00 &
-                                                   5.01E+01e-02 & 0.1359E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1311 ...01e-01 & 0.1166 & 4.31E+01 & 0.468E+00 &
-                                                   8.58E+01e-02 & 0.1166E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1312 ...17E+01 & 0.1166 & 4.31E+01 & 0.468E+00 &
-                                                   8.58E+01e-02 & 0.1166E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1313 ...60E+01 & 0.0976 & 1.32E+01 & 0.442E+00 &
-                                                   1.04E+01e-01 & 0.0976E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1314 ...1e-01 & 0.05993 & 9.32E+01 & 0.419E+00 &
-                                                   1.16E+01e-01 & 0.05993E+0...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1315 ...01e-01 & 0.1080 & 9.09E+01 & 0.426E+00 &
-                                                   1.11E+01e-01 & 0.1080E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1316 ....51E+00 & 1.00E+00 & 7.65E+00e-02 & nf &
-                                                   7.43E+01e-01 & 0.05276E+0...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1317 ...01e-01 & 0.1080 & 9.09E+01 & 0.426E+00 &
-                                                   1.11E+01e-01 & 0.1080E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1318 ...33E+01 & 0.1051 & 1.03E+01 & 0.481E+00 &
-                                                   7.56E+01e-02 & 0.1051E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1319 ...E+00 & 1.09E+01 & 1.12E+01 & 0.481E+00 &
-                                                   7.56E+01e-02 & 0.1051E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1320 ...01e-03 & 0.1054 & 1.01E+01 & 0.466E+00 &
-                                                   8.76E+01e-02 & 0.1054E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1321 ...01e-01 & 0.1359 & 2.59E+01 & 0.554E+00 &
-                                                   5.01E+01e-02 & 0.1359E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1322 ...01e-01 & 0.1845 & 1.39E+01 & 0.464E+00 &
-                                                   8.92E+01e-02 & 0.1845E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1323 ...E+00 & 1.08E+01 & 1.18E+01 & 0.536E+00 &
-                                                   5.60E+01e-02 & 0.1223E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1324 ...1.71E+01e-162 & 0.0766 & nf & 0.42E+00 &
-                                                   0.11E+01 & 0.1101E+02 & 2...
-
-? 
-
-Overfull \hbox (41.4294pt too wide) in paragraph at lines 1301--1328
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1329.
-LaTeX Info: Redefining \% on input line 1329.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3717,165 +3490,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [66]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1338 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
-                                                   \textbf{AD Max (P)} & \te...
+LaTeX Info: Redefining \. on input line 1472.
+LaTeX Info: Redefining \% on input line 1472.
 
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1340 ...02 & 0.1011 & 1.62E+01e-02 & 0.296E+02 &
-                                                   0.20E+01 & 0.1011E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1341 ...00 & 0.2477 & 5.00E+01e-01 & 0.650E+02 &
-                                                   0.01E+01 & 0.1205E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1342 ...00 & 0.3443 & 1.00E+01e-01 & 0.872E+02 &
-                                                   0.00E+01 & 0.1298E+02 & 5...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1343 ...01 & 0.1906 & 3.19E+01e-02 & 0.661E+02 &
-                                                   0.01E+01 & 0.1906E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1344 ...90E+00 & 0.0899 & 1.17E+01 & 0.363E+02 &
-                                                   0.13E+01 & 0.1002E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1345 ...01 & 0.2340 & 6.77E+01e-01 & 0.906E+02 &
-                                                   0.00E+01 & 0.1845E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1346 ...00 & 0.1345 & 1.82E+01e-01 & 0.727E+02 &
-                                                   0.01E+01 & 0.1345E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1347 ...00 & 0.1379 & 1.52E+01e-01 & 0.681E+02 &
-                                                   0.01E+01 & 0.1379E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1348 ...1e-01 & 0.08694 & 1.25E+01 & 0.445E+02 &
-                                                   0.10E+01 & 0.0869E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1349 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
-                                                   0.01E+01 & 0.1566E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1350 ...00 & 0.1153 & 5.55E+02e-02 & 0.571E+02 &
-                                                   0.04E+01 & 0.1153E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1351 ...E+00 & 0.04E+00 & 1.00E+00 & 0.252E+02 &
-                                                   0.51E+01 & 0.04E+02 & 1.0...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1352 ...00 & 0.1153 & 5.55E+02e-02 & 0.571E+02 &
-                                                   0.04E+01 & 0.1153E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1353 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
-                                                   0.01E+01 & 0.1566E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1354 ... & 0.16E+00 & 8.79E+01e-02 & 0.678E+02 &
-                                                   0.01E+01 & 0.1566E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1355 ...12 & 0.1269 & 2.64E+01e-01 & 0.617E+02 &
-                                                   0.02E+01 & 0.1269E+02 & 6...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1356 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
-                                                   0.01E+01 & 0.1566E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1357 ...00 & 0.1566 & 8.79E+01e-02 & 0.678E+02 &
-                                                   0.01E+01 & 0.1566E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1358 ....67E+01e-106 & 1.00E+01 & 1.06E+01e-01 &
-                                                   0.847E+02 & 0.00E+01 & 0....
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1359 ....27E+01e-106 & 0.08666 & nf & 0.45E+00 &
-                                                   0.10E+01 & 0.1021E+02 & 1...
-
-? 
-
-Overfull \hbox (49.75758pt too wide) in paragraph at lines 1336--1363
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1364.
-LaTeX Info: Redefining \% on input line 1364.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3884,165 +3501,107 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [67]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1373 ...tbf{KS Max (P)} & \textbf{AD Max (An)} &
-                                                   \textbf{AD Max (P)} & \te...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1375 ...1e-100 & 0.0578 & 6.07E+01 & 0.186E+02 &
-                                                   4.82E+01e-01 & 0.0576E+02...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1376 ...00E+00 & 0.1022 & 1.17E+01 & 0.304E+02 &
-                                                   0.69E+01 & 0.0862E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1377 ...01e-146 & 0.1744 & 0.00E+01 & 1.49E+00 &
-                                                   0.14E+01 & 0.1744E+02 & 1...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1378 ...00 & 0.1390 & 4.72E+01e-02 & 0.996E+02 &
-                                                   0.19E+01 & 0.1390E+02 & 7...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1379 ...01e-01 & 0.0704 & 8.45E+01 & 0.275E+02 &
-                                                   0.25E+01 & 0.0730E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1380 ...+01e-02 & 0.2101 & 0.00E+01 & 1.49E+00 &
-                                                   0.14E+01 & 0.2101E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1381 ...02 & 0.1390 & 4.72E+01e-02 & 0.996E+02 &
-                                                   0.19E+01 & 0.1390E+02 & 7...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1382 ...00e-88 & 0.2099 & 0.00E+01 & 0.850E+02 &
-                                                   0.05E+01 & 0.0751E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1383 ...01e-01 & 0.0624 & 8.50E+01 & 0.311E+02 &
-                                                   0.17E+01 & 0.0647E+02 & 5...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1384 ...00E+00 & 0.0936 & 1.55E+01 & 0.363E+02 &
-                                                   0.12E+01 & 0.0936E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1385 ...00E+00 & 0.0862 & 2.23E+01 & 0.304E+02 &
-                                                   0.19E+01 & 0.0862E+02 & 3...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1386 ...E+00 & 0.02E+00 & 1.00E+00 & 0.145E+02 &
-                                                   0.55E+01 & 0.02E+02 & 1.0...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1387 ...42 & 0.1474 & 2.79E+01e-02 & 0.946E+02 &
-                                                   0.21E+01 & 0.1474E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1388 ...02 & 0.1474 & 2.79E+01e-02 & 0.946E+02 &
-                                                   0.21E+01 & 0.1474E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1389 ...02 & 0.1474 & 2.79E+01e-02 & 0.946E+02 &
-                                                   0.21E+01 & 0.1474E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1390 ...02 & 0.1243 & 1.54E+01e-01 & 0.847E+02 &
-                                                   0.04E+01 & 0.1243E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1391 ...01e-02 & 0.0773 & 4.38E+01 & 0.324E+02 &
-                                                   0.16E+01 & 0.0773E+02 & 4...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1392 ...00e-96 & 0.0924 & 1.62E+01 & 0.357E+02 &
-                                                   0.12E+01 & 0.0924E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1393 ...+00e-96 & 0.6924 & 1.62E+01 & 6.35E+00 &
-                                                   0.24E+01 & 0.0924E+02 & 2...
-
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.1394 ...0 & 0.00E+00 & 0.06765 & nf & 0.27E+00 &
-                                                   0.25E+01 & 0.07559E+02 & ...
-
-? 
-
-Overfull \hbox (41.4294pt too wide) in paragraph at lines 1371--1398
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
 
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+LaTeX Info: Redefining \. on input line 1513.
+LaTeX Info: Redefining \% on input line 1513.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4051,56 +3610,170 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
-
-LaTeX Warning: File `curva_gumbel_oaxaca.png' not found on input line 1412.
-
-
-! Package pdftex.def Error: File `curva_gumbel_oaxaca.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1412 ...=0.8\textwidth]{curva_gumbel_oaxaca.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
 
-LaTeX Info: Redefining \. on input line 1416.
-LaTeX Info: Redefining \% on input line 1416.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 1593.
+LaTeX Info: Redefining \% on input line 1593.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.09387pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.09387pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
-
-LaTeX Warning: File `curva_weibull_guerrero.png' not found on input line 1423.
-
-
-! Package pdftex.def Error: File `curva_weibull_guerrero.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1423 ...8\textwidth]{curva_weibull_guerrero.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
 
-LaTeX Info: Redefining \. on input line 1427.
-LaTeX Info: Redefining \% on input line 1427.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 1632.
+LaTeX Info: Redefining \% on input line 1632.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4109,56 +3782,161 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [70]
-
-LaTeX Warning: File `curva_gev_michoacan.png' not found on input line 1434.
-
-
-! Package pdftex.def Error: File `curva_gev_michoacan.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1434 ...=0.8\textwidth]{curva_gev_michoacan.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (4.64908pt too wide) in paragraph at lines 1673--1673
+[]|\OT1/ptm/b/n/10 Interpretaci[]on| 
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
 
-LaTeX Info: Redefining \. on input line 1438.
-LaTeX Info: Redefining \% on input line 1438.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1673
+[]|\OT1/ptm/m/n/10 Rechazo de
+ []
+
+LaTeX Info: Redefining \. on input line 1673.
+LaTeX Info: Redefining \% on input line 1673.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.09387pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.09387pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [71]
-
-LaTeX Warning: File `curva_weibull_chiapas.png' not found on input line 1445.
-
-
-! Package pdftex.def Error: File `curva_weibull_chiapas.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1445 ....8\textwidth]{curva_weibull_chiapas.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
 
-LaTeX Info: Redefining \. on input line 1449.
-LaTeX Info: Redefining \% on input line 1449.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/10 Ajuste par-cial
+ []
+
+LaTeX Info: Redefining \. on input line 1712.
+LaTeX Info: Redefining \% on input line 1712.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4168,17 +3946,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [72]
 
-LaTeX Warning: File `curva_logistica_resto.png' not found on input line 1456.
+LaTeX Warning: File `curva_gumbel_oaxaca.png' not found on input line 1726.
 
 
-! Package pdftex.def Error: File `curva_logistica_resto.png' not found: using d
-raft setting.
+! Package pdftex.def Error: File `curva_gumbel_oaxaca.png' not found: using dra
+ft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1456 ....8\textwidth]{curva_logistica_resto.png}
+l.1726 ...=0.8\textwidth]{curva_gumbel_oaxaca.png}
                                                   
 ? 
 
@@ -4186,8 +3964,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 1460.
-LaTeX Info: Redefining \% on input line 1460.
+LaTeX Info: Redefining \. on input line 1730.
+LaTeX Info: Redefining \% on input line 1730.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.09387pt, for example:
@@ -4197,7 +3975,123 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [73]
 
-LaTeX Warning: File `curva_normal_nacional.png' not found on input line 1467.
+LaTeX Warning: File `curva_weibull_guerrero.png' not found on input line 1737.
+
+
+! Package pdftex.def Error: File `curva_weibull_guerrero.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1737 ...8\textwidth]{curva_weibull_guerrero.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1741.
+LaTeX Info: Redefining \% on input line 1741.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[74]
+
+LaTeX Warning: File `curva_gev_michoacan.png' not found on input line 1748.
+
+
+! Package pdftex.def Error: File `curva_gev_michoacan.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1748 ...=0.8\textwidth]{curva_gev_michoacan.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1752.
+LaTeX Info: Redefining \% on input line 1752.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.09387pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.09387pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
+
+[75]
+
+LaTeX Warning: File `curva_weibull_chiapas.png' not found on input line 1759.
+
+
+! Package pdftex.def Error: File `curva_weibull_chiapas.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1759 ....8\textwidth]{curva_weibull_chiapas.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1763.
+LaTeX Info: Redefining \% on input line 1763.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[76]
+
+LaTeX Warning: File `curva_logistica_resto.png' not found on input line 1770.
+
+
+! Package pdftex.def Error: File `curva_logistica_resto.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1770 ....8\textwidth]{curva_logistica_resto.png}
+                                                  
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1774.
+LaTeX Info: Redefining \% on input line 1774.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.09387pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.09387pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
+
+[77]
+
+LaTeX Warning: File `curva_normal_nacional.png' not found on input line 1781.
 
 
 ! Package pdftex.def Error: File `curva_normal_nacional.png' not found: using d
@@ -4207,7 +4101,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1467 ....8\textwidth]{curva_normal_nacional.png}
+l.1781 ....8\textwidth]{curva_normal_nacional.png}
                                                   
 ? 
 )
@@ -4224,7 +4118,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74]
+[78]
 
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
@@ -4235,7 +4129,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
 
-[75]
+[79]
 \openout2 = `Conclusiones/Conclusiones.aux'.
 
  (Conclusiones/Conclusiones.tex
@@ -4249,7 +4143,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76
+[80
 
 
 
@@ -4263,9 +4157,9 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 16.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 16.
 
 Missing character: There is no ∞ in font zptmcm7t!
-)
 
-[77]
+
+[81])
 
 LaTeX Info: Redefining \. on input line 310.
 LaTeX Info: Redefining \% on input line 310.
@@ -4276,14 +4170,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78]
+[82]
 \openout2 = `Anexos/Anexo1.aux'.
 
  (Anexos/Anexo1.tex
 Ap\'{e}ndice A.
 )
 
-[79
+[83
 
 
 
@@ -4299,23 +4193,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80
+[84
 
 
 
 ] (ICR.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
-[]| | \OT1/ptm/m/n/8 Dia-na Vi-lla-sa-na Ocam-po (2024).  Rpubs - prue-bas de n
-or-ma-li-dad, Rpubs.com.  Dis-po-ni-ble en:
+Underfull \hbox (badness 6141) in paragraph at lines 64--68
+[]| | \OT1/ptm/m/n/10 Dia-na Vi-lla-sa-na Ocam-po (2024).  Rpubs - prue-bas de 
+nor-ma-li-dad, Rpubs.com.  Dis-po-ni-ble en:
  []
 
 
 
-[81
+[85
 
 ])
 
-[82] (ICR.aux (Portada/Portada.aux)
+[86] (ICR.aux (Portada/Portada.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  (Resumen/Resumen.aux)
@@ -4333,30 +4227,30 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ICR.out' has not changed.
-(rerunfilecheck)             Checksum: 4AA22161B8372761527DA1F89CF621FB;20694.
+(rerunfilecheck)             Checksum: 4BE18A8040569C23CF79085F67796DD8;20694.
  ) 
 Here is how much of TeX's memory you used:
- 32230 strings out of 468133
- 619729 string characters out of 5440786
- 1106131 words of memory out of 5000000
- 59835 multiletter control sequences out of 15000+600000
- 709388 words of font info for 205 fonts, out of 8000000 for 9000
+ 32269 strings out of 468133
+ 620118 string characters out of 5440786
+ 1146436 words of memory out of 5000000
+ 59859 multiletter control sequences out of 15000+600000
+ 711944 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,13n,119p,2341b,1363s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\villa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
-0800.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmtt8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/ut
-mb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (104 pages, 1151782 bytes).
+ic/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/
+Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/f
+onts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/u
+tmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ICR.pdf (108 pages, 1210877 bytes).
 PDF statistics:
- 1206 PDF objects out of 1440 (max. 8388607)
- 303 named destinations out of 1000 (max. 500000)
+ 1246 PDF objects out of 1440 (max. 8388607)
+ 313 named destinations out of 1000 (max. 500000)
  728 words of extra memory for PDF output out of 10000 (max. 10000000)
 

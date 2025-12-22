@@ -74,24 +74,24 @@
 \contentsline {section}{\numberline {5.6}Pruebas de hipótesis}{54}{section.5.6}%
 \contentsline {subsection}{\numberline {5.6.1}Prueba de hipótesis para el cociente de varianzas (prueba F)}{54}{subsection.5.6.1}%
 \contentsline {subsection}{\numberline {5.6.2}Prueba de hipótesis para diferencia de medias}{56}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}Prueba de hipótesis para diferencia de proporciones iguales}{58}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.3}Prueba de hipótesis para diferencia de proporciones iguales}{57}{subsection.5.6.3}%
 \contentsline {subsection}{\numberline {5.6.4}Prueba de hipótesis para diferencias de proporciones diferentes}{60}{subsection.5.6.4}%
-\contentsline {subsection}{\numberline {5.6.5}Resumen de las pruebas de hipótesis}{61}{subsection.5.6.5}%
-\contentsline {section}{\numberline {5.7}Criterio de Información Bayesiano (BIC)}{63}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Pruebas de bondad de ajuste KS, AD, LF}{63}{section.5.8}%
+\contentsline {subsection}{\numberline {5.6.5}Resumen de las pruebas de hipótesis}{62}{subsection.5.6.5}%
+\contentsline {section}{\numberline {5.7}Criterio de Información Bayesiano (BIC)}{64}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Pruebas de bondad de ajuste KS, AD, LF}{64}{section.5.8}%
 \contentsline {subsection}{\numberline {5.8.1}Oaxaca}{64}{subsection.5.8.1}%
 \contentsline {subsection}{\numberline {5.8.2}Guerrero}{65}{subsection.5.8.2}%
-\contentsline {subsection}{\numberline {5.8.3}Michoacán}{66}{subsection.5.8.3}%
-\contentsline {subsection}{\numberline {5.8.4}Chiapas}{67}{subsection.5.8.4}%
-\contentsline {subsection}{\numberline {5.8.5}Resto Nacionales}{68}{subsection.5.8.5}%
-\contentsline {subsection}{\numberline {5.8.6}Sismos Nacionales}{69}{subsection.5.8.6}%
-\contentsline {section}{\numberline {5.9}Resultados de las pruebas de bondad de ajuste y justificación de la distribución seleccionada por región}{69}{section.5.9}%
-\contentsline {subsection}{\numberline {5.9.1}Oaxaca}{69}{subsection.5.9.1}%
-\contentsline {subsection}{\numberline {5.9.2}Guerrero}{70}{subsection.5.9.2}%
-\contentsline {subsection}{\numberline {5.9.3}Michoacán}{71}{subsection.5.9.3}%
-\contentsline {subsection}{\numberline {5.9.4}Chiapas}{72}{subsection.5.9.4}%
-\contentsline {subsection}{\numberline {5.9.5}Resto Nacionales}{73}{subsection.5.9.5}%
-\contentsline {subsection}{\numberline {5.9.6}Sismos Nacionales}{74}{subsection.5.9.6}%
-\contentsline {chapter}{\numberline {6}Conclusiones }{77}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Anexo 1 }{79}{appendix.Alph1}%
-\contentsline {chapter}{{Bibliografía}}{82}{appendix*.59}%
+\contentsline {subsection}{\numberline {5.8.3}Michoacán}{67}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Chiapas}{68}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}Resto Nacionales}{70}{subsection.5.8.5}%
+\contentsline {subsection}{\numberline {5.8.6}Sismos Nacionales}{71}{subsection.5.8.6}%
+\contentsline {section}{\numberline {5.9}Resultados de las pruebas de bondad de ajuste y justificación de la distribución seleccionada por región}{73}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Oaxaca}{73}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Guerrero}{74}{subsection.5.9.2}%
+\contentsline {subsection}{\numberline {5.9.3}Michoacán}{75}{subsection.5.9.3}%
+\contentsline {subsection}{\numberline {5.9.4}Chiapas}{76}{subsection.5.9.4}%
+\contentsline {subsection}{\numberline {5.9.5}Resto Nacionales}{77}{subsection.5.9.5}%
+\contentsline {subsection}{\numberline {5.9.6}Sismos Nacionales}{78}{subsection.5.9.6}%
+\contentsline {chapter}{\numberline {6}Conclusiones }{81}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Anexo 1 }{83}{appendix.Alph1}%
+\contentsline {chapter}{{Bibliografía}}{86}{appendix*.46}%
