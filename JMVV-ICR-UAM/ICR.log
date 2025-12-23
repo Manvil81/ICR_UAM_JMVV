@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  22 DEC 2025 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  22 DEC 2025 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,15 +1145,6 @@ LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
 LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
-
-LaTeX Warning: Label `cap:Metodologia' multiply defined.
-
-
-LaTeX Warning: Label `cap:Metodologia' multiply defined.
-
-
-LaTeX Warning: Label `cap:Metodologia' multiply defined.
-
 ) (Conclusiones/Conclusiones.aux
 
 LaTeX Warning: Label `cap:Metodologia' multiply defined.
@@ -1747,12 +1738,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 4.
-<./Imagenes/diagrama_metodologia.png, id=781, 802.49812pt x 575.14874pt>
+<./Imagenes/diagrama_metodologia.png, id=777, 626.94225pt x 449.88075pt>
 File: ./Imagenes/diagrama_metodologia.png Graphic file (type png)
 <use ./Imagenes/diagrama_metodologia.png>
 Package pdftex.def Info: ./Imagenes/diagrama_metodologia.png  used on input lin
 e 12.
-(pdftex.def)             Requested size: 443.02222pt x 317.51755pt.
+(pdftex.def)             Requested size: 443.02222pt x 317.90048pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1956,13 +1947,12 @@ Overfull \hbox (1.73692pt too wide) in paragraph at lines 44--44
 
 
 ]
-<./Imagenes/histogramas_densidad_totales.png, id=896, 1757.3655pt x 1303.269pt>
-
+<./Imagenes/histogramas_densidad_totales.png, id=892, 1756.161pt x 1341.813pt>
 File: ./Imagenes/histogramas_densidad_totales.png Graphic file (type png)
 <use ./Imagenes/histogramas_densidad_totales.png>
 Package pdftex.def Info: ./Imagenes/histogramas_densidad_totales.png  used on i
 nput line 56.
-(pdftex.def)             Requested size: 466.34068pt x 345.84192pt.
+(pdftex.def)             Requested size: 466.34068pt x 356.29536pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1989,25 +1979,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./Imagenes/histogramas_densidad_totales.png>]
+<./Imagenes/histogramas_densidad_maximas.png, id=902, 1520.079pt x 1220.1585pt>
 
-LaTeX Warning: File `histogramas_densidad_maximas.png' not found on input line 
-81.
-
-
-! Package pdftex.def Error: File `histogramas_densidad_maximas.png' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...xtwidth]{histogramas_densidad_maximas.png}
-                                                  
-? 
+File: ./Imagenes/histogramas_densidad_maximas.png Graphic file (type png)
+<use ./Imagenes/histogramas_densidad_maximas.png>
+Package pdftex.def Info: ./Imagenes/histogramas_densidad_maximas.png  used on i
+nput line 81.
+(pdftex.def)             Requested size: 466.34068pt x 374.3168pt.
 
 
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2015,28 +1997,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
-
-LaTeX Warning: File `frecuencias_mes_totales.png' not found on input line 106.
-
-
-! Package pdftex.def Error: File `frecuencias_mes_totales.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...=\textwidth]{frecuencias_mes_totales.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[36 <./Imagenes/histogramas_densidad_maximas.png>]
+<./Imagenes/frecuencias_mes_totales.png, id=908, 1451.4225pt x 1161.138pt>
+File: ./Imagenes/frecuencias_mes_totales.png Graphic file (type png)
+<use ./Imagenes/frecuencias_mes_totales.png>
+Package pdftex.def Info: ./Imagenes/frecuencias_mes_totales.png  used on input 
+line 106.
+(pdftex.def)             Requested size: 466.34068pt x 373.06003pt.
 
 
-
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2044,32 +2015,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37]
-
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[38]
-
-LaTeX Warning: File `frecuencias_mes_maximas.png' not found on input line 131.
-
-
-! Package pdftex.def Error: File `frecuencias_mes_maximas.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131 ...=\textwidth]{frecuencias_mes_maximas.png}
-                                                  
-? 
+[37 <./Imagenes/frecuencias_mes_totales.png>]
+<./Imagenes/frecuencias_mes_maximas.png, id=914, 1470.6945pt x 1174.3875pt>
+File: ./Imagenes/frecuencias_mes_maximas.png Graphic file (type png)
+<use ./Imagenes/frecuencias_mes_maximas.png>
+Package pdftex.def Info: ./Imagenes/frecuencias_mes_maximas.png  used on input 
+line 131.
+(pdftex.def)             Requested size: 466.34068pt x 372.3711pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2084,39 +2036,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
+[38]
 
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[40]
-
-LaTeX Warning: File `histogramas_magnitud.png' not found on input line 156.
-
-
-! Package pdftex.def Error: File `histogramas_magnitud.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 ...dth=\textwidth]{histogramas_magnitud.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 160.
-LaTeX Info: Redefining \% on input line 160.
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2124,10 +2047,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
+[39 <./Imagenes/frecuencias_mes_maximas.png>]
+<./Imagenes/histogramas_magnitud.png, id=925, 1532.124pt x 1253.8845pt>
+File: ./Imagenes/histogramas_magnitud.png Graphic file (type png)
+<use ./Imagenes/histogramas_magnitud.png>
+Package pdftex.def Info: ./Imagenes/histogramas_magnitud.png  used on input lin
+e 156.
+(pdftex.def)             Requested size: 466.34068pt x 381.64021pt.
 
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
+
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2135,21 +2065,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
-
-LaTeX Warning: File `magnitudes_tiempo.png' not found on input line 181.
-
-
-! Package pdftex.def Error: File `magnitudes_tiempo.png' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 ...[width=\textwidth]{magnitudes_tiempo.png}
-                                                  
-? 
+[40 <./Imagenes/histogramas_magnitud.png>]
+<./Imagenes/magnitudes_tiempo.png, id=931, 1520.079pt x 1250.271pt>
+File: ./Imagenes/magnitudes_tiempo.png Graphic file (type png)
+<use ./Imagenes/magnitudes_tiempo.png>
+Package pdftex.def Info: ./Imagenes/magnitudes_tiempo.png  used on input line 1
+81.
+(pdftex.def)             Requested size: 466.34068pt x 383.55464pt.
 
 
 LaTeX Info: Redefining \. on input line 187.
@@ -2161,50 +2083,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
-
-LaTeX Warning: File `ic_media_totales.png' not found on input line 221.
-
-
-! Package pdftex.def Error: File `ic_media_totales.png' not found: using draft 
-setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 ...idth=0.8\textwidth]{ic_media_totales.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[41 <./Imagenes/magnitudes_tiempo.png>]
+<./Imagenes/ic_media_totales.png, id=937, 813.63976pt x 408.92775pt>
+File: ./Imagenes/ic_media_totales.png Graphic file (type png)
+<use ./Imagenes/ic_media_totales.png>
+Package pdftex.def Info: ./Imagenes/ic_media_totales.png  used on input line 22
+1.
+(pdftex.def)             Requested size: 373.07396pt x 187.50378pt.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \. on input line 225.
-LaTeX Info: Redefining \% on input line 225.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[44]
-
-LaTeX Warning: File `ic_media_maximas.png' not found on input line 254.
-
-
-! Package pdftex.def Error: File `ic_media_maximas.png' not found: using draft 
-setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254 ...idth=0.8\textwidth]{ic_media_maximas.png}
-                                                  
-? 
+<./Imagenes/ic_media_maximas.png, id=938, 818.45775pt x 415.5525pt>
+File: ./Imagenes/ic_media_maximas.png Graphic file (type png)
+<use ./Imagenes/ic_media_maximas.png>
+Package pdftex.def Info: ./Imagenes/ic_media_maximas.png  used on input line 25
+4.
+(pdftex.def)             Requested size: 373.07396pt x 189.41908pt.
 
 
 LaTeX Info: Redefining \. on input line 258.
@@ -2216,25 +2111,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
-
-LaTeX Warning: File `ic_varianza_totales.png' not found on input line 289.
-
-
-! Package pdftex.def Error: File `ic_varianza_totales.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289 ...h=0.8\textwidth]{ic_varianza_totales.png}
-                                                  
-? 
+[42 <./Imagenes/ic_media_totales.png>]
+<./Imagenes/ic_varianza_totales.png, id=944, 818.45775pt x 415.5525pt>
+File: ./Imagenes/ic_varianza_totales.png Graphic file (type png)
+<use ./Imagenes/ic_varianza_totales.png>
+Package pdftex.def Info: ./Imagenes/ic_varianza_totales.png  used on input line
+ 289.
+(pdftex.def)             Requested size: 373.07396pt x 189.41908pt.
 
 
-LaTeX Info: Redefining \. on input line 293.
-LaTeX Info: Redefining \% on input line 293.
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2242,21 +2129,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
+[43 <./Imagenes/ic_media_maximas.png>]
+<./Imagenes/ic_varianza_maximas.png, id=950, 818.45775pt x 415.5525pt>
+File: ./Imagenes/ic_varianza_maximas.png Graphic file (type png)
+<use ./Imagenes/ic_varianza_maximas.png>
+Package pdftex.def Info: ./Imagenes/ic_varianza_maximas.png  used on input line
+ 322.
+(pdftex.def)             Requested size: 373.07396pt x 189.41908pt.
 
-LaTeX Warning: File `ic_varianza_maximas.png' not found on input line 322.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-! Package pdftex.def Error: File `ic_varianza_maximas.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.322 ...h=0.8\textwidth]{ic_varianza_maximas.png}
-                                                  
-? 
 
 
 LaTeX Info: Redefining \. on input line 326.
@@ -2268,10 +2150,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47]
-LaTeX Info: Redefining \. on input line 348.
-LaTeX Info: Redefining \% on input line 348.
+[44 <./Imagenes/ic_varianza_totales.png>]
+<./Imagenes/ic_proporcion_totales.png, id=956, 818.45775pt x 415.5525pt>
+File: ./Imagenes/ic_proporcion_totales.png Graphic file (type png)
+<use ./Imagenes/ic_proporcion_totales.png>
+Package pdftex.def Info: ./Imagenes/ic_proporcion_totales.png  used on input li
+ne 354.
+(pdftex.def)             Requested size: 373.07396pt x 189.41908pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 358.
+LaTeX Info: Redefining \% on input line 358.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./Imagenes/ic_varianza_maximas.png>]
+<./Imagenes/ic_proporcion_maximas.png, id=963, 818.45775pt x 415.5525pt>
+File: ./Imagenes/ic_proporcion_maximas.png Graphic file (type png)
+<use ./Imagenes/ic_proporcion_maximas.png>
+Package pdftex.def Info: ./Imagenes/ic_proporcion_maximas.png  used on input li
+ne 384.
+(pdftex.def)             Requested size: 373.07396pt x 189.41908pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 388.
+LaTeX Info: Redefining \% on input line 388.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46 <./Imagenes/ic_proporcion_totales.png>]
+
+LaTeX Info: Redefining \. on input line 460.
+LaTeX Info: Redefining \% on input line 460.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47 <./Imagenes/ic_proporcion_maximas.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 490.
+LaTeX Info: Redefining \% on input line 490.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2281,21 +2219,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [48]
 
-LaTeX Warning: File `ic_proporcion_totales.png' not found on input line 354.
-
-
-! Package pdftex.def Error: File `ic_proporcion_totales.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.354 ...0.8\textwidth]{ic_proporcion_totales.png}
-                                                  
-? 
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
+LaTeX Info: Redefining \. on input line 592.
+LaTeX Info: Redefining \% on input line 592.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2305,23 +2230,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [49]
 
-LaTeX Warning: File `ic_proporcion_maximas.png' not found on input line 384.
-
-
-! Package pdftex.def Error: File `ic_proporcion_maximas.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.384 ...0.8\textwidth]{ic_proporcion_maximas.png}
-                                                  
-? 
-
-
-LaTeX Info: Redefining \. on input line 425.
-LaTeX Info: Redefining \% on input line 425.
+LaTeX Info: Redefining \. on input line 627.
+LaTeX Info: Redefining \% on input line 627.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2330,12 +2240,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (15.70663pt too wide) in alignment at lines 661--661
+ [] [] [] [] [] [] [] [] [] [] 
+ []
 
 
+Overfull \hbox (15.70663pt too wide) in alignment at lines 716--716
+ [] [] [] [] [] [] [] [] [] [] 
+ []
 
-LaTeX Info: Redefining \. on input line 486.
-LaTeX Info: Redefining \% on input line 486.
+LaTeX Info: Redefining \. on input line 716.
+LaTeX Info: Redefining \% on input line 716.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2344,60 +2259,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [51]
-LaTeX Info: Redefining \. on input line 535.
-LaTeX Info: Redefining \% on input line 535.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[52]
-
-LaTeX Info: Redefining \. on input line 603.
-LaTeX Info: Redefining \% on input line 603.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[53]
-Overfull \hbox (15.70663pt too wide) in alignment at lines 661--661
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 670.
-LaTeX Info: Redefining \% on input line 670.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[54]
-Overfull \hbox (15.70663pt too wide) in alignment at lines 716--716
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 748.
-LaTeX Info: Redefining \% on input line 748.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[55]
 Underfull \hbox (badness 10000) in paragraph at lines 782--782
 []|\OT1/ptm/m/n/8 Media Gro. $\OML/ztmcm/m/it/8 >$
  []
@@ -2547,7 +2408,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 782--782
 []|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
  []
 
+LaTeX Info: Redefining \. on input line 782.
+LaTeX Info: Redefining \% on input line 782.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 838--838
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
@@ -2692,8 +2562,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 838--838
 []|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
-
-
 LaTeX Info: Redefining \. on input line 838.
 LaTeX Info: Redefining \% on input line 838.
 
@@ -2703,7 +2571,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
+[53]
 Overfull \hbox (4.59587pt too wide) in paragraph at lines 903--903
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
@@ -2818,8 +2686,6 @@ Overfull \hbox (4.59573pt too wide) in paragraph at lines 903--903
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
-
-
 LaTeX Info: Redefining \. on input line 903.
 LaTeX Info: Redefining \% on input line 903.
 
@@ -2829,7 +2695,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 960--960
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
@@ -2979,8 +2845,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 960--960
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
-
-
 LaTeX Info: Redefining \. on input line 960.
 LaTeX Info: Redefining \% on input line 960.
 
@@ -2990,10 +2854,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]
+[55]
 
-LaTeX Info: Redefining \. on input line 988.
-LaTeX Info: Redefining \% on input line 988.
+LaTeX Info: Redefining \. on input line 992.
+LaTeX Info: Redefining \% on input line 992.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3001,7 +2865,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
 []|\OT1/ptm/m/n/10 Proporci[]on Gro. $\OML/ztmcm/m/it/10 >$
  []
@@ -3148,8 +3012,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
 
 
 
-LaTeX Info: Redefining \. on input line 1045.
-LaTeX Info: Redefining \% on input line 1045.
+LaTeX Info: Redefining \. on input line 1047.
+LaTeX Info: Redefining \% on input line 1047.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3157,7 +3021,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
@@ -3304,8 +3168,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
 
 
 
-LaTeX Info: Redefining \. on input line 1101.
-LaTeX Info: Redefining \% on input line 1101.
+LaTeX Info: Redefining \. on input line 1103.
+LaTeX Info: Redefining \% on input line 1103.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3313,7 +3177,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61]
+[58]
 Overfull \hbox (16.65387pt too wide) in paragraph at lines 1207--1207
 [] \TS1/cmtt/m/n/10 ˆ \OT1/cmtt/m/n/10 Oaxaca vs Guerrero: t=-2.333, p=0.0201 -
  MEDIAS DIFERENTES (Varianzas diferentes (Welch))[] 
@@ -3356,17 +3220,6 @@ Overfull \hbox (63.90346pt too wide) in paragraph at lines 1207--1207
  []
 
 
-
-LaTeX Info: Redefining \. on input line 1207.
-LaTeX Info: Redefining \% on input line 1207.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[62]
 Overfull \hbox (6.15396pt too wide) in paragraph at lines 1207--1207
 [] \TS1/cmtt/m/n/10 ˆ \OT1/cmtt/m/n/10 Oaxaca vs Michoac^^San: t=2.087, p=0.039
 2 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
@@ -3385,6 +3238,17 @@ Overfull \hbox (27.15378pt too wide) in paragraph at lines 1207--1207
  []
 
 
+
+LaTeX Info: Redefining \. on input line 1207.
+LaTeX Info: Redefining \% on input line 1207.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59]
 Overfull \hbox (16.65387pt too wide) in paragraph at lines 1207--1207
 [] \TS1/cmtt/m/n/10 ˆ \OT1/cmtt/m/n/10 Guerrero vs Michoac^^San: t=2.549, p=0.0
 121 - MEDIAS DIFERENTES (Varianzas iguales (Pooled))[] 
@@ -3433,21 +3297,6 @@ Overfull \hbox (69.15341pt too wide) in paragraph at lines 1207--1207
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1207.
-LaTeX Info: Redefining \% on input line 1207.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[63]
-
 ! LaTeX Error: Unicode character Î± (U+03B1)
                not set up for use with LaTeX.
 
@@ -3458,8 +3307,13 @@ Type  H <return>  for immediate help.
 l.1207 \end{verbatim}
                      
 ? 
-LaTeX Info: Redefining \. on input line 1268.
-LaTeX Info: Redefining \% on input line 1268.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1213.
+LaTeX Info: Redefining \% on input line 1213.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3467,7 +3321,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64]
+[60]
+
+LaTeX Info: Redefining \. on input line 1308.
+LaTeX Info: Redefining \% on input line 1308.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61]
 LaTeX Info: Redefining \. on input line 1350.
 LaTeX Info: Redefining \% on input line 1350.
 
@@ -3478,10 +3343,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65]
-LaTeX Info: Redefining \. on input line 1390.
-LaTeX Info: Redefining \% on input line 1390.
+[62]
 
+LaTeX Info: Redefining \. on input line 1432.
+LaTeX Info: Redefining \% on input line 1432.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3489,7 +3354,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66]
+[63]
 LaTeX Info: Redefining \. on input line 1472.
 LaTeX Info: Redefining \% on input line 1472.
 
@@ -3500,7 +3365,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 1513--1513
 []|\OT1/ptm/m/n/10 Rechazo de
  []
@@ -3609,7 +3474,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
 []|\OT1/ptm/m/n/10 Rechazo de
  []
@@ -3708,8 +3573,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
 Underfull \hbox (badness 10000) in paragraph at lines 1593--1593
 []|\OT1/ptm/m/n/10 Rechazo de
  []
-
-
 
 LaTeX Info: Redefining \. on input line 1593.
 LaTeX Info: Redefining \% on input line 1593.
@@ -3720,7 +3583,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69]
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
@@ -3769,8 +3632,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
 Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
-
-
 
 LaTeX Info: Redefining \. on input line 1632.
 LaTeX Info: Redefining \% on input line 1632.
@@ -3781,7 +3642,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70]
+[67]
 Overfull \hbox (4.64908pt too wide) in paragraph at lines 1673--1673
 []|\OT1/ptm/b/n/10 Interpretaci[]on| 
  []
@@ -3895,7 +3756,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71]
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
@@ -3944,53 +3805,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72]
-
-LaTeX Warning: File `curva_gumbel_oaxaca.png' not found on input line 1726.
-
-
-! Package pdftex.def Error: File `curva_gumbel_oaxaca.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1726 ...=0.8\textwidth]{curva_gumbel_oaxaca.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1730.
-LaTeX Info: Redefining \% on input line 1730.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.09387pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.09387pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
-
-[73]
-
-LaTeX Warning: File `curva_weibull_guerrero.png' not found on input line 1737.
-
-
-! Package pdftex.def Error: File `curva_weibull_guerrero.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1737 ...8\textwidth]{curva_weibull_guerrero.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[69]
+<./Imagenes/curva_gumbel_oaxaca.png, id=1069, 713.66624pt x 414.95026pt>
+File: ./Imagenes/curva_gumbel_oaxaca.png Graphic file (type png)
+<use ./Imagenes/curva_gumbel_oaxaca.png>
+Package pdftex.def Info: ./Imagenes/curva_gumbel_oaxaca.png  used on input line
+ 1726.
+(pdftex.def)             Requested size: 373.07396pt x 216.91505pt.
+<./Imagenes/curva_weibull_guerrero.png, id=1070, 719.68875pt x 415.5525pt>
+File: ./Imagenes/curva_weibull_guerrero.png Graphic file (type png)
+<use ./Imagenes/curva_weibull_guerrero.png>
+Package pdftex.def Info: ./Imagenes/curva_weibull_guerrero.png  used on input l
+ine 1737.
+(pdftex.def)             Requested size: 373.07396pt x 215.42276pt.
 
 
 LaTeX Info: Redefining \. on input line 1741.
@@ -4002,115 +3829,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74]
-
-LaTeX Warning: File `curva_gev_michoacan.png' not found on input line 1748.
-
-
-! Package pdftex.def Error: File `curva_gev_michoacan.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1748 ...=0.8\textwidth]{curva_gev_michoacan.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1752.
-LaTeX Info: Redefining \% on input line 1752.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.09387pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.09387pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
-
-[75]
-
-LaTeX Warning: File `curva_weibull_chiapas.png' not found on input line 1759.
-
-
-! Package pdftex.def Error: File `curva_weibull_chiapas.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1759 ....8\textwidth]{curva_weibull_chiapas.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[70 <./Imagenes/curva_gumbel_oaxaca.png>]
+<./Imagenes/curva_gev_michoacan.png, id=1076, 717.882pt x 415.5525pt>
+File: ./Imagenes/curva_gev_michoacan.png Graphic file (type png)
+<use ./Imagenes/curva_gev_michoacan.png>
+Package pdftex.def Info: ./Imagenes/curva_gev_michoacan.png  used on input line
+ 1748.
+(pdftex.def)             Requested size: 373.07396pt x 215.95538pt.
+<./Imagenes/curva_weibull_chiapas.png, id=1077, 711.25725pt x 415.5525pt>
+File: ./Imagenes/curva_weibull_chiapas.png Graphic file (type png)
+<use ./Imagenes/curva_weibull_chiapas.png>
+Package pdftex.def Info: ./Imagenes/curva_weibull_chiapas.png  used on input li
+ne 1759.
+(pdftex.def)             Requested size: 373.07396pt x 217.96542pt.
 
 
 LaTeX Info: Redefining \. on input line 1763.
 LaTeX Info: Redefining \% on input line 1763.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[76]
-
-LaTeX Warning: File `curva_logistica_resto.png' not found on input line 1770.
-
-
-! Package pdftex.def Error: File `curva_logistica_resto.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1770 ....8\textwidth]{curva_logistica_resto.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 1774.
-LaTeX Info: Redefining \% on input line 1774.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.09387pt, for example:
 (fancyhdr)                \setlength{\headheight}{27.09387pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
 
-[77]
+[71 <./Imagenes/curva_weibull_guerrero.png> <./Imagenes/curva_gev_michoacan.png
+>]
+<./Imagenes/curva_logistica_resto.png, id=1084, 760.64175pt x 442.65375pt>
+File: ./Imagenes/curva_logistica_resto.png Graphic file (type png)
+<use ./Imagenes/curva_logistica_resto.png>
+Package pdftex.def Info: ./Imagenes/curva_logistica_resto.png  used on input li
+ne 1770.
+(pdftex.def)             Requested size: 373.07396pt x 217.1116pt.
+<./Imagenes/curva_normal_nacional.png, id=1085, 719.0865pt x 415.5525pt>
+File: ./Imagenes/curva_normal_nacional.png Graphic file (type png)
+<use ./Imagenes/curva_normal_nacional.png>
+Package pdftex.def Info: ./Imagenes/curva_normal_nacional.png  used on input li
+ne 1781.
+(pdftex.def)             Requested size: 373.07396pt x 215.6003pt.
 
-LaTeX Warning: File `curva_normal_nacional.png' not found on input line 1781.
-
-
-! Package pdftex.def Error: File `curva_normal_nacional.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1781 ....8\textwidth]{curva_normal_nacional.png}
-                                                  
-? 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Underfull \vbox (badness 2512) has occurred while \output is active []
 
 
-LaTeX Info: Redefining \. on input line 307.
-LaTeX Info: Redefining \% on input line 307.
+
+LaTeX Info: Redefining \. on input line 1784.
+LaTeX Info: Redefining \% on input line 1784.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4118,7 +3881,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78]
+[72 <./Imagenes/curva_weibull_chiapas.png> <./Imagenes/curva_logistica_resto.pn
+g>])
 
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
@@ -4129,7 +3893,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-15.09387pt}.
 
-[79]
+[73 <./Imagenes/curva_normal_nacional.png>]
 \openout2 = `Conclusiones/Conclusiones.aux'.
 
  (Conclusiones/Conclusiones.tex
@@ -4143,7 +3907,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80
+[74
 
 
 
@@ -4159,7 +3923,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 16.
 Missing character: There is no ° in font zptmcm7t!
 
 
-[81])
+[75])
 
 LaTeX Info: Redefining \. on input line 310.
 LaTeX Info: Redefining \% on input line 310.
@@ -4170,14 +3934,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82]
+[76]
 \openout2 = `Anexos/Anexo1.aux'.
 
  (Anexos/Anexo1.tex
 Ap\'{e}ndice A.
 )
 
-[83
+[77
 
 
 
@@ -4193,7 +3957,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84
+[78
 
 
 
@@ -4205,11 +3969,11 @@ nor-ma-li-dad, Rpubs.com.  Dis-po-ni-ble en:
 
 
 
-[85
+[79
 
 ])
 
-[86] (ICR.aux (Portada/Portada.aux)
+[80] (ICR.aux (Portada/Portada.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  (Resumen/Resumen.aux)
@@ -4230,10 +3994,10 @@ Package rerunfilecheck Info: File `ICR.out' has not changed.
 (rerunfilecheck)             Checksum: 4BE18A8040569C23CF79085F67796DD8;20694.
  ) 
 Here is how much of TeX's memory you used:
- 32269 strings out of 468133
- 620118 string characters out of 5440786
- 1146436 words of memory out of 5000000
- 59859 multiletter control sequences out of 15000+600000
+ 31906 strings out of 468133
+ 608543 string characters out of 5440786
+ 1144316 words of memory out of 5000000
+ 59502 multiletter control sequences out of 15000+600000
  711944 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,13n,119p,2341b,1363s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4248,9 +4012,9 @@ Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/f
 onts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/u
 tmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program
  Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (108 pages, 1210877 bytes).
+Output written on ICR.pdf (102 pages, 4033939 bytes).
 PDF statistics:
- 1246 PDF objects out of 1440 (max. 8388607)
- 313 named destinations out of 1000 (max. 500000)
- 728 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1250 PDF objects out of 1440 (max. 8388607)
+ 307 named destinations out of 1000 (max. 500000)
+ 813 words of extra memory for PDF output out of 10000 (max. 10000000)
 
