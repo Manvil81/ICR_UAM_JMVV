@@ -5,6 +5,7 @@ El proceso de analizar y estudiar los datos sísmicos recopilados del SSN y lueg
 
 \section{Herramientas utilizadas}
 
+\noindent
 El archivo recopilado desde el sitio del SSN es un archivo en formato csv bruto el cual contiene la información estadística de todos los sismos del país desde el 01 de enero de 1900 hasta una fecha determinada. En este caso se esta trabajando con un archivo que contiene datos sísmicos hasta el 23 de julio de 2025.
 
 En la metodología, la Fase 2 se realiza utilizando un código desarrollado en Python para hacer el filtrado del archivo de sismos generales y para obtener los archivos individuales de cada región en formato xlsx. El código se ejecuta en Google Colab a través de servidores en la nube y el resultado son 6 archivos de Excel con la información de datos sísmicos depurada de sismos iguales o mayores a 5°.
@@ -13,6 +14,7 @@ El análisis de los archivos individuales de sismos y todos los cálculos relaci
 
 \section{Resultados de estadísticos descriptivos}
 
+\noindent
 Para esta parte se ejecutaron todos los cálculos descritos en la Fase 4 de la metodología realizando la implementación en RStudio, se obtuvo la tabla 2 con los resultados del análisis para las 6 regiones y para los 2 datasets (totales y magnitudes máximas).
 
 {  %% Se agrupa el código para que afecte solo a esta tabla
@@ -49,6 +51,7 @@ De la tabla anterior se puede visualizar que el comportamiento de los sismos par
 
 \section{Representación gráfica de los datos sísmicos}
 
+\noindent
 El obtener gráficos representativos de los datos sísmicos analizados para cada región, tanto para sismos totales como para magnitudes máximas, permite comprender y analizar de manera visual y clara el comportamiento de los sismos. A continuación, se presentan los diferentes histogramas y gráficos obtenidos.
 
 \subsection{Histogramas de densidad de los sismos para sismos totales}
@@ -60,6 +63,7 @@ El obtener gráficos representativos de los datos sísmicos analizados para cada
 \label{fig:histogramas_totales}
 \end{figure}
 
+\noindent
 Observando los histogramas, se puede realizar el siguiente análisis para los datos de sismos totales.
 
 \begin{itemize}
@@ -85,6 +89,7 @@ Observando los histogramas, se puede realizar el siguiente análisis para los da
 \label{fig:histogramas_maximas}
 \end{figure}
 
+\noindent
 Observando los histogramas, se puede realizar el siguiente análisis para los datos de magnitudes máximas.
 
 \begin{itemize}
@@ -110,6 +115,7 @@ Observando los histogramas, se puede realizar el siguiente análisis para los da
 \label{fig:frecuencias_mes_totales}
 \end{figure}
 
+\noindent
 Analizando los histogramas de frecuencias relativas por mes para sismos totales, se puede realizar el análisis siguiente del comportamiento temporal de la actividad sísmica en las distintas regiones de análisis.
 
 \begin{itemize}
@@ -135,6 +141,7 @@ Analizando los histogramas de frecuencias relativas por mes para sismos totales,
 \label{fig:frecuencias_mes_maximas}
 \end{figure}
 
+\noindent
 Analizando los histogramas de frecuencias relativas por mes para magnitudes máximas, se puede realizar el análisis siguiente del comportamiento temporal de la actividad sísmica en las distintas regiones de análisis.
 
 \begin{itemize}
@@ -160,6 +167,7 @@ Analizando los histogramas de frecuencias relativas por mes para magnitudes máx
 \label{fig:histogramas_magnitud}
 \end{figure}
 
+\noindent
 Analizando los histogramas de sismos por magnitud, se puede realizar el análisis siguiente.
 
 \begin{itemize}
@@ -185,13 +193,17 @@ Analizando los histogramas de sismos por magnitud, se puede realizar el análisi
 \label{fig:magnitudes_tiempo}
 \end{figure}
 
+\noindent
 Analizando los gráficos para las 6 regiones se puede observar que antes de los años 70s del siglo pasado, las líneas de magnitud máxima, promedio y mínima no presentaban prácticamente variaciones para los 4 estados, y presentan muy poca variación para Resto Nacional y Sismos Nacionales en este periodo. Lo cual indica que hubo una progresiva mejoría en las técnicas de medición y registro de eventos sísmicos. También podemos observar sismos de interés en los gráficos de Michoacán y Chiapas, siendo el sismo de septiembre 19, 1985 el que aparece como un pico en el gráfico de Michoacán, mientras que para el de Chiapas se aprecia el sismo del 07 de septiembre, 2017 el que aparece claramente en su gráfico y que además resulta ser el sismo más fuerte registrado en toda la base de datos sísmicos de México.
+
 \section{Intervalos de confianza y tamaño mínimo de la muestra}
 
+\noindent
 La estimación de Intervalos de Confianza (IC) constituye una herramienta fundamental para el análisis estadístico al estimar la incertidumbre asociada a parámetros como la media, la desviación estándar y la proporción. Los rangos que se obtienen permiten visualizar en qué valores es probable que se encuentren los parámetros verdaderos con un nivel de confianza (para este trabajo, se especifica en 95\%).
 
 \subsection{Intervalo de confianza para la media}
 
+\noindent
 Se presenta la tabla 3 con los IC para la media para sismos totales para las 6 regiones de estudio.
 
 %%\small
