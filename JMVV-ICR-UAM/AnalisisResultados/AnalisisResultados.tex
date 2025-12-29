@@ -15,6 +15,7 @@ El análisis de los archivos individuales de sismos y todos los cálculos relaci
 
 Para esta parte se ejecutaron todos los cálculos descritos en la Fase 4 de la metodología realizando la implementación en RStudio, se obtuvo la tabla 2 con los resultados del análisis para las 6 regiones y para los 2 datasets (totales y magnitudes máximas).
 
+{  %% Se agrupa el código para que afecte solo a esta tabla
 \footnotesize
 \centering
 \begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2cm}|* {9}{>{\centering\arraybackslash}X|} >{\centering\arraybackslash}p{1cm}|}
@@ -42,6 +43,7 @@ R.N. Max & 5.3 & 8.2 & 6.517 & 6.50 & 6.5 & 0.579 & 0.335 & 0.033 & 3.176 & 87 \
 Nacionales & 5.0 & 8.2 & 5.490 & 5.20 & 5.0 & 0.623 & 0.389 & 1.715 & 5.340 & 1855 \\ \hline
 Nals. Max & 5.6 & 8.2 & 7.007 & 7.00 & 7.0 & 0.506 & 0.256 & -0.050 & 2.946 & 110 \\ \hline
 \end{tabularx}
+}  %% Se cierra el grupo
 
 De la tabla anterior se puede visualizar que el comportamiento de los sismos para una misma región iguales o mayores a 5° cambia significativamente cuando se analizan todos los sismos a cuando se hace un análisis de sismos de magnitud máxima anual. En todas las regiones se aprecia un aumento de la media cuando se manejan los datos máximos, así como de la mediana. Para la moda hay estados como Michoacán que no presentan diferencias entre su moda para sismos totales y su moda para magnitudes máximas. Para la varianza y desviación estándar también se aprecia un aumento en los valores cuando se trata de magnitudes máximas, salvo para las regiones de Resto Nacionales y Sismos Nacionales, donde se aprecia una menor varianza. Para la asimetría se encuentra que todas las regiones muestran asimetría positiva, mostrando que en todas las regiones se presentan eventos sísmicos de moderados a fuertes, destacándose Chiapas para los sismos totales con una cola muy marcada hacia la derecha. La asimetría para las magnitudes máximas presenta resultados más pequeños indicando menor sesgo positivo, salvo por sismos nacionales que presenta un sesgo negativo indicando mayor cantidad de valores bajos respecto de la media. La curtosis indica para los sismos totales que hay una mayor concentración de valores entorno a la media ósea que son leptocúrticas. Para los valores máximos los resultados indican que Oaxaca, Guerrero y Michoacán presentan distribuciones platicúrticas, mientras que Chiapas, Resto Nacional y Sismos Nacionales presentan distribuciones muy cercanas a una normal.
 
