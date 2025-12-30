@@ -29,44 +29,46 @@ Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: Anexos/Anexo1.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 Database file #1: Referencias/Referencias.bib
+Warning--I didn't find a database entry for "papalexiou2020random"
 You've used 34 entries,
             2921 wiz_defined-function locations,
-            856 strings with 11566 characters,
-and the built_in function-call counts, 197904 in all, are:
-= -- 32926
+            859 strings with 11520 characters,
+and the built_in function-call counts, 196505 in all, are:
+= -- 32665
 > -- 2370
-< -- 0
-+ -- 16031
+< -- 1
++ -- 15905
 - -- 728
-* -- 17490
-:= -- 38856
+* -- 17358
+:= -- 38606
 add.period$ -- 70
 call.type$ -- 34
 change.case$ -- 474
 chr.to.int$ -- 34
 cite$ -- 34
-duplicate$ -- 470
-empty$ -- 1096
-format.name$ -- 838
-if$ -- 35586
+duplicate$ -- 471
+empty$ -- 1097
+format.name$ -- 831
+if$ -- 35329
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 34
+missing$ -- 35
 newline$ -- 142
-num.names$ -- 358
-pop$ -- 75
+num.names$ -- 359
+pop$ -- 77
 preamble$ -- 1
 purify$ -- 510
 quote$ -- 0
-skip$ -- 446
+skip$ -- 444
 stack$ -- 0
-substring$ -- 47383
+substring$ -- 47009
 swap$ -- 61
-text.length$ -- 476
+text.length$ -- 477
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 130
 warning$ -- 0
-while$ -- 757
+while$ -- 756
 width$ -- 0
-write$ -- 487
+write$ -- 492
+(There was 1 warning)

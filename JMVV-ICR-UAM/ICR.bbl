@@ -61,6 +61,11 @@ Convertito, V., Ebrahimian, H., Amoroso, O., Jalayer, F., De~Matteis, R.
   case of st gallen (switzerland), geothermal field, {\em Energies} {\bf
   14}(10):~2747.
 
+\harvarditem{Cornell}{1968}{cornell1968engineering}
+Cornell, C.~A.  \harvardyearleft 1968\harvardyearright .
+\newblock Engineering seismic risk analysis, {\em Bulletin of the Seismological
+  Society of America} {\bf 58}(5):~1583--1606.
+
 \harvarditem{{Diana Villasana Ocampo}}{2024}{rpubs2024pruebas}
 {Diana Villasana Ocampo}  \harvardyearleft 2024\harvardyearright .
 \newblock Rpubs - pruebas de normalidad, Rpubs.com.
@@ -90,6 +95,13 @@ Jena, R., Pradhan, B., Naik, S.~P. \harvardand\ Alamri, A.~M.  \harvardyearleft
 \newblock Earthquake risk assessment in ne india using deep learning and
   geospatial analysis, {\em Geoscience Frontiers} {\bf 12}(3):~101110.
 
+\harvarditem[Johnson et~al.]{Johnson, Kotz \harvardand\
+  Balakrishnan}{1995}{johnson1995continuous}
+Johnson, N.~L., Kotz, S. \harvardand\ Balakrishnan, N.  \harvardyearleft
+  1995\harvardyearright .
+\newblock {\em Continuous Univariate Distributions}, Vol.~2, 2nd edn, John
+  Wiley \& Sons, New York.
+
 \harvarditem[Matsumoto et~al.]{Matsumoto, Yaoyama, Lee, Hida \harvardand\
   Itoi}{2023}{matsumoto2023fundamental}
 Matsumoto, Y., Yaoyama, T., Lee, S., Hida, T. \harvardand\ Itoi, T.
@@ -113,12 +125,6 @@ Mignan, A., Danciu, L. \harvardand\ Giardini, D.  \harvardyearleft
 \newblock Catálogo de sismos.
 \newline\harvardurl{http://www2.ssn.unam.mx:8080/catalogo/}
 
-\harvarditem{Papalexiou \harvardand\ Koutsoyiannis}{2020}{papalexiou2020random}
-Papalexiou, S.~M. \harvardand\ Koutsoyiannis, D.  \harvardyearleft
-  2020\harvardyearright .
-\newblock Random number generators for extreme values: A comparison study, {\em
-  Journal of Hydrology} {\bf 590}:~125445.
-
 \harvarditem[Phung et~al.]{Phung, Loh, Chao, Chiou \harvardand\
   Huang}{2020}{phung2020ground}
 Phung, V.~B., Loh, C.~H., Chao, S.~H., Chiou, B.~S. \harvardand\ Huang, B.~S.
@@ -137,11 +143,6 @@ Ramírez-Gaytán, A., Aguirre-González, J. \harvardand\ Núñez-Cornú, F.~J.
 Richter, C.~F.  \harvardyearleft 1935\harvardyearright .
 \newblock An instrumental earthquake magnitude scale, {\em Bulletin of the
   Seismological Society of America} {\bf 25}(1):~1--32.
-
-\harvarditem{Rootzén \harvardand\ Zholud}{2021}{rootzen2021efficient}
-Rootzén, H. \harvardand\ Zholud, D.  \harvardyearleft 2021\harvardyearright .
-\newblock Efficient estimation of the number of false positives in
-  high-throughput screening, {\em Biometrika} {\bf 108}(1):~1--17.
 
 \harvarditem[Sawires et~al.]{Sawires, Peláez \harvardand\
   Santoyo}{2023}{sawires2023probabilistic}
