@@ -365,220 +365,181 @@ El Criterio de Información Bayesiano (BIC) permite comparar múltiples modelos 
 \noindent
 donde $\hat{L}$ es la verosimilitud máxima del modelo, $k$ es el número de parámetros del modelo, $n$ es el tamaño de la muestra. Se prefiere el modelo con menor BIC. BIC penaliza más fuertemente la complejidad del modelo, favoreciendo modelos más simples cuando el tamaño de muestra es grande.
 
-\textbf{Fase 10 – Cálculo de probabilidades de ocurrencia de sismos.} En esta fase se realiza la inferencia probabilista que rige a este proyecto, se hace el cálculo de los periodos de retorno, probabilidades de excedencia e intervalos de confianza.
+\textbf{Fase 10 – Cálculo de probabilidades de ocurrencia de sismos. } En esta fase se realiza la inferencia probabilística que constituye el objetivo principal de este proyecto. Utilizando la distribución óptima identificada para cada región en la Fase 9, se calculan los periodos de retorno, niveles de retorno y probabilidades de excedencia que permiten estimar cuándo podría ocurrir un sismo de magnitud significativa, de qué magnitud se espera y con qué probabilidad. 
 
-\subsection{Teoría de valores extremos y distribuciones empleadas}
-
-\noindent
-La teoría de valores extremos \cite{coles2001introduction} proporciona el marco teórico para modelar eventos raros de gran magnitud. Según el teorema de Fisher-Tippett, las distribuciones asintóticas de máximos (o mínimos) convergen a una de tres familias de distribuciones:
-
-\begin{itemize}
-    \item \textbf{Gumbel (Tipo I):} Para distribuciones con cola exponencial
-    \item \textbf{Fréchet (Tipo II):} Para distribuciones con cola pesada
-    \item \textbf{Weibull (Tipo III):} Para distribuciones con cola limitada
-\end{itemize}
+\subsection{Selección de la distribución óptima por región}
 
 \noindent
-Estas tres familias se unifican en la distribución generalizada de valores extremos (GEV).
+Una vez obtenidos los resultados de las pruebas de bondad de ajuste (Kolmogorov-Smirnov, Anderson-Darling, Lilliefors) y el Criterio de Información Bayesiano, se selecciona para cada región la distribución que presente el menor valor de BIC y que no rechace la hipótesis nula en las pruebas aplicadas. Como establece \citeasnoun{coles2001introduction}, la selección del modelo debe basarse en criterios estadísticos objetivos que permitan identificar la distribución que mejor representa el comportamiento de los datos.
 
-\subsubsection{Distribución de Gumbel}
+La Tabla \ref{tab:distribuciones_regiones} muestra las distribuciones óptimas identificadas para cada una de las regiones de estudio. 
+
+\begin{table}[H]
+\centering
+\caption{Distribuciones óptimas por región según pruebas de bondad de ajuste. }
+\label{tab:distribuciones_regiones}
+\begin{tabular}{|c|c|}
+\hline
+\rowcolor{gray! 60}
+\textbf{Región} & \textbf{Distribución óptima} \\
+\hline
+\rowcolor{gray!20}
+Oaxaca & Gumbel \\
+\hline
+Guerrero & Weibull \\
+\hline
+\rowcolor{gray! 20}
+Michoacán & GEV \\
+\hline
+Chiapas & Weibull \\
+\hline
+\rowcolor{gray! 20}
+Resto Nacionales & Logística \\
+\hline
+Nacionales & Normal \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Estimación de parámetros por máxima verosimilitud}
 
 \noindent
-La distribución de Gumbel se utiliza cuando los datos extremos provienen de una distribución con decaimiento exponencial en la cola.
+Para la distribución seleccionada en cada región, los parámetros se estiman mediante el método de máxima verosimilitud \cite{fisher1922mathematical}. Este método consiste en encontrar los valores de los parámetros que maximizan la función de verosimilitud: 
 
-\textbf{Función de densidad:}
 \begin{equation}
-f(x; \mu, \sigma) = \frac{1}{\sigma}\exp\left(-\frac{x-\mu}{\sigma}\right)\exp\left(-\exp\left(-\frac{x-\mu}{\sigma}\right)\right)
-\end{equation}
-
-\textbf{Función de distribución acumulada:}
-\begin{equation}
-F(x; \mu, \sigma) = \exp\left(-\exp\left(-\frac{x-\mu}{\sigma}\right)\right)
-\end{equation}
-
-\noindent
-donde $\mu$ es el parámetro de localización, $\sigma > 0$ es el parámetro de escala, $x \in (-\infty, +\infty)$. Esta distribución se utiliza para el estado de Oaxaca, donde los datos extremos muestran comportamiento de tipo Gumbel según los resultados obtenidos por las pruebas de bondad de ajuste.
-
-\subsubsection{Distribución de Weibull}
-
-\noindent
-La distribución de Weibull se emplea cuando existe un límite superior para los valores extremos:
-
-\textbf{Función de densidad:}
-\begin{equation}
-f(x; k, \lambda) = \frac{k}{\lambda}\left(\frac{x}{\lambda}\right)^{k-1}\exp\left(-\left(\frac{x}{\lambda}\right)^k\right)
-\end{equation}
-
-\textbf{Función de distribución acumulada:}
-\begin{equation}
-F(x; k, \lambda) = 1 - \exp\left(-\left(\frac{x}{\lambda}\right)^k\right)
+\hat{\theta} = \arg\max_{\theta} \sum_{i=1}^{n} \ln f(x_i; \theta)
 \end{equation}
 
 \noindent
-donde $k > 0$ es el parámetro de forma, $\lambda > 0$ es el parámetro de escala y $x \geq 0$. Los resultados indican que si $k < 1$ hay tasa de falla decreciente, si $k = 1$ la tasa de falla es constante (equivale a distribución exponencial) y si $k > 1$ la tasa de falla es creciente. Esta distribución se utiliza para los estados de Guerrero y Chiapas, donde los datos muestran mejor ajuste a la distribución Weibull.
+donde $\hat{\theta}$ representa el vector de parámetros estimados, $n$ es el número de observaciones (magnitudes máximas anuales), $x_i$ es la magnitud máxima del $i$-ésimo año y $f(x_i; \theta)$ es la función de densidad de la distribución seleccionada evaluada en $x_i$ con parámetros $\theta$.
 
-\subsubsection{Distribución generalizada de valores extremos}
+\subsection{Cálculo del periodo de retorno}
 
 \noindent
-La distribución GEV unifica las tres familias de valores extremos mediante un parámetro de forma:
+El periodo de retorno $T$ representa el tiempo promedio esperado entre eventos que exceden una magnitud específica $x$. De acuerdo con \citeasnoun{cornell1968engineering}, el periodo de retorno se calcula como:
 
-\textbf{Función de distribución acumulada:}
 \begin{equation}
-F(x; \mu, \sigma, \xi) = \begin{cases}
-\exp\left\{-\left[1 + \xi\left(\frac{x-\mu}{\sigma}\right)\right]^{-1/\xi}\right\} & \text{si } \xi \neq 0 \\
-\exp\left\{-\exp\left[-\frac{x-\mu}{\sigma}\right]\right\} & \text{si } \xi = 0
-\end{cases}
+T(x) = \frac{1}{1 - F(x; \hat{\theta})}
 \end{equation}
 
 \noindent
-donde $\mu$ es el parámetro de localización, $\sigma > 0$ es el parámetro de escala y $\xi$ es el parámetro de forma que determina el tipo de distribución, que puede ser si $\xi = 0$ Gumbel, $\xi > 0$ Fréchet (cola pesada) y si $\xi < 0$ Weibull (cola acortada). Esta distribución se utiliza para el estado de Michoacán donde la distribución GEV proporciona el mejor ajuste según las pruebas de bondad realizadas.
+donde $F(x; \hat{\theta})$ es la función de distribución acumulada de la magnitud máxima anual evaluada en $x$ con los parámetros estimados $\hat{\theta}$.
 
-\subsubsection{Estimación de parámetros}
+Por ejemplo, si para una región determinada se obtiene que $F(7. 0) = 0.98$, entonces el periodo de retorno para un sismo de magnitud 7.0° sería $T = 1/(1-0.98) = 50$ años.  Esto significa que, en promedio, se espera un sismo de magnitud igual o mayor a 7.0° cada 50 años en esa región. 
 
-\noindent
-Los parámetros de las distribuciones se estiman mediante el método de máxima verosimilitud \cite{fisher1922mathematical}, que consiste en encontrar los valores de los parámetros que maximizan la función de verosimilitud:
+Es importante aclarar que el periodo de retorno es un valor promedio de largo plazo y no implica que después de un evento el siguiente ocurrirá exactamente $T$ años después. La ocurrencia de sismos sigue siendo un proceso aleatorio. 
 
-\begin{equation}
-L(\theta; x_1, \ldots, x_n) = \prod_{i=1}^{n} f(x_i; \theta)
-\end{equation}
+\subsection{Cálculo del nivel de retorno}
 
 \noindent
-En la práctica, se maximiza la log-verosimilitud:
+El nivel de retorno $x_T$ es la magnitud asociada a un periodo de retorno específico $T$.  Se obtiene invirtiendo la función de distribución acumulada \cite{coles2001introduction}:
 
 \begin{equation}
-\ell(\theta) = \sum_{i=1}^{n} \ln f(x_i; \theta)
+x_T = F^{-1}\left(1 - \frac{1}{T}; \hat{\theta}\right)
 \end{equation}
 
-\subsection{Periodos de retorno}
+%% \noindent
+A continuación se presentan las fórmulas específicas para el cálculo del nivel de retorno según cada una de las distribuciones empleadas en este proyecto. 
+
+\subsubsection{Nivel de retorno para la distribución de Gumbel}
 
 \noindent
-El periodo de retorno $T$ es el tiempo esperado entre eventos que exceden una magnitud específica $x$ \cite{coles2001introduction}:
+Para la región de Oaxaca, donde la distribución de Gumbel presenta el mejor ajuste, el nivel de retorno se calcula como:
 
 \begin{equation}
-T(x) = \frac{1}{1 - F(x)}
+x_T = \mu - \sigma \ln\left(-\ln\left(1 - \frac{1}{T}\right)\right)
 \end{equation}
 
 \noindent
-donde $F(x)$ es la función de distribución acumulada de la magnitud máxima anual. Aquí, por ejemplo, un periodo de retorno $T = 50$ años para una magnitud $M = 7.0°$ significaría que en promedio se esperaría un sismo de magnitud $\geq 7.0°$ una vez cada 50 años.
+donde $\mu$ es el parámetro de localización y $\sigma > 0$ es el parámetro de escala.
 
-Cabe aclarar para lo establecido en el párrafo anterior que el periodo de retorno es un promedio de largo plazo, no significa que después de un evento de periodo de 50 años el siguiente evento ocurriría después de otros 50 años. La ocurrencia sísmica tiene naturaleza estocástica.
-
-\subsubsection{Niveles de retorno}
+\subsubsection{Nivel de retorno para la distribución de Weibull}
 
 \noindent
-El nivel de retorno $x_T$ es la magnitud asociada a un periodo de retorno $T$ específico. Se obtiene invirtiendo la relación:
+Para las regiones de Guerrero y Chiapas, donde la distribución de Weibull presenta el mejor ajuste, el nivel de retorno se calcula como:
 
 \begin{equation}
-x_T = F^{-1}\left(1 - \frac{1}{T}\right)
+x_T = \lambda\left(-\ln\left(\frac{1}{T}\right)\right)^{1/k}
 \end{equation}
 
-\textbf{Cálculo según cada distribución:}
+\noindent
+donde $k > 0$ es el parámetro de forma y $\lambda > 0$ es el parámetro de escala.  La distribución de Weibull es apropiada para modelar valores extremos cuando existe un límite superior para las magnitudes, lo cual es consistente con las características sismotectónicas de estas regiones. 
 
-\textbf{Gumbel:}
-\begin{equation}
-x_T = \mu - \sigma\ln\left(-\ln\left(1 - \frac{1}{T}\right)\right)
-\end{equation}
+\subsubsection{Nivel de retorno para la distribución generalizada de valores extremos}
 
-\textbf{Weibull:}
-\begin{equation}
-x_T = \lambda\left(-\ln\left(1 - \frac{1}{T}\right)\right)^{1/k}
-\end{equation}
+\noindent
+Para la región de Michoacán, donde la distribución GEV presenta el mejor ajuste, el nivel de retorno se calcula como:
 
-\textbf{GEV:}
 \begin{equation}
 x_T = \begin{cases}
-\mu + \frac{\sigma}{\xi}\left[\left(-\ln\left(1-\frac{1}{T}\right)\right)^{-\xi} - 1\right] & \text{si } \xi \neq 0 \\
-\mu - \sigma\ln\left[-\ln\left(1-\frac{1}{T}\right)\right] & \text{si } \xi = 0
+\mu + \dfrac{\sigma}{\xi}\left[\left(-\ln\left(1-\dfrac{1}{T}\right)\right)^{-\xi} - 1\right] & \text{si } \xi \neq 0 \\[12pt]
+\mu - \sigma\ln\left(-\ln\left(1-\dfrac{1}{T}\right)\right) & \text{si } \xi = 0
 \end{cases}
 \end{equation}
 
 \noindent
-Obtener el cálculo de los niveles de retorno para $T \in \{10, 20, 50, 100\}$ años, proporcionando estimaciones de las magnitudes esperadas en diferentes horizontes temporales.
+donde $\mu$ es el parámetro de localización, $\sigma > 0$ es el parámetro de escala y $\xi$ es el parámetro de forma.  El parámetro $\xi$ determina el comportamiento de la cola de la distribución:  si $\xi > 0$ indica cola pesada (tipo Fréchet), si $\xi < 0$ indica cola limitada (tipo Weibull) y si $\xi = 0$ la distribución GEV se reduce a la distribución de Gumbel. 
 
-\subsection{Probabilidades de excedencia}
+\subsubsection{Nivel de retorno para la distribución Logística}
 
 \noindent
-La probabilidad de que al menos un evento de magnitud $\geq M$ ocurra en los próximos $\Delta t$ años se calcula como \cite{serinaldi2021understanding}:
+Para la región de Resto Nacionales, donde la distribución Logística presenta el mejor ajuste, el nivel de retorno se calcula como:
 
 \begin{equation}
-P(\text{excedencia en } \Delta t \text{ años}) = 1 - [F(M)]^{\Delta t}
+x_T = \mu + s \ln(T - 1)
 \end{equation}
 
 \noindent
-donde $F(M)$ es la probabilidad de que la magnitud máxima anual no exceda $M$ en un año, $[F(M)]^{\Delta t}$ es la probabilidad de no exceder $M$ en $\Delta t$ años consecutivos (suponiendo independencia entre años) y $1 - [F(M)]^{\Delta t}$ es la probabilidad de exceder $M$ al menos una vez en $\Delta t$ años.
+donde $\mu$ es el parámetro de localización y $s > 0$ es el parámetro de escala.  La distribución Logística es similar a la de Gumbel pero presenta colas ligeramente más pesadas, lo que la hace apropiada cuando los datos muestran mayor curtosis \cite{johnson1995continuous}. 
 
-Si el periodo de retorno de un evento es $T$, entonces la probabilidad de excedencia en $n$ años es aproximadamente:
+\subsubsection{Nivel de retorno para la distribución Normal}
+
+\noindent
+Para el análisis consolidado de Sismos Nacionales, donde la distribución Normal presenta el mejor ajuste, el nivel de retorno se calcula como:
 
 \begin{equation}
-P \approx 1 - \exp\left(-\frac{n}{T}\right)
+x_T = \mu + \sigma \cdot \Phi^{-1}\left(1 - \frac{1}{T}\right)
 \end{equation}
 
 \noindent
-donde esta aproximación será válida cuando $n/T$ es pequeño.
+donde $\mu$ es la media, $\sigma > 0$ es la desviación estándar y $\Phi^{-1}$ es la función cuantil (inversa de la función de distribución acumulada) de la distribución normal estándar.  El ajuste a una distribución Normal en el consolidado nacional puede explicarse por el teorema del límite central, dado que se combinan datos de múltiples regiones con comportamientos sísmicos diversos \cite{johnson1995continuous}.
 
-\subsection{Intervalos de confianza mediante bootstrap paramétrico}
+\subsubsection{Periodos de retorno analizados}
 
 \noindent
-Dado que las estimaciones puntuales de periodos de retorno y probabilidades tienen incertidumbre asociada, se utiliza bootstrap paramétrico para cuantificar esta incertidumbre mediante intervalos de confianza \cite{papalexiou2020random,rootzen2021efficient}:
+Para cada región se calculan los niveles de retorno correspondientes a los periodos $T \in \{10, 20, 50, 100\}$ años.  Estos horizontes temporales son los comúnmente utilizados en estudios de peligrosidad sísmica \cite{cornell1968engineering} y permiten obtener estimaciones tanto de corto como de largo plazo. 
 
-\textbf{Algoritmo de bootstrap paramétrico:}
+\subsection{Cálculo de probabilidades de excedencia}
+
+\noindent
+La probabilidad de que ocurra al menos un evento de magnitud igual o mayor a $M$ en los próximos $n$ años se calcula asumiendo independencia entre años consecutivos. De acuerdo con \citeasnoun{cornell1968engineering}, esta probabilidad se obtiene como:
+
+\begin{equation}
+P(\text{excedencia en } n \text{ años}) = 1 - [F(M; \hat{\theta})]^n
+\end{equation}
+
+\noindent
+donde $F(M; \hat{\theta})$ es la probabilidad de que la magnitud máxima anual no exceda $M$ en un año cualquiera y $[F(M; \hat{\theta})]^n$ es la probabilidad de que no se exceda $M$ en ninguno de los $n$ años consecutivos.
+
+Por ejemplo, si $F(7.0) = 0.95$ para una región, la probabilidad de que ocurra al menos un sismo de magnitud $\geq 7.0°$ en los próximos 10 años sería:
+
+\begin{equation*}
+P = 1 - (0.95)^{10} = 1 - 0.5987 = 0.4013 = 40.13\%
+\end{equation*}
+
+%% \noindent
+Para cada región se calculan las probabilidades de excedencia considerando magnitudes críticas $M \in \{6.5, 7.0, 7.5, 8.0\}$ grados y horizontes temporales $n \in \{5, 10, 20, 50\}$ años.  Estos umbrales de magnitud corresponden a sismos que van desde moderadamente fuertes (6.5°) hasta grandes terremotos (8.0°), mientras que los periodos de tiempo permiten evaluar el riesgo sísmico tanto en el corto como en el largo plazo.
+
+\subsection{Interpretación de los resultados}
+
+\noindent
+Los resultados obtenidos mediante esta metodología permiten responder a las tres preguntas fundamentales de la inferencia sísmica:
 
 \begin{enumerate}
-    \item \textbf{Ajustar el modelo:} se estiman los parámetros $\hat{\theta}$ de la distribución (Gumbel, Weibull o GEV) a partir de los datos originales de magnitudes máximas anuales.
-    \item \textbf{Generar muestras bootstrap (repetir $B = 10{,}000$ veces):}
-    \begin{itemize}
-        \item Generar una muestra sintética de tamaño $n$ de la distribución ajustada $F(x; \hat{\theta})$
-        \item Estimar los parámetros $\hat{\theta}_b^*$ de esta muestra bootstrap
-        \item Calcular los niveles de retorno $x_T^{*b}$ para los periodos deseados ($T=10, 20, 50, 100$ años)
-    \end{itemize}
-    \item \textbf{Construir intervalos de confianza,} para cada periodo de retorno $T$, calcular:
-    \begin{itemize}
-        \item Límite inferior: percentil 2.5\% de $\{x_T^{*1}, x_T^{*2}, \ldots, x_T^{*B}\}$
-        \item Estimación central: mediana de $\{x_T^{*1}, x_T^{*2}, \ldots, x_T^{*B}\}$
-        \item Límite superior: percentil 97.5\% de $\{x_T^{*1}, x_T^{*2}, \ldots, x_T^{*B}\}$
-    \end{itemize}
+    \item \textbf{¿Cada cuánto tiempo esperar un sismo de magnitud $M$?} El periodo de retorno $T(M)$ proporciona esta estimación en años.
+    \item \textbf{¿Qué magnitud esperar en los próximos $T$ años?} El nivel de retorno $x_T$ indica la magnitud máxima esperada para un periodo dado.
+    \item \textbf{¿Cuál es la probabilidad de un sismo $\geq M$ en los próximos $n$ años?} La probabilidad de excedencia cuantifica este riesgo. 
 \end{enumerate}
 
-\noindent
-donde existe un 95\% de probabilidad de que el verdadero nivel de retorno esté contenido en el intervalo calculado.
-
-\subsection{Análisis temporal y tiempo desde el último evento}
-
-\noindent
-Para evaluar la proximidad a un posible evento futuro, se analiza el tiempo transcurrido desde el último sismo fuerte en cada región \cite{ramirezgaytan2021earthquake,sanchezsilva2020real}:
-
-\subsubsection{Índice de proximidad temporal}
-
-\noindent
-Se define el índice de proximidad temporal como:
-
-\begin{equation}
-\text{IPT} = \frac{t_{\text{transcurrido}}}{t_{\text{medio}}}
-\end{equation}
-
-\noindent
-donde $t_{\text{transcurrido}}$ es el tiempo (en años) desde el último sismo fuerte en la región y $t_{\text{medio}}$ es el tiempo medio de recurrencia calculado como la media de los intervalos entre eventos históricos. El resultado indicaría que si $\text{IPT} < 0.5$ es una fase temprana del ciclo sísmico, si está en el intervalo $0.5 \leq \text{IPT} < 0.8$ indica que se está en una fase intermedia del ciclo sísmico, si $\text{IPT} \geq 0.8$ hay proximidad al tiempo medio y si $\text{IPT} > 1.0$ se excede el tiempo medio del ciclo sísmico lo cual indicaría que la zona se encuentra en riesgo sísmico constante.
-
-\subsubsection{Coeficiente de variación del tiempo de recurrencia}
-
-\noindent
-El coeficiente de variación (CV) cuantifica la regularidad de la recurrencia sísmica \cite{serinaldi2021understanding}:
-
-\begin{equation}
-\text{CV} = \frac{\sigma_{\text{recurrencia}}}{\mu_{\text{recurrencia}}}
-\end{equation}
-
-\noindent
-donde $\sigma_{\text{recurrencia}}$ es la desviación estándar de los intervalos entre eventos y $\mu_{\text{recurrencia}}$ es la media de los intervalos entre eventos. El resultado indicaría que si $\text{CV} < 0.5$ existe una recurrencia sísmica bastante regular, si $0.5 \leq \text{CV} < 1.0$ existe una recurrencia moderadamente variable y si $\text{CV} \geq 1.0$ la recurrencia es altamente variable (es cercana a un proceso de Poisson). Estos resultados indicarían que si CV es bajo un modelo de renovación (que considera el tiempo transcurrido) es más apropiado que un modelo de Poisson (que asume eventos independientes).
-
-\subsection{Índice de peligrosidad sísmica regional}
-
-\noindent
-Se construye un índice compuesto que integra múltiples factores para comparar el nivel de peligrosidad entre regiones \cite{convertito2020combining,zuniga2022first}:
-
-\begin{equation}
-\text{IPS} = w_1 \cdot \frac{x_{50}}{x_{50,\max}} + w_2 \cdot \frac{P_{M\geq 7,10\text{años}}}{P_{\max}} + w_3 \cdot \text{IPT} + w_4 \cdot \frac{\mu}{\mu_{\max}}
-\end{equation}
-
-\noindent
-donde $x_{50}$ es el nivel de retorno a 50 años, $P_{M\geq 7,10\text{años}}$ es la probabilidad de exceder $M=7.0$ en 10 años, IPT es el índice de proximidad temporal, $\mu$ es la magnitud promedio histórica, los términos se normalizan dividiendo por el máximo observado entre todas las regiones, $w_1, w_2, w_3, w_4$ son pesos que suman 1 (por defecto 0.3, 0.3, 0.2, 0.2). El resultado indicaría que si el índice se encuentra entre $0.0 \leq \text{IPS} < 0.3$ hay peligrosidad baja, si está entre $0.3 \leq \text{IPS} < 0.6$ la peligrosidad sísmica es media, si está entre $0.6 \leq \text{IPS} < 0.8$ hay peligrosidad alta y si está entre $0.8 \leq \text{IPS} \leq 1.0$ la peligrosidad es muy alta. Este índice permite realizar comparaciones entre regiones considerando múltiples dimensiones del riesgo sísmico.
+%% \noindent
+Estos valores constituyen herramientas útiles para la toma de decisiones en materia de protección civil, diseño de infraestructura y políticas de prevención de desastres en las regiones estudiadas. 
