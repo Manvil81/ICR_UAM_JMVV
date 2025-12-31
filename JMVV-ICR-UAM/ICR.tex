@@ -21,6 +21,9 @@
 %% Para que funcione [H] para las tablas
 \usepackage{float}
 
+%% Evita espacios grandes al final de las páginas
+\raggedbottom
+
 %% Citas estilo harvard
 \usepackage{harvard}
 
@@ -110,8 +113,13 @@
 %% Para ajustar tablas en varias páginas de texto
 \usepackage{ltablex}
 
-%% Para personalizar estilo y diseño de las tablas
+%% Para personalizar estilo y diseño de las tablas, se ajustó también el espacio entre filas
 \usepackage{caption}
+\captionsetup{
+    font=footnotesize,
+    labelfont=bf,
+    skip=5pt
+}
 
 %% Si quisiera poner sangría en el primer párrafo después de los títulos de secciones, descomentar
 %\usepackage{indentfirst}
@@ -147,8 +155,8 @@
 \DeclareMathOperator*{\ran}{ran}
 
 %% Espacio después del título de las tablas y figuras
-\setlength{\belowcaptionskip}{10pt}
-\setlength{\abovecaptionskip}{10pt}
+\setlength{\belowcaptionskip}{5pt} %% Se cambia de 10pt a 5pt
+\setlength{\abovecaptionskip}{5pt} %% Se cambia de 10pt a 5pt
 
 %% Declarar el directorio de imágenes
 \graphicspath{ {./Imagenes/} }

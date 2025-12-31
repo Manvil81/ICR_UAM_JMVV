@@ -26,19 +26,15 @@ Para esta parte se ejecutaron todos los cálculos descritos en la Fase 4 de la m
 \textbf{Región} & \textbf{Min} & \textbf{Max} & \textbf{Media} & \textbf{Med.} & \textbf{Moda} & \textbf{Desv.} & \textbf{Var.} & \textbf{Asim.} & \textbf{Curt.} & \textbf{Total} \\
 \hline
 \endfirsthead
-
 \hline
 \rowcolor{gray!60}
 \textbf{Región} & \textbf{Min} & \textbf{Max} & \textbf{Media} & \textbf{Med.} & \textbf{Moda} & \textbf{Desv.} & \textbf{Var.} & \textbf{Asim.} & \textbf{Curt.} & \textbf{Total} \\
 \hline
 \endhead
-
 \hline
 \endfoot
-
 \hline
 \endlastfoot
-
 \rowcolor{gray!20}
 Oaxaca & 5.0 & 7.8 & 5.445 & 5.20 & 5.0 & 0.618 & 0.382 & 1.935 & 6.092 & 335 \\ \hline
 Oax Max & 5.0 & 7.8 & 6.222 & 6.00 & 6.9 & 0.787 & 0.619 & 0.230 & 1.811 & 64 \\ \hline
@@ -59,6 +55,7 @@ Nacionales & 5.0 & 8.2 & 5.490 & 5.20 & 5.0 & 0.623 & 0.389 & 1.715 & 5.340 & 18
 Nals. Max & 5.6 & 8.2 & 7.007 & 7.00 & 7.0 & 0.506 & 0.256 & -0.05 & 2.946 & 110 \\ \hline
 \end{longtable}
 \endgroup
+\vspace{10pt}
 
 De la tabla anterior se puede visualizar que el comportamiento de los sismos para una misma región iguales o mayores a 5° cambia significativamente cuando se analizan todos los sismos a cuando se hace un análisis de sismos de magnitud máxima anual. En todas las regiones se aprecia un aumento de la media cuando se manejan los datos máximos, así como de la mediana. Para la moda hay estados como Michoacán que no presentan diferencias entre su moda para sismos totales y su moda para magnitudes máximas. Para la varianza y desviación estándar también se aprecia un aumento en los valores cuando se trata de magnitudes máximas, salvo para las regiones de Resto Nacionales y Sismos Nacionales, donde se aprecia una menor varianza. Para la asimetría se encuentra que todas las regiones muestran asimetría positiva, mostrando que en todas las regiones se presentan eventos sísmicos de moderados a fuertes, destacándose Chiapas para los sismos totales con una cola muy marcada hacia la derecha. La asimetría para las magnitudes máximas presenta resultados más pequeños indicando menor sesgo positivo, salvo por sismos nacionales que presenta un sesgo negativo indicando mayor cantidad de valores bajos respecto de la media. La curtosis indica para los sismos totales que hay una mayor concentración de valores entorno a la media ósea que son leptocúrticas. Para los valores máximos los resultados indican que Oaxaca, Guerrero y Michoacán presentan distribuciones platicúrticas, mientras que Chiapas, Resto Nacional y Sismos Nacionales presentan distribuciones muy cercanas a una normal.
 
@@ -66,4 +63,194 @@ De la tabla anterior se puede visualizar que el comportamiento de los sismos par
 \noindent
 El obtener gráficos representativos de los datos sísmicos analizados para cada región, tanto para sismos totales como para magnitudes máximas, permite comprender y analizar de manera visual y clara el comportamiento de los sismos. A continuación, se presentan los diferentes histogramas y gráficos obtenidos.
 
+\clearpage
 \subsection{Histogramas de densidad de los sismos para sismos totales}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{histogramas_densidad_totales.png}
+\caption{Histogramas de densidad de sismos totales para las 6 regiones.}
+\label{fig:histogramas_totales}
+\end{figure}
+
+\noindent
+Observando los histogramas, se puede realizar el siguiente análisis para los datos de sismos totales.
+\begin{itemize}
+\item Oaxaca: presenta una densidad de sismos marcada entre 5.0° y 5.9°, con un pico aislado en 6.8°, indicando predominancia de eventos de magnitud baja.
+\item Guerrero: presenta una alta densidad de eventos entre 5.0° y 5.7°, con picos menores en 5.9° y 6.6°, lo cual indica un comportamiento sísmico con eventos de magnitud moderada, pero con presencia intermitente de eventos considerables.
+\item Michoacán: presenta la mayor densidad de sismos en la escala de 5.0° a 5.5°, pero tiene varios picos significativos en 5.8°, 6.8° y 7.5°, lo cual indica una mayor dispersión en la distribución de los sismos, con posible presencia de eventos de magnitudes muy fuertes o extremas.
+\item Chiapas: presenta la mayor densidad de sismos en la escala de 5.0° a 5.6°, con una caída uniforme conforme aumenta la magnitud. Esto indica un comportamiento sísmico más predecible y donde se presentarán mayoritariamente eventos de magnitud moderada.
+\item Resto Nacionales: en el resto de los estados del país (sin incluir los 4 estados anteriores), se presenta una distribución más uniforme de la densidad de sismos respecto a la de los estados, conteniendo la mayor densidad de los sismos entre 5.0° y 5.6°, con un pico en 6.4°. Esto sugiere que hay pocos eventos de magnitud considerable o extrema y que normalmente se presentan sismos de magnitud moderada a baja.
+\item Sismos Nacionales: el análisis de la densidad de sismos de los 32 estados del país presenta una curva de actividad sísmica más uniforme que la de los estados individuales, con la mayoría de los sismos en la escala de 5.0° a 5.6°, indicando que la mayoría de los eventos sísmicos ocurridos en México son de magnitud baja.
+\end{itemize}
+
+\subsection{Histogramas de densidad de los sismos para magnitudes máximas}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{histogramas_densidad_maximas.png}
+\caption{Histogramas de densidad de magnitudes máximas para las 6 regiones.}
+\label{fig:histogramas_maximas}
+\end{figure}
+
+\noindent
+Observando los histogramas, se puede realizar el siguiente análisis para los datos de magnitudes máximas.
+
+\begin{itemize}
+\item Oaxaca: en el análisis de magnitudes máximas se observan picos de densidad de sismos en 5.0°, 5.5° y 6.8°, lo cual indica que en el análisis de magnitudes máximas se observa que la gran mayoría de sismos fuertes en Oaxaca son menores a 7.0°.
+\item Guerrero: en el análisis de magnitudes máximas se observa que los picos de densidad de sismos están en la escala de 6.4° y 6.5°, indicando que en el análisis de magnitudes máximas se observa que la gran mayoría de sismos fuertes en Guerrero también son menores a 7.0°.
+\item Michoacán: en el análisis de magnitudes máximas se observa un pico de densidad de sismos en la escala de 5.0°, indicando que en el análisis de magnitudes máximas se observa que la gran mayoría de sismos fuertes en Michoacán suelen ser menores a 6.0°, aunque también se presenta una dispersión de sismos que tiene un pico en 7.5°, lo cual identifica al estado de Michoacán como una zona de alta variabilidad sísmica.
+\item Chiapas: en el análisis de magnitudes máximas se observan picos de densidad de sismos en 5.5° y 6.5°, indicando que en el análisis de magnitudes máximas se observa que la gran mayoría de sismos fuertes en Chiapas están en el rango de 5.5° a 7.2°, con lo cual se observa una intensa actividad de sismos fuertes para este estado.
+\item Resto Nacionales: en el análisis de magnitudes máximas para el resto de los estados del país se observan picos de densidad de sismos en 6.4°, 6.6° y 7.1°. Indicando que en el resto del país la mayoría de los sismos fuertes se encuentra en un rango de 6.1° a 7.0°.
+\item Sismos Nacionales: en el análisis de magnitudes máximas para México se observan picos de densidad de sismos en 6.9° y 7.0°. Indicando que en México la mayoría de los sismos fuertes se encuentra en un rango de 6.4° a 7.5°.
+\end{itemize}
+
+\clearpage
+\subsection{Histogramas de frecuencias relativas por mes para sismos totales}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{frecuencias_mes_totales.png}
+\caption{Histogramas de Frecuencias Relativas por Mes para sismos totales para las 6 regiones.}
+\label{fig:frecuencias_mes_totales}
+\end{figure}
+
+\noindent
+Analizando los histogramas de frecuencias relativas por mes para sismos totales, se puede realizar el análisis siguiente del comportamiento temporal de la actividad sísmica en las distintas regiones de análisis.
+
+\begin{itemize}
+\item Oaxaca: presenta que a lo largo del tiempo el mes más activo es Septiembre, mientras que el mes con menos registros sísmicos para este estado es Octubre.
+\item Guerrero: presenta que el mes más activo sísmicamente es Mayo, mientras que el mes con menor actividad es Febrero.
+\item Michoacán: presenta que el mes con más sismos es Enero, mientras que el mes con menor actividad es Noviembre.
+\item Chiapas: presenta que el mes más activo es Septiembre (caso similar a Oaxaca), mientras que el resto de los meses del año presentan una frecuencia muy similar, siendo Julio el mes con menor actividad.
+\item Resto Nacionales: presenta que Octubre es el mes con mayor actividad sísmica para el resto del país, mientras que Junio es el mes con menor actividad sísmica.
+\item Sismos Nacionales: presenta que Septiembre es el mes con mayor actividad en el país, mientras que Julio es el mes con menor actividad sísmica en México.
+\end{itemize}
+
+\subsection{Histogramas de frecuencias relativas por mes para magnitudes máximas}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{frecuencias_mes_maximas.png}
+\caption{Histogramas de Frecuencias Relativas por Mes para magnitudes máximas para las 6 regiones.}
+\label{fig:frecuencias_mes_maximas}
+\end{figure}
+
+\noindent
+Analizando los histogramas de frecuencias relativas por mes para magnitudes máximas, se puede realizar el análisis siguiente del comportamiento temporal de la actividad sísmica en las distintas regiones de análisis.
+
+\begin{itemize}
+\item Oaxaca: presenta que a lo largo del tiempo el mes con más actividad sísmica fuerte es Junio, mientras que el mes con menos registros sísmicos fuertes es Octubre.
+\item Guerrero: presenta que el mes con más sismos fuertes es Julio, mientras que el mes con menor actividad sísmica fuerte es Agosto.
+\item Michoacán: presenta que el mes con más sismos fuertes es Enero, mientras que Febrero no presenta valores de registros sísmicos, indicando que no se han presentado sismos fuertes en este mes.
+\item Chiapas: presenta que el mes más activo para sismos fuertes es Diciembre, mientras que el mes con menor actividad sísmica fuerte es Abril.
+\item Resto Nacionales: presenta que Mayo es el mes con mayor actividad sísmica fuerte para el resto del país, mientras que Marzo es el mes con menor actividad sísmica fuerte.
+\item Sismos Nacionales: presenta que Septiembre es el mes con mayor actividad sísmica fuerte en el país, mientras que Noviembre es el mes con menor actividad sísmica fuerte en México.
+\end{itemize}
+
+\subsection{Histogramas de sismos por magnitud}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{histogramas_magnitud.png}
+\caption{Histogramas de sismos por magnitud para las 6 regiones.}
+\label{fig:histogramas_magnitud}
+\end{figure}
+
+\noindent
+Analizando los histogramas de sismos por magnitud, se puede realizar el análisis siguiente.
+
+\begin{itemize}
+\item Oaxaca: presenta una elevada concentración de sismos de magnitud 5.0° y alcanza un máximo registrado de 7.8°.
+\item Guerrero: presenta una elevada concentración de sismos de magnitud 5.0° y también alcanza un máximo registrado de 7.8°.
+\item Michoacán: presenta una moderada concentración de sismos de magnitud 5.0° y alcanza un máximo registrado de 8.1°.
+\item Chiapas: presenta una muy elevada concentración de sismos de magnitud 5.0° y alcanza un máximo registrado de 8.2°.
+\item Resto Nacionales: presenta una elevada concentración de sismos de magnitud 5.0°, 5.1° y 5.2° y alcanza un máximo registrado de 8.2°.
+\item Sismos Nacionales: presenta una elevada concentración de sismos de magnitud 5.0° y 5.1° y alcanza un máximo registrado de 8.2°.
+\end{itemize}
+
+\subsection{Gráfico de magnitud máxima, promedio y mínima en el tiempo}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{magnitudes_tiempo.png}
+\caption{Gráficos de magnitud sísmica máxima, promedio y mínima para las 6 regiones.}
+\label{fig:magnitudes_tiempo}
+\end{figure}
+
+\noindent
+Analizando los gráficos para las 6 regiones se puede observar que antes de los años 70s del siglo pasado, las líneas de magnitud máxima, promedio y mínima no presentaban prácticamente variaciones para los 4 estados, y presentan muy poca variación para Resto Nacional y Sismos Nacionales en este periodo. Lo cual indica que hubo una progresiva mejoría en las técnicas de medición y registro de eventos sísmicos. También podemos observar sismos de interés en los gráficos de Michoacán y Chiapas, siendo el sismo de septiembre 19, 1985 el que aparece como un pico en el gráfico de Michoacán, mientras que para el de Chiapas se aprecia el sismo del 07 de septiembre, 2017 el que aparece claramente en su gráfico y que además resulta ser el sismo más fuerte registrado en toda la base de datos sísmicos de México.
+
+\section{Intervalos de confianza y tamaño mínimo de la muestra}
+
+\noindent
+La estimación de Intervalos de Confianza (IC) constituye una herramienta fundamental para el análisis estadístico al estimar la incertidumbre asociada a parámetros como la media, la desviación estándar y la proporción. Los rangos que se obtienen permiten visualizar en qué valores es probable que se encuentren los parámetros verdaderos con un nivel de confianza (para este trabajo, se especifica en 95\%).
+
+\subsection{Intervalo de confianza para la media}
+
+\noindent
+Se presenta la Tabla \ref{tab:ic_media_totales} con los IC para la media para sismos totales para las 6 regiones de estudio.
+
+\footnotesize
+\begin{table}[h!]
+\centering
+\caption{IC para la media para sismos totales para las 6 regiones.} 
+\label{tab:ic_media_totales}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Media Totales} & \textbf{LI 95\% Totales} & \textbf{LS 95\% Totales} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 5.445075 & 5.378654 & 5.511495 \\ \hline
+Guerrero & 5.573437 & 5.487865 & 5.659010 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 5.610000 & 5.443002 & 5.776998 \\ \hline
+Chiapas & 5.395072 & 5.351273 & 5.438870 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 5.567706 & 5.516171 & 5.619242 \\ \hline
+Nacionales & 5.489865 & 5.461474 & 5.518256 \\ \hline
+\end{tabular}
+\end{table}
+
+Ahora se presenta la Figura \ref{fig:ic_media_totales} con los gráficos de los IC para la media para sismos totales para las 6 regiones de estudio.
+
+\clearpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{ic_media_totales.png}
+\caption{IC para la media para sismos totales para las 6 regiones.}
+\label{fig:ic_media_totales}
+\end{figure}
+
+A continuación, se presenta la Tabla \ref{tab:ic_media_maximas} con los IC para la media para magnitudes máximas para las 6 regiones de estudio.
+
+\footnotesize
+\begin{table}[h!]
+\centering
+\caption{IC para la media para magnitudes máximas para las 6 regiones.} 
+\label{tab:ic_media_maximas}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Media Máximos} & \textbf{LI 95\% Máximos} & \textbf{LS 95\% Máximos} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 6.221875 & 6.025316 & 6.418434 \\ \hline
+Guerrero & 6.288571 & 6.099182 & 6.477961 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 5.888000 & 5.626478 & 6.149522 \\ \hline
+Chiapas & 6.442466 & 6.269962 & 6.614970 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 6.517241 & 6.393854 & 6.640629 \\ \hline
+Nacionales & 7.007273 & 6.911676 & 7.102870 \\ \hline
+\end{tabular}
+\end{table}
+
+\clearpage
+Ahora se presenta la Figura \ref{fig:ic_media_maximas} con los gráficos de los IC para la media para magnitudes máximas para las 6 regiones de estudio.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{ic_media_maximas.png}
+\caption{IC para la media para magnitudes máximas para las 6 regiones.}
+\label{fig:ic_media_maximas}
+\end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  30 DEC 2025 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  31 DEC 2025 03:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1039,7 +1039,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 ))
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-84.
+92.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1085,6 +1085,21 @@ LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
 LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
+
+LaTeX Warning: Label `cap:Metodologia' multiply defined.
+
+
+LaTeX Warning: Label `cap:Metodologia' multiply defined.
+
+
+LaTeX Warning: Label `cap:Metodologia' multiply defined.
+
+
+LaTeX Warning: Label `cap:Metodologia' multiply defined.
+
+
+LaTeX Warning: Label `cap:Metodologia' multiply defined.
+
 ) (Conclusiones/Conclusiones.aux
 
 LaTeX Warning: Label `cap:Conclusiones' multiply defined.
@@ -1096,27 +1111,27 @@ LaTeX Warning: Label `cap:Anexo1' multiply defined.
 )
 \openout1 = `ICR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
-Package hyperref Info: Link coloring OFF on input line 184.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+Package hyperref Info: Link coloring OFF on input line 192.
  (ICR.out) (ICR.out)
 \@outlinefile=\write7
 \openout7 = `ICR.out'.
@@ -1149,7 +1164,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 184.
+or `spanish'. on input line 192.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1190,7 +1205,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `Portada/Portada.aux'.
 
 (Portada/Portada.tex
-<Imagenes/uam.png, id=231, 202.8378pt x 147.4308pt>
+<Imagenes/uam.png, id=259, 202.8378pt x 147.4308pt>
 File: Imagenes/uam.png Graphic file (type png)
 <use Imagenes/uam.png>
 Package pdftex.def Info: Imagenes/uam.png  used on input line 74.
@@ -1339,13 +1354,19 @@ LaTeX Info: Redefining \% on input line 1.
 
 [11
 
-])
+]
+
+[12])
 \tf@toc=\write8
 \openout8 = `ICR.toc'.
 
 
 
-[12] (ICR.lot
+[13]
+
+[14
+
+] (ICR.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1354,12 +1375,11 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-[13
-
+[15
 
 ]
 
-[14
+[16
 
 ] (ICR.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -1370,27 +1390,27 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-[15
+[17
 
 ]
 \openout2 = `Glosario/Glosario.aux'.
 
  (Glosario/Glosario.tex
 
-[16
+[18
 
 
 ]
 
-[17
+[19
 
 ]
 
-[18])
+[20])
 
-[19]
+[21]
 
-[20
+[22
 
 
 
@@ -1439,15 +1459,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3])
-Underfull \hbox (badness 1248) in paragraph at lines 85--295
+Underfull \hbox (badness 1248) in paragraph at lines 85--303
 []\OT1/ptm/m/n/12 Finalmente, se in-clu-ye un ap[]endi-ce con in-for-ma-ci[]on 
 com-ple-men-ta-ria de los art[]^^Pcu-los
  []
 
 
 
-LaTeX Info: Redefining \. on input line 295.
-LaTeX Info: Redefining \% on input line 295.
+LaTeX Info: Redefining \. on input line 303.
+LaTeX Info: Redefining \% on input line 303.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1529,8 +1549,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9])
 
-LaTeX Info: Redefining \. on input line 298.
-LaTeX Info: Redefining \% on input line 298.
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1540,8 +1560,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10]
 
-LaTeX Info: Redefining \. on input line 298.
-LaTeX Info: Redefining \% on input line 298.
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1597,8 +1617,8 @@ Underfull \hbox (badness 3068) in paragraph at lines 52--53
 
 )
 
-LaTeX Info: Redefining \. on input line 301.
-LaTeX Info: Redefining \% on input line 301.
+LaTeX Info: Redefining \. on input line 309.
+LaTeX Info: Redefining \% on input line 309.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1627,28 +1647,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 4.
-<./Imagenes/diagrama_metodologia.png, id=474, 626.94225pt x 449.88075pt>
-File: ./Imagenes/diagrama_metodologia.png Graphic file (type png)
-<use ./Imagenes/diagrama_metodologia.png>
-Package pdftex.def Info: ./Imagenes/diagrama_metodologia.png  used on input lin
-e 12.
-(pdftex.def)             Requested size: 443.02222pt x 317.90048pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 [17]
+<./Imagenes/diagrama_metodologia.png, id=544, 626.94225pt x 449.88075pt>
+File: ./Imagenes/diagrama_metodologia.png Graphic file (type png)
+<use ./Imagenes/diagrama_metodologia.png>
+Package pdftex.def Info: ./Imagenes/diagrama_metodologia.png  used on input lin
+e 14.
+(pdftex.def)             Requested size: 466.34068pt x 334.63643pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 
 
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1656,7 +1673,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18 <./Imagenes/diagrama_metodologia.png>]
+[18
+
+ <./Imagenes/diagrama_metodologia.png>]
 
 LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
@@ -1669,8 +1688,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [19]
 
-LaTeX Info: Redefining \. on input line 121.
-LaTeX Info: Redefining \% on input line 121.
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1679,15 +1698,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20]
-Underfull \hbox (badness 3746) in paragraph at lines 129--130
+Underfull \hbox (badness 3746) in paragraph at lines 131--132
 []\OT1/ptm/b/n/10.95 Fase 5 { Re-pre-sen-ta-ci[]on gr[]afi-ca del com-por-ta-mi
 en-to s[]^^Psmi-co. \OT1/ptm/m/n/10.95 Se ge-ne-ran gr[]afi-cos del
  []
 
 
 
-LaTeX Info: Redefining \. on input line 157.
-LaTeX Info: Redefining \% on input line 157.
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1697,8 +1716,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21]
 
-LaTeX Info: Redefining \. on input line 203.
-LaTeX Info: Redefining \% on input line 203.
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1707,21 +1726,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-Underfull \hbox (badness 1466) in paragraph at lines 227--227
+Underfull \hbox (badness 1466) in paragraph at lines 229--229
 []\OT1/ptm/b/n/14.4 Prueba de hip[]ote-sis pa-ra di-fe-ren-cia de me-dias con v
 a-rian-zas
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 251--251
+Underfull \hbox (badness 2903) in paragraph at lines 253--253
 []\OT1/ptm/b/n/14.4 Prueba de hip[]ote-sis pa-ra la di-fe-ren-cia de pro-por-ci
 o-nes con
  []
 
 
 
-LaTeX Info: Redefining \. on input line 256.
-LaTeX Info: Redefining \% on input line 256.
+LaTeX Info: Redefining \. on input line 258.
+LaTeX Info: Redefining \% on input line 258.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1730,15 +1749,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-Underfull \hbox (badness 3601) in paragraph at lines 275--275
+Underfull \hbox (badness 3601) in paragraph at lines 277--277
 []\OT1/ptm/b/n/14.4 Prueba de hip[]ote-sis pa-ra la di-fe-ren-cia de pro-por-ci
 o-nes sin
  []
 
 
 
-LaTeX Info: Redefining \. on input line 317.
-LaTeX Info: Redefining \% on input line 317.
+LaTeX Info: Redefining \. on input line 319.
+LaTeX Info: Redefining \% on input line 319.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1748,8 +1767,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 
-LaTeX Info: Redefining \. on input line 368.
-LaTeX Info: Redefining \% on input line 368.
+LaTeX Info: Redefining \. on input line 370.
+LaTeX Info: Redefining \% on input line 370.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1758,9 +1777,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 384.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 384.
 
-LaTeX Info: Redefining \. on input line 423.
-LaTeX Info: Redefining \% on input line 423.
+
+LaTeX Info: Redefining \. on input line 431.
+LaTeX Info: Redefining \% on input line 431.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1770,8 +1794,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [26]
 
-LaTeX Info: Redefining \. on input line 478.
-LaTeX Info: Redefining \% on input line 478.
+LaTeX Info: Redefining \. on input line 485.
+LaTeX Info: Redefining \% on input line 485.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1781,8 +1805,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [27]
 
-LaTeX Info: Redefining \. on input line 519.
-LaTeX Info: Redefining \% on input line 519.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 527.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 527.
+
+Missing character: There is no ° in font zptmcm7t!
+
+
+LaTeX Info: Redefining \. on input line 535.
+LaTeX Info: Redefining \% on input line 535.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1790,18 +1822,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[28])
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 524.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 524.
-
-Missing character: There is no ° in font zptmcm7t!
-)
-
-LaTeX Info: Redefining \. on input line 304.
-LaTeX Info: Redefining \% on input line 304.
+LaTeX Info: Redefining \. on input line 312.
+LaTeX Info: Redefining \% on input line 312.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1830,10 +1854,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 5.
-[31])
+[31]
 
-LaTeX Info: Redefining \. on input line 307.
-LaTeX Info: Redefining \% on input line 307.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1842,18 +1866,192 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
+<./Imagenes/histogramas_densidad_totales.png, id=653, 1756.161pt x 1341.813pt>
+File: ./Imagenes/histogramas_densidad_totales.png Graphic file (type png)
+<use ./Imagenes/histogramas_densidad_totales.png>
+Package pdftex.def Info: ./Imagenes/histogramas_densidad_totales.png  used on i
+nput line 71.
+(pdftex.def)             Requested size: 466.34068pt x 356.29536pt.
+
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33
+
+ <./Imagenes/histogramas_densidad_totales.png>]
+<./Imagenes/histogramas_densidad_maximas.png, id=660, 1520.079pt x 1220.1585pt>
+
+File: ./Imagenes/histogramas_densidad_maximas.png Graphic file (type png)
+<use ./Imagenes/histogramas_densidad_maximas.png>
+Package pdftex.def Info: ./Imagenes/histogramas_densidad_maximas.png  used on i
+nput line 91.
+(pdftex.def)             Requested size: 466.34068pt x 374.3168pt.
+
+
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./Imagenes/histogramas_densidad_maximas.png>]
+
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+<./Imagenes/frecuencias_mes_totales.png, id=670, 1451.4225pt x 1161.138pt>
+File: ./Imagenes/frecuencias_mes_totales.png Graphic file (type png)
+<use ./Imagenes/frecuencias_mes_totales.png>
+Package pdftex.def Info: ./Imagenes/frecuencias_mes_totales.png  used on input 
+line 113.
+(pdftex.def)             Requested size: 466.34068pt x 373.06003pt.
+
+
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36
+
+ <./Imagenes/frecuencias_mes_totales.png>]
+Underfull \hbox (badness 1173) in paragraph at lines 130--130
+[]\OT1/ptm/b/n/14.4 Histogramas de fre-cuen-cias re-la-ti-vas por mes pa-ra mag
+-ni-tu-des
+ []
+
+<./Imagenes/frecuencias_mes_maximas.png, id=676, 1470.6945pt x 1174.3875pt>
+File: ./Imagenes/frecuencias_mes_maximas.png Graphic file (type png)
+<use ./Imagenes/frecuencias_mes_maximas.png>
+Package pdftex.def Info: ./Imagenes/frecuencias_mes_maximas.png  used on input 
+line 134.
+(pdftex.def)             Requested size: 466.34068pt x 372.3711pt.
+
+
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37 <./Imagenes/frecuencias_mes_maximas.png>]
+<./Imagenes/histogramas_magnitud.png, id=682, 1532.124pt x 1253.8845pt>
+File: ./Imagenes/histogramas_magnitud.png Graphic file (type png)
+<use ./Imagenes/histogramas_magnitud.png>
+Package pdftex.def Info: ./Imagenes/histogramas_magnitud.png  used on input lin
+e 155.
+(pdftex.def)             Requested size: 466.34068pt x 381.64021pt.
+
+
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38 <./Imagenes/histogramas_magnitud.png>]
+<./Imagenes/magnitudes_tiempo.png, id=688, 1520.079pt x 1250.271pt>
+File: ./Imagenes/magnitudes_tiempo.png Graphic file (type png)
+<use ./Imagenes/magnitudes_tiempo.png>
+Package pdftex.def Info: ./Imagenes/magnitudes_tiempo.png  used on input line 1
+76.
+(pdftex.def)             Requested size: 466.34068pt x 383.55464pt.
+
+
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./Imagenes/magnitudes_tiempo.png>]
+
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+<./Imagenes/ic_media_totales.png, id=701, 813.63976pt x 408.92775pt>
+File: ./Imagenes/ic_media_totales.png Graphic file (type png)
+<use ./Imagenes/ic_media_totales.png>
+Package pdftex.def Info: ./Imagenes/ic_media_totales.png  used on input line 22
+0.
+(pdftex.def)             Requested size: 466.34068pt x 234.37662pt.
+
+
+LaTeX Info: Redefining \. on input line 248.
+LaTeX Info: Redefining \% on input line 248.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41
+
+ <./Imagenes/ic_media_totales.png>]
+<./Imagenes/ic_media_maximas.png, id=709, 818.45775pt x 415.5525pt>
+File: ./Imagenes/ic_media_maximas.png Graphic file (type png)
+<use ./Imagenes/ic_media_maximas.png>
+Package pdftex.def Info: ./Imagenes/ic_media_maximas.png  used on input line 25
+3.
+(pdftex.def)             Requested size: 466.34068pt x 236.77861pt.
+)
+
+LaTeX Info: Redefining \. on input line 315.
+LaTeX Info: Redefining \% on input line 315.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42
+
+ <./Imagenes/ic_media_maximas.png>]
 \openout2 = `Conclusiones/Conclusiones.aux'.
 
  (Conclusiones/Conclusiones.tex
 Cap\'{\i }tulo 6.
 
-Underfull \hbox (badness 3375) in paragraph at lines 8--9
-[]\OT1/ptm/m/n/10.95 Un ha-llaz-go muy re-le-van-te fue que nin-gu-na de las 20
- dis-tri-bu-cio-nes pro-ba-das se ajust[]o
- []
-
-
-LaTeX Warning: Citation 'papalexiou2020random' on page 33 undefined on input li
+LaTeX Warning: Citation 'papalexiou2020random' on page 43 undefined on input li
 ne 16.
 
 
@@ -1864,22 +2062,16 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 16.
 
 Missing character: There is no ° in font zptmcm7t!
 
-Underfull \hbox (badness 1558) in paragraph at lines 16--17
-[]\OT1/ptm/m/n/10.95 Los c[]alcu-los de in-fe-ren-cia pro-ba-bil[]^^Psti-ca me-
-dian-te teor[]^^Pa de va-lo-res ex-tre-mos pro-por-cio-na-ron
- []
 
-
-
-[33
+[43
 
 
 
 
 ])
 
-LaTeX Info: Redefining \. on input line 310.
-LaTeX Info: Redefining \% on input line 310.
+LaTeX Info: Redefining \. on input line 318.
+LaTeX Info: Redefining \% on input line 318.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1887,22 +2079,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34]
+[44]
 \openout2 = `Anexos/Anexo1.aux'.
 
  (Anexos/Anexo1.tex
 Ap\'{e}ndice A.
 )
 
-[35
+[45
 
 
 
 
 ]
 
-LaTeX Info: Redefining \. on input line 323.
-LaTeX Info: Redefining \% on input line 323.
+LaTeX Info: Redefining \. on input line 331.
+LaTeX Info: Redefining \% on input line 331.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1910,31 +2102,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36
+[46
 
 
 
 ] (ICR.bbl
-Underfull \hbox (badness 1057) in paragraph at lines 69--73
-[]| | \OT1/ptm/m/n/10.95 Dia-na Vi-lla-sa-na Ocam-po (2024).  Rpubs - prue-bas 
-de nor-ma-li-dad, Rpubs.com.  Dis-po-ni-ble en:
+Underfull \hbox (badness 6141) in paragraph at lines 69--73
+[]| | \OT1/ptm/m/n/10 Dia-na Vi-lla-sa-na Ocam-po (2024).  Rpubs - prue-bas de 
+nor-ma-li-dad, Rpubs.com.  Dis-po-ni-ble en:
  []
 
 
 
-[37
+[47
 
-]
-Underfull \hbox (badness 1038) in paragraph at lines 106--112
-\OT1/ptm/m/n/10.95 ge-ne-ra-ti-ve mo-de-ling of earth-qua-ke ground mo-tion ti-
-me his-to-ries using ge-ne-ra-ti-ve ad-ver-sa-rial
- []
+])
 
-
-
-[38])
-
-[39] (ICR.aux (Portada/Portada.aux)
+[48] (ICR.aux (Portada/Portada.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  (Resumen/Resumen.aux)
@@ -1952,16 +2136,16 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ICR.out' has not changed.
-(rerunfilecheck)             Checksum: F870BCE2C3B10E70F425770AA62C517D;12211.
+(rerunfilecheck)             Checksum: 1E8E324A763949CCADBE0F90BA4FC3E2;14679.
  ) 
 Here is how much of TeX's memory you used:
- 31457 strings out of 468133
- 597809 string characters out of 5440786
- 1082565 words of memory out of 5000000
- 59199 multiletter control sequences out of 15000+600000
- 695599 words of font info for 170 fonts, out of 8000000 for 9000
+ 31601 strings out of 468133
+ 601787 string characters out of 5440786
+ 1083531 words of memory out of 5000000
+ 59307 multiletter control sequences out of 15000+600000
+ 705967 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,13n,119p,2341b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,13n,119p,2341b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type
@@ -1970,9 +2154,9 @@ ic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Prog
 ram Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr
 8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (59 pages, 715046 bytes).
+Output written on ICR.pdf (70 pages, 3374103 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
- 175 named destinations out of 1000 (max. 500000)
- 467 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 828 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
+ 563 words of extra memory for PDF output out of 10000 (max. 10000000)
 
