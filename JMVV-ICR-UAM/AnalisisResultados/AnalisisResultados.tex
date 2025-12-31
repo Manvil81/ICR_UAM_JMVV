@@ -191,6 +191,7 @@ La estimación de Intervalos de Confianza (IC) constituye una herramienta fundam
 \noindent
 Se presenta la Tabla \ref{tab:ic_media_totales} con los IC para la media para sismos totales para las 6 regiones de estudio.
 
+\begingroup
 \footnotesize
 \begin{table}[h!]
 \centering
@@ -211,10 +212,11 @@ Resto Nacionales & 5.567706 & 5.516171 & 5.619242 \\ \hline
 Nacionales & 5.489865 & 5.461474 & 5.518256 \\ \hline
 \end{tabular}
 \end{table}
-
-Ahora se presenta la Figura \ref{fig:ic_media_totales} con los gráficos de los IC para la media para sismos totales para las 6 regiones de estudio.
+\endgroup
 
 \clearpage
+Ahora se presenta la Figura \ref{fig:ic_media_totales} con los gráficos de los IC para la media para sismos totales para las 6 regiones de estudio.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{ic_media_totales.png}
@@ -224,6 +226,7 @@ Ahora se presenta la Figura \ref{fig:ic_media_totales} con los gráficos de los 
 
 A continuación, se presenta la Tabla \ref{tab:ic_media_maximas} con los IC para la media para magnitudes máximas para las 6 regiones de estudio.
 
+\begingroup
 \footnotesize
 \begin{table}[h!]
 \centering
@@ -244,6 +247,7 @@ Resto Nacionales & 6.517241 & 6.393854 & 6.640629 \\ \hline
 Nacionales & 7.007273 & 6.911676 & 7.102870 \\ \hline
 \end{tabular}
 \end{table}
+\endgroup
 
 \clearpage
 Ahora se presenta la Figura \ref{fig:ic_media_maximas} con los gráficos de los IC para la media para magnitudes máximas para las 6 regiones de estudio.
@@ -253,4 +257,144 @@ Ahora se presenta la Figura \ref{fig:ic_media_maximas} con los gráficos de los 
 \includegraphics[width=\textwidth]{ic_media_maximas.png}
 \caption{IC para la media para magnitudes máximas para las 6 regiones.}
 \label{fig:ic_media_maximas}
+\end{figure}
+
+\subsection{Intervalo de confianza para la varianza}
+
+\noindent
+Se presenta la tabla \ref{tab:ic_varianza_totales} con los IC para la varianza para sismos totales para las 6 regiones de estudio.
+
+\begingroup
+\footnotesize
+\begin{table}[h!]
+\centering
+\caption{Tabla 5. IC para la varianza para sismos totales para las 6 regiones.} 
+\label{tab:ic_varianza_totales}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Varianza Totales} & \textbf{LI 95\% Var\_Tot} & \textbf{LS 95\% Var\_Tot} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.3819442 & 0.3300430 & 0.4471985 \\ \hline
+Guerrero & 0.4833701 & 0.4093295 & 0.5796038 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.6357416 & 0.4836434 & 0.8732530 \\ \hline
+Chiapas & 0.3128897 & 0.2809734 & 0.3506005 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 0.3751317 & 0.3342576 & 0.4240313 \\ \hline
+Nacionales & 0.3887214 & 0.3648633 & 0.4150106 \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+\clearpage
+Ahora se presenta la figura \ref{fig:ic_varianza_totales} con los gráficos de los IC para la varianza para sismos totales para las 6 regiones de estudio.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{ic_varianza_totales.png}
+\caption{IC para la varianza para sismos totales para las 6 regiones.}
+\label{fig:ic_varianza_totales}
+\end{figure}
+
+Se presenta la tabla \ref{tab:ic_varianza_maximas} con los IC para la varianza para magnitudes máximas para las 6 regiones de estudio.
+
+\begingroup
+\footnotesize
+\begin{table}[h!]
+\centering
+\caption{IC para la varianza para magnitudes máximas para las 6 regiones.} 
+\label{tab:ic_varianza_maximas}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Varianza Máximos} & \textbf{LI 95\% Var\_Max} & \textbf{LS 95\% Var\_Max} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.6191964 & 0.4492636 & 0.9082451 \\ \hline
+Guerrero & 0.6308820 & 0.4638024 & 0.9083280 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.8467918 & 0.5908769 & 1.3149393 \\ \hline
+Chiapas & 0.5466438 & 0.4042848 & 0.7804875 \\ \hline
+\rowcolor{gray!20}
+Resto Nacionales & 0.3351644 & 0.2538596 & 0.4631230 \\ \hline
+Nacionales & 0.2559099 & 0.1995522 & 0.3401743 \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+\clearpage
+Ahora se presenta la figura \ref{fig:ic_varianza_maximas} con los gráficos de los IC para la varianza para magnitudes máximas para las 6 regiones de estudio.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{ic_varianza_maximas.png}
+\caption{IC para la varianza para magnitudes máximas para las 6 regiones.}
+\label{fig:ic_varianza_maximas}
+\end{figure}
+
+\subsection{Intervalo de confianza para la proporción de sismos mayores al umbral crítico}
+
+\noindent
+Para la estimación de los IC de proporción, se maneja un umbral crítico de 6.5° y se analizará que proporción de sismos superan ese umbral. Se presenta la Tabla \ref{tab:ic_proporcion_totales} con los IC para proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones de estudio.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+\caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.} \label{tab:ic_proporcion_totales} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Proporción Totales} & \textbf{Porcentaje Totales} & \textbf{LI 95\% Prop\_Tot} & \textbf{LS 95\% Prop\_Tot} & \textbf{LI 95\% Porc\_Tot} & \textbf{LS 95\% Porc\_Tot} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.0896 & 8.96 & 0.0590 & 0.1202 & 5.90 & 12.02 \\ \hline
+Guerrero & 0.1445 & 14.45 & 0.1014 & 0.1876 & 10.14 & 18.76 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.1667 & 16.67 & 0.0897 & 0.2437 & 8.97 & 24.37 \\ \hline
+Chiapas & 0.0700 & 7.00 & 0.0501 & 0.0899 & 5.01 & 8.99 \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & 0.1009 & 10.09 & 0.0756 & 0.1262 & 7.56 & 12.62 \\ \hline
+Nacionales & 0.0976 & 9.76 & 0.0841 & 0.1111 & 8.41 & 11.11 \\ \hline
+\end{tabularx}
+\endgroup
+
+\clearpage
+Ahora se presenta la Figura \ref{fig:ic_proporcion_totales} con los gráficos de los IC para la proporción de sismos mayores al umbral crítico (6.5°) para sismos totales para las 6 regiones de estudio.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{ic_proporcion_totales.png}
+\caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.}
+\label{fig:ic_proporcion_totales}
+\end{figure}
+
+Se presenta la Tabla \ref{tab:ic_proporcion_maximas} con los IC para proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones de estudio.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+\caption{IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.} \label{tab:ic_proporcion_maximas} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Proporción Máximos} & \textbf{Porcentaje Máximos} & \textbf{LI 95\% Prop\_Max} & \textbf{LS 95\% Prop\_Max} & \textbf{LI 95\% Porc\_Max} & \textbf{LS 95\% Porc\_Max} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & 0.3750 & 37.50 & 0.2564 & 0.4936 & 25.64 & 49.36 \\ \hline
+Guerrero & 0.4429 & 44.29 & 0.3265 & 0.5593 & 32.65 & 55.93 \\ \hline
+\rowcolor{gray!20}
+Michoacán & 0.2800 & 28.00 & 0.1555 & 0.4045 & 15.55 & 40.45 \\ \hline
+Chiapas & 0.4932 & 49.32 & 0.3785 & 0.6079 & 37.85 & 60.79 \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & 0.4828 & 48.28 & 0.3778 & 0.5878 & 37.78 & 58.78 \\ \hline
+Nacionales & 0.8182 & 81.82 & 0.7461 & 0.8903 & 74.61 & 89.03 \\ \hline
+\end{tabularx}
+\endgroup
+
+\clearpage
+Ahora se presenta la Figura \ref{fig:ic_proporcion_maximas} con los gráficos de los IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones de estudio.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{ic_proporcion_maximas.png}
+\caption{IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.}
+\label{fig:ic_proporcion_maximas}
 \end{figure}
