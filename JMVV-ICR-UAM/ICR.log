@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  30 DEC 2025 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  30 DEC 2025 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1957,7 +1957,7 @@ Package rerunfilecheck Info: File `ICR.out' has not changed.
 Here is how much of TeX's memory you used:
  31457 strings out of 468133
  597809 string characters out of 5440786
- 1081565 words of memory out of 5000000
+ 1082565 words of memory out of 5000000
  59199 multiletter control sequences out of 15000+600000
  695599 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1970,7 +1970,7 @@ ic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Prog
 ram Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr
 8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (59 pages, 714896 bytes).
+Output written on ICR.pdf (59 pages, 715046 bytes).
 PDF statistics:
  700 PDF objects out of 1000 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)
