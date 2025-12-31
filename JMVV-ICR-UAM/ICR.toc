@@ -58,8 +58,7 @@
 \contentsline {section}{\numberline {5.1}Herramientas utilizadas}{31}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Resultados de estadísticos descriptivos}{31}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Representación gráfica de los datos sísmicos}{32}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Histogramas de densidad de los sismos para sismos totales}{33}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Histogramas de densidad de los sismos para sismos totales}{34}{subsection.5.3.2}%
-\contentsline {chapter}{\numberline {6}Conclusiones }{37}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Anexo 1 }{39}{appendix.Alph1}%
-\contentsline {chapter}{{Bibliografía}}{43}{appendix*.23}%
+\contentsline {subsection}{\numberline {5.3.1}Histogramas de densidad de los sismos para sismos totales}{32}{subsection.5.3.1}%
+\contentsline {chapter}{\numberline {6}Conclusiones }{33}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Anexo 1 }{35}{appendix.Alph1}%
+\contentsline {chapter}{{Bibliografía}}{39}{appendix*.23}%

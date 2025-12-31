@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  29 DEC 2025 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  30 DEC 2025 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,13 +1085,7 @@ LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
 LaTeX Warning: Label `cap:Metodologia' multiply defined.
 
-
-LaTeX Warning: Label `cap:Metodologia' multiply defined.
-
 ) (Conclusiones/Conclusiones.aux
-
-LaTeX Warning: Label `cap:Metodologia' multiply defined.
-
 
 LaTeX Warning: Label `cap:Conclusiones' multiply defined.
 
@@ -1196,7 +1190,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `Portada/Portada.aux'.
 
 (Portada/Portada.tex
-<Imagenes/uam.png, id=235, 202.8378pt x 147.4308pt>
+<Imagenes/uam.png, id=231, 202.8378pt x 147.4308pt>
 File: Imagenes/uam.png Graphic file (type png)
 <use Imagenes/uam.png>
 Package pdftex.def Info: Imagenes/uam.png  used on input line 74.
@@ -1633,7 +1627,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 4.
-<./Imagenes/diagrama_metodologia.png, id=483, 626.94225pt x 449.88075pt>
+<./Imagenes/diagrama_metodologia.png, id=474, 626.94225pt x 449.88075pt>
 File: ./Imagenes/diagrama_metodologia.png Graphic file (type png)
 <use ./Imagenes/diagrama_metodologia.png>
 Package pdftex.def Info: ./Imagenes/diagrama_metodologia.png  used on input lin
@@ -1836,120 +1830,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 5.
-
-Overfull \hbox (4.19826pt too wide) in paragraph at lines 26--26
- []|\OT1/ptm/b/n/10.95 Media| 
- []
-
-
-Overfull \hbox (15.76137pt too wide) in paragraph at lines 26--26
- []|\OT1/ptm/b/n/10.95 Mediana| 
- []
-
-
-Overfull \hbox (1.76753pt too wide) in paragraph at lines 26--26
- []|\OT1/ptm/b/n/10.95 Moda| 
- []
-
-
-Overfull \hbox (1.46077pt too wide) in paragraph at lines 26--26
- []|\OT1/ptm/b/n/10.95 Asim.| 
- []
-
-
-Overfull \hbox (4.60492pt too wide) in paragraph at lines 26--27
-[]|\OT1/ptm/b/n/10.95 Totales| 
- []
-
-
-Overfull \hbox (4.19826pt too wide) in paragraph at lines 32--32
- []|\OT1/ptm/b/n/10.95 Media| 
- []
-
-
-Overfull \hbox (15.76137pt too wide) in paragraph at lines 32--32
- []|\OT1/ptm/b/n/10.95 Mediana| 
- []
-
-
-Overfull \hbox (1.76753pt too wide) in paragraph at lines 32--32
- []|\OT1/ptm/b/n/10.95 Moda| 
- []
-
-
-Overfull \hbox (1.46077pt too wide) in paragraph at lines 32--32
- []|\OT1/ptm/b/n/10.95 Asim.| 
- []
-
-
-Overfull \hbox (4.60492pt too wide) in paragraph at lines 32--33
-[]|\OT1/ptm/b/n/10.95 Totales| 
- []
-
-[31]
-<./Imagenes/histogramas_densidad_totales.png, id=593, 1756.161pt x 1341.813pt>
-File: ./Imagenes/histogramas_densidad_totales.png Graphic file (type png)
-<use ./Imagenes/histogramas_densidad_totales.png>
-Package pdftex.def Info: ./Imagenes/histogramas_densidad_totales.png  used on i
-nput line 84.
-(pdftex.def)             Requested size: 466.34068pt x 356.29536pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 85.
-See the caption package documentation for explanation.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32]
-
-LaTeX Info: Redefining \. on input line 102.
-LaTeX Info: Redefining \% on input line 102.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[33 <./Imagenes/histogramas_densidad_totales.png>]
-<./Imagenes/histogramas_densidad_maximas.png, id=603, 1520.079pt x 1220.1585pt>
-
-File: ./Imagenes/histogramas_densidad_maximas.png Graphic file (type png)
-<use ./Imagenes/histogramas_densidad_maximas.png>
-Package pdftex.def Info: ./Imagenes/histogramas_densidad_maximas.png  used on i
-nput line 109.
-(pdftex.def)             Requested size: 466.34068pt x 374.3168pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 110.
-See the caption package documentation for explanation.
-
-
-
-LaTeX Info: Redefining \. on input line 121.
-LaTeX Info: Redefining \% on input line 121.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[34 <./Imagenes/histogramas_densidad_maximas.png>])
+[31])
 
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
@@ -1960,26 +1841,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35]
+[32]
 \openout2 = `Conclusiones/Conclusiones.aux'.
 
  (Conclusiones/Conclusiones.tex
-
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[36
-
-
-
-
-]
 Cap\'{\i }tulo 6.
 
 Underfull \hbox (badness 3375) in paragraph at lines 8--9
@@ -1988,7 +1853,7 @@ Underfull \hbox (badness 3375) in paragraph at lines 8--9
  []
 
 
-LaTeX Warning: Citation 'papalexiou2020random' on page 37 undefined on input li
+LaTeX Warning: Citation 'papalexiou2020random' on page 33 undefined on input li
 ne 16.
 
 
@@ -2006,7 +1871,12 @@ dian-te teor[]^^Pa de va-lo-res ex-tre-mos pro-por-cio-na-ron
 
 
 
-[37])
+[33
+
+
+
+
+])
 
 LaTeX Info: Redefining \. on input line 310.
 LaTeX Info: Redefining \% on input line 310.
@@ -2017,14 +1887,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38]
+[34]
 \openout2 = `Anexos/Anexo1.aux'.
 
  (Anexos/Anexo1.tex
 Ap\'{e}ndice A.
 )
 
-[39
+[35
 
 
 
@@ -2040,7 +1910,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40
+[36
 
 
 
@@ -2052,7 +1922,7 @@ de nor-ma-li-dad, Rpubs.com.  Dis-po-ni-ble en:
 
 
 
-[41
+[37
 
 ]
 Underfull \hbox (badness 1038) in paragraph at lines 106--112
@@ -2062,9 +1932,9 @@ me his-to-ries using ge-ne-ra-ti-ve ad-ver-sa-rial
 
 
 
-[42])
+[38])
 
-[43] (ICR.aux (Portada/Portada.aux)
+[39] (ICR.aux (Portada/Portada.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  (Resumen/Resumen.aux)
@@ -2082,14 +1952,14 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ICR.out' has not changed.
-(rerunfilecheck)             Checksum: A9C1E0AC2C8D50019CF4760F2E89C6A4;12582.
+(rerunfilecheck)             Checksum: F870BCE2C3B10E70F425770AA62C517D;12211.
  ) 
 Here is how much of TeX's memory you used:
- 31481 strings out of 468133
- 598751 string characters out of 5440786
- 1081735 words of memory out of 5000000
- 59218 multiletter control sequences out of 15000+600000
- 692388 words of font info for 166 fonts, out of 8000000 for 9000
+ 31457 strings out of 468133
+ 597809 string characters out of 5440786
+ 1081565 words of memory out of 5000000
+ 59199 multiletter control sequences out of 15000+600000
+ 695599 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,13n,119p,2341b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
@@ -2100,9 +1970,9 @@ ic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Prog
 ram Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr
 8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (63 pages, 1235415 bytes).
+Output written on ICR.pdf (59 pages, 714896 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
- 485 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 700 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 467 words of extra memory for PDF output out of 10000 (max. 10000000)
 
