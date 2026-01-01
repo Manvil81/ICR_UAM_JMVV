@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  31 DEC 2025 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  31 DEC 2025 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1108,6 +1108,9 @@ LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
 
 ) (Conclusiones/Conclusiones.aux
 
+LaTeX Warning: Label `cap:AnalisisDeResultados' multiply defined.
+
+
 LaTeX Warning: Label `cap:Conclusiones' multiply defined.
 
 ) (Anexos/Anexo1.aux)
@@ -1211,7 +1214,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `Portada/Portada.aux'.
 
 (Portada/Portada.tex
-<Imagenes/uam.png, id=267, 202.8378pt x 147.4308pt>
+<Imagenes/uam.png, id=271, 202.8378pt x 147.4308pt>
 File: Imagenes/uam.png Graphic file (type png)
 <use Imagenes/uam.png>
 Package pdftex.def Info: Imagenes/uam.png  used on input line 74.
@@ -1692,7 +1695,7 @@ Cap\'{\i }tulo 4.
 
 
 ]
-<./Imagenes/diagrama_metodologia.png, id=575, 626.94225pt x 449.88075pt>
+<./Imagenes/diagrama_metodologia.png, id=586, 626.94225pt x 449.88075pt>
 File: ./Imagenes/diagrama_metodologia.png Graphic file (type png)
 <use ./Imagenes/diagrama_metodologia.png>
 Package pdftex.def Info: ./Imagenes/diagrama_metodologia.png  used on input lin
@@ -1906,7 +1909,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
-<./Imagenes/histogramas_densidad_totales.png, id=684, 1756.161pt x 1341.813pt>
+<./Imagenes/histogramas_densidad_totales.png, id=695, 1756.161pt x 1341.813pt>
 File: ./Imagenes/histogramas_densidad_totales.png Graphic file (type png)
 <use ./Imagenes/histogramas_densidad_totales.png>
 Package pdftex.def Info: ./Imagenes/histogramas_densidad_totales.png  used on i
@@ -1926,7 +1929,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [33
 
  <./Imagenes/histogramas_densidad_totales.png>]
-<./Imagenes/histogramas_densidad_maximas.png, id=691, 1520.079pt x 1220.1585pt>
+<./Imagenes/histogramas_densidad_maximas.png, id=702, 1520.079pt x 1220.1585pt>
 
 File: ./Imagenes/histogramas_densidad_maximas.png Graphic file (type png)
 <use ./Imagenes/histogramas_densidad_maximas.png>
@@ -1956,7 +1959,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35]
-<./Imagenes/frecuencias_mes_totales.png, id=701, 1451.4225pt x 1161.138pt>
+<./Imagenes/frecuencias_mes_totales.png, id=712, 1451.4225pt x 1161.138pt>
 File: ./Imagenes/frecuencias_mes_totales.png Graphic file (type png)
 <use ./Imagenes/frecuencias_mes_totales.png>
 Package pdftex.def Info: ./Imagenes/frecuencias_mes_totales.png  used on input 
@@ -1981,7 +1984,7 @@ Underfull \hbox (badness 1173) in paragraph at lines 130--130
 -ni-tu-des
  []
 
-<./Imagenes/frecuencias_mes_maximas.png, id=707, 1470.6945pt x 1174.3875pt>
+<./Imagenes/frecuencias_mes_maximas.png, id=718, 1470.6945pt x 1174.3875pt>
 File: ./Imagenes/frecuencias_mes_maximas.png Graphic file (type png)
 <use ./Imagenes/frecuencias_mes_maximas.png>
 Package pdftex.def Info: ./Imagenes/frecuencias_mes_maximas.png  used on input 
@@ -1999,7 +2002,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37 <./Imagenes/frecuencias_mes_maximas.png>]
-<./Imagenes/histogramas_magnitud.png, id=713, 1532.124pt x 1253.8845pt>
+<./Imagenes/histogramas_magnitud.png, id=724, 1532.124pt x 1253.8845pt>
 File: ./Imagenes/histogramas_magnitud.png Graphic file (type png)
 <use ./Imagenes/histogramas_magnitud.png>
 Package pdftex.def Info: ./Imagenes/histogramas_magnitud.png  used on input lin
@@ -2028,7 +2031,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
-<./Imagenes/magnitudes_tiempo.png, id=724, 1520.079pt x 1250.271pt>
+<./Imagenes/magnitudes_tiempo.png, id=735, 1520.079pt x 1250.271pt>
 File: ./Imagenes/magnitudes_tiempo.png Graphic file (type png)
 <use ./Imagenes/magnitudes_tiempo.png>
 Package pdftex.def Info: ./Imagenes/magnitudes_tiempo.png  used on input line 1
@@ -2048,7 +2051,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [40
 
  <./Imagenes/magnitudes_tiempo.png>]
-<./Imagenes/ic_media_totales.png, id=732, 813.63976pt x 408.92775pt>
+<./Imagenes/ic_media_totales.png, id=743, 813.63976pt x 408.92775pt>
 File: ./Imagenes/ic_media_totales.png Graphic file (type png)
 <use ./Imagenes/ic_media_totales.png>
 Package pdftex.def Info: ./Imagenes/ic_media_totales.png  used on input line 22
@@ -2068,7 +2071,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [41
 
  <./Imagenes/ic_media_totales.png>]
-<./Imagenes/ic_media_maximas.png, id=740, 818.45775pt x 415.5525pt>
+<./Imagenes/ic_media_maximas.png, id=751, 818.45775pt x 415.5525pt>
 File: ./Imagenes/ic_media_maximas.png Graphic file (type png)
 <use ./Imagenes/ic_media_maximas.png>
 Package pdftex.def Info: ./Imagenes/ic_media_maximas.png  used on input line 25
@@ -2088,7 +2091,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [42
 
  <./Imagenes/ic_media_maximas.png>]
-<./Imagenes/ic_varianza_totales.png, id=748, 818.45775pt x 415.5525pt>
+<./Imagenes/ic_varianza_totales.png, id=759, 818.45775pt x 415.5525pt>
 File: ./Imagenes/ic_varianza_totales.png Graphic file (type png)
 <use ./Imagenes/ic_varianza_totales.png>
 Package pdftex.def Info: ./Imagenes/ic_varianza_totales.png  used on input line
@@ -2108,7 +2111,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [43
 
  <./Imagenes/ic_varianza_totales.png>]
-<./Imagenes/ic_varianza_maximas.png, id=756, 818.45775pt x 415.5525pt>
+<./Imagenes/ic_varianza_maximas.png, id=767, 818.45775pt x 415.5525pt>
 File: ./Imagenes/ic_varianza_maximas.png Graphic file (type png)
 <use ./Imagenes/ic_varianza_maximas.png>
 Package pdftex.def Info: ./Imagenes/ic_varianza_maximas.png  used on input line
@@ -2128,7 +2131,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [44
 
  <./Imagenes/ic_varianza_maximas.png>]
-<./Imagenes/ic_proporcion_totales.png, id=764, 818.45775pt x 415.5525pt>
+<./Imagenes/ic_proporcion_totales.png, id=775, 818.45775pt x 415.5525pt>
 File: ./Imagenes/ic_proporcion_totales.png Graphic file (type png)
 <use ./Imagenes/ic_proporcion_totales.png>
 Package pdftex.def Info: ./Imagenes/ic_proporcion_totales.png  used on input li
@@ -2148,13 +2151,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [45
 
  <./Imagenes/ic_proporcion_totales.png>]
-<./Imagenes/ic_proporcion_maximas.png, id=773, 818.45775pt x 415.5525pt>
+<./Imagenes/ic_proporcion_maximas.png, id=784, 818.45775pt x 415.5525pt>
 File: ./Imagenes/ic_proporcion_maximas.png Graphic file (type png)
 <use ./Imagenes/ic_proporcion_maximas.png>
 Package pdftex.def Info: ./Imagenes/ic_proporcion_maximas.png  used on input li
 ne 398.
 (pdftex.def)             Requested size: 452.35103pt x 229.67056pt.
-)
+
+
+LaTeX Info: Redefining \. on input line 477.
+LaTeX Info: Redefining \% on input line 477.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46
+
+ <./Imagenes/ic_proporcion_maximas.png>])
 
 LaTeX Info: Redefining \. on input line 315.
 LaTeX Info: Redefining \% on input line 315.
@@ -2165,12 +2181,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46
-
- <./Imagenes/ic_proporcion_maximas.png>]
+[47]
 \openout2 = `Conclusiones/Conclusiones.aux'.
 
  (Conclusiones/Conclusiones.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48
+
+
+
+
+]
 Cap\'{\i }tulo 6.
 
 Underfull \hbox (badness 1117) in paragraph at lines 10--11
@@ -2179,7 +2209,7 @@ ad[]^^Psti-ca-men-te sig-ni-fi-ca-ti-vas en-tre las
  []
 
 
-LaTeX Warning: Citation 'papalexiou2020random' on page 47 undefined on input li
+LaTeX Warning: Citation 'papalexiou2020random' on page 49 undefined on input li
 ne 16.
 
 
@@ -2198,12 +2228,7 @@ Underfull \hbox (badness 1048) in paragraph at lines 16--17
 
 
 
-[47
-
-
-
-
-])
+[49])
 
 LaTeX Info: Redefining \. on input line 318.
 LaTeX Info: Redefining \% on input line 318.
@@ -2214,14 +2239,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48]
+[50]
 \openout2 = `Anexos/Anexo1.aux'.
 
  (Anexos/Anexo1.tex
 Ap\'{e}ndice A.
 )
 
-[49
+[51
 
 
 
@@ -2237,19 +2262,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50
+[52
 
 
 
 ] (ICR.bbl
 
-[51
+[53
 
 ]
 
-[52])
+[54])
 
-[53] (ICR.aux (Portada/Portada.aux)
+[55] (ICR.aux (Portada/Portada.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  (Resumen/Resumen.aux)
@@ -2267,27 +2292,28 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ICR.out' has not changed.
-(rerunfilecheck)             Checksum: A3A9EEEB42862ED2D61DD1A5800DDEC1;15437.
+(rerunfilecheck)             Checksum: 66D48AE6CF7C357162DE65EA087AEA98;15806.
  ) 
 Here is how much of TeX's memory you used:
- 31624 strings out of 468133
- 603253 string characters out of 5440786
- 1091722 words of memory out of 5000000
- 59336 multiletter control sequences out of 15000+600000
- 687428 words of font info for 155 fonts, out of 8000000 for 9000
+ 31641 strings out of 468133
+ 603517 string characters out of 5440786
+ 1097231 words of memory out of 5000000
+ 59346 multiletter control sequences out of 15000+600000
+ 687908 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,13n,119p,2341b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvet
-ic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts
-/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr
-8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (75 pages, 3485770 bytes).
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pf
+b><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/t
+imes/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ICR.pdf (77 pages, 3508533 bytes).
 PDF statistics:
- 903 PDF objects out of 1000 (max. 8388607)
- 218 named destinations out of 1000 (max. 500000)
- 599 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 930 PDF objects out of 1000 (max. 8388607)
+ 223 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
 

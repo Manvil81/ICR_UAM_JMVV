@@ -68,6 +68,7 @@
 \contentsline {subsection}{\numberline {5.4.1}Intervalo de confianza para la media}{41}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Intervalo de confianza para la varianza}{42}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Intervalo de confianza para la proporción de sismos mayores al umbral crítico}{44}{subsection.5.4.3}%
-\contentsline {chapter}{\numberline {6}Conclusiones }{47}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Anexo 1 }{49}{appendix.Alph1}%
-\contentsline {chapter}{{Bibliografía}}{53}{appendix*.39}%
+\contentsline {subsection}{\numberline {5.4.4}Resultados de las pruebas de proporciones mayores a 6.5°}{46}{subsection.5.4.4}%
+\contentsline {chapter}{\numberline {6}Conclusiones }{49}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Anexo 1 }{51}{appendix.Alph1}%
+\contentsline {chapter}{{Bibliografía}}{55}{appendix*.39}%
