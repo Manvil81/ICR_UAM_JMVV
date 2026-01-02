@@ -496,3 +496,318 @@ Ahora se presentan dos listas decrecientes con el ranking de estados con mayor p
 5. Oaxaca: 0.3750 (37.50%) - 24 de 64 registros
 6. Michoacán: 0.2800 (28.00%) - 14 de 50 registros
 \end{verbatim}
+
+\section{Estimación del tamaño mínimo de la muestra para la media}
+
+\noindent
+El tamaño mínimo de la muestra indica el número menor de observaciones necesarias para estimar un parámetro poblacional (en este caso, la media) con un nivel de precisión específico y un grado de confianza determinado. Para esta prueba, se utilizan los siguientes parámetros:
+
+\begin{itemize}
+\item Nivel de confianza del 95\%
+\item Un error en intervalos desde 1\% hasta 30\%
+\end{itemize}
+
+La Tabla \ref{tab:tamano_muestra_totales} muestra el tamaño mínimo de la muestra para las 6 regiones para sismos totales.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|c|* {6}{>{\centering\arraybackslash}X|}}
+\caption{Tamaño mínimo de la muestra para las 6 regiones para sismos totales.} \label{tab:tamano_muestra_totales} \\
+\hline
+\rowcolor{gray!60}
+\textbf{$\epsilon$} & \textbf{Oaxaca (n=335)} & \textbf{Guerrero (n=256)} & \textbf{Michoacán (n=90)} & \textbf{Chiapas (n=629)} & \textbf{Resto Nacionales (n=545)} & \textbf{Sismos Nacionales (n=1855)} \\ \hline
+\rowcolor{gray!20}
+\textbf{0.01} & 14780 & 18746 & 25100 & 12066 & 14475 & 14953 \\ \hline
+\textbf{0.02} & 3695 & 4687 & 6275 & 3017 & 3619 & 3739 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.03} & 1643 & 2083 & 2789 & 1341 & 1609 & 1662 \\ \hline
+\textbf{0.04} & 924 & 1172 & 1569 & 755 & 905 & 935 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.05} & 592 & 750 & 1004 & 483 & 579 & 599 \\ \hline
+\textbf{0.06} & 411 & 521 & 698 & 336 & 403 & 416 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.07} & 302 & 383 & 513 & 247 & 296 & 306 \\ \hline
+\textbf{0.08} & 231 & 293 & 393 & 189 & 227 & 234 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.09} & 183 & 232 & 310 & 149 & 179 & 185 \\ \hline
+\textbf{0.1} & 148 & 188 & 251 & 121 & 145 & 150 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.11} & 123 & 155 & 208 & 100 & 120 & 124 \\ \hline
+\textbf{0.12} & 103 & 131 & 175 & 84 & 101 & 104 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.13} & 88 & 111 & 149 & 72 & 86 & 89 \\ \hline
+\textbf{0.14} & 76 & 96 & 129 & 62 & 74 & 77 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.15} & 66 & 84 & 112 & 54 & 65 & 67 \\ \hline
+\textbf{0.16} & 58 & 74 & 99 & 48 & 57 & 59 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.17} & 52 & 65 & 87 & 42 & 51 & 52 \\ \hline
+\textbf{0.18} & 46 & 58 & 78 & 38 & 45 & 47 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.19} & 41 & 52 & 70 & 34 & 41 & 42 \\ \hline
+\end{tabularx}
+\endgroup
+
+El análisis realizado nos indica los siguientes resultados para sismos totales:
+
+\begin{itemize}
+\item Oaxaca (n=335) puede estimar la media con un error máximo de ±0.07, pues necesita 302 muestras
+\item Guerrero (n=256) puede estimar la media con un error máximo de ±0.09, pues necesita 232 muestras
+\item Michoacán (n=90) puede estimar la media con un error máximo de ±0.17, pues necesita 87 muestras
+\item Chiapas (n=629) puede estimar la media con un error máximo de ±0.05, pues necesita 483 muestras
+\item Resto Nacionales (n=545) puede estimar la media con un error máximo de ±0.06, pues necesita 403 muestras
+\item Sismos Nacionales (n=1855) puede estimar la media con un error máximo de ±0.03, pues necesita de 1662 muestras
+\end{itemize}
+
+La Tabla \ref{tab:tamano_muestra_maximas} muestra el tamaño mínimo de la muestra para las 6 regiones para magnitudes máximas.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|c|* {6}{>{\centering\arraybackslash}X|}}
+\caption{Tamaño mínimo de la muestra para las 6 regiones para magnitudes máximas.} \label{tab:tamano_muestra_maximas} \\
+\hline
+\rowcolor{gray!60}
+\textbf{$\epsilon$} & \textbf{Oaxaca (n=64)} & \textbf{Guerrero (n=70)} & \textbf{Michoacán (n=50)} & \textbf{Chiapas (n=73)} & \textbf{Resto Nacionales (n=87)} & \textbf{Sismos Nacionales (n=110)} \\ \hline
+\rowcolor{gray!20}
+\textbf{0.09} & 306 & 310 & 423 & 269 & 164 & 125 \\ \hline
+\textbf{0.1} & 248 & 252 & 342 & 218 & 133 & 101 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.11} & 205 & 208 & 283 & 180 & 110 & 84 \\ \hline
+\textbf{0.12} & 172 & 175 & 238 & 151 & 92 & 70 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.13} & 147 & 149 & 203 & 129 & 79 & 60 \\ \hline
+\textbf{0.14} & 127 & 129 & 175 & 111 & 68 & 52 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.15} & 110 & 112 & 152 & 97 & 59 & 45 \\ \hline
+\textbf{0.16} & 97 & 99 & 134 & 85 & 52 & 40 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.17} & 86 & 87 & 119 & 76 & 46 & 35 \\ \hline
+\textbf{0.18} & 77 & 78 & 106 & 68 & 41 & 32 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.19} & 69 & 70 & 95 & 61 & 37 & 28 \\ \hline
+\textbf{0.2} & 62 & 63 & 86 & 55 & 34 & 26 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.21} & 57 & 57 & 78 & 50 & 31 & 23 \\ \hline
+\textbf{0.22} & 52 & 52 & 71 & 45 & 28 & 21 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.23} & 47 & 48 & 65 & 42 & 26 & 20 \\ \hline
+\textbf{0.24} & 43 & 44 & 60 & 38 & 23 & 18 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.25} & 40 & 41 & 55 & 35 & 22 & 17 \\ \hline
+\textbf{0.26} & 37 & 38 & 51 & 33 & 20 & 15 \\ \hline
+\rowcolor{gray!20}
+\textbf{0.27} & 34 & 35 & 47 & 30 & 19 & 14 \\ \hline
+\end{tabularx}
+\endgroup
+
+El análisis realizado nos indica los siguientes resultados para magnitudes máximas:
+
+\begin{itemize}
+\item Oaxaca (n=64) puede estimar la media con un error máximo de ±0.20, pues necesita 62 muestras
+\item Guerrero (n=70) puede estimar la media con un error máximo de ±0.19, pues necesita 70 muestras
+\item Michoacán (n=50) puede estimar la media con un error máximo de ±0.27, pues necesita 47 muestras
+\item Chiapas (n=73) puede estimar la media con un error máximo de ±0.18, pues necesita 68 muestras
+\item Resto Nacionales (n=87) puede estimar la media con un error máximo de ±0.13, pues necesita 79 muestras
+\item Sismos Nacionales (n=110) puede estimar la media con un error máximo de ±0.10, pues necesita de 101 muestras
+\end{itemize}
+
+\section{Pruebas de hipótesis}
+
+\noindent
+Las pruebas de hipótesis constituyen un procedimiento estadístico que permite tomar decisiones sobre parámetros de una población basándose en la evidencia muestral. Las pruebas de hipótesis involucran la formulación de dos hipótesis mutuamente excluyentes, que son:
+
+\begin{itemize}
+\item \textbf{Hipótesis nula (H$_0$):} Es la afirmación que se presume verdadera inicialmente y que se desea contrastar.
+\item \textbf{Hipótesis alternativa (H$_1$):} Es la afirmación que se acepta si existe evidencia suficiente para rechazar la hipótesis nula.
+\end{itemize}
+
+En este análisis, se llevarán a cabo pruebas de hipótesis para comparar las medias y varianzas de las diferentes regiones de estudio, tanto para sismos totales como para magnitudes máximas. Se utilizará un nivel de significancia del 5\% ($\alpha$ = 0.05) para determinar si se rechaza o no la hipótesis nula en cada caso.
+
+\subsection{Prueba de hipótesis para el cociente de varianzas (prueba F)}
+
+\noindent
+Se presentan los resultados de las pruebas de hipótesis para el cociente de varianzas (prueba F) entre todas las regiones de estudio, tanto para sismos totales como para magnitudes máximas. Se proponen las siguientes hipótesis y el nivel de significancia:
+
+\vspace{-15pt}
+\begin{align*}
+\textbf{H}_0: & \quad \sigma_1^2 = \sigma_2^2 \text{ (las varianzas son iguales)} \\
+\textbf{H}_1: & \quad \sigma_1^2 \neq \sigma_2^2 \text{ (las varianzas son diferentes)} \\
+\bm{\alpha} & = 0.05 \text{ (nivel de significancia)}
+\end{align*}
+\vspace{-15pt}
+
+La Tabla \ref{tab:hipotesis_varianzas_totales} muestra los resultados de las pruebas de hipótesis realizadas para sismos totales.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|c|c|c|c|c|c|c|c|c|c|}
+\caption{Resultados de las pruebas de hipótesis para cociente de varianzas para sismos totales.} \label{tab:hipotesis_varianzas_totales} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Var\_1} & \textbf{Var\_2} & \textbf{F\_est} & \textbf{GL\_num} & \textbf{GL\_den} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.3819 & 0.4834 & 1.2656 & 255 & 334 & 0.0439 & Sí & Gro. mayor var. \\ \hline
+Oaxaca & Michoacán & 0.3819 & 0.6357 & 1.6645 & 89 & 334 & 0.0014 & Sí & Mich. mayor var. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.3819 & 0.3129 & 1.2207 & 334 & 628 & 0.0348 & Sí & Oax. mayor var. \\ \hline
+Oaxaca & Resto Nals. & 0.3819 & 0.3751 & 1.0182 & 334 & 544 & 0.8485 & No & Sin dif. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 0.3819 & 0.3887 & 1.0177 & 1854 & 334 & 0.8498 & No & Sin dif. \\ \hline
+Guerrero & Michoacán & 0.4834 & 0.6357 & 1.3152 & 89 & 255 & 0.1025 & No & Sin dif. \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.4834 & 0.3129 & 1.5449 & 255 & 628 & 0.0000 & Sí & Gro. mayor var. \\ \hline
+Guerrero & Resto Nals. & 0.4834 & 0.3751 & 1.2885 & 255 & 544 & 0.0160 & Sí & Gro. mayor var. \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 0.4834 & 0.3887 & 1.2435 & 255 & 1854 & 0.0166 & Sí & Gro. mayor var. \\ \hline
+Michoacán & Chiapas & 0.6357 & 0.3129 & 2.0318 & 89 & 628 & 0.0000 & Sí & Mich. mayor var. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 0.6357 & 0.3751 & 1.6947 & 89 & 544 & 0.0004 & Sí & Mich. mayor var. \\ \hline
+Michoacán & Nacionales & 0.6357 & 0.3887 & 1.6355 & 89 & 1854 & 0.0004 & Sí & Mich. mayor var. \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 0.3129 & 0.3751 & 1.1989 & 544 & 628 & 0.0281 & Sí & R.N. mayor var. \\ \hline
+Chiapas & Nacionales & 0.3129 & 0.3887 & 1.2424 & 1854 & 628 & 0.0011 & Sí & Nals. mayor var. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 0.3751 & 0.3887 & 1.0362 & 1854 & 544 & 0.6158 & No & Sin dif. \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+\begin{itemize}
+\item Se acepta H$_0$ en 5 de las 15 comparaciones, indicando que no hay diferencias significativas en las varianzas entre las regiones comparadas (H$_0$: $\sigma_1^2 = \sigma_2^2$ (las varianzas son iguales)).
+\begin{itemize}
+\item Varianza Oaxaca = Resto Nacionales = Sismos Nacionales
+\item Varianza Guerrero = Michoacán
+\item Varianza Resto Nacionales = Sismos Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 10 de las 15 comparaciones, indicando diferencias significativas en las varianzas entre las regiones comparadas (H$_1$: $\sigma_1^2 \neq \sigma_2^2$ (las varianzas son diferentes)).
+\begin{itemize}
+\item Varianza Oaxaca $\neq$ Guerrero $\neq$ Michoacán $\neq$ Chiapas
+\item Varianza Guerrero $\neq$ Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacional
+\item Varianza Michoacán $\neq$ Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Varianza Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
+
+La Tabla \ref{tab:hipotesis_varianzas_maximas} muestra los resultados de las pruebas de hipótesis realizadas para magnitudes máximas.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|c|c|c|c|c|c|c|c|c|c|}
+\caption{Resultados de las pruebas de hipótesis para cociente de varianzas para magnitudes máximas.} \label{tab:hipotesis_varianzas_maximas} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Var\_1} & \textbf{Var\_2} & \textbf{F\_est} & \textbf{GL\_num} & \textbf{GL\_den} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.6192 & 0.6309 & 1.0189 & 69 & 63 & 0.9427 & No & Sin dif. \\ \hline
+Oaxaca & Michoacán & 0.6192 & 0.8468 & 1.3676 & 49 & 63 & 0.2406 & No & Sin dif. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.6192 & 0.5466 & 1.1327 & 63 & 72 & 0.6066 & No & Sin dif. \\ \hline
+Oaxaca & Resto Nals. & 0.6192 & 0.3352 & 1.8474 & 63 & 86 & 0.0082 & Sí & Oax. mayor var. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 0.6192 & 0.2559 & 2.4196 & 63 & 109 & 0.0000 & Sí & Oax. mayor var. \\ \hline
+Guerrero & Michoacán & 0.6309 & 0.8468 & 1.3422 & 49 & 69 & 0.2578 & No & Sin dif. \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.6309 & 0.5466 & 1.1541 & 69 & 72 & 0.5477 & No & Sin dif. \\ \hline
+Guerrero & Resto Nals. & 0.6309 & 0.3352 & 1.8823 & 69 & 86 & 0.0055 & Sí & Gro. mayor var. \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 0.6309 & 0.2559 & 2.4653 & 69 & 109 & 0.0000 & Sí & Gro. mayor var. \\ \hline
+Michoacán & Chiapas & 0.8468 & 0.5466 & 1.5491 & 49 & 72 & 0.0896 & No & Sin dif. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 0.8468 & 0.3352 & 2.5265 & 49 & 86 & 0.0001 & Sí & Mich. mayor var. \\ \hline
+Michoacán & Nacionales & 0.8468 & 0.2559 & 3.3089 & 49 & 109 & 0.0000 & Sí & Mich. mayor var. \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 0.5466 & 0.3352 & 1.6310 & 72 & 86 & 0.0299 & Sí & Chis. mayor var. \\ \hline
+Chiapas & Nacionales & 0.5466 & 0.2559 & 2.1361 & 72 & 109 & 0.0003 & Sí & Chis. mayor var. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 0.3352 & 0.2559 & 1.3097 & 86 & 109 & 0.1827 & No & Sin dif. \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+\begin{itemize}
+\item Se acepta H$_0$ en 7 de las 15 comparaciones, indicando que no hay diferencias significativas en las varianzas entre las regiones comparadas (H$_0$: $\sigma_1^2 = \sigma_2^2$ (las varianzas son iguales)).
+\begin{itemize}
+\item Varianza Oaxaca = Guerrero = Michoacán = Chiapas
+\item Varianza Guerrero = Michoacán = Chiapas
+\item Varianza Michoacán = Chiapas
+\item Varianza Resto Nacionales = Sismos Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 8 de las 15 comparaciones, indicando diferencias significativas en las varianzas entre las regiones comparadas (H$_1$: $\sigma_1^2 \neq \sigma_2^2$ (las varianzas son diferentes)).
+\begin{itemize}
+\item Varianza Oaxaca $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Varianza Guerrero $\neq$ Resto Nacionales $\neq$ Sismos Nacional
+\item Varianza Michoacán $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Varianza Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
+
+\subsection{Prueba de hipótesis para diferencia de medias}
+\noindent
+Se presentan los resultados de las pruebas de hipótesis para la diferencia de medias entre todas las regiones de estudio, tanto para sismos totales como para magnitudes máximas. Se proponen las siguientes hipótesis y el nivel de significancia:
+
+\vspace{-15pt}
+\begin{align*}
+\textbf{H}_0: & \quad \mu_1 = \mu_2 \text{ (las medias son iguales)} \\
+\textbf{H}_1: & \quad \mu_1 \neq \mu_2 \text{ (las medias son diferentes)} \\
+\bm{\alpha} & = 0.05 \text{ (nivel de significancia)}
+\end{align*}
+%%\vspace{-15pt}
+
+\noindent
+La Tabla \ref{tab:hipotesis_medias_totales} muestra los resultados de las comparaciones entre regiones de proporción de sismos mayores al umbral crítico para sismos totales.
+\begingroup
+\scriptsize
+\centering
+\begin{tabularx}{15.9cm}{|p{1.2cm}|p{1.2cm}|c|c|c|c|c|c|c|c|X|}
+\caption{Resultados de las pruebas de hipótesis para diferencia de medias para sismos totales.} \label{tab:hipotesis_medias_totales} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Media 1} & \textbf{Media 2} & \textbf{Dif.} & \textbf{T\_est} & \textbf{GL} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Prueba} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 5.4451 & 5.5734 & -0.1284 & -2.3326 & 513.10 & 0.0201 & Sí & Welch & Media Gro. $>$ Oax. \\ \hline
+Oaxaca & Michoacán & 5.4451 & 5.6100 & -0.1649 & -1.8209 & 119.22 & 0.0711 & No & Welch & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 5.4451 & 5.3951 & 0.0500 & 1.2357 & 625.68 & 0.2171 & No & Welch & Sin diferencia significativa \\ \hline
+Oaxaca & Resto Nals. & 5.4451 & 5.5677 & -0.1226 & -2.8741 & 878.00 & 0.0042 & Sí & Pooled & Media R.N. $>$ Oax. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 5.4451 & 5.4899 & -0.0448 & -1.2118 & 2188.00 & 0.2257 & No & Pooled & Sin diferencia significativa \\ \hline
+Guerrero & Michoacán & 5.5734 & 5.6100 & -0.0366 & -0.4126 & 344.00 & 0.6801 & No & Pooled & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 5.5734 & 5.3951 & 0.1784 & 3.6518 & 395.90 & 0.0003 & Sí & Welch & Media Gro. $>$ Chis. \\ \hline
+Guerrero & Resto Nals. & 5.5734 & 5.5677 & 0.0057 & 0.1129 & 446.96 & 0.9102 & No & Welch & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 5.5734 & 5.4899 & 0.0836 & 1.8247 & 314.21 & 0.0690 & No & Welch & Sin diferencia significativa \\ \hline
+Michoacán & Chiapas & 5.6100 & 5.3951 & 0.2149 & 2.4717 & 101.90 & 0.0151 & Sí & Welch & Media Mich. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 5.6100 & 5.5677 & 0.0423 & 0.4804 & 107.02 & 0.6319 & No & Welch & Sin diferencia significativa \\ \hline
+Michoacán & Nacionales & 5.6100 & 5.4899 & 0.1201 & 1.4086 & 94.35 & 0.1622 & No & Welch & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 5.3951 & 5.5677 & -0.1726 & -5.0134 & 1111.53 & 0.0000 & Sí & Welch & Media R.N. $>$ Chis. \\ \hline
+Chiapas & Nacionales & 5.3951 & 5.4899 & -0.0948 & -3.5651 & 1196.62 & 0.0004 & Sí & Welch & Media Nals. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 5.5677 & 5.4899 & 0.0778 & 2.5727 & 2398.00 & 0.0102 & Sí & Pooled & Media R.N. $>$ Nals. \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+
+\begin{itemize}
+\item Se acepta H$_0$ en 8 de las 15 comparaciones, indicando que no hay diferencias significativas en las medias entre las regiones comparadas (H$_0$: $\mu_1 = \mu_2$ (las medias son iguales)).
+\begin{itemize}
+\item Media Oaxaca = Michoacán = Chiapas = Sismos Nacionales
+\item Media Guerrero = Michoacán = Resto Nacionales = Sismos Nacionales
+\item Media Michoacán = Resto Nacionales =Sismos Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 7 de las 15 comparaciones, indicando diferencias significativas en las medias entre las regiones comparadas (H$_1$: $\mu_1 \neq \mu_2$ (las medias son diferentes)).
+\begin{itemize}
+\item Media Oaxaca $\neq$ Guerrero $\neq$ Resto Nacionales
+\item Media Guerrero $\neq$ Chiapas
+\item Media Michoacán $\neq$ Chiapas
+\item Media Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Media Resto Nacionales $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
