@@ -1234,3 +1234,27 @@ RESUMEN DE LAS PRUEBAS DE HIPÓTESIS REALIZADAS
 Nivel de significancia utilizado: alfa = 0.05
 ==========================================
 \end{verbatim}
+
+\section{Criterio de Información Bayesiano (BIC)}
+
+\noindent
+Se presentan los resultados del Criterio de Información Bayesiano (BIC) para comparar modelos estadísticos ajustados a los datos de sismos totales y magnitudes máximas en las diferentes regiones de estudio. El BIC es una medida utilizada para seleccionar el mejor modelo entre un conjunto de modelos candidatos, penalizando la complejidad del modelo para evitar el sobreajuste. Se probaron 20 distribuciones con BIC y se identificaron los modelos con los valores más bajos de BIC para cada región y tipo de dato tanto para sismos totales como para magnitudes máximas. Los resultados se resumen en la Tabla \ref{tab:bic_resultados}.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|p{3cm}|c|c|}
+\caption{Resultados del Criterio de Información Bayesiano (BIC) para modelos ajustados.} \label{tab:bic_resultados} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Región} & \textbf{BIC Sismos Totales} & \textbf{BIC Magnitudes Máximas} \\ \hline
+Oaxaca & Pareto - 117.610 & Uniforme - 140.109 \\ \hline
+Guerrero & Pareto - 227.956 & Uniforme - 152.644 \\ \hline
+Michoacán & Pareto - 94.175 & Pareto - 95.798 \\ \hline
+Chiapas & Pareto - 63.043 & Normal - 170.650 \\ \hline
+Resto Nacionales & Pareto - 479.788 & Normal - 159.719 \\ \hline
+Nacionales & Pareto - 991.025 & Normal - 170.641 \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados indican que para sismos totales, la distribución de Pareto fue la que mejor se ajustó a los datos en todas las regiones analizadas, presentando los valores más bajos de BIC. En el caso de las magnitudes máximas, la distribución uniforme fue la mejor para Oaxaca y Guerrero, mientras que la distribución de Pareto fue la mejor para Michoacán. Para Chiapas, Resto Nacionales y Nacionales, la distribución normal fue la que presentó el mejor ajuste según el criterio BIC. Estos hallazgos proporcionan información valiosa sobre las características estadísticas de los sismos en las diferentes regiones estudiadas. Los modelos seleccionados pueden ser utilizados para futuras investigaciones y análisis en el campo de la sismología.
