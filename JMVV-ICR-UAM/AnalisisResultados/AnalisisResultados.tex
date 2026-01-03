@@ -676,13 +676,13 @@ Resto Nals. & Nacionales & 0.3751 & 0.3887 & 1.0362 & 1854 & 544 & 0.6158 & No &
 
 Los resultados obtenidos indican lo siguiente:
 \begin{itemize}
-\item Se acepta H$_0$ en 5 de las 15 comparaciones, indicando que no hay diferencias significativas en las varianzas entre las regiones comparadas (H$_0$: $\sigma_1^2 = \sigma_2^2$ (las varianzas son iguales)).
+\item Se acepta H$_0$ en 4 de las 15 comparaciones, indicando que no hay diferencias significativas en las varianzas entre las regiones comparadas (H$_0$: $\sigma_1^2 = \sigma_2^2$ (las varianzas son iguales)).
 \begin{itemize}
 \item Varianza Oaxaca = Resto Nacionales = Sismos Nacionales
 \item Varianza Guerrero = Michoacán
 \item Varianza Resto Nacionales = Sismos Nacionales
 \end{itemize}
-\item Se rechaza H$_0$ en favor de H$_1$ en 10 de las 15 comparaciones, indicando diferencias significativas en las varianzas entre las regiones comparadas (H$_1$: $\sigma_1^2 \neq \sigma_2^2$ (las varianzas son diferentes)).
+\item Se rechaza H$_0$ en favor de H$_1$ en 11 de las 15 comparaciones, indicando diferencias significativas en las varianzas entre las regiones comparadas (H$_1$: $\sigma_1^2 \neq \sigma_2^2$ (las varianzas son diferentes)).
 \begin{itemize}
 \item Varianza Oaxaca $\neq$ Guerrero $\neq$ Michoacán $\neq$ Chiapas
 \item Varianza Guerrero $\neq$ Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacional
@@ -746,19 +746,20 @@ Los resultados obtenidos indican lo siguiente:
 \end{itemize}
 
 \subsection{Prueba de hipótesis para diferencia de medias}
+
 \noindent
 Se presentan los resultados de las pruebas de hipótesis para la diferencia de medias entre todas las regiones de estudio, tanto para sismos totales como para magnitudes máximas. Se proponen las siguientes hipótesis y el nivel de significancia:
 
 \vspace{-15pt}
 \begin{align*}
-\textbf{H}_0: & \quad \mu_1 = \mu_2 \text{ (las medias son iguales)} \\
-\textbf{H}_1: & \quad \mu_1 \neq \mu_2 \text{ (las medias son diferentes)} \\
+\textbf{H}_0: & \quad \mu_1^2 = \mu_2^2 \text{ (las medias son iguales)} \\
+\textbf{H}_1: & \quad \mu_1^2 \neq \mu_2^2 \text{ (las medias son diferentes)} \\
 \bm{\alpha} & = 0.05 \text{ (nivel de significancia)}
 \end{align*}
 %%\vspace{-15pt}
 
-\noindent
-La Tabla \ref{tab:hipotesis_medias_totales} muestra los resultados de las comparaciones entre regiones de proporción de sismos mayores al umbral crítico para sismos totales.
+La Tabla \ref{tab:hipotesis_medias_totales} muestra los resultados de las pruebas de hipótesis realizadas para sismos totales.
+
 \begingroup
 \scriptsize
 \centering
@@ -796,13 +797,13 @@ Resto Nals. & Nacionales & 5.5677 & 5.4899 & 0.0778 & 2.5727 & 2398.00 & 0.0102 
 Los resultados obtenidos indican lo siguiente:
 
 \begin{itemize}
-\item Se acepta H$_0$ en 8 de las 15 comparaciones, indicando que no hay diferencias significativas en las medias entre las regiones comparadas (H$_0$: $\mu_1 = \mu_2$ (las medias son iguales)).
+\item Se acepta H$_0$ en 8 de las 15 comparaciones, indicando que no hay diferencias significativas en las medias entre las regiones comparadas (H$_0$: $\mu_1^2 = \mu_2^2$ (las medias son iguales)).
 \begin{itemize}
 \item Media Oaxaca = Michoacán = Chiapas = Sismos Nacionales
 \item Media Guerrero = Michoacán = Resto Nacionales = Sismos Nacionales
-\item Media Michoacán = Resto Nacionales =Sismos Nacionales
+\item Media Michoacán = Resto Nacionales = Sismos Nacionales
 \end{itemize}
-\item Se rechaza H$_0$ en favor de H$_1$ en 7 de las 15 comparaciones, indicando diferencias significativas en las medias entre las regiones comparadas (H$_1$: $\mu_1 \neq \mu_2$ (las medias son diferentes)).
+\item Se rechaza H$_0$ en favor de H$_1$ en 7 de las 15 comparaciones, indicando diferencias significativas en las medias entre las regiones comparadas (H$_1$: $\mu_1^2 \neq \mu_2^2$ (las medias son diferentes)).
 \begin{itemize}
 \item Media Oaxaca $\neq$ Guerrero $\neq$ Resto Nacionales
 \item Media Guerrero $\neq$ Chiapas
@@ -811,3 +812,425 @@ Los resultados obtenidos indican lo siguiente:
 \item Media Resto Nacionales $\neq$ Sismos Nacionales
 \end{itemize}
 \end{itemize}
+
+La Tabla \ref{tab:hipotesis_medias_maximas} muestra los resultados de las pruebas de hipótesis realizadas para magnitudes máximas.
+
+\begingroup
+\scriptsize
+\centering
+\begin{tabularx}{15.9cm}{|p{1.2cm}|p{1.2cm}|c|c|c|c|c|c|c|c|X|}
+\caption{Resultados de las pruebas de hipótesis para diferencia de medias para magnitudes máximas.} \label{tab:hipotesis_medias_maximas} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Media 1} & \textbf{Media 2} & \textbf{Dif.} & \textbf{T\_est} & \textbf{GL} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Prueba} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 6.2219 & 6.2886 & -0.0667 & -0.4877 & 132.00 & 0.6266 & No & Pooled & Sin diferencia significativa \\ \hline
+Oaxaca & Michoacán & 6.2219 & 5.8880 & 0.3339 & 2.0865 & 112.00 & 0.0392 & Sí & Pooled & Media Oax. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 6.2219 & 6.4425 & -0.2206 & -1.6907 & 135.00 & 0.0932 & No & Pooled & Sin diferencia significativa \\ \hline
+Oaxaca & Resto Nals. & 6.2219 & 6.5172 & -0.2954 & -2.5395 & 110.34 & 0.0125 & Sí & Welch & Media R.N. $>$ Oax. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 6.2219 & 7.0073 & -0.7854 & -7.1692 & 93.81 & 0.0000 & Sí & Welch & Media Nals. $>$ Oax. \\ \hline
+Guerrero & Michoacán & 6.2886 & 5.8880 & 0.4006 & 2.5486 & 118.00 & 0.0121 & Sí & Pooled & Media Gro. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 6.2886 & 6.4425 & -0.1539 & -1.1998 & 141.00 & 0.2322 & No & Pooled & Sin diferencia significativa \\ \hline
+Guerrero & Resto Nals. & 6.2886 & 6.5172 & -0.2287 & -2.0161 & 122.62 & 0.0460 & Sí & Welch & Media R.N. $>$ Gro. \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 6.2886 & 7.0073 & -0.7187 & -6.7493 & 104.80 & 0.0000 & Sí & Welch & Media Nals. $>$ Gro. \\ \hline
+Michoacán & Chiapas & 5.8880 & 6.4425 & -0.5545 & -3.6950 & 121.00 & 0.0003 & Sí & Pooled & Media Chis. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 5.8880 & 6.5172 & -0.6292 & -4.3642 & 71.71 & 0.0000 & Sí & Welch & Media R.N. $>$ Mich. \\ \hline
+Michoacán & Nacionales & 5.8880 & 7.0073 & -1.1193 & -8.0646 & 62.85 & 0.0000 & Sí & Welch & Media Nals. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 6.4425 & 6.5172 & -0.0748 & -0.7022 & 135.18 & 0.4838 & No & Welch & Sin diferencia significativa \\ \hline
+Chiapas & Nacionales & 6.4425 & 7.0073 & -0.5648 & -5.7011 & 116.27 & 0.0000 & Sí & Welch & Media Nals. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 6.5172 & 7.0073 & -0.4900 & -6.3329 & 195.00 & 0.0000 & Sí & Pooled & Media Nals. $>$ R.N. \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+\begin{itemize}
+\item Se acepta H$_0$ en 4 de las 15 comparaciones, indicando que no hay diferencias significativas en las medias entre las regiones comparadas (H$_0$: $\mu_1^2 = \mu_2^2$ (las medias son iguales)).
+\begin{itemize}
+\item Media Oaxaca = Guerrero = Chiapas
+\item Media Guerrero = Chiapas
+\item Media Chiapas = Resto Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 11 de las 15 comparaciones, indicando diferencias significativas en las medias entre las regiones comparadas (H$_1$: $\mu_1^2 \neq \mu_2^2$ (las medias son diferentes)).
+\begin{itemize}
+\item Media Oaxaca $\neq$ Michoacán $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Media Guerrero $\neq$ Michoacán $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Media Michoacán $\neq$ Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Media Chiapas $\neq$ Sismos Nacionales
+\item Media Resto Nacionales $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
+
+\subsection{Prueba de hipótesis para diferencia de proporciones iguales}
+
+\noindent
+Se presentan los resultados de las pruebas de hipótesis para la diferencia de proporciones iguales entre todas las regiones de estudio, tanto para sismos totales como para magnitudes máximas. Se proponen las siguientes hipótesis y el nivel de significancia:
+
+\vspace{-15pt}
+\begin{align*}
+\textbf{H}_0: & \quad p_1^2 = p_2^2 \text{ (las proporciones son iguales)} \\
+\textbf{H}_1: & \quad p_1^2 \neq p_2^2 \text{ (las proporciones son diferentes)} \\
+\bm{\alpha} & = 0.05 \text{ (nivel de significancia)}
+\end{align*}
+
+La Tabla \ref{tab:hipotesis_proporciones_totales} muestra los resultados de las pruebas de hipótesis realizadas para sismos totales.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+\caption{Resultados de las pruebas de hipótesis para proporciones iguales para sismos totales.} \label{tab:hipotesis_proporciones_totales} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.0896 & 0.1445 & -0.0549 & -2.0860 & 0.0369 & Sí & Proporción Gro. $>$ Oax. \\ \hline
+Oaxaca & Michoacán & 0.0896 & 0.1667 & -0.0771 & -2.1105 & 0.0348 & Sí & Proporción Mich. $>$ Oax. \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.0896 & 0.0700 & 0.0196 & 1.0885 & 0.2763 & No & Sin diferencia significativa \\ \hline
+Oaxaca & Resto Nals. & 0.0896 & 0.1009 & -0.0113 & -0.5510 & 0.5816 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 0.0896 & 0.0976 & -0.0080 & -0.4567 & 0.6478 & No & Sin diferencia significativa \\ \hline
+Guerrero & Michoacán & 0.1445 & 0.1667 & -0.0222 & -0.5069 & 0.6121 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.1445 & 0.0700 & 0.0745 & 3.4850 & 0.0004 & Sí & Proporción Gro. $>$ Chis. \\ \hline
+Guerrero & Resto Nals. & 0.1445 & 0.1009 & 0.0436 & 1.8047 & 0.0711 & No & Sin diferencia sig. \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 0.1445 & 0.0976 & 0.0469 & 2.3116 & 0.0208 & Sí & Proporción Gro. $>$ Nals. \\ \hline
+Michoacán & Chiapas & 0.1667 & 0.0700 & 0.0967 & 3.1264 & 0.0017 & Sí & Proporción Mich. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 0.1667 & 0.1009 & 0.0658 & 1.8465 & 0.0648 & No & Sin diferencia sig. \\ \hline
+Michoacán & Nacionales & 0.1667 & 0.0976 & 0.0691 & 2.1267 & 0.0334 & Sí & Proporción Mich. $>$ Nals. \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 0.0700 & 0.1009 & -0.0309 & -1.9002 & 0.0574 & No & Sin diferencia sig. \\ \hline
+Chiapas & Nacionales & 0.0700 & 0.0976 & -0.0276 & -2.0842 & 0.0371 & Sí & Proporción Nals. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 0.1009 & 0.0976 & 0.0033 & 0.2275 & 0.8200 & No & Sin diferencia sig. \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+
+\begin{itemize}
+\item Se acepta H$_0$ en 8 de las 15 comparaciones, indicando que no hay diferencias significativas en las proporciones entre las regiones comparadas (H$_0$: $p_1^2 = p_2^2$ (las proporciones son iguales)).
+\begin{itemize}
+\item Proporción Oaxaca = Chiapas = Resto Nacionales = Sismos Nacionales
+\item Proporción Guerrero = Michoacán = Resto Nacionales
+\item Proporción Michoacán = Sismos Nacionales
+\item Proporción Chiapas = Resto Nacionales
+\item Proporción Resto Nacionales = Sismos Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 7 de las 15 comparaciones, indicando diferencias significativas en las proporciones entre las regiones comparadas (H$_1$: $p_1^2 \neq p_2^2$ (las proporciones son diferentes)).
+\begin{itemize}
+\item Proporción Oaxaca $\neq$ Guerrero $\neq$ Michoacán
+\item Proporción Guerrero $\neq$ Chiapas $\neq$ Sismos Nacionales
+\item Proporción Michoacán $\neq$ Chiapas $\neq$ Sismos Nacionales
+\item Proporción Chiapas $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
+
+La Tabla \ref{tab:hipotesis_proporciones_maximas} muestra los resultados de las pruebas de hipótesis realizadas para magnitudes máximas.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+\caption{Resultados de las pruebas de hipótesis para proporciones iguales para magnitudes máximas.} \label{tab:hipotesis_proporciones_maximas} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop 1} & \textbf{Prop 2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_valor} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.3750 & 0.4429 & -0.0679 & -0.7981 & 0.4248 & No & Sin diferencia significativa \\ \hline
+Oaxaca & Michoacán & 0.3750 & 0.2800 & 0.0950 & 1.0877 & 0.2857 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.3750 & 0.4932 & -0.1182 & -1.3913 & 0.1641 & No & Sin diferencia significativa \\ \hline
+Oaxaca & Resto Nals. & 0.3750 & 0.4828 & -0.1078 & -1.3197 & 0.1869 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 0.3750 & 0.8182 & -0.4432 & -5.9311 & 0.0000 & Sí & Proporción Nals. $>$ Oax. \\ \hline
+Guerrero & Michoacán & 0.4429 & 0.2800 & 0.1629 & 1.8172 & 0.0692 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.4429 & 0.4932 & -0.0503 & -0.6026 & 0.5468 & No & Sin diferencia significativa \\ \hline
+Guerrero & Resto Nals. & 0.4429 & 0.4828 & -0.0399 & -0.4982 & 0.6183 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 0.4429 & 0.8182 & -0.3753 & -5.2293 & 0.0000 & Sí & Proporción Nals. $>$ Gro. \\ \hline
+Michoacán & Chiapas & 0.2800 & 0.4932 & -0.2132 & -2.3645 & 0.0181 & Sí & Proporción Chis. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 0.2800 & 0.4828 & -0.2028 & -2.3245 & 0.0201 & Sí & Proporción R.N. $>$ Mich. \\ \hline
+Michoacán & Nacionales & 0.2800 & 0.8182 & -0.5382 & -6.6157 & 0.0000 & Sí & Proporción Nals. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 0.4932 & 0.4828 & 0.0104 & 0.1311 & 0.8957 & No & Sin diferencia significativa \\ \hline
+Chiapas & Nacionales & 0.4932 & 0.8182 & -0.3250 & -4.6488 & 0.0000 & Sí & Proporción Nals. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 0.4828 & 0.8182 & -0.3354 & -4.9717 & 0.0000 & Sí & Proporción Nals. $>$ R.N. \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+
+\begin{itemize}
+\item Se acepta H$_0$ en 8 de las 15 comparaciones, indicando que no hay diferencias significativas en las proporciones entre las regiones comparadas (H$_0$: $p_1^2 = p_2^2$ (las proporciones son iguales)).
+\begin{itemize}
+\item Proporción Oaxaca = Guerrero = Michoacán = Chiapas = Resto Nacionales
+\item Proporción Guerrero = Michoacán = Chiapas = Resto Nacionales
+\item Proporción Chiapas = Resto Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 7 de las 15 comparaciones, indicando diferencias significativas en las proporciones entre las regiones comparadas (H$_1$: $p_1^2 \neq p_2^2$ (las proporciones son diferentes)).
+\begin{itemize}
+\item Proporción Oaxaca $\neq$ Sismos Nacionales
+\item Proporción Guerrero $\neq$ Sismos Nacionales
+\item Proporción Michoacán $\neq$ Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Proporción Chiapas $\neq$ Sismos Nacionales
+\item Proporción Resto Nacionales $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
+
+\subsection{Prueba de hipótesis para diferencias de proporciones diferentes}
+
+\noindent
+Se presentan los resultados de las pruebas de hipótesis para la diferencia de proporciones diferentes entre todas las regiones de estudio, tanto para sismos totales como para magnitudes máximas. Se proponen las siguientes hipótesis y el nivel de significancia:
+
+\vspace{-15pt}
+\begin{align*}
+\textbf{H}_0: & \quad p_1^2 = p_2^2 \text{ (las proporciones son iguales)} \\
+\textbf{H}_1: & \quad p_1^2 \neq p_2^2 \text{ (las proporciones son diferentes)} \\
+\bm{\alpha} & = 0.05 \text{ (nivel de significancia)}
+\end{align*}
+
+La Tabla \ref{tab:hipotesis_proporciones_dif_totales} muestra los resultados de las pruebas de hipótesis realizadas para sismos totales.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+\caption{Resultados de las pruebas de hipótesis para proporciones diferentes para sismos totales.} \label{tab:hipotesis_proporciones_dif_totales} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop 1} & \textbf{Prop 2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_valor} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.0896 & 0.1445 & -0.0549 & -2.0370 & 0.0417 & Sí & Proporción Gro. $>$ Oax. \\ \hline
+Oaxaca & Michoacán & 0.0896 & 0.1667 & -0.0771 & -1.8239 & 0.0682 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.0896 & 0.0700 & 0.0196 & 1.0522 & 0.2927 & No & Sin diferencia significativa \\ \hline
+Oaxaca & Resto Nals. & 0.0896 & 0.1009 & -0.0113 & -0.5581 & 0.5768 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 0.0896 & 0.0976 & -0.0080 & -0.4690 & 0.6391 & No & Sin diferencia significativa \\ \hline
+Guerrero & Michoacán & 0.1445 & 0.1667 & -0.0222 & -0.4932 & 0.6219 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.1445 & 0.0700 & 0.0745 & 3.0766 & 0.0021 & Sí & Proporción Gro. $>$ Chis. \\ \hline
+Guerrero & Resto Nals. & 0.1445 & 0.1009 & 0.0436 & 1.7110 & 0.0871 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 0.1445 & 0.0976 & 0.0469 & 2.0365 & 0.0417 & Sí & Prop. Guerrero $>$ Nals. \\ \hline
+Michoacán & Chiapas & 0.1667 & 0.0700 & 0.0967 & 2.3828 & 0.0172 & Sí & Proporción Mich. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 0.1667 & 0.1009 & 0.0658 & 1.5913 & 0.1116 & No & Sin diferencia significativa \\ \hline
+Michoacán & Nacionales & 0.1667 & 0.0976 & 0.0691 & 1.7324 & 0.0832 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 0.0700 & 0.1009 & -0.0309 & -1.8807 & 0.0600 & No & Sin diferencia significativa \\ \hline
+Chiapas & Nacionales & 0.0700 & 0.0976 & -0.0276 & -2.2462 & 0.0247 & Sí & Proporción Nals. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 0.1009 & 0.0976 & 0.0033 & 0.2256 & 0.8215 & No & Sin diferencia significativa \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+
+\begin{itemize}
+\item Se acepta H$_0$ en 10 de las 15 comparaciones, indicando que no hay diferencias significativas en las proporciones entre las regiones comparadas (H$_0$: $p_1^2 = p_2^2$ (las proporciones son iguales)).
+\begin{itemize}
+\item Proporción Oaxaca = Michoacán = Chiapas = Resto Nacionales = Sismos Nacionales
+\item Proporción Guerrero = Michoacán = Resto Nacionales
+\item Proporción Michoacán = Resto Nacionales = Sismos Nacionales
+\item Proporción Chiapas = Resto Nacionales
+\item Proporción Resto Nacionales = Sismos Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 5 de las 15 comparaciones, indicando diferencias significativas en las proporciones entre las regiones comparadas (H$_1$: $p_1^2 \neq p_2^2$ (las proporciones son diferentes)).
+\begin{itemize}
+\item Proporción Oaxaca $\neq$ Guerrero
+\item Proporción Guerrero $\neq$ Chiapas $\neq$ Sismos Nacionales
+\item Proporción Michoacán $\neq$ Chiapas
+\item Proporción Chiapas $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
+
+La Tabla \ref{tab:hipotesis_proporciones_dif_maximas} muestra los resultados de las pruebas de hipótesis realizadas para magnitudes máximas.
+
+\begingroup
+\footnotesize
+\centering
+\begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+\caption{Resultados de las pruebas de hipótesis para proporciones diferentes para magnitudes máximas.} \label{tab:hipotesis_proporciones_dif_maximas} \\
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop 1} & \textbf{Prop 2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_valor} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Guerrero & 0.3750 & 0.4429 & -0.0679 & -0.8009 & 0.4232 & No & Sin diferencia significativa \\ \hline
+Oaxaca & Michoacán & 0.3750 & 0.2800 & 0.0950 & 1.0830 & 0.2788 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Chiapas & 0.3750 & 0.4932 & -0.1182 & -1.4041 & 0.1603 & No & Sin diferencia significativa \\ \hline
+Oaxaca & Resto Nals. & 0.3750 & 0.4828 & -0.1078 & -1.3338 & 0.1823 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Oaxaca & Nacionales & 0.3750 & 0.8182 & -0.4432 & -6.2588 & 0.0000 & Sí & Proporción Nals. $>$ Oax. \\ \hline
+Guerrero & Michoacán & 0.4429 & 0.2800 & 0.1629 & 1.8739 & 0.0609 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Chiapas & 0.4429 & 0.4932 & -0.0503 & -0.6034 & 0.5462 & No & Sin diferencia significativa \\ \hline
+Guerrero & Resto Nals. & 0.4429 & 0.4828 & -0.0399 & -0.4989 & 0.6178 & No & Sin diferencia significativa \\ \hline
+\rowcolor{gray!20}
+Guerrero & Nacionales & 0.4429 & 0.8182 & -0.3753 & -5.3740 & 0.0000 & Sí & Proporción Nals. $>$ Gro. \\ \hline
+Michoacán & Chiapas & 0.2800 & 0.4932 & -0.2132 & -2.4691 & 0.0135 & Sí & Proporción Chis. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Michoacán & Resto Nals. & 0.2800 & 0.4828 & -0.2028 & -2.4410 & 0.0146 & Sí & Prop. R.N. $>$ Mich. \\ \hline
+Michoacán & Nacionales & 0.2800 & 0.8182 & -0.5382 & -7.3347 & 0.0000 & Sí & Proporción Nals. $>$ Mich. \\ \hline
+\rowcolor{gray!20}
+Chiapas & Resto Nals. & 0.4932 & 0.4828 & 0.0104 & 0.1311 & 0.8957 & No & Sin diferencia significativa \\ \hline
+Chiapas & Nacionales & 0.4932 & 0.8182 & -0.3250 & -4.7026 & 0.0000 & Sí & Proporción Nals. $>$ Chis. \\ \hline
+\rowcolor{gray!20}
+Resto Nals. & Nacionales & 0.4828 & 0.8182 & -0.3354 & -5.1616 & 0.0000 & Sí & Proporción Nals. $>$ R.N. \\ \hline
+\end{tabularx}
+\endgroup
+
+Los resultados obtenidos indican lo siguiente:
+
+\begin{itemize}
+\item Se acepta H$_0$ en 8 de las 15 comparaciones, indicando que no hay diferencias significativas en las proporciones entre las regiones comparadas (H$_0$: $p_1^2 = p_2^2$ (las proporciones son iguales)).
+\begin{itemize}
+\item Proporción Oaxaca = Guerrero = Michoacán = Chiapas = Resto Nacionales
+\item Proporción Guerrero = Michoacán = Chiapas = Resto Nacionales
+\item Proporción Chiapas = Resto Nacionales
+\end{itemize}
+\item Se rechaza H$_0$ en favor de H$_1$ en 7 de las 15 comparaciones, indicando diferencias significativas en las proporciones entre las regiones comparadas (H$_1$: $p_1^2 \neq p_2^2$ (las proporciones son diferentes)).
+\begin{itemize}
+\item Proporción Oaxaca $\neq$ Sismos Nacionales
+\item Proporción Guerrero $\neq$ Sismos Nacionales
+\item Proporción Michoacán $\neq$ Chiapas $\neq$ Resto Nacionales $\neq$ Sismos Nacionales
+\item Proporción Chiapas $\neq$ Sismos Nacionales
+\item Proporción Resto Nacionales $\neq$ Sismos Nacionales
+\end{itemize}
+\end{itemize}
+
+\subsection{Resumen de las pruebas de hipótesis}
+
+\noindent
+En resumen, se realizaron pruebas de hipótesis para la diferencia de medias y proporciones entre las regiones de estudio, tanto para sismos totales como para magnitudes máximas. Los resultados indican que en varias comparaciones se encontraron diferencias significativas en las medias y proporciones, mientras que en otras no se observaron diferencias significativas. Estos hallazgos proporcionan información valiosa sobre las características sísmicas de las diferentes regiones analizadas. Se observa que las regiones con mayores diferencias significativas en medias y proporciones son Michoacán y Sismos Nacionales, mientras que Oaxaca y Chiapas presentan menos diferencias significativas en comparación con otras regiones.
+
+A continuación, se presenta un resumen de todas las pruebas de hipótesis realizadas.
+
+\begin{verbatim}
+==============================================
+RESUMEN DE LAS PRUEBAS DE HIPÓTESIS REALIZADAS
+==============================================
+
+1. PRUEBAS F - COCIENTE DE VARIANZAS:
+
+ SISMOS TOTALES:
+ • Oaxaca vs Guerrero: F=1.266, p=0.0440 - VARIANZAS DIFERENTES
+ • Oaxaca vs Michoacán: F=1.665, p=0.0014 - VARIANZAS DIFERENTES
+ • Oaxaca vs Chiapas: F=1.221, p=0.0348 - VARIANZAS DIFERENTES
+ • Guerrero vs Chiapas: F=1.545, p=0.0000 - VARIANZAS DIFERENTES
+ • Guerrero vs Resto Nacionales: F=1.288, p=0.0161 - VARIANZAS DIFERENTES
+ • Guerrero vs Nacionales: F=1.244, p=0.0167 - VARIANZAS DIFERENTES
+ • Michoacán vs Chiapas: F=2.032, p=0.0000 - VARIANZAS DIFERENTES
+ • Michoacán vs Resto Nacionales: F=1.695, p=0.0005 - VARIANZAS DIFERENTES
+ • Michoacán vs Nacionales: F=1.635, p=0.0005 - VARIANZAS DIFERENTES
+ • Chiapas vs Resto Nacionales: F=1.199, p=0.0282 - VARIANZAS DIFERENTES
+ • Chiapas vs Nacionales: F=1.242, p=0.0011 - VARIANZAS DIFERENTES
+
+ MAGNITUDES MÁXIMAS:
+ • Oaxaca vs Resto Nacionales: F=1.847, p=0.0083 - VARIANZAS DIFERENTES
+ • Oaxaca vs Nacionales: F=2.420, p=0.0001 - VARIANZAS DIFERENTES
+ • Guerrero vs Resto Nacionales: F=1.882, p=0.0055 - VARIANZAS DIFERENTES
+ • Guerrero vs Nacionales: F=2.465, p=0.0000 - VARIANZAS DIFERENTES
+ • Michoacán vs Resto Nacionales: F=2.526, p=0.0002 - VARIANZAS DIFERENTES
+ • Michoacán vs Nacionales: F=3.309, p=0.0000 - VARIANZAS DIFERENTES
+ • Chiapas vs Resto Nacionales: F=1.631, p=0.0300 - VARIANZAS DIFERENTES
+ • Chiapas vs Nacionales: F=2.136, p=0.0003 - VARIANZAS DIFERENTES
+
+2. PRUEBAS T - DIFERENCIA DE MEDIAS:
+
+ SISMOS TOTALES:
+ • Oaxaca vs Guerrero: t=-2.333, p=0.0201 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Oaxaca vs Resto Nacionales: t=-2.874, p=0.0042 - MEDIAS DIFERENTES
+   (Varianzas iguales (Pooled))
+ • Guerrero vs Chiapas: t=3.652, p=0.0003 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Michoacán vs Chiapas: t=2.472, p=0.0151 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Chiapas vs Resto Nacionales: t=-5.013, p=0.0000 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Chiapas vs Nacionales: t=-3.565, p=0.0004 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Resto Nacionales vs Nacionales: t=2.573, p=0.0102 - MEDIAS DIFERENTES
+   (Varianzas iguales (Pooled))
+
+ MAGNITUDES MÁXIMAS:
+ • Oaxaca vs Michoacán: t=2.087, p=0.0392 - MEDIAS DIFERENTES
+   (Varianzas iguales (Pooled))
+ • Oaxaca vs Resto Nacionales: t=-2.539, p=0.0125 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Oaxaca vs Nacionales: t=-7.169, p=0.0000 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Guerrero vs Michoacán: t=2.549, p=0.0121 - MEDIAS DIFERENTES
+   (Varianzas iguales (Pooled))
+ • Guerrero vs Resto Nacionales: t=-2.016, p=0.0460 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Guerrero vs Nacionales: t=-6.749, p=0.0000 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Michoacán vs Chiapas: t=-3.695, p=0.0003 - MEDIAS DIFERENTES
+   (Varianzas iguales (Pooled))
+ • Michoacán vs Resto Nacionales: t=-4.364, p=0.0000 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Michoacán vs Nacionales: t=-8.065, p=0.0000 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Chiapas vs Nacionales: t=-5.701, p=0.0000 - MEDIAS DIFERENTES
+   (Varianzas diferentes (Welch))
+ • Resto Nacionales vs Nacionales: t=-6.333, p=0.0000 - MEDIAS DIFERENTES
+   (Varianzas iguales (Pooled))
+
+3. PRUEBAS DE PROPORCIONES (Método Pooled):
+
+ SISMOS TOTALES:
+ • Oaxaca vs Guerrero: Z=-2.086, p=0.0370 - PROPORCIONES DIFERENTES
+ • Oaxaca vs Michoacán: Z=-2.111, p=0.0348 - PROPORCIONES DIFERENTES
+ • Guerrero vs Chiapas: Z=3.485, p=0.0005 - PROPORCIONES DIFERENTES
+ • Guerrero vs Nacional: Z=2.312, p=0.0208 - PROPORCIONES DIFERENTES
+ • Michoacán vs Chiapas: Z=3.126, p=0.0018 - PROPORCIONES DIFERENTES
+ • Michoacán vs Nacional: Z=2.127, p=0.0334 - PROPORCIONES DIFERENTES
+ • Chiapas vs Nacional: Z=-2.084, p=0.0371 - PROPORCIONES DIFERENTES
+
+ MAGNITUDES MÁXIMAS:
+ • Oaxaca vs Nacional: Z=-5.931, p=0.0000 - PROPORCIONES DIFERENTES
+ • Guerrero vs Nacional: Z=-5.229, p=0.0000 - PROPORCIONES DIFERENTES
+ • Michoacán vs Chiapas: Z=-2.365, p=0.0181 - PROPORCIONES DIFERENTES
+ • Michoacán vs Resto Nacionales: Z=-2.325, p=0.0201 - PROPORCIONES DIFERENTES
+ • Michoacán vs Nacional: Z=-6.616, p=0.0000 - PROPORCIONES DIFERENTES
+ • Chiapas vs Nacional: Z=-4.649, p=0.0000 - PROPORCIONES DIFERENTES
+ • Resto Nacionales vs Nacional: Z=-4.972, p=0.0000 - PROPORCIONES DIFERENTES
+
+4. PRUEBAS DE PROPORCIONES (Sin Pooling):
+
+ SISMOS TOTALES:
+ • Oaxaca vs Guerrero: Z=-2.037, p=0.0417 - PROPORCIONES DIFERENTES
+ • Guerrero vs Chiapas: Z=3.077, p=0.0021 - PROPORCIONES DIFERENTES
+ • Guerrero vs Nacional: Z=2.037, p=0.0417 - PROPORCIONES DIFERENTES
+ • Michoacán vs Chiapas: Z=2.383, p=0.0172 - PROPORCIONES DIFERENTES
+ • Chiapas vs Nacional: Z=-2.246, p=0.0247 - PROPORCIONES DIFERENTES
+
+ MAGNITUDES MÁXIMAS:
+ • Oaxaca vs Nacional: Z=-6.259, p=0.0000 - PROPORCIONES DIFERENTES
+ • Guerrero vs Nacional: Z=-5.374, p=0.0000 - PROPORCIONES DIFERENTES
+ • Michoacán vs Chiapas: Z=-2.469, p=0.0135 - PROPORCIONES DIFERENTES
+ • Michoacán vs Resto Nacionales: Z=-2.441, p=0.0146 - PROPORCIONES DIFERENTES
+ • Michoacán vs Nacional: Z=-7.335, p=0.0000 - PROPORCIONES DIFERENTES
+ • Chiapas vs Nacional: Z=-4.703, p=0.0000 - PROPORCIONES DIFERENTES
+ • Resto Nacionales vs Nacional: Z=-5.162, p=0.0000 - PROPORCIONES DIFERENTES
+
+==========================================
+Nivel de significancia utilizado: alfa = 0.05
+==========================================
+\end{verbatim}

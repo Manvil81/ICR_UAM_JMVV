@@ -32,15 +32,15 @@ Database file #1: Referencias/Referencias.bib
 Warning--I didn't find a database entry for "papalexiou2020random"
 You've used 34 entries,
             2921 wiz_defined-function locations,
-            859 strings with 11520 characters,
-and the built_in function-call counts, 196505 in all, are:
-= -- 32665
+            859 strings with 11521 characters,
+and the built_in function-call counts, 196659 in all, are:
+= -- 32693
 > -- 2370
 < -- 1
-+ -- 15905
++ -- 15919
 - -- 728
-* -- 17358
-:= -- 38606
+* -- 17372
+:= -- 38634
 add.period$ -- 70
 call.type$ -- 34
 change.case$ -- 474
@@ -49,7 +49,7 @@ cite$ -- 34
 duplicate$ -- 471
 empty$ -- 1097
 format.name$ -- 831
-if$ -- 35329
+if$ -- 35357
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 35
@@ -61,7 +61,7 @@ purify$ -- 510
 quote$ -- 0
 skip$ -- 444
 stack$ -- 0
-substring$ -- 47009
+substring$ -- 47051
 swap$ -- 61
 text.length$ -- 477
 text.prefix$ -- 0
