@@ -77,6 +77,19 @@
 \contentsline {subsection}{\numberline {5.6.4}Prueba de hipótesis para diferencias de proporciones diferentes}{56}{subsection.5.6.4}%
 \contentsline {subsection}{\numberline {5.6.5}Resumen de las pruebas de hipótesis}{59}{subsection.5.6.5}%
 \contentsline {section}{\numberline {5.7}Criterio de Información Bayesiano (BIC)}{62}{section.5.7}%
-\contentsline {chapter}{\numberline {6}Conclusiones }{63}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Anexo 1 }{65}{appendix.Alph1}%
-\contentsline {chapter}{{Bibliografía}}{69}{appendix*.39}%
+\contentsline {section}{\numberline {5.8}Pruebas de bondad de ajuste KS, AD, LF}{62}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Oaxaca PBA Sismos Totales}{63}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Oaxaca PBA Magnitudes Máximas}{63}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Guerrero PBA Sismos Totales}{64}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Guerrero PBA Magnitudes Máximas}{65}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}Michoacán PBA Sismos Totales}{66}{subsection.5.8.5}%
+\contentsline {subsection}{\numberline {5.8.6}Michoacán PBA Magnitudes Máximas}{67}{subsection.5.8.6}%
+\contentsline {subsection}{\numberline {5.8.7}Chiapas PBA Sismos Totales}{68}{subsection.5.8.7}%
+\contentsline {subsection}{\numberline {5.8.8}Chiapas PBA Magnitudes Máximas}{69}{subsection.5.8.8}%
+\contentsline {subsection}{\numberline {5.8.9}Resto Nacionales PBA Sismos Totales}{70}{subsection.5.8.9}%
+\contentsline {subsection}{\numberline {5.8.10}Resto Nacionales PBA Magnitudes Máximas}{71}{subsection.5.8.10}%
+\contentsline {subsection}{\numberline {5.8.11}Sismos Nacionales PBA Sismos Totales}{72}{subsection.5.8.11}%
+\contentsline {subsection}{\numberline {5.8.12}Sismos Nacionales PBA Magnitudes Máximas}{73}{subsection.5.8.12}%
+\contentsline {chapter}{\numberline {6}Conclusiones }{75}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Anexo 1 }{77}{appendix.Alph1}%
+\contentsline {chapter}{{Bibliografía}}{81}{appendix*.39}%
