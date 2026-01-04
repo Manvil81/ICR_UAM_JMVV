@@ -348,12 +348,12 @@ Ahora se presenta la figura \ref{fig:ic_varianza_maximas} con los gráficos de l
 \label{fig:ic_varianza_maximas}
 \end{figure}
 
-\subsection{Intervalo de confianza para la proporción de sismos mayores al umbral crítico} %%%%%%%% AQUI BOYNAS %%%%%%%%
+\subsection{Intervalo de confianza para la proporción de sismos mayores al umbral crítico}
 
 \noindent
 Para la estimación de los IC de proporción, se maneja un umbral crítico de 6.5° y se analizará que proporción de sismos superan ese umbral. Se presenta la Tabla \ref{tab:ic_proporcion_totales} con los IC para proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones de estudio.
 
-\begingroup
+\begingroup %%CAMBIAR ESTA TABLA A LONGTABLE
 \footnotesize
 \centering
 \begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
@@ -375,7 +375,6 @@ Nacionales & 0.0976 & 9.76 & 0.0841 & 0.1111 & 8.41 & 11.11 \\ \hline
 
 Ahora se presenta la Figura \ref{fig:ic_proporcion_totales} con los gráficos de los IC para la proporción de sismos mayores al umbral crítico (6.5°) para sismos totales para las 6 regiones de estudio.
 
-\clearpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.75\textwidth]{ic_proporcion_totales.png}
@@ -896,7 +895,7 @@ Se presentan los resultados de las pruebas de hipótesis para la diferencia de p
 
 La Tabla \ref{tab:hipotesis_proporciones_totales} muestra los resultados de las pruebas de hipótesis realizadas para sismos totales.
 
-\begingroup
+\begingroup %%CAMBIAR ESTA TABLA POR LONGTABLE SI ES MUY LARGA
 \footnotesize
 \centering
 \begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
@@ -952,7 +951,7 @@ Los resultados obtenidos indican lo siguiente:
 
 La Tabla \ref{tab:hipotesis_proporciones_maximas} muestra los resultados de las pruebas de hipótesis realizadas para magnitudes máximas.
 
-\begingroup
+\begingroup %%CAMBIAR ESTA TABLA POR LONGTABLE SI ES MUY LARGA
 \footnotesize
 \centering
 \begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
@@ -1327,7 +1326,7 @@ GPD & 0.28618 & 2.94e-24 & Inf & 1.79e-06 & 0.35227 & 2.38e-119 & Rechazo de aju
 \end{tabularx}
 \endgroup
 
-Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Oaxaca, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Se recomienda explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Oaxaca, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultado, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Oaxaca de manera más precisa.
 
 \subsection{Oaxaca PBA Magnitudes Máximas}
 
@@ -1375,7 +1374,7 @@ GPD & 0.08880 & 0.69388 & Inf & 9.37e-06 & 0.16205 & 2.47e-04 & Ajuste parcial (
 \end{tabularx}
 \endgroup
 
-Los resultados indican que varias distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Oaxaca, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, mientras que los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse adecuadamente a los datos según ciertas pruebas, pero no todas las pruebas confirman este ajuste. Se recomienda considerar estas distribuciones para modelar los datos de magnitudes máximas, pero también se sugiere realizar análisis adicionales para confirmar la adecuación del modelo seleccionado.
+Los resultados indican que 11 distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Oaxaca, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, también se encuentra que 2 distribuciones probadas muestran un ajuste únicamente para la prueba KS con un valor p mayor a 0.05 y finalmente se encuentra que todos los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse a los datos para ciertas pruebas de bondad. Como resultado se concluye que estas distribuciones sirven para modelar los datos de magnitudes máximas de sismos en Oaxaca.
 
 \subsection{Guerrero PBA Sismos Totales}
 
@@ -1423,7 +1422,7 @@ GPD & 0.25289 & 1.20e-14 & Inf & 2.34e-06 & 0.35183 & 1.01e-90 & Rechazo de ajus
 \end{tabularx}
 \endgroup
 
-Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Guerrero, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Se recomienda explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Guerrero, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultado, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Guerrero de manera más precisa.
 
 \subsection{Guerrero PBA Magnitudes Máximas}
 

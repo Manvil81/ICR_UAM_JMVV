@@ -68,28 +68,28 @@
 \contentsline {subsection}{\numberline {5.4.1}Intervalo de confianza para la media}{40}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Intervalo de confianza para la varianza}{42}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Intervalo de confianza para la proporción de sismos mayores al umbral crítico}{43}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Resultados de las pruebas de proporciones mayores a 6.5°}{46}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Estimación del tamaño mínimo de la muestra para la media}{47}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Pruebas de hipótesis}{49}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Prueba de hipótesis para el cociente de varianzas (prueba F)}{50}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Prueba de hipótesis para diferencia de medias}{52}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}Prueba de hipótesis para diferencia de proporciones iguales}{54}{subsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.6.4}Prueba de hipótesis para diferencias de proporciones diferentes}{56}{subsection.5.6.4}%
-\contentsline {subsection}{\numberline {5.6.5}Resumen de las pruebas de hipótesis}{59}{subsection.5.6.5}%
-\contentsline {section}{\numberline {5.7}Criterio de Información Bayesiano (BIC)}{62}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Pruebas de bondad de ajuste KS, AD, LF}{62}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}Oaxaca PBA Sismos Totales}{63}{subsection.5.8.1}%
-\contentsline {subsection}{\numberline {5.8.2}Oaxaca PBA Magnitudes Máximas}{63}{subsection.5.8.2}%
-\contentsline {subsection}{\numberline {5.8.3}Guerrero PBA Sismos Totales}{64}{subsection.5.8.3}%
-\contentsline {subsection}{\numberline {5.8.4}Guerrero PBA Magnitudes Máximas}{65}{subsection.5.8.4}%
-\contentsline {subsection}{\numberline {5.8.5}Michoacán PBA Sismos Totales}{66}{subsection.5.8.5}%
-\contentsline {subsection}{\numberline {5.8.6}Michoacán PBA Magnitudes Máximas}{67}{subsection.5.8.6}%
-\contentsline {subsection}{\numberline {5.8.7}Chiapas PBA Sismos Totales}{68}{subsection.5.8.7}%
-\contentsline {subsection}{\numberline {5.8.8}Chiapas PBA Magnitudes Máximas}{69}{subsection.5.8.8}%
-\contentsline {subsection}{\numberline {5.8.9}Resto Nacionales PBA Sismos Totales}{70}{subsection.5.8.9}%
-\contentsline {subsection}{\numberline {5.8.10}Resto Nacionales PBA Magnitudes Máximas}{71}{subsection.5.8.10}%
-\contentsline {subsection}{\numberline {5.8.11}Sismos Nacionales PBA Sismos Totales}{72}{subsection.5.8.11}%
-\contentsline {subsection}{\numberline {5.8.12}Sismos Nacionales PBA Magnitudes Máximas}{73}{subsection.5.8.12}%
+\contentsline {subsection}{\numberline {5.4.4}Resultados de las pruebas de proporciones mayores a 6.5°}{45}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Estimación del tamaño mínimo de la muestra para la media}{46}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Pruebas de hipótesis}{48}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Prueba de hipótesis para el cociente de varianzas (prueba F)}{49}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Prueba de hipótesis para diferencia de medias}{51}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Prueba de hipótesis para diferencia de proporciones iguales}{53}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Prueba de hipótesis para diferencias de proporciones diferentes}{55}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.5}Resumen de las pruebas de hipótesis}{58}{subsection.5.6.5}%
+\contentsline {section}{\numberline {5.7}Criterio de Información Bayesiano (BIC)}{61}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Pruebas de bondad de ajuste KS, AD, LF}{61}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Oaxaca PBA Sismos Totales}{62}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Oaxaca PBA Magnitudes Máximas}{62}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Guerrero PBA Sismos Totales}{63}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Guerrero PBA Magnitudes Máximas}{64}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}Michoacán PBA Sismos Totales}{65}{subsection.5.8.5}%
+\contentsline {subsection}{\numberline {5.8.6}Michoacán PBA Magnitudes Máximas}{66}{subsection.5.8.6}%
+\contentsline {subsection}{\numberline {5.8.7}Chiapas PBA Sismos Totales}{67}{subsection.5.8.7}%
+\contentsline {subsection}{\numberline {5.8.8}Chiapas PBA Magnitudes Máximas}{68}{subsection.5.8.8}%
+\contentsline {subsection}{\numberline {5.8.9}Resto Nacionales PBA Sismos Totales}{69}{subsection.5.8.9}%
+\contentsline {subsection}{\numberline {5.8.10}Resto Nacionales PBA Magnitudes Máximas}{70}{subsection.5.8.10}%
+\contentsline {subsection}{\numberline {5.8.11}Sismos Nacionales PBA Sismos Totales}{71}{subsection.5.8.11}%
+\contentsline {subsection}{\numberline {5.8.12}Sismos Nacionales PBA Magnitudes Máximas}{72}{subsection.5.8.12}%
 \contentsline {chapter}{\numberline {6}Conclusiones }{75}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Anexo 1 }{77}{appendix.Alph1}%
 \contentsline {chapter}{{Bibliografía}}{81}{appendix*.39}%
