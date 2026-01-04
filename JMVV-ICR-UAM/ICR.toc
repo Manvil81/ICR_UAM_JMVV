@@ -25,34 +25,34 @@
 \contentsline {section}{\numberline {4.2}Fases de desarrollo del proyecto}{18}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Media aritmética}{19}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Mediana}{19}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Moda}{20}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Varianza muestral}{20}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.3}Moda}{19}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Varianza muestral}{19}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Desviación estándar}{20}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Coeficiente de asimetría}{21}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Coeficiente de curtosis}{21}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Intervalo de confianza para la media}{22}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.2.9}Intervalo de confianza para la varianza}{22}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.6}Coeficiente de asimetría}{20}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Coeficiente de curtosis}{20}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Intervalo de confianza para la media}{21}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Intervalo de confianza para la varianza}{21}{subsection.4.2.9}%
 \contentsline {subsection}{\numberline {4.2.10}Intervalo de confianza para la proporción}{22}{subsection.4.2.10}%
-\contentsline {subsection}{\numberline {4.2.11}Prueba de hipótesis para el cociente de varianzas (prueba F)}{23}{subsection.4.2.11}%
+\contentsline {subsection}{\numberline {4.2.11}Prueba de hipótesis para el cociente de varianzas (prueba F)}{22}{subsection.4.2.11}%
 \contentsline {subsection}{\numberline {4.2.12}Prueba de hipótesis para diferencia de medias con varianzas iguales (pooled)}{23}{subsection.4.2.12}%
-\contentsline {subsection}{\numberline {4.2.13}Prueba de hipótesis para diferencia de medias con varianzas diferentes (Welch)}{24}{subsection.4.2.13}%
+\contentsline {subsection}{\numberline {4.2.13}Prueba de hipótesis para diferencia de medias con varianzas diferentes (Welch)}{23}{subsection.4.2.13}%
 \contentsline {subsection}{\numberline {4.2.14}Prueba de hipótesis para la diferencia de proporciones con proporciones agrupadas o iguales (pooled)}{24}{subsection.4.2.14}%
-\contentsline {subsection}{\numberline {4.2.15}Prueba de hipótesis para la diferencia de proporciones sin agrupamiento o diferentes}{25}{subsection.4.2.15}%
+\contentsline {subsection}{\numberline {4.2.15}Prueba de hipótesis para la diferencia de proporciones sin agrupamiento o diferentes}{24}{subsection.4.2.15}%
 \contentsline {subsection}{\numberline {4.2.16}Prueba de bondad de ajuste Kolmogorov-Smirnov}{25}{subsection.4.2.16}%
-\contentsline {subsection}{\numberline {4.2.17}Prueba de bondad de ajuste Anderson-Darling}{26}{subsection.4.2.17}%
+\contentsline {subsection}{\numberline {4.2.17}Prueba de bondad de ajuste Anderson-Darling}{25}{subsection.4.2.17}%
 \contentsline {subsection}{\numberline {4.2.18}Prueba de bondad de ajuste Lilliefors}{26}{subsection.4.2.18}%
-\contentsline {subsection}{\numberline {4.2.19}Criterio de Información Bayesiano}{27}{subsection.4.2.19}%
-\contentsline {subsection}{\numberline {4.2.20}Selección de la distribución óptima por región}{27}{subsection.4.2.20}%
+\contentsline {subsection}{\numberline {4.2.19}Criterio de Información Bayesiano}{26}{subsection.4.2.19}%
+\contentsline {subsection}{\numberline {4.2.20}Selección de la distribución óptima por región}{26}{subsection.4.2.20}%
 \contentsline {subsection}{\numberline {4.2.21}Estimación de parámetros por máxima verosimilitud}{27}{subsection.4.2.21}%
-\contentsline {subsection}{\numberline {4.2.22}Cálculo del periodo de retorno}{28}{subsection.4.2.22}%
-\contentsline {subsection}{\numberline {4.2.23}Cálculo del nivel de retorno}{28}{subsection.4.2.23}%
+\contentsline {subsection}{\numberline {4.2.22}Cálculo del periodo de retorno}{27}{subsection.4.2.22}%
+\contentsline {subsection}{\numberline {4.2.23}Cálculo del nivel de retorno}{27}{subsection.4.2.23}%
 \contentsline {subsubsection}{Nivel de retorno para la distribución de Gumbel}{28}{section*.17}%
 \contentsline {subsubsection}{Nivel de retorno para la distribución de Weibull}{28}{section*.18}%
-\contentsline {subsubsection}{Nivel de retorno para la distribución generalizada de valores extremos}{29}{section*.19}%
-\contentsline {subsubsection}{Nivel de retorno para la distribución Logística}{29}{section*.20}%
+\contentsline {subsubsection}{Nivel de retorno para la distribución generalizada de valores extremos}{28}{section*.19}%
+\contentsline {subsubsection}{Nivel de retorno para la distribución Logística}{28}{section*.20}%
 \contentsline {subsubsection}{Nivel de retorno para la distribución Normal}{29}{section*.21}%
-\contentsline {subsubsection}{Periodos de retorno analizados}{30}{section*.22}%
-\contentsline {subsection}{\numberline {4.2.24}Cálculo de probabilidades de excedencia}{30}{subsection.4.2.24}%
+\contentsline {subsubsection}{Periodos de retorno analizados}{29}{section*.22}%
+\contentsline {subsection}{\numberline {4.2.24}Cálculo de probabilidades de excedencia}{29}{subsection.4.2.24}%
 \contentsline {subsection}{\numberline {4.2.25}Interpretación de los resultados}{30}{subsection.4.2.25}%
 \contentsline {chapter}{\numberline {5}Análisis de resultados }{31}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Herramientas utilizadas}{31}{section.5.1}%
