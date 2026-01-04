@@ -4,6 +4,7 @@
 El proceso de analizar y estudiar los datos sísmicos recopilados del SSN y luego aplicar la metodología descrita en el capítulo anterior nos lleva a la obtención de distintos resultados con los cuales se puede realizar la inferencia estadística de los sismos en las regiones estudiadas. A continuación, se presentan los principales resultados obtenidos después de aplicar los conocimientos descritos en el Capítulo 4 y se procede a realizar un análisis de los mismos para obtener resultados confiables basados en las tendencias de cada región.
 
 \section{Herramientas utilizadas}
+
 \noindent
 El archivo recopilado desde el sitio del SSN es un archivo en formato csv bruto el cual contiene la información estadística de todos los sismos del país desde el 01 de enero de 1900 hasta una fecha determinada. En este caso se esta trabajando con un archivo que contiene datos sísmicos hasta el 23 de julio de 2025.
 
@@ -12,6 +13,7 @@ En la metodología, la Fase 2 se realiza utilizando un código desarrollado en P
 El análisis de los archivos individuales de sismos y todos los cálculos relacionados al análisis estadístico se realizan en la herramienta R (version 4.4.2) y RStudio (2024.09.1 Build 394).
 
 \section{Resultados de estadísticos descriptivos}
+
 \noindent
 Para esta parte se ejecutaron todos los cálculos descritos en la Fase 4 de la metodología realizando la implementación en RStudio, se obtuvo la tabla 3 con los resultados del análisis para las 6 regiones y para los 2 datasets (totales y magnitudes máximas). Se obtiene los valores de mínimo, máximo, media, mediana, moda, desviación estándar, varianza, asimetría, curtosis y total de sismos para cada región.
 
@@ -60,6 +62,7 @@ Nals Max & 5.6 & 8.2 & 7.007 & 7.00 & 7.0 & 0.506 & 0.256 & -0.05 & 2.946 & 110 
 De la tabla anterior se puede visualizar que el comportamiento de los sismos para una misma región iguales o mayores a 5° cambia significativamente cuando se analizan todos los sismos a cuando se hace un análisis de sismos de magnitud máxima anual. En todas las regiones se aprecia un aumento de la media cuando se manejan los datos máximos, así como de la mediana. Para la moda hay estados como Michoacán que no presentan diferencias entre su moda para sismos totales y su moda para magnitudes máximas. Para la varianza y desviación estándar también se aprecia un aumento en los valores cuando se trata de magnitudes máximas, salvo para las regiones de Resto Nacionales y Sismos Nacionales, donde se aprecia una menor varianza. Para la asimetría se encuentra que todas las regiones muestran asimetría positiva, mostrando que en todas las regiones se presentan eventos sísmicos de moderados a fuertes, destacándose Chiapas para los sismos totales con una cola muy marcada hacia la derecha. La asimetría para las magnitudes máximas presenta resultados más pequeños indicando menor sesgo positivo, salvo por sismos nacionales que presenta un sesgo negativo indicando mayor cantidad de valores bajos respecto de la media. La curtosis indica para los sismos totales que hay una mayor concentración de valores entorno a la media ósea que son leptocúrticas. Para los valores máximos los resultados indican que Oaxaca, Guerrero y Michoacán presentan distribuciones platicúrticas, mientras que Chiapas, Resto Nacional y Sismos Nacionales presentan distribuciones muy cercanas a una normal.
 
 \section{Representación gráfica de los datos sísmicos}
+
 \noindent
 El obtener gráficos representativos de los datos sísmicos analizados para cada región, tanto para sismos totales como para magnitudes máximas, permite comprender y analizar de manera visual y clara el comportamiento de los sismos. A continuación, se presentan los diferentes histogramas y gráficos obtenidos.
 
@@ -75,6 +78,7 @@ El obtener gráficos representativos de los datos sísmicos analizados para cada
 
 \noindent
 Observando los histogramas, se puede realizar el siguiente análisis para los datos de sismos totales.
+
 \begin{itemize}
 \item Oaxaca: presenta una densidad de sismos marcada entre 5.0° y 5.9°, con un pico aislado en 6.8°, indicando predominancia de eventos de magnitud baja.
 \item Guerrero: presenta una alta densidad de eventos entre 5.0° y 5.7°, con picos menores en 5.9° y 6.6°, lo cual indica un comportamiento sísmico con eventos de magnitud moderada, pero con presencia intermitente de eventos considerables.
@@ -92,6 +96,8 @@ Observando los histogramas, se puede realizar el siguiente análisis para los da
 \caption{Histogramas de densidad de magnitudes máximas para las 6 regiones.}
 \label{fig:histogramas_maximas}
 \end{figure}
+
+\clearpage
 
 \noindent
 Observando los histogramas, se puede realizar el siguiente análisis para los datos de magnitudes máximas.
@@ -169,8 +175,18 @@ Analizando los histogramas de sismos por magnitud, se puede realizar el análisi
 \item Sismos Nacionales: presenta una elevada concentración de sismos de magnitud 5.0° y 5.1° y alcanza un máximo registrado de 8.2°.
 \end{itemize}
 
-\clearpage
 \subsection{Gráfico de magnitud máxima, promedio y mínima en el tiempo}
+
+\noindent
+Analizando los gráficos para las 6 regiones de la Figura \ref{fig:magnitudes_tiempo} se puede observar que antes de los años 70s del siglo pasado, las líneas de magnitud máxima, promedio y mínima no presentaban prácticamente variaciones para los 4 estados, y presentan muy poca variación para Resto Nacional y Sismos Nacionales en este periodo. Esto indica que hubo una progresiva mejoría en las técnicas de medición y registro de eventos sísmicos, debido a que antes de esta fecha, sólo se registraban los sismos de magnitudes fuertes, mientras que sismos de magnitudes más pequeñas no eran registrados.
+
+También podemos observar sismos de interés en los gráficos de Michoacán y Chiapas, siendo el sismo de septiembre 19 de 1985 el que aparece como un pico en el gráfico de Michoacán, mientras que el pico que se observa en el gráfico de Chiapas corresponde al sismo del 7 de septiembre de 2017, el cual se distingue claramente en su gráfico y que resulta ser el sismo más fuerte registrado en toda la base de datos sísmicos del SSNM hasta el momento.
+
+Y por último, se pueden observar picos representativos de sismos fuertes (mayores a 7.0°) en los gráficos de Oaxaca y Guerrero para los años recientes (2010-2025), indicando que en Oaxaca se prsentaron 2 sismos mayores a 7.0° en este periodo, mientras que en Guerrero se presentaron 3 sismos mayores a 7.0° en este mismo periodo mientras que en Guerrero se presentaron 3 sismos mayores a 7.0° durante este periodo.
+
+Los gráficos de Resto Nacionales y Sismos Nacionales presentan un comportamiento más uniforme, ya que al ser la suma de los sismos de todos los estados, las variaciones individuales de cada estado se ven englobadas en estos gráficos.
+
+\clearpage
 
 \begin{figure}[H]
 \centering
@@ -179,10 +195,6 @@ Analizando los histogramas de sismos por magnitud, se puede realizar el análisi
 \label{fig:magnitudes_tiempo}
 \end{figure}
 
-\noindent
-Analizando los gráficos para las 6 regiones se puede observar que antes de los años 70s del siglo pasado, las líneas de magnitud máxima, promedio y mínima no presentaban prácticamente variaciones para los 4 estados, y presentan muy poca variación para Resto Nacional y Sismos Nacionales en este periodo. Lo cual indica que hubo una progresiva mejoría en las técnicas de medición y registro de eventos sísmicos. También podemos observar sismos de interés en los gráficos de Michoacán y Chiapas, siendo el sismo de septiembre 19, 1985 el que aparece como un pico en el gráfico de Michoacán, mientras que para el de Chiapas se aprecia el sismo del 07 de septiembre, 2017 el que aparece claramente en su gráfico y que además resulta ser el sismo más fuerte registrado en toda la base de datos sísmicos de México.
-
-\clearpage
 \section{Intervalos de confianza y tamaño mínimo de la muestra}
 
 \noindent
@@ -192,6 +204,8 @@ La estimación de Intervalos de Confianza (IC) constituye una herramienta fundam
 
 \noindent
 Se presenta la Tabla \ref{tab:ic_media_totales} con los IC para la media para sismos totales para las 6 regiones de estudio.
+
+\clearpage
 
 \begingroup
 \begin{table}[h!]
@@ -220,14 +234,13 @@ Ahora se presenta la Figura \ref{fig:ic_media_totales} con los gráficos de los 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.97\textwidth]{ic_media_totales.png}
+\includegraphics[width=0.75\textwidth]{ic_media_totales.png}
 \caption{IC para la media para sismos totales para las 6 regiones.}
 \label{fig:ic_media_totales}
 \end{figure}
 
 A continuación, se presenta la Tabla \ref{tab:ic_media_maximas} con los IC para la media para magnitudes máximas para las 6 regiones de estudio.
 
-\clearpage
 \begingroup
 \begin{table}[h!]
 \footnotesize
@@ -253,9 +266,11 @@ Nacionales & 7.007273 & 6.911676 & 7.102870 \\ \hline
 
 Ahora se presenta la Figura \ref{fig:ic_media_maximas} con los gráficos de los IC para la media para magnitudes máximas para las 6 regiones de estudio.
 
+\clearpage
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.97\textwidth]{ic_media_maximas.png}
+\includegraphics[width=0.75\textwidth]{ic_media_maximas.png}
 \caption{IC para la media para magnitudes máximas para las 6 regiones.}
 \label{fig:ic_media_maximas}
 \end{figure}
@@ -288,15 +303,16 @@ Nacionales & 0.3887214 & 0.3648633 & 0.4150106 \\ \hline
 \end{table}
 \endgroup
 
-\clearpage
 Ahora se presenta la figura \ref{fig:ic_varianza_totales} con los gráficos de los IC para la varianza para sismos totales para las 6 regiones de estudio.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.97\textwidth]{ic_varianza_totales.png}
+\includegraphics[width=0.75\textwidth]{ic_varianza_totales.png}
 \caption{IC para la varianza para sismos totales para las 6 regiones.}
 \label{fig:ic_varianza_totales}
 \end{figure}
+
+\clearpage
 
 Se presenta la tabla \ref{tab:ic_varianza_maximas} con los IC para la varianza para magnitudes máximas para las 6 regiones de estudio.
 
@@ -325,15 +341,14 @@ Nacionales & 0.2559099 & 0.1995522 & 0.3401743 \\ \hline
 
 Ahora se presenta la figura \ref{fig:ic_varianza_maximas} con los gráficos de los IC para la varianza para magnitudes máximas para las 6 regiones de estudio.
 
-\clearpage
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.97\textwidth]{ic_varianza_maximas.png}
+\includegraphics[width=0.75\textwidth]{ic_varianza_maximas.png}
 \caption{IC para la varianza para magnitudes máximas para las 6 regiones.}
 \label{fig:ic_varianza_maximas}
 \end{figure}
 
-\subsection{Intervalo de confianza para la proporción de sismos mayores al umbral crítico}
+\subsection{Intervalo de confianza para la proporción de sismos mayores al umbral crítico} %%%%%%%% AQUI BOYNAS %%%%%%%%
 
 \noindent
 Para la estimación de los IC de proporción, se maneja un umbral crítico de 6.5° y se analizará que proporción de sismos superan ese umbral. Se presenta la Tabla \ref{tab:ic_proporcion_totales} con los IC para proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones de estudio.
@@ -363,7 +378,7 @@ Ahora se presenta la Figura \ref{fig:ic_proporcion_totales} con los gráficos de
 \clearpage
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.97\textwidth]{ic_proporcion_totales.png}
+\includegraphics[width=0.75\textwidth]{ic_proporcion_totales.png}
 \caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.}
 \label{fig:ic_proporcion_totales}
 \end{figure}
@@ -395,7 +410,7 @@ Ahora se presenta la Figura \ref{fig:ic_proporcion_maximas} con los gráficos de
 \clearpage
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.97\textwidth]{ic_proporcion_maximas.png}
+\includegraphics[width=0.75\textwidth]{ic_proporcion_maximas.png}
 \caption{IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.}
 \label{fig:ic_proporcion_maximas}
 \end{figure}
