@@ -21,16 +21,16 @@ Para esta parte se ejecutaron todos los cálculos descritos en la Fase 4 de la m
 \footnotesize
 \centering
 \setlength{\LTcapwidth}{\textwidth}
-\begin{longtable}{|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{1cm}|>{\centering\arraybackslash}p{1.1cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{1cm}|}
+\begin{longtable}{|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{1.3cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|>{\centering\arraybackslash}p{0.9cm}|}
 \caption{Estadísticos descriptivos consolidados.} \label{tab:estadisticos_consolidados} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Región} & \textbf{Min} & \textbf{Max} & \textbf{Media} & \textbf{Med.} & \textbf{Moda} & \textbf{Desv.} & \textbf{Var.} & \textbf{Asim.} & \textbf{Curt.} & \textbf{Total} \\
+\textbf{Región} & \textbf{Min} & \textbf{Max} & \textbf{Media} & \textbf{Mediana} & \textbf{Moda} & \textbf{Desv.} & \textbf{Var.} & \textbf{Asim.} & \textbf{Curt.} & \textbf{Total} \\
 \hline
 \endfirsthead
 \hline
 \rowcolor{gray!60}
-\textbf{Región} & \textbf{Min} & \textbf{Max} & \textbf{Media} & \textbf{Med.} & \textbf{Moda} & \textbf{Desv.} & \textbf{Var.} & \textbf{Asim.} & \textbf{Curt.} & \textbf{Total} \\
+\textbf{Región} & \textbf{Min} & \textbf{Max} & \textbf{Media} & \textbf{Mediana} & \textbf{Moda} & \textbf{Desv.} & \textbf{Var.} & \textbf{Asim.} & \textbf{Curt.} & \textbf{Total} \\
 \hline
 \endhead
 \hline
@@ -57,7 +57,7 @@ Nacionales & 5.0 & 8.2 & 5.490 & 5.20 & 5.0 & 0.623 & 0.389 & 1.715 & 5.340 & 18
 Nals Max & 5.6 & 8.2 & 7.007 & 7.00 & 7.0 & 0.506 & 0.256 & -0.05 & 2.946 & 110 \\ \hline
 \end{longtable}
 \endgroup
-\vspace{10pt}
+%% \vspace{10pt}
 
 De la tabla anterior se puede visualizar que el comportamiento de los sismos para una misma región iguales o mayores a 5° cambia significativamente cuando se analizan todos los sismos a cuando se hace un análisis de sismos de magnitud máxima anual. En todas las regiones se aprecia un aumento de la media cuando se manejan los datos máximos, así como de la mediana. Para la moda hay estados como Michoacán que no presentan diferencias entre su moda para sismos totales y su moda para magnitudes máximas. Para la varianza y desviación estándar también se aprecia un aumento en los valores cuando se trata de magnitudes máximas, salvo para las regiones de Resto Nacionales y Sismos Nacionales, donde se aprecia una menor varianza. Para la asimetría se encuentra que todas las regiones muestran asimetría positiva, mostrando que en todas las regiones se presentan eventos sísmicos de moderados a fuertes, destacándose Chiapas para los sismos totales con una cola muy marcada hacia la derecha. La asimetría para las magnitudes máximas presenta resultados más pequeños indicando menor sesgo positivo, salvo por sismos nacionales que presenta un sesgo negativo indicando mayor cantidad de valores bajos respecto de la media. La curtosis indica para los sismos totales que hay una mayor concentración de valores entorno a la media ósea que son leptocúrticas. Para los valores máximos los resultados indican que Oaxaca, Guerrero y Michoacán presentan distribuciones platicúrticas, mientras que Chiapas, Resto Nacional y Sismos Nacionales presentan distribuciones muy cercanas a una normal.
 
@@ -284,7 +284,7 @@ Se presenta la tabla \ref{tab:ic_varianza_totales} con los IC para la varianza p
 \begin{table}[h!]
 \footnotesize
 \centering
-\caption{Tabla 5. IC para la varianza para sismos totales para las 6 regiones.} 
+\caption{IC para la varianza para sismos totales para las 6 regiones.} 
 \label{tab:ic_varianza_totales}
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -378,7 +378,8 @@ Para la estimación de los IC de proporción, se maneja un umbral crítico de 6.
 \footnotesize
 \centering
 \setlength{\LTcapwidth}{\textwidth}
-\begin{longtable}{|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|}
+%%\begin{longtable}{|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|}
+\begin{longtable}{|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|}
 \caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.} \label{tab:ic_proporcion_totales} \\
 \hline
 \rowcolor{gray!60}
@@ -417,14 +418,47 @@ Ahora se presenta la Figura \ref{fig:ic_proporcion_totales} con los gráficos de
 
 Se presenta la Tabla \ref{tab:ic_proporcion_maximas} con los IC para proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones de estudio.
 
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+% \caption{IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.} \label{tab:ic_proporcion_maximas} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Estado} & \textbf{Proporción Máximos} & \textbf{Porcentaje Máximos} & \textbf{LI 95\% Prop\_Max} & \textbf{LS 95\% Prop\_Max} & \textbf{LI 95\% Porc\_Max} & \textbf{LS 95\% Porc\_Max} \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & 0.3750 & 37.50 & 0.2564 & 0.4936 & 25.64 & 49.36 \\ \hline
+% Guerrero & 0.4429 & 44.29 & 0.3265 & 0.5593 & 32.65 & 55.93 \\ \hline
+% \rowcolor{gray!20}
+% Michoacán & 0.2800 & 28.00 & 0.1555 & 0.4045 & 15.55 & 40.45 \\ \hline
+% Chiapas & 0.4932 & 49.32 & 0.3785 & 0.6079 & 37.85 & 60.79 \\ \hline
+% \rowcolor{gray!20}
+% Resto Nals. & 0.4828 & 48.28 & 0.3778 & 0.5878 & 37.78 & 58.78 \\ \hline
+% Nacionales & 0.8182 & 81.82 & 0.7461 & 0.8903 & 74.61 & 89.03 \\ \hline
+% \end{tabularx}
+% \endgroup
+
 \begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{1.7cm}|}
 \caption{IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones.} \label{tab:ic_proporcion_maximas} \\
 \hline
 \rowcolor{gray!60}
 \textbf{Estado} & \textbf{Proporción Máximos} & \textbf{Porcentaje Máximos} & \textbf{LI 95\% Prop\_Max} & \textbf{LS 95\% Prop\_Max} & \textbf{LI 95\% Porc\_Max} & \textbf{LS 95\% Porc\_Max} \\ \hline
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Proporción Máximos} & \textbf{Porcentaje Máximos} & \textbf{LI 95\% Prop\_Max} & \textbf{LS 95\% Prop\_Max} & \textbf{LI 95\% Porc\_Max} & \textbf{LS 95\% Porc\_Max} \\ \hline
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Oaxaca & 0.3750 & 37.50 & 0.2564 & 0.4936 & 25.64 & 49.36 \\ \hline
 Guerrero & 0.4429 & 44.29 & 0.3265 & 0.5593 & 32.65 & 55.93 \\ \hline
@@ -434,7 +468,7 @@ Chiapas & 0.4932 & 49.32 & 0.3785 & 0.6079 & 37.85 & 60.79 \\ \hline
 \rowcolor{gray!20}
 Resto Nals. & 0.4828 & 48.28 & 0.3778 & 0.5878 & 37.78 & 58.78 \\ \hline
 Nacionales & 0.8182 & 81.82 & 0.7461 & 0.8903 & 74.61 & 89.03 \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
 Ahora se presenta la Figura \ref{fig:ic_proporcion_maximas} con los gráficos de los IC para la proporción de sismos mayores al umbral crítico para magnitudes máximas para las 6 regiones de estudio.
