@@ -353,14 +353,47 @@ Ahora se presenta la figura \ref{fig:ic_varianza_maximas} con los gráficos de l
 \noindent
 Para la estimación de los IC de proporción, se maneja un umbral crítico de 6.5° y se analizará que proporción de sismos superan ese umbral. Se presenta la Tabla \ref{tab:ic_proporcion_totales} con los IC para proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones de estudio.
 
-\begingroup %%CAMBIAR ESTA TABLA A LONGTABLE
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+% \caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.} \label{tab:ic_proporcion_totales} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Estado} & \textbf{Proporción Totales} & \textbf{Porcentaje Totales} & \textbf{LI 95\% Prop\_Tot} & \textbf{LS 95\% Prop\_Tot} & \textbf{LI 95\% Porc\_Tot} & \textbf{LS 95\% Porc\_Tot} \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & 0.0896 & 8.96 & 0.0590 & 0.1202 & 5.90 & 12.02 \\ \hline
+% Guerrero & 0.1445 & 14.45 & 0.1014 & 0.1876 & 10.14 & 18.76 \\ \hline
+% \rowcolor{gray!20}
+% Michoacán & 0.1667 & 16.67 & 0.0897 & 0.2437 & 8.97 & 24.37 \\ \hline
+% Chiapas & 0.0700 & 7.00 & 0.0501 & 0.0899 & 5.01 & 8.99 \\ \hline
+% \rowcolor{gray!20}
+% Resto Nals. & 0.1009 & 10.09 & 0.0756 & 0.1262 & 7.56 & 12.62 \\ \hline
+% Nacionales & 0.0976 & 9.76 & 0.0841 & 0.1111 & 8.41 & 11.11 \\ \hline
+% \end{tabularx}
+% \endgroup
+
+\begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|>{\centering\arraybackslash}p{2.2cm}|* {6}{>{\centering\arraybackslash}X|}}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|}
 \caption{IC para la proporción de sismos mayores al umbral crítico para sismos totales para las 6 regiones.} \label{tab:ic_proporcion_totales} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Estado} & \textbf{Proporción Totales} & \textbf{Porcentaje Totales} & \textbf{LI 95\% Prop\_Tot} & \textbf{LS 95\% Prop\_Tot} & \textbf{LI 95\% Porc\_Tot} & \textbf{LS 95\% Porc\_Tot} \\ \hline
+\textbf{Estado} & \textbf{Proporción Totales} & \textbf{Porcentaje Totales} & \textbf{LI 95\% Prop\_Tot} & \textbf{LS 95\% Prop\_Tot} & \textbf{LI 95\% Porc\_Tot} & \textbf{LS 95\% Porc\_Tot} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Estado} & \textbf{Proporción Totales} & \textbf{Porcentaje Totales} & \textbf{LI 95\% Prop\_Tot} & \textbf{LS 95\% Prop\_Tot} & \textbf{LI 95\% Porc\_Tot} & \textbf{LS 95\% Porc\_Tot} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Oaxaca & 0.0896 & 8.96 & 0.0590 & 0.1202 & 5.90 & 12.02 \\ \hline
 Guerrero & 0.1445 & 14.45 & 0.1014 & 0.1876 & 10.14 & 18.76 \\ \hline
@@ -370,7 +403,7 @@ Chiapas & 0.0700 & 7.00 & 0.0501 & 0.0899 & 5.01 & 8.99 \\ \hline
 \rowcolor{gray!20}
 Resto Nals. & 0.1009 & 10.09 & 0.0756 & 0.1262 & 7.56 & 12.62 \\ \hline
 Nacionales & 0.0976 & 9.76 & 0.0841 & 0.1111 & 8.41 & 11.11 \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
 Ahora se presenta la Figura \ref{fig:ic_proporcion_totales} con los gráficos de los IC para la proporción de sismos mayores al umbral crítico (6.5°) para sismos totales para las 6 regiones de estudio.
@@ -895,14 +928,61 @@ Se presentan los resultados de las pruebas de hipótesis para la diferencia de p
 
 La Tabla \ref{tab:hipotesis_proporciones_totales} muestra los resultados de las pruebas de hipótesis realizadas para sismos totales.
 
-\begingroup %%CAMBIAR ESTA TABLA POR LONGTABLE SI ES MUY LARGA
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+% \caption{Resultados de las pruebas de hipótesis para proporciones iguales para sismos totales.} \label{tab:hipotesis_proporciones_totales} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & Guerrero & 0.0896 & 0.1445 & -0.0549 & -2.0860 & 0.0369 & Sí & Proporción Gro. $>$ Oax. \\ \hline
+% Oaxaca & Michoacán & 0.0896 & 0.1667 & -0.0771 & -2.1105 & 0.0348 & Sí & Proporción Mich. $>$ Oax. \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & Chiapas & 0.0896 & 0.0700 & 0.0196 & 1.0885 & 0.2763 & No & Sin diferencia significativa \\ \hline
+% Oaxaca & Resto Nals. & 0.0896 & 0.1009 & -0.0113 & -0.5510 & 0.5816 & No & Sin diferencia significativa \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & Nacionales & 0.0896 & 0.0976 & -0.0080 & -0.4567 & 0.6478 & No & Sin diferencia significativa \\ \hline
+% Guerrero & Michoacán & 0.1445 & 0.1667 & -0.0222 & -0.5069 & 0.6121 & No & Sin diferencia significativa \\ \hline
+% \rowcolor{gray!20}
+% Guerrero & Chiapas & 0.1445 & 0.0700 & 0.0745 & 3.4850 & 0.0004 & Sí & Proporción Gro. $>$ Chis. \\ \hline
+% Guerrero & Resto Nals. & 0.1445 & 0.1009 & 0.0436 & 1.8047 & 0.0711 & No & Sin diferencia sig. \\ \hline
+% \rowcolor{gray!20}
+% Guerrero & Nacionales & 0.1445 & 0.0976 & 0.0469 & 2.3116 & 0.0208 & Sí & Proporción Gro. $>$ Nals. \\ \hline
+% Michoacán & Chiapas & 0.1667 & 0.0700 & 0.0967 & 3.1264 & 0.0017 & Sí & Proporción Mich. $>$ Chis. \\ \hline
+% \rowcolor{gray!20}
+% Michoacán & Resto Nals. & 0.1667 & 0.1009 & 0.0658 & 1.8465 & 0.0648 & No & Sin diferencia sig. \\ \hline
+% Michoacán & Nacionales & 0.1667 & 0.0976 & 0.0691 & 2.1267 & 0.0334 & Sí & Proporción Mich. $>$ Nals. \\ \hline
+% \rowcolor{gray!20}
+% Chiapas & Resto Nals. & 0.0700 & 0.1009 & -0.0309 & -1.9002 & 0.0574 & No & Sin diferencia sig. \\ \hline
+% Chiapas & Nacionales & 0.0700 & 0.0976 & -0.0276 & -2.0842 & 0.0371 & Sí & Proporción Nals. $>$ Chis. \\ \hline
+% \rowcolor{gray!20}
+% Resto Nals. & Nacionales & 0.1009 & 0.0976 & 0.0033 & 0.2275 & 0.8200 & No & Sin diferencia sig. \\ \hline
+% \end{tabularx}
+% \endgroup
+
+\begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|p{3.5cm}|}
 \caption{Resultados de las pruebas de hipótesis para proporciones iguales para sismos totales.} \label{tab:hipotesis_proporciones_totales} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Interpretación} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop\_1} & \textbf{Prop\_2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_val} & \textbf{Sig.} & \textbf{Interpretación} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Oaxaca & Guerrero & 0.0896 & 0.1445 & -0.0549 & -2.0860 & 0.0369 & Sí & Proporción Gro. $>$ Oax. \\ \hline
 Oaxaca & Michoacán & 0.0896 & 0.1667 & -0.0771 & -2.1105 & 0.0348 & Sí & Proporción Mich. $>$ Oax. \\ \hline
@@ -926,7 +1006,7 @@ Chiapas & Resto Nals. & 0.0700 & 0.1009 & -0.0309 & -1.9002 & 0.0574 & No & Sin 
 Chiapas & Nacionales & 0.0700 & 0.0976 & -0.0276 & -2.0842 & 0.0371 & Sí & Proporción Nals. $>$ Chis. \\ \hline
 \rowcolor{gray!20}
 Resto Nals. & Nacionales & 0.1009 & 0.0976 & 0.0033 & 0.2275 & 0.8200 & No & Sin diferencia sig. \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
 Los resultados obtenidos indican lo siguiente:
@@ -951,14 +1031,61 @@ Los resultados obtenidos indican lo siguiente:
 
 La Tabla \ref{tab:hipotesis_proporciones_maximas} muestra los resultados de las pruebas de hipótesis realizadas para magnitudes máximas.
 
-\begingroup %%CAMBIAR ESTA TABLA POR LONGTABLE SI ES MUY LARGA
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+% \caption{Resultados de las pruebas de hipótesis para proporciones iguales para magnitudes máximas.} \label{tab:hipotesis_proporciones_maximas} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop 1} & \textbf{Prop 2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_valor} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & Guerrero & 0.3750 & 0.4429 & -0.0679 & -0.7981 & 0.4248 & No & Sin diferencia significativa \\ \hline
+% Oaxaca & Michoacán & 0.3750 & 0.2800 & 0.0950 & 1.0877 & 0.2857 & No & Sin diferencia significativa \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & Chiapas & 0.3750 & 0.4932 & -0.1182 & -1.3913 & 0.1641 & No & Sin diferencia significativa \\ \hline
+% Oaxaca & Resto Nals. & 0.3750 & 0.4828 & -0.1078 & -1.3197 & 0.1869 & No & Sin diferencia significativa \\ \hline
+% \rowcolor{gray!20}
+% Oaxaca & Nacionales & 0.3750 & 0.8182 & -0.4432 & -5.9311 & 0.0000 & Sí & Proporción Nals. $>$ Oax. \\ \hline
+% Guerrero & Michoacán & 0.4429 & 0.2800 & 0.1629 & 1.8172 & 0.0692 & No & Sin diferencia significativa \\ \hline
+% \rowcolor{gray!20}
+% Guerrero & Chiapas & 0.4429 & 0.4932 & -0.0503 & -0.6026 & 0.5468 & No & Sin diferencia significativa \\ \hline
+% Guerrero & Resto Nals. & 0.4429 & 0.4828 & -0.0399 & -0.4982 & 0.6183 & No & Sin diferencia significativa \\ \hline
+% \rowcolor{gray!20}
+% Guerrero & Nacionales & 0.4429 & 0.8182 & -0.3753 & -5.2293 & 0.0000 & Sí & Proporción Nals. $>$ Gro. \\ \hline
+% Michoacán & Chiapas & 0.2800 & 0.4932 & -0.2132 & -2.3645 & 0.0181 & Sí & Proporción Chis. $>$ Mich. \\ \hline
+% \rowcolor{gray!20}
+% Michoacán & Resto Nals. & 0.2800 & 0.4828 & -0.2028 & -2.3245 & 0.0201 & Sí & Proporción R.N. $>$ Mich. \\ \hline
+% Michoacán & Nacionales & 0.2800 & 0.8182 & -0.5382 & -6.6157 & 0.0000 & Sí & Proporción Nals. $>$ Mich. \\ \hline
+% \rowcolor{gray!20}
+% Chiapas & Resto Nals. & 0.4932 & 0.4828 & 0.0104 & 0.1311 & 0.8957 & No & Sin diferencia significativa \\ \hline
+% Chiapas & Nacionales & 0.4932 & 0.8182 & -0.3250 & -4.6488 & 0.0000 & Sí & Proporción Nals. $>$ Chis. \\ \hline
+% \rowcolor{gray!20}
+% Resto Nals. & Nacionales & 0.4828 & 0.8182 & -0.3354 & -4.9717 & 0.0000 & Sí & Proporción Nals. $>$ R.N. \\ \hline
+% \end{tabularx}
+% \endgroup
+
+\begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|X|}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|p{1.4cm}|p{1.4cm}|c|c|c|c|c|c|p{3.5cm}|}
 \caption{Resultados de las pruebas de hipótesis para proporciones iguales para magnitudes máximas.} \label{tab:hipotesis_proporciones_maximas} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop 1} & \textbf{Prop 2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_valor} & \textbf{Sig.} & \textbf{Interpretación} \\ \hline
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop 1} & \textbf{Prop 2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_valor} & \textbf{Sig.} & \textbf{Interpretación} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Estado 1} & \textbf{Estado 2} & \textbf{Prop 1} & \textbf{Prop 2} & \textbf{Dif.} & \textbf{Z\_est} & \textbf{P\_valor} & \textbf{Sig.} & \textbf{Interpretación} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Oaxaca & Guerrero & 0.3750 & 0.4429 & -0.0679 & -0.7981 & 0.4248 & No & Sin diferencia significativa \\ \hline
 Oaxaca & Michoacán & 0.3750 & 0.2800 & 0.0950 & 1.0877 & 0.2857 & No & Sin diferencia significativa \\ \hline
@@ -982,7 +1109,7 @@ Chiapas & Resto Nals. & 0.4932 & 0.4828 & 0.0104 & 0.1311 & 0.8957 & No & Sin di
 Chiapas & Nacionales & 0.4932 & 0.8182 & -0.3250 & -4.6488 & 0.0000 & Sí & Proporción Nals. $>$ Chis. \\ \hline
 \rowcolor{gray!20}
 Resto Nals. & Nacionales & 0.4828 & 0.8182 & -0.3354 & -4.9717 & 0.0000 & Sí & Proporción Nals. $>$ R.N. \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
 Los resultados obtenidos indican lo siguiente:
@@ -1280,7 +1407,9 @@ Se presentan los resultados de las pruebas de bondad de ajuste (PBA) Kolmogorov-
 
 Los resultados completos de las PBA hechas a 20 distribuciones para cada región se presentan en tablas respectivas para cada región en las secciones siguientes.
 
-\subsection{Oaxaca PBA Sismos Totales}
+\clearpage
+
+\subsection{Oaxaca resultados de PBA para Sismos Totales}
 
 \noindent
 La Tabla \ref{tab:bondad_oaxaca_totales} muestra los resultados de las pruebas de bondad de ajuste para sismos totales en Oaxaca.
@@ -1328,19 +1457,73 @@ GPD & 0.28618 & 2.94e-24 & Inf & 1.79e-06 & 0.35227 & 2.38e-119 & Rechazo de aju
 
 Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Oaxaca, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultado, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Oaxaca de manera más precisa.
 
-\subsection{Oaxaca PBA Magnitudes Máximas}
+\subsection{Oaxaca resultados de PBA para Magnitudes Máximas}
 
 \noindent
 La Tabla \ref{tab:bondad_oaxaca_maximas} muestra los resultados de las pruebas de bondad de ajuste para magnitudes máximas en Oaxaca.
 
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+% \caption{Resultados de las pruebas de bondad de ajuste para magnitudes máximas.} \label{tab:bondad_oaxaca_maximas} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+% \rowcolor{gray!20}
+% Gauss & 0.12749 & 0.24922 & 1.35173 & 0.21616 & 0.12664 & 1.25e-02 & Ajuste parcial (KS, AD) \\ \hline
+% Gamma & 0.11804 & 0.33451 & 1.25829 & 0.24625 & 0.11661 & 3.06e-02 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Logística & 0.11886 & 0.32639 & 1.40873 & 0.19985 & 0.13302 & 6.71e-03 & Ajuste parcial (KS, AD) \\ \hline
+% Laplace & 0.19605 & 1.46e-02 & 3.07643 & 2.52e-02 & 0.14598 & 1.69e-03 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Weibull & 0.15148 & 1.06e-01 & 1.48130 & 0.18104 & 0.15592 & 5.30e-04 & Ajuste parcial (KS, AD) \\ \hline
+% Cauchy & 0.16266 & 6.76e-02 & 2.77204 & 3.59e-02 & 0.16647 & 1.40e-04 & Ajuste parcial (KS) \\ \hline
+% \rowcolor{gray!20}
+% Log Gauss & 0.11873 & 0.32772 & 1.22615 & 0.25766 & 0.11707 & 2.94e-02 & Ajuste parcial (KS, AD) \\ \hline
+% Gauss Inversa & 0.11850 & 0.32994 & 1.22108 & 0.25952 & 0.11690 & 2.98e-02 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Log Logística & 0.12523 & 0.26800 & 1.30189 & 0.23166 & 0.12856 & 1.04e-02 & Ajuste parcial (KS, AD) \\ \hline
+% Beta & 0.12171 & 0.29928 & 1.20834 & 0.26424 & 0.12005 & 2.27e-02 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Uniforme & 0.15848 & 8.03e-02 & Inf & 9.37e-06 & 0.18086 & 1.91e-05 & Ajuste parcial (KS) \\ \hline
+% Potencia & 0.20485 & 9.30e-03 & 5.37635 & 1.92e-03 & 0.17273 & 6.02e-05 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Pareto & 0.96268 & 6.07e-52 & 169.884 & 9.37e-06 & 0.11668 & 3.04e-02 & Rechazo de ajuste \\ \hline
+% Rayleigh & 0.47048 & 9.91e-13 & 16.6868 & 9.37e-06 & 0.12112 & 2.07e-02 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Exponencial & 0.55229 & 2.21e-17 & 22.5527 & 9.37e-06 & 0.11655 & 3.07e-02 & Rechazo de ajuste \\ \hline
+% GEV & 0.12004 & 0.31502 & 1.25898 & 0.24601 & 0.11263 & 4.25e-02 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Gumbel & 0.13475 & 0.19553 & 1.12147 & 0.29916 & 0.13371 & 6.26e-03 & Ajuste parcial (KS, AD) \\ \hline
+% T Student & 0.14269 & 0.14756 & 1.88128 & 0.10702 & 0.13258 & 7.01e-03 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Chi-Cuadrada & 0.36881 & 5.49e-08 & 13.8878 & 9.37e-06 & 0.11648 & 3.09e-02 & Rechazo de ajuste \\ \hline
+% GPD & 0.08880 & 0.69388 & Inf & 9.37e-06 & 0.16205 & 2.47e-04 & Ajuste parcial (KS) \\ \hline
+% \end{tabularx}
+% \endgroup
+
 \begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|l|c|c|c|c|c|c|p{3cm}|}
 \caption{Resultados de las pruebas de bondad de ajuste para magnitudes máximas.} \label{tab:bondad_oaxaca_maximas} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Gauss & 0.12749 & 0.24922 & 1.35173 & 0.21616 & 0.12664 & 1.25e-02 & Ajuste parcial (KS, AD) \\ \hline
 Gamma & 0.11804 & 0.33451 & 1.25829 & 0.24625 & 0.11661 & 3.06e-02 & Ajuste parcial (KS, AD) \\ \hline
@@ -1371,24 +1554,78 @@ T Student & 0.14269 & 0.14756 & 1.88128 & 0.10702 & 0.13258 & 7.01e-03 & Ajuste 
 \rowcolor{gray!20}
 Chi-Cuadrada & 0.36881 & 5.49e-08 & 13.8878 & 9.37e-06 & 0.11648 & 3.09e-02 & Rechazo de ajuste \\ \hline
 GPD & 0.08880 & 0.69388 & Inf & 9.37e-06 & 0.16205 & 2.47e-04 & Ajuste parcial (KS) \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
 Los resultados indican que 11 distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Oaxaca, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, también se encuentra que 2 distribuciones probadas muestran un ajuste únicamente para la prueba KS con un valor p mayor a 0.05 y finalmente se encuentra que todos los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse a los datos para ciertas pruebas de bondad. Como resultado se concluye que estas distribuciones sirven para modelar los datos de magnitudes máximas de sismos en Oaxaca.
 
-\subsection{Guerrero PBA Sismos Totales}
+\subsection{Guerrero resultados de PBA para Sismos Totales}
 
 \noindent
 La Tabla \ref{tab:bondad_guerrero_totales} muestra los resultados de las pruebas de bondad de ajuste para sismos totales en Guerrero.
 
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+% \caption{Resultados de las pruebas de bondad de ajuste para sismos totales en Guerrero.} \label{tab:bondad_guerrero_totales} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+% \rowcolor{gray!20}
+% Gauss & 0.23135 & 2.50e-12 & 20.9920 & 2.34e-06 & 0.23107 & 6.87e-38 & Rechazo de ajuste \\ \hline
+% Gamma & 0.22655 & 7.72e-12 & 19.3144 & 2.34e-06 & 0.22609 & 3.33e-36 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Logística & 0.22812 & 5.36e-12 & 17.5292 & 2.34e-06 & 0.22873 & 4.32e-37 & Rechazo de ajuste \\ \hline
+% Laplace & 0.26860 & 1.81e-16 & 19.2337 & 2.34e-06 & 0.20648 & 6.07e-30 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Weibull & 0.25827 & 2.93e-15 & 23.2617 & 2.34e-06 & 0.24684 & 1.73e-43 & Rechazo de ajuste \\ \hline
+% Cauchy & 0.26557 & 4.15e-16 & 27.0255 & 2.34e-06 & 0.16752 & 2.67e-19 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Log Gauss & 0.22360 & 1.52e-11 & 18.4861 & 2.34e-06 & 0.22333 & 2.76e-35 & Rechazo de ajuste \\ \hline
+% Gauss Inversa & 0.22434 & 1.28e-11 & 18.5578 & 2.34e-06 & 0.22331 & 2.79e-35 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Log Logística & 0.21413 & 1.27e-10 & 15.5384 & 2.34e-06 & 0.21973 & 4.17e-34 & Rechazo de ajuste \\ \hline
+% Beta & 0.22171 & 2.34e-11 & 17.9505 & 2.34e-06 & 0.22130 & 1.28e-34 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Uniforme & 0.50111 & 2.90e-56 & Inf & 2.34e-06 & 0.35674 & 2.34e-93 & Rechazo de ajuste \\ \hline
+% Potencia & 0.33737 & 9.79e-26 & 54.3526 & 2.34e-06 & 0.27523 & 1.50e-54 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Pareto & 0.99891 & 2.65e-222 & 1546.04 & 2.34e-06 & 0.22397 & 1.69e-35 & Rechazo de ajuste \\ \hline
+% Rayleigh & 0.54730 & 4.96e-67 & 73.6285 & 2.34e-06 & 0.22859 & 4.81e-37 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Exponencial & 0.59225 & 2.01e-78 & 94.2755 & 2.34e-06 & 0.22606 & 3.41e-36 & Rechazo de ajuste \\ \hline
+% GEV & 0.15572 & 8.10e-06 & 9.2145 & 2.66e-05 & 0.16206 & 5.37e-18 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Gumbel & 0.19677 & 4.91e-09 & 14.8826 & 2.34e-06 & 0.19379 & 3.26e-26 & Rechazo de ajuste \\ \hline
+% T Student & 0.26136 & 1.29e-15 & 18.5887 & 2.34e-06 & 0.22596 & 3.69e-36 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Chi-Cuadrada & 0.39551 & 3.28e-35 & 64.4394 & 2.34e-06 & 0.22602 & 3.53e-36 & Rechazo de ajuste \\ \hline
+% GPD & 0.25289 & 1.20e-14 & Inf & 2.34e-06 & 0.35183 & 1.01e-90 & Rechazo de ajuste \\ \hline
+% \end{tabularx}
+% \endgroup
+
 \begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|l|c|c|c|c|c|c|p{3cm}|}
 \caption{Resultados de las pruebas de bondad de ajuste para sismos totales en Guerrero.} \label{tab:bondad_guerrero_totales} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Gauss & 0.23135 & 2.50e-12 & 20.9920 & 2.34e-06 & 0.23107 & 6.87e-38 & Rechazo de ajuste \\ \hline
 Gamma & 0.22655 & 7.72e-12 & 19.3144 & 2.34e-06 & 0.22609 & 3.33e-36 & Rechazo de ajuste \\ \hline
@@ -1419,24 +1656,78 @@ T Student & 0.26136 & 1.29e-15 & 18.5887 & 2.34e-06 & 0.22596 & 3.69e-36 & Recha
 \rowcolor{gray!20}
 Chi-Cuadrada & 0.39551 & 3.28e-35 & 64.4394 & 2.34e-06 & 0.22602 & 3.53e-36 & Rechazo de ajuste \\ \hline
 GPD & 0.25289 & 1.20e-14 & Inf & 2.34e-06 & 0.35183 & 1.01e-90 & Rechazo de ajuste \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
 Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Guerrero, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultado, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Guerrero de manera más precisa.
 
-\subsection{Guerrero PBA Magnitudes Máximas}
+\subsection{Guerrero resultados de PBA para Magnitudes Máximas}
 
 \noindent
 La Tabla \ref{tab:bondad_guerrero_maximas} muestra los resultados de las pruebas de bondad de ajuste para magnitudes máximas en Guerrero.
 
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+% \caption{Resultados de las pruebas de bondad de ajuste para magnitudes máximas en Guerrero.} \label{tab:bondad_guerrero_maximas} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+% \rowcolor{gray!20}
+% Gauss & 0.13426 & 0.16023 & 1.33443 & 0.22141 & 0.13352 & 3.45e-03 & Ajuste parcial (KS, AD) \\ \hline
+% Gamma & 0.14872 & 0.09041 & 1.41979 & 0.19685 & 0.14788 & 6.34e-04 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Logística & 0.13518 & 0.15479 & 1.39657 & 0.20321 & 0.14022 & 1.61e-03 & Ajuste parcial (KS, AD) \\ \hline
+% Laplace & 0.18815 & 0.01408 & 3.47231 & 0.01595 & 0.14145 & 1.39e-03 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Weibull & 0.11996 & 0.26611 & 1.16509 & 0.28104 & 0.12269 & 1.08e-02 & Ajuste parcial (KS, AD) \\ \hline
+% Cauchy & 0.12938 & 0.19178 & 2.43025 & 0.05408 & 0.15629 & 2.13e-04 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Log Gauss & 0.15568 & 0.06721 & 1.48022 & 0.18130 & 0.15480 & 2.60e-04 & Ajuste parcial (KS, AD) \\ \hline
+% Gauss Inversa & 0.15572 & 0.06710 & 1.47592 & 0.18236 & 0.15475 & 2.62e-04 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Log Logística & 0.14855 & 0.09105 & 1.52655 & 0.17032 & 0.16005 & 1.28e-04 & Ajuste parcial (KS, AD) \\ \hline
+% Beta & 0.16061 & 0.05403 & 1.53018 & 0.16949 & 0.15967 & 1.35e-04 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Uniforme & 0.10000 & 0.48581 & Inf & 8.57e-06 & 0.15347 & 3.10e-04 & Ajuste parcial (KS) \\ \hline
+% Potencia & 0.20184 & 0.00667 & 4.93066 & 0.00312 & 0.15441 & 2.73e-04 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Pareto & 0.95635 & 4.92e-56 & 175.6317 & 8.57e-06 & 0.15412 & 2.84e-04 & Rechazo de ajuste \\ \hline
+% Rayleigh & 0.46334 & 1.77e-13 & 18.2085 & 8.57e-06 & 0.14093 & 1.48e-03 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Exponencial & 0.54846 & 1.03e-18 & 24.6160 & 8.57e-06 & 0.14796 & 6.28e-04 & Rechazo de ajuste \\ \hline
+% GEV & 0.12272 & 0.24238 & 1.22485 & 0.25815 & 0.11872 & 1.59e-02 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Gumbel & 0.18302 & 0.01838 & 1.74524 & 0.12755 & 0.18489 & 3.04e-05 & Ajuste parcial (AD) \\ \hline
+% T Student & 0.14613 & 0.10061 & 2.35900 & 0.05897 & 0.13973 & 1.70e-03 & Ajuste parcial (KS, AD) \\ \hline
+% \rowcolor{gray!20}
+% Chi-Cuadrada & 0.37691 & 4.61e-09 & 15.0421 & 8.57e-06 & 0.14805 & 6.20e-04 & Rechazo de ajuste \\ \hline
+% GPD & 0.12290 & 0.24096 & Inf & 8.57e-06 & 0.12199 & 1.16e-02 & Ajuste parcial (KS) \\ \hline
+% \end{tabularx}
+% \endgroup
+
 \begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|l|c|c|c|c|c|c|p{3cm}|}
 \caption{Resultados de las pruebas de bondad de ajuste para magnitudes máximas en Guerrero.} \label{tab:bondad_guerrero_maximas} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Gauss & 0.13426 & 0.16023 & 1.33443 & 0.22141 & 0.13352 & 3.45e-03 & Ajuste parcial (KS, AD) \\ \hline
 Gamma & 0.14872 & 0.09041 & 1.41979 & 0.19685 & 0.14788 & 6.34e-04 & Ajuste parcial (KS, AD) \\ \hline
@@ -1467,12 +1758,12 @@ T Student & 0.14613 & 0.10061 & 2.35900 & 0.05897 & 0.13973 & 1.70e-03 & Ajuste 
 \rowcolor{gray!20}
 Chi-Cuadrada & 0.37691 & 4.61e-09 & 15.0421 & 8.57e-06 & 0.14805 & 6.20e-04 & Rechazo de ajuste \\ \hline
 GPD & 0.12290 & 0.24096 & Inf & 8.57e-06 & 0.12199 & 1.16e-02 & Ajuste parcial (KS) \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
-Los resultados indican que varias distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Guerrero, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, mientras que los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse adecuadamente a los datos según ciertas pruebas, pero no todas las pruebas confirman este ajuste. Se recomienda considerar estas distribuciones para modelar los datos de magnitudes máximas, pero también se sugiere realizar análisis adicionales para confirmar la adecuación del modelo seleccionado.
+Los resultados indican que 11 distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Guerrero, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, también se encuentra que 2 distribuciones probadas se ajustan a la prueba KS y 1 distribución probada se ajusta a la prueba AD, ya que tienen un valor p mayor a 0.05 y finalmente se encuentra que todos los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse a los datos para ciertas pruebas de bondad. Como resultado se concluye que estas distribuciones sirven para modelar los datos de magnitudes máximas de sismos en Oaxaca.
 
-\subsection{Michoacán PBA Sismos Totales}
+\subsection{Michoacán resultados de PBA para Sismos Totales}
 
 \noindent
 La Tabla \ref{tab:bondad_michoacan_totales} muestra los resultados de las pruebas de bondad de ajuste para sismos totales en Michoacán.
@@ -1518,9 +1809,9 @@ GPD & 0.25512 & 8.45e-15 & Inf & 1.85e-06 & 0.35312 & 2.15e-92 & Rechazo de ajus
 \end{tabularx}
 \endgroup
 
-Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Michoacán, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Se recomienda explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Michoacán, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultados, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Michoacán de manera más precisa.
 
-\subsection{Michoacán PBA Magnitudes Máximas}
+\subsection{Michoacán resultados de PBA para Magnitudes Máximas}
 
 \noindent
 La Tabla \ref{tab:bondad_michoacan_maximas} muestra los resultados de las pruebas de bondad de ajuste para magnitudes máximas en Michoacán.
@@ -1566,21 +1857,75 @@ GPD & 0.09124 & 0.65412 & Inf & 8.45e-06 & 0.16541 & 1.85e-04 & Ajuste parcial (
 \end{tabularx}
 \endgroup
 
-Los resultados indican que varias distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Michoacán, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, mientras que los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse adecuadamente a los datos según ciertas pruebas, pero no todas las pruebas confirman este ajuste. Se recomienda considerar estas distribuciones para modelar los datos de magnitudes máximas, pero también se sugiere realizar análisis adicionales para confirmar la adecuación del modelo seleccionado.
+Los resultados indican que 11 distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Michoacán, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, también se encuentra que 3 distribuciones probadas muestran un ajuste únicamente para la prueba KS con un valor p mayor a 0.05 y finalmente se encuentra que todos los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse a los datos para ciertas pruebas de bondad. Como resultado se concluye que estas distribuciones sirven para modelar los datos de magnitudes máximas de sismos en Michoacán.
 
-\subsection{Chiapas PBA Sismos Totales}
+\subsection{Chiapas resultados de PBA para Sismos Totales}
 
 \noindent
 La Tabla \ref{tab:bondad_chiapas_totales} muestra los resultados de las pruebas de bondad de ajuste para sismos totales en Chiapas.
 
+%% ESTA TABLA SE CAMBIA A LONGTABLE PARA MOSTRASR EN VARIAS PAGINAS
+% \begingroup
+% \footnotesize
+% \centering
+% \begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+% \caption{Resultados de las pruebas de bondad de ajuste para sismos totales en Chiapas.} \label{tab:bondad_chiapas_totales} \\
+% \hline
+% \rowcolor{gray!60}
+% \textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+% \rowcolor{gray!20}
+% Gauss & 0.24003 & 6.67e-32 & 61.2581 & 9.54e-07 & 0.24001 & 2.98e-102 & Rechazo de ajuste \\ \hline
+% Gamma & 0.23193 & 8.19e-30 & 56.3218 & 9.54e-07 & 0.23168 & 4.51e-95 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Logística & 0.25103 & 7.48e-35 & 44.3340 & 9.54e-07 & 0.22011 & 1.59e-85 & Rechazo de ajuste \\ \hline
+% Laplace & 0.28025 & 2.46e-43 & 42.8770 & 9.54e-07 & 0.20100 & 7.15e-71 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Weibull & 0.31392 & 2.89e-54 & 75.8137 & 9.54e-07 & 0.26623 & 1.36e-126 & Rechazo de ajuste \\ \hline
+% Cauchy & 0.27966 & 3.73e-43 & 60.0609 & 9.54e-07 & 0.18427 & 3.48e-59 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Log Gauss & 0.22727 & 1.20e-28 & 53.8979 & 9.54e-07 & 0.22723 & 2.44e-91 & Rechazo de ajuste \\ \hline
+% Gauss Inversa & 0.22822 & 6.99e-29 & 54.1695 & 9.54e-07 & 0.22736 & 1.90e-91 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Log Logística & 0.23852 & 1.65e-31 & 39.8202 & 9.54e-07 & 0.21343 & 3.02e-80 & Rechazo de ajuste \\ \hline
+% Beta & 0.22428 & 6.61e-28 & 52.3596 & 9.54e-07 & 0.22408 & 9.53e-89 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Uniforme & 0.62649 & 7.36e-215 & Inf & 9.54e-07 & 0.35916 & 7.05e-234 & Rechazo de ajuste \\ \hline
+% Potencia & 0.41872 & 3.27e-96 & 187.9971 & 9.54e-07 & 0.30352 & 1.06e-165 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Pareto & 0.99994 & 0.00e+00 & 5602.6416 & 9.54e-07 & 0.22835 & 2.88e-92 & Rechazo de ajuste \\ \hline
+% Rayleigh & 0.57249 & 1.73e-179 & 204.7437 & 9.54e-07 & 0.23591 & 1.09e-98 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Exponencial & 0.60417 & 7.48e-200 & 244.8751 & 9.54e-07 & 0.23164 & 4.95e-95 & Rechazo de ajuste \\ \hline
+% GEV & 0.32589 & 1.89e-58 & 118.6025 & 9.54e-07 & 0.33084 & 1.04e-197 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Gumbel & 0.19424 & 4.88e-21 & 37.8560 & 9.54e-07 & 0.18774 & 1.59e-61 & Rechazo de ajuste \\ \hline
+% T Student & 0.26943 & 4.38e-40 & 40.9306 & 9.54e-07 & 0.21407 & 9.62e-81 & Rechazo de ajuste \\ \hline
+% \rowcolor{gray!20}
+% Chi-Cuadrada & 0.41510 & 1.46e-94 & 179.0963 & 9.54e-07 & 0.23155 & 5.79e-95 & Rechazo de ajuste \\ \hline
+% GPD & 0.29889 & 3.12e-49 & Inf & 9.54e-07 & 0.34767 & 7.79e-219 & Rechazo de ajuste \\ \hline
+% \end{tabularx}
+% \endgroup
+
 \begingroup
 \footnotesize
 \centering
-\begin{tabularx}{15.9cm}{|l|c|c|c|c|c|c|X|}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|l|c|c|c|c|c|c|p{3cm}|}
 \caption{Resultados de las pruebas de bondad de ajuste para sismos totales en Chiapas.} \label{tab:bondad_chiapas_totales} \\
 \hline
 \rowcolor{gray!60}
-\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\ \hline
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{gray!60}
+\textbf{Distribución} & \textbf{KS (D)} & \textbf{KS (P)} & \textbf{AD (An)} & \textbf{AD (P)} & \textbf{Lillie (D)} & \textbf{Lillie (P)} & \textbf{Interpretación} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \rowcolor{gray!20}
 Gauss & 0.24003 & 6.67e-32 & 61.2581 & 9.54e-07 & 0.24001 & 2.98e-102 & Rechazo de ajuste \\ \hline
 Gamma & 0.23193 & 8.19e-30 & 56.3218 & 9.54e-07 & 0.23168 & 4.51e-95 & Rechazo de ajuste \\ \hline
@@ -1611,12 +1956,12 @@ T Student & 0.26943 & 4.38e-40 & 40.9306 & 9.54e-07 & 0.21407 & 9.62e-81 & Recha
 \rowcolor{gray!20}
 Chi-Cuadrada & 0.41510 & 1.46e-94 & 179.0963 & 9.54e-07 & 0.23155 & 5.79e-95 & Rechazo de ajuste \\ \hline
 GPD & 0.29889 & 3.12e-49 & Inf & 9.54e-07 & 0.34767 & 7.79e-219 & Rechazo de ajuste \\ \hline
-\end{tabularx}
+\end{longtable}
 \endgroup
 
-Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Chiapas, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Se recomienda explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Chiapas, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultado, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Chiapas de manera más precisa.
 
-\subsection{Chiapas PBA Magnitudes Máximas}
+\subsection{Chiapas resultados de PBA para Magnitudes Máximas}
 
 \noindent
 La Tabla \ref{tab:bondad_chiapas_maximas} muestra los resultados de las pruebas de bondad de ajuste para magnitudes máximas en Chiapas.
@@ -1662,9 +2007,9 @@ GPD & 0.12826 & 1.81e-01 & Inf & 8.22e-06 & 0.21067 & 1.41e-08 & Ajuste parcial 
 \end{tabularx}
 \endgroup
 
-Los resultados indican que varias distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Chiapas, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, mientras que los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse adecuadamente a los datos según ciertas pruebas, pero no todas las pruebas confirman este ajuste. Se recomienda considerar estas distribuciones para modelar los datos de magnitudes máximas, pero también se sugiere realizar análisis adicionales para confirmar la adecuación del modelo seleccionado.
+Los resultados indican que 2 distribuciones probadas muestran un ajuste completo para los datos de magnitudes máximas en Chiapas, ya que los valores p asociados a las pruebas KS, AD y LF son mayores que el nivel de significancia de p de 0.05, mientras que 11 distribuciones muestran un ajuste parcial a los datos de magnitudes máximas en Chiapaslos con valores p asociados a las pruebas KS y AD mayores que el nivel de significancia p de 0.05, también se encuentra que 1 distribución probada se ajusta a la prueba KS al tener un valor p mayor a 0.05. Esto sugiere que 2 distribuciones se ajustan a los datos para las tres PBAs para magnitudes máximas en Chiapas. Como resultado se concluye que las distribuciones Weibull y GEV permiten modelar los datos de magnitudes máximas de sismos en Chiapas.
 
-\subsection{Resto Nacionales PBA Sismos Totales}
+\subsection{Resto Nacionales resultados de PBA para Sismos Totales}
 
 \noindent
 La Tabla \ref{tab:bondad_rn_totales} muestra los resultados de las pruebas de bondad de ajuste para sismos totales en Resto Nacionales.
@@ -1710,9 +2055,9 @@ GPD & 0.18178 & 4.56e-16 & Inf & 1.10e-06 & 0.35545 & 2.58e-198 & Rechazo de aju
 \end{tabularx}
 \endgroup
 
-Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Resto Nacionales, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Se recomienda explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Resto Nacionales, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultado, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Resto Nacionales de manera más precisa.
 
-\subsection{Resto Nacionales PBA Magnitudes Máximas}
+\subsection{Resto Nacionales resultados de PBA para Magnitudes Máximas}
 
 \noindent
 La Tabla \ref{tab:bondad_rn_maximas} muestra los resultados de las pruebas de bondad de ajuste para magnitudes máximas en Resto Nacionales.
@@ -1758,9 +2103,9 @@ GPD & 0.20635 & 1.21e-03 & Inf & 6.90e-06 & 0.23022 & 2.22e-12 & Rechazo de ajus
 \end{tabularx}
 \endgroup
 
-Los resultados indican que varias distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Resto Nacionales, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, mientras que los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse adecuadamente a los datos según ciertas pruebas, pero no todas las pruebas confirman este ajuste. Se recomienda considerar estas distribuciones para modelar los datos de magnitudes máximas, pero también se sugiere realizar análisis adicionales para confirmar la adecuación del modelo seleccionado.
+Los resultados indican que 3 distribuciones probadas muestran un ajuste completo para los datos de magnitudes máximas en Resto Nacionales, ya que los valores p asociados a las pruebas KS, AD y LF son mayores que el nivel de significancia de p de 0.05, mientras que 9 distribuciones muestran un ajuste parcial a los datos de magnitudes máximas en Resto Nacionales con valores p asociados a las pruebas KS y AD mayores que el nivel de significancia de 0.05, también se encuentra que 1 distribución probada se ajusta a la prueba AD al tener un valor p mayor a 0.05. Esto sugiere que 3 distribuciones se ajustan a los datos para las tres PBAs para magnitudes máximas en Resto Nacionales. Como resultado se concluye que las distribuciones Logística, Laplace y T-Student permiten modelar los datos de magnitudes máximas de sismos en Resto Nacionales.
 
-\subsection{Sismos Nacionales PBA Sismos Totales}
+\subsection{Sismos Nacionales resultados de PBA para Sismos Totales}
 
 \noindent
 La Tabla \ref{tab:bondad_sn_totales} muestra los resultados de las pruebas de bondad de ajuste para sismos totales en Resto Nacionales.
@@ -1806,9 +2151,9 @@ GPD & 0.24270 & 2.48e-95 & Inf & 3.23e-07 & 0.35626 & 0.00e+00 & Rechazo de ajus
 \end{tabularx}
 \endgroup
 
-Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Sismos Nacionales, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Se recomienda explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+Los resultados indican que todas las distribuciones probadas fueron rechazadas en las pruebas de bondad de ajuste KS, AD y LF para los datos de sismos totales en Sismos Nacionales, ya que los valores p asociados a cada prueba son menores que el nivel de significancia de 0.05. Esto sugiere que ninguna de las distribuciones evaluadas se ajusta adecuadamente a los datos de sismos totales en esta región. Como resultado, se recomienda explorar otras distribuciones o enfoques estadísticos para modelar los datos de sismos totales de Sismos Nacionales de manera más precisa.
 
-\subsection{Sismos Nacionales PBA Magnitudes Máximas}
+\subsection{Sismos Nacionales resultados de PBA para Magnitudes Máximas}
 
 \noindent
 La Tabla \ref{tab:bondad_sn_maximas} muestra los resultados de las pruebas de bondad de ajuste para magnitudes máximas en Sismos Nacionales.
@@ -1854,5 +2199,368 @@ GPD & 0.21017 & 1.20e-04 & Inf & 5.45e-06 & 0.21701 & 6.47e-14 & Rechazo de ajus
 \end{tabularx}
 \endgroup
 
-Los resultados indican que varias distribuciones probadas muestran un ajuste parcial a los datos de magnitudes máximas en Sismos Nacionales, ya que los valores p asociados a las pruebas KS y AD son mayores que el nivel de significancia de 0.05, mientras que los valores p de la prueba LF son menores que 0.05. Esto sugiere que algunas distribuciones pueden ajustarse adecuadamente a los datos según ciertas pruebas, pero no todas las pruebas confirman este ajuste. Se recomienda considerar estas distribuciones para modelar los datos de magnitudes máximas, pero también se sugiere realizar análisis adicionales para confirmar la adecuación del modelo seleccionado.
+Los resultados indican que 8 distribuciones probadas muestran un ajuste completo para los datos de magnitudes máximas en Sismos Nacionales, ya que los valores p asociados a las pruebas KS, AD y LF son mayores que el nivel de significancia de p de 0.05, mientras que 4 distribuciones muestran un ajuste parcial a los datos de magnitudes máximas en Sismos Nacionales con valores p asociados a las pruebas KS y AD mayores que el nivel de significancia de 0.05, también se encuentra que 4 distribuciones probadas se ajustan a la prueba LF al tener un valor p mayor a 0.05. Esto sugiere que 8 distribuciones se ajustan a los datos para las tres PBAs para magnitudes máximas en Sismos Nacionales. Como resultado se concluye que las distribuciones Gauss, Gamma, Logística, Log Gauss, Gauss Inversa, Log Logística, Beta y GEV permiten modelar los datos de magnitudes máximas de sismos en Sismos Nacionales.
 
+\section{Resumen de Resultados de Bondad de Ajuste y BIC}
+
+\noindent
+A continuación se presenta un resumen de los resultados de las pruebas de bondad de ajuste con las 3 mejores distribuciones encontradas para cada prueba y para el BIC para las diferentes regiones y tipos de datos analizados.
+
+Cabe destacar que en las tablas siguientes, NA indica que no se encontraron distribuciones que cumplieran con los criterios de selección para esa PBA específica, ya que en los resultados de las pruebas de bondad de ajuste (Kolmogorov-Smirnov, Anderson-Darling y Lilliefors) se encuentra que para el dataset de sismos totales ninguna de las distribuciones evaluadas logró pasar las tres pruebas con un p-valor mayor a 0.05 en ninguna de las seis regiones de estudio. Esto indica que los datos de sismos totales no se ajustan adecuadamente a ninguna de las distribuciones analizadas, por lo que se descarta continuar realizando inferencia estadística con este dataset. Este resultado es consistente con la naturaleza de los datos, ya que los sismos totales incluyen eventos de todas las magnitudes registradas mayores a 5.0°, generando una distribución altamente sesgada hacia valores bajos que no corresponde con las distribuciones teóricas evaluadas.
+
+Para el dataset de magnitudes máximas anuales, los resultados permiten identificar distribuciones que se ajustan adecuadamente a los datos de cada región.
+
+En las secciones siguientes se presentan las justificaciones para la elección de la distribución seleccionada para cada una de las regiones de estudio.
+
+\subsection{Oaxaca}
+
+\noindent
+La tabla \ref{tab:distribuciones_oaxaca_totales} y la tabla \ref{tab:distribuciones_oaxaca_maximas} muestran las mejores distribuciones encontradas para Oaxaca en sismos totales y magnitudes máximas, respectivamente.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Oaxaca - Sismos Totales.}
+\label{tab:distribuciones_oaxaca_totales}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Pareto & NA & NA & NA \\ \hline
+2° & Weibull & NA & NA & NA \\ \hline
+\rowcolor{gray!20}
+3° & Gumbel & NA & NA & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Como se aprecia, ninguna de las distribuciones evaluadas para sismos totales en Oaxaca logró pasar las tres pruebas de bondad de ajuste con un p-valor mayor a 0.05. Esto indica que los datos de sismos totales en esta región no se ajustan adecuadamente a ninguna de las distribuciones analizadas, lo que sugiere que se deben explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Oaxaca - Magnitudes Máximas.}
+\label{tab:distribuciones_oaxaca_maximas}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Uniforme & GPD & Gumbel & NA \\ \hline
+2° & Gamma Inversa & Gamma & Beta & NA \\ \hline
+\rowcolor{gray!20}
+3° & Beta Prime & Gauss Inv. & Gauss Inv. & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Para Oaxaca se selecciona la distribución Gumbel. Aunque el criterio BIC sugiere la distribución Uniforme como mejor opción, las pruebas de bondad de ajuste no la respaldan de manera consistente. La distribución Gumbel aparece como la mejor opción en la prueba Anderson-Darling y al graficarla sobre el histograma de magnitudes máximas presenta un ajuste visual adecuado a los datos, lo cual es coherente con la teoría de valores extremos que establece a la distribución Gumbel como apropiada para modelar máximos anuales.
+
+\subsection{Guerrero}
+
+\noindent
+La tabla \ref{tab:distribuciones_guerrero_totales} y la tabla \ref{tab:distribuciones_guerrero_maximas} muestran las mejores distribuciones encontradas para Guerrero en sismos totales y magnitudes máximas, respectivamente.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Guerrero - Sismos Totales.}
+\label{tab:distribuciones_guerrero_totales}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Pareto & NA & NA & NA \\ \hline
+2° & Weibull Inv. & NA & NA & NA \\ \hline
+\rowcolor{gray!20}
+3° & Gumbel & NA & NA & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Como se aprecia, ninguna de las distribuciones evaluadas para sismos totales en Guerrero logró pasar las tres pruebas de bondad de ajuste con un p-valor mayor a 0.05. Esto indica que los datos de sismos totales en esta región no se ajustan adecuadamente a ninguna de las distribuciones analizadas, lo que sugiere que se deben explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Guerrero - Magnitudes Máximas.}
+\label{tab:distribuciones_guerrero_maximas}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Uniforme & Uniforme & Weibull & NA \\ \hline
+2° & Gamma & Weibull & GEV & NA \\ \hline
+\rowcolor{gray!20}
+3° & Normal & GEV & Gauss & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Para Guerrero se selecciona la distribución Weibull. Esta distribución aparece consistentemente en las pruebas de bondad de ajuste, ocupando la primera posición en Anderson-Darling y la segunda en Kolmogorov-Smirnov. Al comparar visualmente la curva teórica con el histograma de magnitudes máximas, la distribución Weibull se ajusta adecuadamente a la forma y dispersión de los datos sísmicos de esta región.
+
+\subsection{Michoacán}
+
+\noindent
+La tabla \ref{tab:distribuciones_michoacan_totales} y la tabla \ref{tab:distribuciones_michoacan_maximas} muestran las mejores distribuciones encontradas para Michoacán en sismos totales y magnitudes máximas, respectivamente.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Michoacán - Sismos Totales.}
+\label{tab:distribuciones_michoacan_totales}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Pareto & NA & NA & NA \\ \hline
+2° & Weibull Inv. & NA & NA & NA \\ \hline
+\rowcolor{gray!20}
+3° & Gumbel & NA & NA & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Como se aprecia, ninguna de las distribuciones evaluadas para sismos totales en Michoacán logró pasar las tres pruebas de bondad de ajuste con un p-valor mayor a 0.05. Esto indica que los datos de sismos totales en esta región no se ajustan adecuadamente a ninguna de las distribuciones analizadas, lo que sugiere que se deben explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Michoacán - Magnitudes Máximas.}
+\label{tab:distribuciones_michoacan_maximas}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Pareto & GEV & GEV & GEV (0.0471) \\ \hline
+2° & Uniforme & Log Logís. & NA & NA \\ \hline
+\rowcolor{gray!20}
+3° & Weibull Inv. & NA & NA & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Para Michoacán se selecciona la distribución GEV (Generalizada de Valores Extremos). Esta distribución es la única que logra pasar las tres pruebas de bondad de ajuste, apareciendo en primera posición tanto en Kolmogorov-Smirnov como en Anderson-Darling, y siendo la única con un p-valor aceptable en Lilliefors (0.0471). La distribución GEV es particularmente apropiada para esta región debido a la alta variabilidad sísmica que presenta Michoacán, ya que esta distribución es flexible y puede adaptarse a diferentes comportamientos la cola.
+
+\subsection{Chiapas}
+
+\noindent
+La tabla \ref{tab:distribuciones_chiapas_totales} y la tabla \ref{tab:distribuciones_chiapas_maximas} muestran las mejores distribuciones encontradas para Chiapas en sismos totales y magnitudes máximas, respectivamente.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Chiapas - Sismos Totales.}
+\label{tab:distribuciones_chiapas_totales}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Pareto & NA & NA & NA \\ \hline
+2° & Weibull Inv. & NA & NA & NA \\ \hline
+\rowcolor{gray!20}
+3° & Gumbel & NA & NA & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Como se aprecia, ninguna de las distribuciones evaluadas para sismos totales en Chiapas logró pasar las tres pruebas de bondad de ajuste con un p-valor mayor a 0.05. Esto indica que los datos de sismos totales en esta región no se ajustan adecuadamente a ninguna de las distribuciones analizadas, lo que sugiere que se deben explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Chiapas - Magnitudes Máximas.}
+\label{tab:distribuciones_chiapas_maximas}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Normal & Weibull & Weibull & Weibull \\ \hline
+2° & Gamma & T-Student & GEV & GEV \\ \hline
+\rowcolor{gray!20}
+3° & Gauss Inv. & GEV & Gauss & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Para Chiapas se selecciona la distribución Weibull. Esta distribución logra pasar las tres pruebas de bondad de ajuste, ocupando la primera posición en Kolmogorov-Smirnov, Anderson-Darling y Lilliefors. El ajuste visual sobre el histograma de magnitudes máximas confirma que la distribución Weibull representa adecuadamente el comportamiento sísmico de esta región, caracterizada por una intensa actividad de sismos fuertes.
+
+\subsection{Resto Nacionales}
+
+\noindent
+La tabla \ref{tab:distribuciones_rn_totales} y la tabla \ref{tab:distribuciones_rn_maximas} muestran las mejores distribuciones encontradas para Resto Nacionales en sismos totales y magnitudes máximas, respectivamente.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Resto Nacionales - Sismos Totales.}
+\label{tab:distribuciones_rn_totales}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Pareto & NA & NA & NA \\ \hline
+2° & Weibull Inv. & NA & NA & NA \\ \hline
+\rowcolor{gray!20}
+3° & Gumbel & NA & NA & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Como se aprecia, ninguna de las distribuciones evaluadas para sismos totales en Resto Nacionales logró pasar las tres pruebas de bondad de ajuste con un p-valor mayor a 0.05. Esto indica que los datos de sismos totales en esta región no se ajustan adecuadamente a ninguna de las distribuciones analizadas, lo que sugiere que se deben explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Resto Nacionales - Magnitudes Máximas.}
+\label{tab:distribuciones_rn_maximas}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Normal & Logística & Logística & Laplace \\ \hline
+2° & Gamma & Cauchy & Gauss & Logística \\ \hline
+\rowcolor{gray!20}
+3° & Logística & Log Logíst. & Log Logíst. & T-Student \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Para Resto Nacionales se selecciona la distribución Logística. Esta distribución aparece en primera posición en las pruebas Kolmogorov-Smirnov y Anderson-Darling, y en segunda posición en Lilliefors. El criterio BIC también la ubica entre las tres mejores opciones. Al graficar la curva teórica sobre el histograma se observa un buen ajuste, lo cual indica que la distribución Logística captura adecuadamente la simetría y dispersión de las magnitudes máximas en el resto del territorio nacional.
+
+\subsection{Sismos Nacionales}
+
+\noindent
+La tabla \ref{tab:distribuciones_sn_totales} y la tabla \ref{tab:distribuciones_sn_maximas} muestran las mejores distribuciones encontradas para Sismos Nacionales en sismos totales y magnitudes máximas, respectivamente.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Sismos Nacionales - Sismos Totales.}
+\label{tab:distribuciones_sn_totales}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Pareto & NA & NA & NA \\ \hline
+2° & Weibull Inv. & NA & NA & NA \\ \hline
+\rowcolor{gray!20}
+3° & Gumbel & NA & NA & NA \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Como se aprecia, ninguna de las distribuciones evaluadas para sismos totales en Sismos Nacionales logró pasar las tres pruebas de bondad de ajuste con un p-valor mayor a 0.05. Esto indica que los datos de sismos totales en esta región no se ajustan adecuadamente a ninguna de las distribuciones analizadas, lo que sugiere que se deben explorar otras distribuciones o enfoques estadísticos para modelar estos datos de manera más precisa.
+
+\begingroup
+\begin{table}[H]
+\footnotesize
+\centering
+\caption{Mejores distribuciones para Sismos Nacionales - Magnitudes Máximas.}
+\label{tab:distribuciones_sn_maximas}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{gray!60}
+\textbf{Posición} & \textbf{BIC} & \textbf{KS} & \textbf{AD} & \textbf{LF} \\ \hline
+\rowcolor{gray!20}
+1° & Normal & GEV & Gauss & GEV \\ \hline
+2° & Log Normal & Gauss & Gamma & Gauss \\ \hline
+\rowcolor{gray!20}
+3° & Gauss Inv. & Gamma & GEV & Rayleigh \\ \hline
+\end{tabular}
+\end{table}
+\endgroup
+
+Para Sismos Nacionales se selecciona la distribución Normal. Esta distribución ocupa la primera posición en el criterio BIC y aparece consistentemente en las pruebas de bondad de ajuste bajo diferentes denominaciones (Gauss, Normal). El ajuste visual confirma que la distribución Normal representa adecuadamente el comportamiento agregado de las magnitudes máximas a nivel nacional, lo cual sugiere que al consolidar los datos de todas las regiones, la variabilidad se estabiliza y los datos tienden hacia una distribución simétrica.
+
+\section{Graficos de las mejores distribuciones seleccionadas}
+
+\noindent
+A continuación se presentan los gráficos de las mejores distribuciones seleccionadas para cada una de las regiones de estudio, superpuestas sobre los histogramas de los datos de magnitudes máximas anuales.
+
+\subsection{Oaxaca}
+
+Como ya se mencionó, para Oaxaca se encontró que el mejor ajuste para valores de máximos anuales lo presenta una distribución Gumbel, como se aprecia en la figura \ref{fig:curva_gumbel_oaxaca}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{curva_gumbel_oaxaca.png}
+\caption{Histograma de densidad de sismos de magnitudes máximas en Oaxaca con una curva Gumbel.}
+\label{fig:curva_gumbel_oaxaca}
+\end{figure}
+
+\subsection{Guerrero}
+
+Para Guerrero se encontró que el mejor ajuste para valores de máximos anuales lo presenta una distribución Weibul, como se aprecia en la figura \ref{fig:curva_weibull_guerrero}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{curva_weibull_guerrero.png}
+\caption{Histograma de densidad de sismos de magnitudes máximas en Guerrero con una curva Weibul.}
+\label{fig:curva_weibull_guerrero}
+\end{figure}
+
+\subsection{Michoacán}
+
+Para Michoacán se encontró que el mejor ajuste para valores de máximos anuales lo presenta una distribución GEV, como se aprecia en la figura \ref{fig:curva_gev_michoacan}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{curva_gev_michoacan.png}
+\caption{Histograma de densidad de sismos de magnitudes máximas en Michoacán con una curva GEV.}
+\label{fig:curva_gev_michoacan}
+\end{figure}
+
+\subsection{Chiapas}
+
+Para Chiapas se encontró que el mejor ajuste para valores de máximos anuales lo presenta una distribución Weibul, como se aprecia en la figura \ref{fig:curva_weibull_chiapas}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{curva_weibull_chiapas.png}
+\caption{Histograma de densidad de sismos de magnitudes máximas en Chiapas con una curva Weibul.}
+\label{fig:curva_weibull_chiapas}
+\end{figure}
+
+\subsection{Resto Nacionales}
+
+Para Resto Nacionales se encontró que el mejor ajuste para valores de máximos anuales lo presenta una distribución Logística, como se aprecia en la figura \ref{fig:curva_logistica_resto}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{curva_logistica_resto.png}
+\caption{Histograma de densidad de sismos de magnitudes máximas en Resto Nacionales con una curva Logística.}
+\label{fig:curva_logistica_resto}
+\end{figure}
+
+\subsection{Sismos Nacionales}
+
+Y para Sismos Nacionales se encontró que el mejor ajuste para valores de máximos anuales lo presenta una distribución Normal, como se aprecia en la figura \ref{fig:curva_normal_nacional}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{curva_normal_nacional.png}
+\caption{Histograma de densidad de sismos de magnitudes máximas en Sismos Nacionales con una curva Normal.}
+\label{fig:curva_normal_nacional}
+\end{figure}

@@ -78,18 +78,32 @@
 \contentsline {subsection}{\numberline {5.6.5}Resumen de las pruebas de hipótesis}{58}{subsection.5.6.5}%
 \contentsline {section}{\numberline {5.7}Criterio de Información Bayesiano (BIC)}{61}{section.5.7}%
 \contentsline {section}{\numberline {5.8}Pruebas de bondad de ajuste KS, AD, LF}{61}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}Oaxaca PBA Sismos Totales}{62}{subsection.5.8.1}%
-\contentsline {subsection}{\numberline {5.8.2}Oaxaca PBA Magnitudes Máximas}{62}{subsection.5.8.2}%
-\contentsline {subsection}{\numberline {5.8.3}Guerrero PBA Sismos Totales}{63}{subsection.5.8.3}%
-\contentsline {subsection}{\numberline {5.8.4}Guerrero PBA Magnitudes Máximas}{64}{subsection.5.8.4}%
-\contentsline {subsection}{\numberline {5.8.5}Michoacán PBA Sismos Totales}{65}{subsection.5.8.5}%
-\contentsline {subsection}{\numberline {5.8.6}Michoacán PBA Magnitudes Máximas}{66}{subsection.5.8.6}%
-\contentsline {subsection}{\numberline {5.8.7}Chiapas PBA Sismos Totales}{67}{subsection.5.8.7}%
-\contentsline {subsection}{\numberline {5.8.8}Chiapas PBA Magnitudes Máximas}{68}{subsection.5.8.8}%
-\contentsline {subsection}{\numberline {5.8.9}Resto Nacionales PBA Sismos Totales}{69}{subsection.5.8.9}%
-\contentsline {subsection}{\numberline {5.8.10}Resto Nacionales PBA Magnitudes Máximas}{70}{subsection.5.8.10}%
-\contentsline {subsection}{\numberline {5.8.11}Sismos Nacionales PBA Sismos Totales}{71}{subsection.5.8.11}%
-\contentsline {subsection}{\numberline {5.8.12}Sismos Nacionales PBA Magnitudes Máximas}{72}{subsection.5.8.12}%
-\contentsline {chapter}{\numberline {6}Conclusiones }{75}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Anexo 1 }{77}{appendix.Alph1}%
-\contentsline {chapter}{{Bibliografía}}{81}{appendix*.39}%
+\contentsline {subsection}{\numberline {5.8.1}Oaxaca resultados de PBA para Sismos Totales}{62}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Oaxaca resultados de PBA para Magnitudes Máximas}{62}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Guerrero resultados de PBA para Sismos Totales}{63}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Guerrero resultados de PBA para Magnitudes Máximas}{64}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}Michoacán resultados de PBA para Sismos Totales}{65}{subsection.5.8.5}%
+\contentsline {subsection}{\numberline {5.8.6}Michoacán resultados de PBA para Magnitudes Máximas}{66}{subsection.5.8.6}%
+\contentsline {subsection}{\numberline {5.8.7}Chiapas resultados de PBA para Sismos Totales}{67}{subsection.5.8.7}%
+\contentsline {subsection}{\numberline {5.8.8}Chiapas resultados de PBA para Magnitudes Máximas}{67}{subsection.5.8.8}%
+\contentsline {subsection}{\numberline {5.8.9}Resto Nacionales resultados de PBA para Sismos Totales}{68}{subsection.5.8.9}%
+\contentsline {subsection}{\numberline {5.8.10}Resto Nacionales resultados de PBA para Magnitudes Máximas}{70}{subsection.5.8.10}%
+\contentsline {subsection}{\numberline {5.8.11}Sismos Nacionales resultados de PBA para Sismos Totales}{71}{subsection.5.8.11}%
+\contentsline {subsection}{\numberline {5.8.12}Sismos Nacionales resultados de PBA para Magnitudes Máximas}{72}{subsection.5.8.12}%
+\contentsline {section}{\numberline {5.9}Resumen de Resultados de Bondad de Ajuste y BIC}{73}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Oaxaca}{73}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Guerrero}{74}{subsection.5.9.2}%
+\contentsline {subsection}{\numberline {5.9.3}Michoacán}{75}{subsection.5.9.3}%
+\contentsline {subsection}{\numberline {5.9.4}Chiapas}{75}{subsection.5.9.4}%
+\contentsline {subsection}{\numberline {5.9.5}Resto Nacionales}{76}{subsection.5.9.5}%
+\contentsline {subsection}{\numberline {5.9.6}Sismos Nacionales}{77}{subsection.5.9.6}%
+\contentsline {section}{\numberline {5.10}Graficos de las mejores distribuciones seleccionadas}{77}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Oaxaca}{77}{subsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.10.2}Guerrero}{78}{subsection.5.10.2}%
+\contentsline {subsection}{\numberline {5.10.3}Michoacán}{78}{subsection.5.10.3}%
+\contentsline {subsection}{\numberline {5.10.4}Chiapas}{79}{subsection.5.10.4}%
+\contentsline {subsection}{\numberline {5.10.5}Resto Nacionales}{79}{subsection.5.10.5}%
+\contentsline {subsection}{\numberline {5.10.6}Sismos Nacionales}{80}{subsection.5.10.6}%
+\contentsline {chapter}{\numberline {6}Conclusiones }{81}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Anexo 1 }{83}{appendix.Alph1}%
+\contentsline {chapter}{{Bibliografía}}{87}{appendix*.57}%
