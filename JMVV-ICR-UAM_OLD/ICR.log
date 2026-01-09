@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  9 JAN 2026 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  6 JAN 2026 19:42
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **./ICR.tex
 (ICR.tex
@@ -382,23 +382,6 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 (C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
-(C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
-
-(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
-\col@sep=\dimen163
-\ar@mcellbox=\box57
-\extrarowheight=\dimen164
-\NC@list=\toks29
-\extratabsurround=\skip76
-\backup@length=\skip77
-\ar@cellbox=\box58
-)
-\everycr=\toks30
-\minrowclearance=\skip78
-\rownum=\count312
-)
 (C:\Program Files\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OT1/ztmcm/m/n, using \pmb.
@@ -410,12 +393,12 @@ Package bm Info: No bold for \OT1/ptm/m/it, using \pmb.
 )
 (C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip79
-\enit@outerparindent=\dimen165
-\enit@toks=\toks31
-\enit@inbox=\box59
-\enit@count@id=\count313
-\enitdp@description=\count314
+\labelindent=\skip76
+\enit@outerparindent=\dimen163
+\enit@toks=\toks29
+\enit@inbox=\box57
+\enit@count@id=\count312
+\enitdp@description=\count313
 )
 (C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
@@ -431,9 +414,26 @@ Package: showidx 2021/10/04 v1.0m Standard LaTeX package
 Writing index file ICR.idx 
 (C:\Program Files\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count315
-\c@@ppsavesec=\count316
-\c@@ppsaveapp=\count317
+\c@@pps=\count314
+\c@@ppsavesec=\count315
+\c@@ppsaveapp=\count316
+)
+(C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box58
+\extrarowheight=\dimen165
+\NC@list=\toks30
+\extratabsurround=\skip77
+\backup@length=\skip78
+\ar@cellbox=\box59
+)
+\everycr=\toks31
+\minrowclearance=\skip79
+\rownum=\count317
 )
 (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
@@ -1048,7 +1048,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 ))
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-94.
+95.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1177,27 +1177,27 @@ LaTeX Warning: Label `cap:Anexo1' multiply defined.
 )
 \openout1 = `ICR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Info: Redefining \. on input line 194.
-LaTeX Info: Redefining \% on input line 194.
-Package hyperref Info: Link coloring OFF on input line 194.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+Package hyperref Info: Link coloring OFF on input line 195.
  (ICR.out) (ICR.out)
 \@outlinefile=\write7
 \openout7 = `ICR.out'.
@@ -1230,7 +1230,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 194.
+or `spanish'. on input line 195.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1530,15 +1530,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3])
-Underfull \hbox (badness 1248) in paragraph at lines 85--305
+Underfull \hbox (badness 1248) in paragraph at lines 85--306
 []\OT1/ptm/m/n/12 Finalmente, se in-clu-ye un ap[]endi-ce con in-for-ma-ci[]on 
 com-ple-men-ta-ria de los art[]^^Pcu-los
  []
 
 
 
-LaTeX Info: Redefining \. on input line 305.
-LaTeX Info: Redefining \% on input line 305.
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1657,21 +1657,21 @@ is re-gio-nal exhaus-ti-vo de
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 231--308
+Underfull \hbox (badness 10000) in paragraph at lines 231--309
 []\OT1/ptm/m/n/12 Z[]u[]niga, Su[]arez, Figueroa-Soto y Men-do-za (2022) pro-po
 -nen una re-gio-na-li-za-ci[]on
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 231--308
+Underfull \hbox (badness 1057) in paragraph at lines 231--309
 \OT1/ptm/m/n/12 sis-mo-tect[]oni-ca de pri-mer or-den pa-ra M[]exi-co ba-sa-da 
 en el an[]ali-sis es-tad[]^^Psti-co exhaus-ti-vo
  []
 
 
 
-LaTeX Info: Redefining \. on input line 308.
-LaTeX Info: Redefining \% on input line 308.
+LaTeX Info: Redefining \. on input line 309.
+LaTeX Info: Redefining \% on input line 309.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1731,15 +1731,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15])
-Underfull \hbox (badness 1009) in paragraph at lines 54--311
+Underfull \hbox (badness 1009) in paragraph at lines 54--312
 \OT1/ptm/m/n/12 es-ti-ma-ci[]on de par[]ame-tros por m[]axi-ma ve-ro-si-mi-li-t
 ud, y (4) c[]alcu-lo de ni-ve-les de re-torno
  []
 
 
 
-LaTeX Info: Redefining \. on input line 311.
-LaTeX Info: Redefining \% on input line 311.
+LaTeX Info: Redefining \. on input line 312.
+LaTeX Info: Redefining \% on input line 312.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1932,8 +1932,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [29])
 
-LaTeX Info: Redefining \. on input line 314.
-LaTeX Info: Redefining \% on input line 314.
+LaTeX Info: Redefining \. on input line 315.
+LaTeX Info: Redefining \% on input line 315.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2271,14 +2271,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [48]
-Overfull \hbox (15.70663pt too wide) in alignment at lines 755--755
- [] [] [] [] [] [] [] [] [] [] 
- []
 
-
-
-LaTeX Info: Redefining \. on input line 768.
-LaTeX Info: Redefining \% on input line 768.
+LaTeX Info: Redefining \. on input line 801.
+LaTeX Info: Redefining \% on input line 801.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2287,14 +2282,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [49]
-Overfull \hbox (15.70663pt too wide) in alignment at lines 808--808
+Overfull \hbox (15.70663pt too wide) in alignment at lines 841--841
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 826.
-LaTeX Info: Redefining \% on input line 826.
+LaTeX Info: Redefining \. on input line 859.
+LaTeX Info: Redefining \% on input line 859.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2303,159 +2298,159 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Media Gro. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Media Gro. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 875--875
+Underfull \hbox (badness 2961) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Media Mich. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 875--875
+Underfull \hbox (badness 6477) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 875--875
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
  []
 
 
 
-LaTeX Info: Redefining \. on input line 886.
-LaTeX Info: Redefining \% on input line 886.
+LaTeX Info: Redefining \. on input line 919.
+LaTeX Info: Redefining \% on input line 919.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2464,154 +2459,154 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Oax. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Gro. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Chis. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media R.N. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Overfull \hbox (1.40045pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40045pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Michoac[]an| 
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Resto
  []
 
 
-Overfull \hbox (1.40034pt too wide) in paragraph at lines 930--930
+Overfull \hbox (1.40034pt too wide) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\OT1/ptm/m/n/8 Media Nals. $\OML/ztmcm/m/it/8 >$
  []
 
 
 
-LaTeX Info: Redefining \. on input line 940.
-LaTeX Info: Redefining \% on input line 940.
+LaTeX Info: Redefining \. on input line 973.
+LaTeX Info: Redefining \% on input line 973.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2620,117 +2615,117 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [52]
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1022--1022
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1055--1055
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1055
 []|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1024
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1057
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1058--1058
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1027--1027
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1060--1060
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1028--1028
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1061--1061
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1028--1028
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1061
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1033--1033
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1066--1066
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1034--1034
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1067--1067
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1067
 []|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1036--1036
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1069--1069
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1037--1037
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1070--1070
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1037--1037
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1070--1070
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1037--1037
+Underfull \hbox (badness 10000) in paragraph at lines 1070--1070
 []|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1072
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1040--1040
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1073--1073
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1075
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1042--1042
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1075--1075
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
-LaTeX Info: Redefining \. on input line 1043.
-LaTeX Info: Redefining \% on input line 1043.
+LaTeX Info: Redefining \. on input line 1076.
+LaTeX Info: Redefining \% on input line 1076.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2739,144 +2734,144 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [53]
-Underfull \hbox (badness 1137) in paragraph at lines 1057--1059
+Underfull \hbox (badness 1137) in paragraph at lines 1090--1092
 \OT1/ptm/m/n/12 sig-ni-fi-ca-ti-vas en las pro-por-cio-nes en-tre las re-gio-ne
 s com-pa-ra-das (H$[]$: $\OML/ztmcm/m/it/12 p[] \OMS/ztmcm/m/n/12 6\OT1/ztmcm/m
 /n/12 = \OML/ztmcm/m/it/12 p[]$ \OT1/ptm/m/n/12 (las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1125--1125
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1158--1158
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1125--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1158
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1127--1127
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1160
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1161
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1161
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1130--1130
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1163--1163
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1131--1131
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1164--1164
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1131--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1164
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1133
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1166
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1134--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1167
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1134--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1167
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1136--1136
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1169--1169
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1137--1137
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1170--1170
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1170
 []|\OT1/ptm/m/n/10 Proporci[]on Chis. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1139--1139
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1172--1172
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1139
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1172
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1139
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1172
 []|\OT1/ptm/m/n/10 Proporci[]on R.N. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1140--1140
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1173--1173
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1140--1140
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1173--1173
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1140--1140
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1173
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1175
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1175
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1143--1143
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1176--1176
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1145--1145
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1178
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1145--1145
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1178--1178
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
-LaTeX Info: Redefining \. on input line 1146.
-LaTeX Info: Redefining \% on input line 1146.
+LaTeX Info: Redefining \. on input line 1179.
+LaTeX Info: Redefining \% on input line 1179.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2885,161 +2880,161 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [54]
-Underfull \hbox (badness 1137) in paragraph at lines 1158--1160
+Underfull \hbox (badness 1137) in paragraph at lines 1191--1193
 \OT1/ptm/m/n/12 sig-ni-fi-ca-ti-vas en las pro-por-cio-nes en-tre las re-gio-ne
 s com-pa-ra-das (H$[]$: $\OML/ztmcm/m/it/12 p[] \OMS/ztmcm/m/n/12 6\OT1/ztmcm/m
 /n/12 = \OML/ztmcm/m/it/12 p[]$ \OT1/ptm/m/n/12 (las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Proporci[]on Gro. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Proporci[]on Gro. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1213.
-LaTeX Info: Redefining \% on input line 1213.
+LaTeX Info: Redefining \. on input line 1246.
+LaTeX Info: Redefining \% on input line 1246.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3048,7 +3043,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [55]
-Underfull \hbox (badness 1137) in paragraph at lines 1227--1229
+Underfull \hbox (badness 1137) in paragraph at lines 1260--1262
 \OT1/ptm/m/n/12 sig-ni-fi-ca-ti-vas en las pro-por-cio-nes en-tre las re-gio-ne
 s com-pa-ra-das (H$[]$: $\OML/ztmcm/m/it/12 p[] \OMS/ztmcm/m/n/12 6\OT1/ztmcm/m
 /n/12 = \OML/ztmcm/m/it/12 p[]$ \OT1/ptm/m/n/12 (las
@@ -3056,8 +3051,8 @@ s com-pa-ra-das (H$[]$: $\OML/ztmcm/m/it/12 p[] \OMS/ztmcm/m/n/12 6\OT1/ztmcm/m
 
 
 
-LaTeX Info: Redefining \. on input line 1231.
-LaTeX Info: Redefining \% on input line 1231.
+LaTeX Info: Redefining \. on input line 1264.
+LaTeX Info: Redefining \% on input line 1264.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3066,152 +3061,152 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Proporci[]on Chis. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59587pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59587pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Michoac[]an| 
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Sin di-fe-ren-cia
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Resto
  []
 
 
-Overfull \hbox (4.59573pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (4.59573pt too wide) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Nacionales| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
 []|\OT1/ptm/m/n/10 Proporci[]on Nals. $\OML/ztmcm/m/it/10 >$
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 1281--1283
+Underfull \hbox (badness 1137) in paragraph at lines 1314--1316
 \OT1/ptm/m/n/12 sig-ni-fi-ca-ti-vas en las pro-por-cio-nes en-tre las re-gio-ne
 s com-pa-ra-das (H$[]$: $\OML/ztmcm/m/it/12 p[] \OMS/ztmcm/m/n/12 6\OT1/ztmcm/m
 /n/12 = \OML/ztmcm/m/it/12 p[]$ \OT1/ptm/m/n/12 (las
@@ -3219,8 +3214,8 @@ s com-pa-ra-das (H$[]$: $\OML/ztmcm/m/it/12 p[] \OMS/ztmcm/m/n/12 6\OT1/ztmcm/m
 
 
 
-LaTeX Info: Redefining \. on input line 1283.
-LaTeX Info: Redefining \% on input line 1283.
+LaTeX Info: Redefining \. on input line 1316.
+LaTeX Info: Redefining \% on input line 1316.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3230,8 +3225,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [57]
 
-LaTeX Info: Redefining \. on input line 1411.
-LaTeX Info: Redefining \% on input line 1411.
+LaTeX Info: Redefining \. on input line 1444.
+LaTeX Info: Redefining \% on input line 1444.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3244,8 +3239,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 1411.
-LaTeX Info: Redefining \% on input line 1411.
+LaTeX Info: Redefining \. on input line 1444.
+LaTeX Info: Redefining \% on input line 1444.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3254,44 +3249,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [59]
-Overfull \hbox (15.30804pt too wide) in paragraph at lines 1411--1411
-[] \TS1/cmtt/m/n/12 ˆ \OT1/cmtt/m/n/12 Michoac^^San vs Resto Nacionales: Z=-2.3
-25, p=0.0201 - PROPORCIONES DIFERENTES[] 
- []
-
-
-Overfull \hbox (9.13304pt too wide) in paragraph at lines 1411--1411
-[] \TS1/cmtt/m/n/12 ˆ \OT1/cmtt/m/n/12 Resto Nacionales vs Nacional: Z=-4.972, 
-p=0.0000 - PROPORCIONES DIFERENTES[] 
- []
-
-
-Overfull \hbox (15.30804pt too wide) in paragraph at lines 1411--1411
-[] \TS1/cmtt/m/n/12 ˆ \OT1/cmtt/m/n/12 Michoac^^San vs Resto Nacionales: Z=-2.4
-41, p=0.0146 - PROPORCIONES DIFERENTES[] 
- []
-
-
-Overfull \hbox (9.13304pt too wide) in paragraph at lines 1411--1411
-[] \TS1/cmtt/m/n/12 ˆ \OT1/cmtt/m/n/12 Resto Nacionales vs Nacional: Z=-5.162, 
-p=0.0000 - PROPORCIONES DIFERENTES[] 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-LaTeX Info: Redefining \. on input line 1411.
-LaTeX Info: Redefining \% on input line 1411.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[60]
 
 LaTeX Info: Redefining \. on input line 1444.
 LaTeX Info: Redefining \% on input line 1444.
@@ -3302,63 +3262,74 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[60]
+
+LaTeX Info: Redefining \. on input line 1477.
+LaTeX Info: Redefining \% on input line 1477.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [61]
-Underfull \hbox (badness 2213) in paragraph at lines 1562--1562
+Underfull \hbox (badness 2213) in paragraph at lines 1595--1595
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1563--1563
+Underfull \hbox (badness 2213) in paragraph at lines 1596--1596
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1565--1565
+Underfull \hbox (badness 2213) in paragraph at lines 1598--1598
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1568--1568
+Underfull \hbox (badness 2213) in paragraph at lines 1601--1601
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1571--1571
+Underfull \hbox (badness 2213) in paragraph at lines 1604--1604
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1572--1572
+Underfull \hbox (badness 2213) in paragraph at lines 1605--1605
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1574--1574
+Underfull \hbox (badness 2213) in paragraph at lines 1607--1607
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1575--1575
+Underfull \hbox (badness 2213) in paragraph at lines 1608--1608
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1584--1584
+Underfull \hbox (badness 2213) in paragraph at lines 1617--1617
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1586--1586
+Underfull \hbox (badness 2213) in paragraph at lines 1619--1619
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1587--1587
+Underfull \hbox (badness 2213) in paragraph at lines 1620--1620
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
-LaTeX Info: Redefining \. on input line 1591.
-LaTeX Info: Redefining \% on input line 1591.
+LaTeX Info: Redefining \. on input line 1624.
+LaTeX Info: Redefining \% on input line 1624.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3369,8 +3340,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [62
 
 ]
-LaTeX Info: Redefining \. on input line 1693.
-LaTeX Info: Redefining \% on input line 1693.
+LaTeX Info: Redefining \. on input line 1726.
+LaTeX Info: Redefining \% on input line 1726.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3380,62 +3351,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [63]
-Underfull \hbox (badness 2213) in paragraph at lines 1766--1766
+Underfull \hbox (badness 2213) in paragraph at lines 1799--1799
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1767--1767
+Underfull \hbox (badness 2213) in paragraph at lines 1800--1800
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1769--1769
+Underfull \hbox (badness 2213) in paragraph at lines 1802--1802
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1772--1772
+Underfull \hbox (badness 2213) in paragraph at lines 1805--1805
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1773--1773
+Underfull \hbox (badness 2213) in paragraph at lines 1806--1806
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1775--1775
+Underfull \hbox (badness 2213) in paragraph at lines 1808--1808
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1776--1776
+Underfull \hbox (badness 2213) in paragraph at lines 1809--1809
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1778--1778
+Underfull \hbox (badness 2213) in paragraph at lines 1811--1811
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1779--1779
+Underfull \hbox (badness 2213) in paragraph at lines 1812--1812
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1788--1788
+Underfull \hbox (badness 2213) in paragraph at lines 1821--1821
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1791--1791
+Underfull \hbox (badness 2213) in paragraph at lines 1824--1824
 []|\OT1/ptm/m/n/10 Ajuste par-cial (KS,
  []
 
-LaTeX Info: Redefining \. on input line 1795.
-LaTeX Info: Redefining \% on input line 1795.
+LaTeX Info: Redefining \. on input line 1828.
+LaTeX Info: Redefining \% on input line 1828.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3445,8 +3416,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [64]
 
-LaTeX Info: Redefining \. on input line 1847.
-LaTeX Info: Redefining \% on input line 1847.
+LaTeX Info: Redefining \. on input line 1880.
+LaTeX Info: Redefining \% on input line 1880.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3456,8 +3427,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [65]
 
-LaTeX Info: Redefining \. on input line 1895.
-LaTeX Info: Redefining \% on input line 1895.
+LaTeX Info: Redefining \. on input line 1928.
+LaTeX Info: Redefining \% on input line 1928.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3466,34 +3437,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [66]
-Overfull \hbox (4.136pt too wide) in alignment at lines 1947--1953
+Overfull \hbox (4.136pt too wide) in alignment at lines 1980--1986
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.136pt too wide) in alignment at lines 1953--1958
+Overfull \hbox (4.136pt too wide) in alignment at lines 1986--1991
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.136pt too wide) in alignment at lines 1958--1960
+Overfull \hbox (4.136pt too wide) in alignment at lines 1991--1993
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.136pt too wide) in alignment at lines 1960--1962
+Overfull \hbox (4.136pt too wide) in alignment at lines 1993--1995
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.136pt too wide) in alignment at lines 1962--1993
+Overfull \hbox (4.136pt too wide) in alignment at lines 1995--2026
  [] [] [] [] [] [] [] [] 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2041.
-LaTeX Info: Redefining \% on input line 2041.
+LaTeX Info: Redefining \. on input line 2074.
+LaTeX Info: Redefining \% on input line 2074.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3502,109 +3473,109 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [67]
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2089
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2122
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2089.
-LaTeX Info: Redefining \% on input line 2089.
+LaTeX Info: Redefining \. on input line 2122.
+LaTeX Info: Redefining \% on input line 2122.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3613,52 +3584,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2170
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
@@ -3667,8 +3638,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 2137.
-LaTeX Info: Redefining \% on input line 2137.
+LaTeX Info: Redefining \. on input line 2170.
+LaTeX Info: Redefining \% on input line 2170.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3677,107 +3648,107 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
-Overfull \hbox (4.64908pt too wide) in paragraph at lines 2185--2185
+Overfull \hbox (4.64908pt too wide) in paragraph at lines 2218--2218
 []|\OT1/ptm/b/n/10 Interpretaci[]on| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2185
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2218
 []|\OT1/ptm/m/n/10 Rechazo de
  []
 
@@ -3786,8 +3757,8 @@ Underfull \vbox (badness 1584) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 2185.
-LaTeX Info: Redefining \% on input line 2185.
+LaTeX Info: Redefining \. on input line 2218.
+LaTeX Info: Redefining \% on input line 2218.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3797,8 +3768,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [70]
 
-LaTeX Info: Redefining \. on input line 2189.
-LaTeX Info: Redefining \% on input line 2189.
+LaTeX Info: Redefining \. on input line 2222.
+LaTeX Info: Redefining \% on input line 2222.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3807,49 +3778,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [71]
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2233--2233
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2266
 []|\OT1/ptm/m/n/10 Ajuste par-cial
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2238.
-LaTeX Info: Redefining \% on input line 2238.
+LaTeX Info: Redefining \. on input line 2271.
+LaTeX Info: Redefining \% on input line 2271.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3858,7 +3829,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [72]
-Underfull \hbox (badness 2495) in paragraph at lines 2245--2246
+Underfull \hbox (badness 2495) in paragraph at lines 2278--2279
 []\OT1/ptm/m/n/12 Para el da-ta-set de mag-ni-tu-des m[]axi-mas anua-les, los r
 e-sul-ta-dos per-mi-ten iden-ti-fi-car
  []
@@ -3868,8 +3839,8 @@ Underfull \vbox (badness 1527) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 2293.
-LaTeX Info: Redefining \% on input line 2293.
+LaTeX Info: Redefining \. on input line 2326.
+LaTeX Info: Redefining \% on input line 2326.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3878,15 +3849,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [73]
-Overfull \hbox (1.7874pt too wide) in paragraph at lines 2341--2342
+Overfull \hbox (1.7874pt too wide) in paragraph at lines 2374--2375
 []\OT1/ptm/m/n/12 Para Gue-rre-ro se se-lec-cio-na la dis-tri-bu-ci[]on Wei-bul
 l. Es-ta dis-tri-bu-ci[]on apa-re-ce con-sis-ten-te-men-te
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2364.
-LaTeX Info: Redefining \% on input line 2364.
+LaTeX Info: Redefining \. on input line 2397.
+LaTeX Info: Redefining \% on input line 2397.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3896,8 +3867,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [74]
 
-LaTeX Info: Redefining \. on input line 2434.
-LaTeX Info: Redefining \% on input line 2434.
+LaTeX Info: Redefining \. on input line 2467.
+LaTeX Info: Redefining \% on input line 2467.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3907,8 +3878,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [75]
 
-LaTeX Info: Redefining \. on input line 2505.
-LaTeX Info: Redefining \% on input line 2505.
+LaTeX Info: Redefining \. on input line 2538.
+LaTeX Info: Redefining \% on input line 2538.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3921,12 +3892,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./Imagenes/curva_gumbel_oaxaca.png Graphic file (type png)
 <use ./Imagenes/curva_gumbel_oaxaca.png>
 Package pdftex.def Info: ./Imagenes/curva_gumbel_oaxaca.png  used on input line
- 2542.
+ 2575.
 (pdftex.def)             Requested size: 373.07396pt x 216.91505pt.
 
 
-LaTeX Info: Redefining \. on input line 2546.
-LaTeX Info: Redefining \% on input line 2546.
+LaTeX Info: Redefining \. on input line 2579.
+LaTeX Info: Redefining \% on input line 2579.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3939,18 +3910,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./Imagenes/curva_weibull_guerrero.png Graphic file (type png)
 <use ./Imagenes/curva_weibull_guerrero.png>
 Package pdftex.def Info: ./Imagenes/curva_weibull_guerrero.png  used on input l
-ine 2553.
+ine 2586.
 (pdftex.def)             Requested size: 373.07396pt x 215.42276pt.
 <./Imagenes/curva_gev_michoacan.png, id=1238, 717.882pt x 415.5525pt>
 File: ./Imagenes/curva_gev_michoacan.png Graphic file (type png)
 <use ./Imagenes/curva_gev_michoacan.png>
 Package pdftex.def Info: ./Imagenes/curva_gev_michoacan.png  used on input line
- 2564.
+ 2597.
 (pdftex.def)             Requested size: 373.07396pt x 215.95538pt.
 
 
-LaTeX Info: Redefining \. on input line 2568.
-LaTeX Info: Redefining \% on input line 2568.
+LaTeX Info: Redefining \. on input line 2601.
+LaTeX Info: Redefining \% on input line 2601.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3964,18 +3935,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./Imagenes/curva_weibull_chiapas.png Graphic file (type png)
 <use ./Imagenes/curva_weibull_chiapas.png>
 Package pdftex.def Info: ./Imagenes/curva_weibull_chiapas.png  used on input li
-ne 2575.
+ne 2608.
 (pdftex.def)             Requested size: 373.07396pt x 217.96542pt.
 <./Imagenes/curva_logistica_resto.png, id=1248, 760.64175pt x 442.65375pt>
 File: ./Imagenes/curva_logistica_resto.png Graphic file (type png)
 <use ./Imagenes/curva_logistica_resto.png>
 Package pdftex.def Info: ./Imagenes/curva_logistica_resto.png  used on input li
-ne 2586.
+ne 2619.
 (pdftex.def)             Requested size: 373.07396pt x 217.1116pt.
 
 
-LaTeX Info: Redefining \. on input line 2590.
-LaTeX Info: Redefining \% on input line 2590.
+LaTeX Info: Redefining \. on input line 2623.
+LaTeX Info: Redefining \% on input line 2623.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3989,12 +3960,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./Imagenes/curva_normal_nacional.png Graphic file (type png)
 <use ./Imagenes/curva_normal_nacional.png>
 Package pdftex.def Info: ./Imagenes/curva_normal_nacional.png  used on input li
-ne 2597.
+ne 2630.
 (pdftex.def)             Requested size: 373.07396pt x 215.6003pt.
 )
 
-LaTeX Info: Redefining \. on input line 317.
-LaTeX Info: Redefining \% on input line 317.
+LaTeX Info: Redefining \. on input line 318.
+LaTeX Info: Redefining \% on input line 318.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4041,8 +4012,8 @@ Underfull \hbox (badness 1048) in paragraph at lines 16--17
 
 ])
 
-LaTeX Info: Redefining \. on input line 320.
-LaTeX Info: Redefining \% on input line 320.
+LaTeX Info: Redefining \. on input line 321.
+LaTeX Info: Redefining \% on input line 321.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4064,8 +4035,8 @@ Ap\'{e}ndice A.
 
 ]
 
-LaTeX Info: Redefining \. on input line 333.
-LaTeX Info: Redefining \% on input line 333.
+LaTeX Info: Redefining \. on input line 334.
+LaTeX Info: Redefining \% on input line 334.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4108,7 +4079,7 @@ Package rerunfilecheck Info: File `ICR.out' has not changed.
 Here is how much of TeX's memory you used:
  32015 strings out of 468133
  610319 string characters out of 5440786
- 1143368 words of memory out of 5000000
+ 1143383 words of memory out of 5000000
  59601 multiletter control sequences out of 15000+600000
  700816 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

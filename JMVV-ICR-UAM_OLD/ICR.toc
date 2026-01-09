@@ -1,0 +1,109 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Resumen}{III}{chapter*.1}%
+\contentsline {chapter}{Abstract}{V}{chapter*.2}%
+\contentsline {chapter}{Dedicatoria}{VII}{chapter*.3}%
+\contentsline {chapter}{Agradecimientos}{IX}{chapter*.4}%
+\contentsline {chapter}{{Índice general}}{XIII}{chapter*.6}%
+\contentsline {chapter}{{Índice de tablas}}{XVI}{chapter*.8}%
+\contentsline {chapter}{{Índice de figuras}}{XVII}{chapter*.10}%
+\contentsline {chapter}{Simbología y Acrónimos}{XIX}{chapter*.12}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Planteamiento del problema}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Justificación}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objetivos}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo general}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos específicos}{3}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Principales contribuciones}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Organización del documento}{4}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Marco teórico }{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Síntesis de los artículos}{6}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Estado del arte }{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Revisión del estado del arte}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Análisis del estado del arte}{15}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Metodología }{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología de investigación}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Fases de desarrollo del proyecto}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Media aritmética}{19}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Mediana}{19}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Moda}{19}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Varianza muestral}{19}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Desviación estándar}{20}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Coeficiente de asimetría}{20}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Coeficiente de curtosis}{20}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Intervalo de confianza para la media}{21}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Intervalo de confianza para la varianza}{21}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.10}Intervalo de confianza para la proporción}{22}{subsection.4.2.10}%
+\contentsline {subsection}{\numberline {4.2.11}Prueba de hipótesis para el cociente de varianzas (prueba F)}{22}{subsection.4.2.11}%
+\contentsline {subsection}{\numberline {4.2.12}Prueba de hipótesis para diferencia de medias con varianzas iguales (pooled)}{23}{subsection.4.2.12}%
+\contentsline {subsection}{\numberline {4.2.13}Prueba de hipótesis para diferencia de medias con varianzas diferentes (Welch)}{23}{subsection.4.2.13}%
+\contentsline {subsection}{\numberline {4.2.14}Prueba de hipótesis para la diferencia de proporciones con proporciones agrupadas o iguales (pooled)}{24}{subsection.4.2.14}%
+\contentsline {subsection}{\numberline {4.2.15}Prueba de hipótesis para la diferencia de proporciones sin agrupamiento o diferentes}{24}{subsection.4.2.15}%
+\contentsline {subsection}{\numberline {4.2.16}Prueba de bondad de ajuste Kolmogorov-Smirnov}{25}{subsection.4.2.16}%
+\contentsline {subsection}{\numberline {4.2.17}Prueba de bondad de ajuste Anderson-Darling}{25}{subsection.4.2.17}%
+\contentsline {subsection}{\numberline {4.2.18}Prueba de bondad de ajuste Lilliefors}{26}{subsection.4.2.18}%
+\contentsline {subsection}{\numberline {4.2.19}Criterio de Información Bayesiano}{26}{subsection.4.2.19}%
+\contentsline {subsection}{\numberline {4.2.20}Selección de la distribución óptima por región}{26}{subsection.4.2.20}%
+\contentsline {subsection}{\numberline {4.2.21}Estimación de parámetros por máxima verosimilitud}{27}{subsection.4.2.21}%
+\contentsline {subsection}{\numberline {4.2.22}Cálculo del periodo de retorno}{27}{subsection.4.2.22}%
+\contentsline {subsection}{\numberline {4.2.23}Cálculo del nivel de retorno}{27}{subsection.4.2.23}%
+\contentsline {subsubsection}{Nivel de retorno para la distribución de Gumbel}{28}{section*.17}%
+\contentsline {subsubsection}{Nivel de retorno para la distribución de Weibull}{28}{section*.18}%
+\contentsline {subsubsection}{Nivel de retorno para la distribución generalizada de valores extremos}{28}{section*.19}%
+\contentsline {subsubsection}{Nivel de retorno para la distribución Logística}{28}{section*.20}%
+\contentsline {subsubsection}{Nivel de retorno para la distribución Normal}{29}{section*.21}%
+\contentsline {subsubsection}{Periodos de retorno analizados}{29}{section*.22}%
+\contentsline {subsection}{\numberline {4.2.24}Cálculo de probabilidades de excedencia}{29}{subsection.4.2.24}%
+\contentsline {subsection}{\numberline {4.2.25}Interpretación de los resultados}{30}{subsection.4.2.25}%
+\contentsline {chapter}{\numberline {5}Análisis de resultados }{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Herramientas utilizadas}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Resultados de estadísticos descriptivos}{31}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Representación gráfica de los datos sísmicos}{32}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Histogramas de densidad de los sismos para sismos totales}{33}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Histogramas de densidad de los sismos para magnitudes máximas}{34}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Histogramas de frecuencias relativas por mes para sismos totales}{36}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Histogramas de frecuencias relativas por mes para magnitudes máximas}{37}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Histogramas de sismos por magnitud}{38}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Gráfico de magnitud máxima, promedio y mínima en el tiempo}{39}{subsection.5.3.6}%
+\contentsline {section}{\numberline {5.4}Intervalos de confianza y tamaño mínimo de la muestra}{40}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Intervalo de confianza para la media}{40}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Intervalo de confianza para la varianza}{42}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Intervalo de confianza para la proporción de sismos mayores al umbral crítico}{43}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Resultados de las pruebas de proporciones mayores a 6.5°}{45}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Estimación del tamaño mínimo de la muestra para la media}{46}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Pruebas de hipótesis}{48}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Prueba de hipótesis para el cociente de varianzas (prueba F)}{49}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Prueba de hipótesis para diferencia de medias}{51}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Prueba de hipótesis para diferencia de proporciones iguales}{53}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Prueba de hipótesis para diferencias de proporciones diferentes}{55}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.5}Resumen de las pruebas de hipótesis}{58}{subsection.5.6.5}%
+\contentsline {section}{\numberline {5.7}Criterio de Información Bayesiano (BIC)}{61}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Pruebas de bondad de ajuste KS, AD, LF}{61}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Oaxaca resultados de PBA para Sismos Totales}{62}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Oaxaca resultados de PBA para Magnitudes Máximas}{62}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Guerrero resultados de PBA para Sismos Totales}{63}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Guerrero resultados de PBA para Magnitudes Máximas}{64}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}Michoacán resultados de PBA para Sismos Totales}{65}{subsection.5.8.5}%
+\contentsline {subsection}{\numberline {5.8.6}Michoacán resultados de PBA para Magnitudes Máximas}{66}{subsection.5.8.6}%
+\contentsline {subsection}{\numberline {5.8.7}Chiapas resultados de PBA para Sismos Totales}{67}{subsection.5.8.7}%
+\contentsline {subsection}{\numberline {5.8.8}Chiapas resultados de PBA para Magnitudes Máximas}{67}{subsection.5.8.8}%
+\contentsline {subsection}{\numberline {5.8.9}Resto Nacionales resultados de PBA para Sismos Totales}{68}{subsection.5.8.9}%
+\contentsline {subsection}{\numberline {5.8.10}Resto Nacionales resultados de PBA para Magnitudes Máximas}{70}{subsection.5.8.10}%
+\contentsline {subsection}{\numberline {5.8.11}Sismos Nacionales resultados de PBA para Sismos Totales}{71}{subsection.5.8.11}%
+\contentsline {subsection}{\numberline {5.8.12}Sismos Nacionales resultados de PBA para Magnitudes Máximas}{72}{subsection.5.8.12}%
+\contentsline {section}{\numberline {5.9}Resumen de Resultados de Bondad de Ajuste y BIC}{73}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Oaxaca}{73}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Guerrero}{74}{subsection.5.9.2}%
+\contentsline {subsection}{\numberline {5.9.3}Michoacán}{75}{subsection.5.9.3}%
+\contentsline {subsection}{\numberline {5.9.4}Chiapas}{75}{subsection.5.9.4}%
+\contentsline {subsection}{\numberline {5.9.5}Resto Nacionales}{76}{subsection.5.9.5}%
+\contentsline {subsection}{\numberline {5.9.6}Sismos Nacionales}{77}{subsection.5.9.6}%
+\contentsline {section}{\numberline {5.10}Graficos de las mejores distribuciones seleccionadas}{77}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Oaxaca}{77}{subsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.10.2}Guerrero}{78}{subsection.5.10.2}%
+\contentsline {subsection}{\numberline {5.10.3}Michoacán}{78}{subsection.5.10.3}%
+\contentsline {subsection}{\numberline {5.10.4}Chiapas}{79}{subsection.5.10.4}%
+\contentsline {subsection}{\numberline {5.10.5}Resto Nacionales}{79}{subsection.5.10.5}%
+\contentsline {subsection}{\numberline {5.10.6}Sismos Nacionales}{80}{subsection.5.10.6}%
+\contentsline {chapter}{\numberline {6}Conclusiones }{81}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Anexo 1 }{83}{appendix.Alph1}%
+\contentsline {chapter}{{Bibliografía}}{87}{appendix*.57}%

@@ -1,0 +1,54 @@
+\chapter{Estado del arte \label{cap:EstadoDelArte}}
+
+\noindent
+Es utilizada principalmente la bibliografía encontrada en el capítulo anterior referente a la predicción probabilista sísmica utilizando el método de distribución logaritmo normal y gama, distribución de valores extremos, así como el estado del arte de los métodos desarrollados basados en inteligencia artificial, aprendizaje de máquina (machine learning) y redes neuronales. 
+
+Todo esto es aplicado a la solución del problema desde un enfoque que utiliza las técnicas conocidas y los datos estadísticos específicos para el problema a resolver. 
+
+\section{Revisión del estado del arte}
+
+\noindent
+En esta sección se presenta una revisión del estado del arte de los trabajos más relevantes para este proyecto, con el propósito de enriquecer la metodología propuesta. 
+
+Los terremotos son vibraciones de la corteza terrestre \cite{abebe2023earthquakes}, las cuales pueden provocar temblores, incendios, deslizamientos de tierra y fracturas en el terreno que representan una amenaza significativa para la vida humana y la infraestructura. La predicción y evaluación del peligro sísmico constituye un área de investigación activa que ha evolucionado significativamente en las últimas décadas. 
+
+Dentro de las distintas formas de realizar inferencia y predicción sísmica se han desarrollado técnicas basadas en IA \cite{albanna2020application} para identificar patrones ocultos en los datos sísmicos que podrían preceder a eventos significativos. Estas técnicas incluyen redes neuronales artificiales, máquinas de soporte vectorial y algoritmos de aprendizaje profundo que han mostrado resultados prometedores en diversas regiones del mundo. 
+
+Estas técnicas generalmente se cimentan en análisis matemáticos, probabilistas y estadísticos \cite{convertito2021time,matsumoto2023fundamental,sawires2023probabilistic,velascoherrera2022long} para estimar la probabilidad de ocurrencia de sismos en una zona determinada. El enfoque probabilístico permite cuantificar la incertidumbre inherente a los procesos sísmicos y proporciona herramientas para la toma de decisiones en materia de gestión del riesgo.
+
+El análisis de valores extremos se sustenta principalmente en dos enfoques metodológicos: el método de máximos anuales y el de excedencias sobre umbral (peak-over-threshold). \citeasnoun{bommier2023peak} realiza un análisis comparativo exhaustivo entre ambos enfoques, concluyendo que el método de máximos anuales es preferible cuando se dispone de series temporales largas, como es el caso de los catálogos sísmicos históricos. Este enfoque constituye la base metodológica del presente trabajo. 
+
+El marco teórico fundamental para el análisis probabilístico de peligrosidad sísmica fue establecido por \citeasnoun{cornell1968engineering} en su artículo seminal sobre análisis de riesgo sísmico en ingeniería.  Este trabajo introduce el concepto de periodo de retorno y establece las bases matemáticas para calcular probabilidades de excedencia, metodología que se ha convertido en el estándar internacional para la evaluación de peligrosidad sísmica y que es aplicada en el presente proyecto.
+
+Con respecto a estos cálculos matemáticos y estadísticos, se utilizan técnicas como los modelos lineales de tipo log-lineal \cite{barrientos2007analisis}, log-normales \cite{ferraes2005probabilistic} y distribuciones de valores extremos \cite{coles2001introduction,shobanke2024comparative} para caracterizar la distribución de magnitudes sísmicas. La selección de la distribución apropiada para cada región es fundamental para obtener estimaciones confiables de peligrosidad. 
+
+\citeasnoun{johnson1995continuous} proporcionan una referencia exhaustiva sobre distribuciones de probabilidad continuas, incluyendo las distribuciones normal, logística, Weibull y Gumbel que son empleadas en este trabajo para modelar las magnitudes máximas anuales en las diferentes regiones de estudio.  La correcta caracterización de estas distribuciones permite calcular niveles de retorno y probabilidades de excedencia con rigor matemático. 
+
+El cálculo de períodos de retorno y probabilidades de excedencia constituye un componente esencial de la evaluación probabilística de peligrosidad sísmica.  \citeasnoun{mignan2021best} desarrollan un marco metodológico para el pronóstico probabilístico de rupturas sísmicas, estableciendo las mejores prácticas para la integración de modelos físicos con el análisis estadístico.  Estos conceptos son aplicados en la Fase 10 de la metodología del presente trabajo para estimar cuándo podría ocurrir un sismo de magnitud significativa. 
+
+El análisis temporal de la actividad sísmica y el concepto de brecha sísmica han ganado relevancia en años recientes como complemento a los modelos puramente probabilísticos.  \citeasnoun{sanchezsilva2020real} implementan modelos de renovación para la actualización en tiempo real del riesgo sísmico, mientras que \citeasnoun{ramirezgaytan2021earthquake} analizan específicamente la brecha sísmica de Michoacán, una de las regiones consideradas en el presente estudio.
+
+La construcción de índices compuestos de peligrosidad sísmica que integren múltiples factores de riesgo representa una tendencia metodológica reciente. \citeasnoun{convertito2020combining} desarrollan un modelo que combina la transferencia de esfuerzos tectónicos con el análisis de agrupamiento espacial de sismos, proporcionando un enfoque más completo para el pronóstico de la sismicidad. 
+
+Cabe destacar también el análisis hecho con series temporales de gas radón \cite{tareen2019descriptive} que más allá de solo buscar patrones en magnitudes, epicentros, fechas y profundidades, busca precursores de sismos mediante análisis estadístico descriptivo de variables geoquímicas.  Este tipo de estudios complementan los enfoques basados exclusivamente en datos sismológicos. 
+
+Los artículos revisados abarcan distintas áreas geográficas del planeta, como la costa occidental de México \cite{barrientos2007analisis,sawires2023probabilistic,zuniga2022first}, el Cuerno de África \cite{abebe2023earthquakes}, Taiwán \cite{phung2020ground}, el Himalaya occidental \cite{singh2021ground}, Irán \cite{yaghmaeisakbegh2022regional}, la India \cite{jena2021earthquake}, Japón \cite{matsumoto2023fundamental} y Suiza \cite{convertito2021time}. Esta diversidad geográfica permite identificar metodologías aplicables a diferentes contextos tectónicos. 
+
+También podemos encontrar trabajos con un enfoque conceptual y metodológico que revisan teorías de predicción sísmica y su evolución a lo largo del tiempo \cite{galbanrodriguez2021theoretical}. Estos trabajos proporcionan el marco conceptual necesario para entender las limitaciones inherentes a la predicción sísmica y los criterios para evaluar la validez de los pronósticos.
+
+En el contexto mexicano específico, varios estudios recientes han aplicado metodologías de valores extremos y análisis de brechas sísmicas a diferentes regiones del país.  \citeasnoun{ramirezgaytan2021earthquake} analizan la brecha sísmica de Michoacán, mientras que \citeasnoun{sawires2023probabilistic} desarrollan una evaluación probabilista actualizada del peligro sísmico en el occidente de México. El sismo de Puebla de 2017 analizado por \citeasnoun{singh2020deadly} evidencia la importancia de considerar diferentes tipos de fuentes sísmicas en la evaluación del peligro. 
+
+Desde una perspectiva estadística, \citeasnoun{shreffler2025hypothesis} proporcionan una revisión actualizada de los principios de pruebas de hipótesis, valores p e intervalos de confianza que son aplicados en las Fases 6 y 8 de la metodología del presente trabajo. \citeasnoun{serinaldi2021understanding} abordan el problema de la persistencia temporal en series de valores extremos, un aspecto relevante para el análisis de secuencias sísmicas.
+
+La escala de magnitud introducida por \citeasnoun{richter1935instrumental} constituye la base para la cuantificación de la energía liberada por los sismos y permite la comparación objetiva entre eventos ocurridos en diferentes lugares y tiempos.  Esta escala, junto con sus evoluciones posteriores, es utilizada en el presente trabajo para caracterizar la actividad sísmica en las regiones de estudio.
+
+\section{Análisis del estado del arte}
+
+\noindent
+La revisión del estado del arte muestra que la predicción y evaluación del peligro sísmico se ha abordado desde múltiples perspectivas:  modelos probabilistas clásicos, distribuciones estadísticas de valores extremos, técnicas de inteligencia artificial y enfoques híbridos que combinan información física y estadística.  El presente trabajo se enmarca dentro del enfoque probabilístico clásico, utilizando la teoría de valores extremos y las distribuciones estadísticas como herramientas fundamentales. 
+
+El marco metodológico establecido por \citeasnoun{cornell1968engineering} para el cálculo de periodos de retorno y probabilidades de excedencia constituye la base conceptual de la Fase 10 del presente trabajo. Este enfoque, complementado con los desarrollos teóricos de \citeasnoun{coles2001introduction} sobre modelado estadístico de valores extremos, permite obtener estimaciones cuantitativas del peligro sísmico con fundamento matemático riguroso.
+
+La selección de distribuciones de probabilidad para modelar magnitudes máximas anuales, documentada exhaustivamente por \citeasnoun{johnson1995continuous}, es un aspecto crítico de la metodología. El análisis comparativo de \citeasnoun{shobanke2024comparative} proporciona criterios objetivos para la selección de la distribución óptima en cada región, enfoque que es aplicado en la Fase 9 mediante pruebas de bondad de ajuste. 
+
+Desde una perspectiva metodológica, se identifica un consenso creciente sobre las mejores prácticas para el análisis probabilístico de peligrosidad sísmica:  (1) empleo de magnitudes máximas anuales para aplicar la teoría de valores extremos, (2) selección de distribuciones mediante criterios estadísticos objetivos como el BIC y pruebas de bondad de ajuste, (3) estimación de parámetros por máxima verosimilitud, y (4) cálculo de niveles de retorno y probabilidades de excedencia para diferentes horizontes temporales.  Estas prácticas son incorporadas en la metodología del presente proyecto. 

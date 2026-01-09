@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ICR.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: dcu.bst
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: Portada/Portada.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: Resumen/Resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: Agradecimientos/Dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: Agradecimientos/Agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Glosario/Glosario.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Introduccion/Introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: MarcoTeorico/MarcoTeorico.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: EstadoDelArte/EstadoDelArte.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: Metodologia/Metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: AnalisisResultados/AnalisisResultados.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Conclusiones/Conclusiones.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: Anexos/Anexo1.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+Database file #1: Referencias/Referencias.bib
+Warning--I didn't find a database entry for "papalexiou2020random"
+You've used 34 entries,
+            2921 wiz_defined-function locations,
+            859 strings with 11521 characters,
+and the built_in function-call counts, 196659 in all, are:
+= -- 32693
+> -- 2370
+< -- 1
++ -- 15919
+- -- 728
+* -- 17372
+:= -- 38634
+add.period$ -- 70
+call.type$ -- 34
+change.case$ -- 474
+chr.to.int$ -- 34
+cite$ -- 34
+duplicate$ -- 471
+empty$ -- 1097
+format.name$ -- 831
+if$ -- 35357
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 35
+newline$ -- 142
+num.names$ -- 359
+pop$ -- 77
+preamble$ -- 1
+purify$ -- 510
+quote$ -- 0
+skip$ -- 444
+stack$ -- 0
+substring$ -- 47051
+swap$ -- 61
+text.length$ -- 477
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 130
+warning$ -- 0
+while$ -- 756
+width$ -- 0
+write$ -- 492
+(There was 1 warning)

@@ -4,14 +4,12 @@ echo COMPILACION COMPLETA DE TESIS CON GLOSARIO Y BIBLIOGRAFIA
 echo ===============================================
 echo.
 
-echo [1/6] Primera compilacion pdflatex (con shell-escape)...
-pdflatex -shell-escape -interaction=nonstopmode ICR.tex
-if not exist ICR.pdf (
-    echo ERROR: pdflatex no produjo ICR.pdf
+echo [1/6] Primera compilacion pdflatex...
+pdflatex ICR.tex
+if errorlevel 1 (
+    echo ERROR en primera compilacion pdflatex
     pause
     exit /b 1
-) else (
-    echo Primera compilacion produjo ICR.pdf, continuando...
 )
 
 echo.
@@ -35,15 +33,15 @@ if errorlevel 1 (
 
 echo.
 echo [4/6] Segunda compilacion pdflatex (resolviendo referencias)...
-pdflatex -shell-escape -interaction=nonstopmode ICR.tex
+pdflatex ICR.tex
 
 echo.
 echo [5/6] Tercera compilacion pdflatex (finalizando enlaces)...
-pdflatex -shell-escape -interaction=nonstopmode ICR.tex
+pdflatex ICR.tex
 
 echo.
 echo [6/6] Cuarta compilacion pdflatex (asegurando consistencia)...
-pdflatex -shell-escape -interaction=nonstopmode ICR.tex
+pdflatex ICR.tex
 
 echo.
 echo ===============================================
