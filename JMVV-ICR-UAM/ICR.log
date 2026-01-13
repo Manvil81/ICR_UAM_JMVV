@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  9 JAN 2026 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  12 JAN 2026 21:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2271,11 +2271,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [48]
-Overfull \hbox (15.70663pt too wide) in alignment at lines 755--755
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-
 
 LaTeX Info: Redefining \. on input line 768.
 LaTeX Info: Redefining \% on input line 768.
@@ -2287,11 +2282,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [49]
-Overfull \hbox (15.70663pt too wide) in alignment at lines 808--808
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-
 
 LaTeX Info: Redefining \. on input line 826.
 LaTeX Info: Redefining \% on input line 826.
@@ -2967,7 +2957,7 @@ Overfull \hbox (4.59587pt too wide) in paragraph at lines 1213--1213
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 5832) in paragraph at lines 1213--1213
 []|\OT1/ptm/m/n/10 Proporci[]on Mich. $\OML/ztmcm/m/it/10 >$
  []
 
@@ -4108,7 +4098,7 @@ Package rerunfilecheck Info: File `ICR.out' has not changed.
 Here is how much of TeX's memory you used:
  32015 strings out of 468133
  610319 string characters out of 5440786
- 1143368 words of memory out of 5000000
+ 1143371 words of memory out of 5000000
  59601 multiletter control sequences out of 15000+600000
  700816 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4123,7 +4113,7 @@ r8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Fi
 les/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1
 /urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb
 ><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICR.pdf (109 pages, 4068002 bytes).
+Output written on ICR.pdf (109 pages, 4068371 bytes).
 PDF statistics:
  1419 PDF objects out of 1440 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
